@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/07_ScriptableObjects/ProjectileInfos/Weapon/Rare.meta
+guid: bc7de623e836d064e98d633e750b9400
+folderAsset: yes
+DefaultImporter:
+========
+guid: 954ebb5b35b16c44dacf1f3b7231c82d
+NativeFormatImporter:
+>>>>>>>> develop2:Assets/04_Materials/ingameGold.mat.meta
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

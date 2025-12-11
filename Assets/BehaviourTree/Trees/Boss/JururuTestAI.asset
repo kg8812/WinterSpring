@@ -1,0 +1,5387 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9029556456634426132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56813b060ebd68040b57cba890191168, type: 3}
+  m_Name: IfPlayerXDistance
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 6817c74be1a8f654fb63aba8c9d78c92
+  position: {x: 38.50003, y: 1729.2502}
+  description: "5\uBBF8\uD130 \uB0B4"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 9024326117921640576}
+  boss: {fileID: 0}
+  distance: 5
+  distanceType: 1
+--- !u!114 &-8993710559816934462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: d9b7607d4aa64ad44872fa588fb20815
+  position: {x: -2474.3003, y: 1608.4502}
+  description: "\uB51C\uB808\uC774\uC0C1\uD0DC\uB85C \uBCC0\uACBD"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 4
+--- !u!114 &-8977321190153611630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1c11a93355af8479ad73b171652195, type: 3}
+  m_Name: BossChangeDir
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 4456be72091c3d844b391322bcb73f42
+  position: {x: -3201.5002, y: 1832.4502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+--- !u!114 &-8856865989190355835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f2e0707f2e91d4daf5f7f971bc7a06, type: 3}
+  m_Name: SelectNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: ecec5699dd4fa3c4a8b4ecf3d1ff5504
+  position: {x: 377.7, y: 1509.25}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -9029556456634426132}
+  - {fileID: 4535317853888075162}
+--- !u!114 &-8816252022251623840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 60e5bf6b20eac3442ac0fc564063241e
+  position: {x: 6480, y: 1396.8}
+  description: "\uC774\uB3D9\uC0C1\uD0DC\uB85C \uBCC0\uACBD"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 2
+--- !u!114 &-8315751856437368340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f2e0707f2e91d4daf5f7f971bc7a06, type: 3}
+  m_Name: SelectNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 3134053324c950c47b8a331a5feef02d
+  position: {x: -731.9, y: 1425.2502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: 6973042580760830814}
+  - {fileID: -6080275686783434265}
+--- !u!114 &-8170399200683960262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0b0a6076cccb44593864c2ca2ed3e0, type: 3}
+  m_Name: BossAtk
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: e226664b98be56a429e8ecea9177ec7d
+  position: {x: 2291.2966, y: 754.4}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  atkNum: 5
+  isSkip: 0
+  WaitForEnd: 1
+--- !u!114 &-7931946188622945822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: d5a116e889fa1884481dad7c3909ace8
+  position: {x: -1896.8004, y: 783.19995}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -7908433432210127620}
+--- !u!114 &-7908433432210127620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56a810b98ddec47439377a9a122e9cf5, type: 3}
+  m_Name: MoveNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: f51431e75b005f14bbc76ca1ec9d26c6
+  position: {x: -1896.8004, y: 928}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  time: 0
+--- !u!114 &-7737444942703485979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1c11a93355af8479ad73b171652195, type: 3}
+  m_Name: BossChangeDir
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 99f5706b82a0692458ac7779e1fb4317
+  position: {x: 1846.5001, y: 1561.25}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+--- !u!114 &-7634545844931268372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f2e0707f2e91d4daf5f7f971bc7a06, type: 3}
+  m_Name: SelectNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: d464f6a8fc150cb4ba10f97956c03b74
+  position: {x: -939.9001, y: 1673.2502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -4306425172383978547}
+  - {fileID: -7355026131905562265}
+--- !u!114 &-7526259550422083935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 40b75028af9c1984f8270193e6c9b290
+  position: {x: -2563.1003, y: 2145.2505}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 4
+--- !u!114 &-7440080001323237005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 4bb2eefa5f2a91541993f1712943627b
+  position: {x: 2190.5, y: 1553.2502}
+  description: "\uB51C\uB808\uC774 \uC0C1\uD0DC\uB85C \uBCC0\uACBD"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 4
+--- !u!114 &-7355026131905562265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 189ff5040ceb6e74c92e933f74aaad50
+  position: {x: -567.10004, y: 1815.6501}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -5764621997497483659}
+  - {fileID: -6673106844128542502}
+  - {fileID: 5887279818630403773}
+  - {fileID: 7278370253626292944}
+--- !u!114 &-7250040826090033929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f68b9164df768c4196848440aa64acb, type: 3}
+  m_Name: WaitForAlert
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 4d7480b56f0ac2b458709ceac340eaa0
+  position: {x: 5500, y: 1483.1998}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  message: SummonEnd
+  maxTime: 5
+--- !u!114 &-7193605355944260198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56813b060ebd68040b57cba890191168, type: 3}
+  m_Name: IfPlayerXDistance
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 320223b457d5e004e9b9bf5e3a97f28c
+  position: {x: -3067.1, y: 1588.4502}
+  description: "4\uBBF8\uD130 \uC774\uD558\uC77C \uB54C"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: -1652585252745451015}
+  boss: {fileID: 0}
+  distance: 4
+  distanceType: 1
+--- !u!114 &-7151121023233753213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 0c791f56e4a391740bc063d06ca9bcfc
+  position: {x: -1383.9001, y: 1657.25}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: 2943609774942765251}
+  - {fileID: 7052348710920451061}
+--- !u!114 &-7100382093926178976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca9d19e534784747bfcb3a22da08879, type: 3}
+  m_Name: DashNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: d93ecbde1fce09a4f83386487e475852
+  position: {x: 17.700043, y: 2230.05}
+  description: "\uBC31\uB300\uC26C"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  time: 1.1
+  distance: 14
+  isBackDash: 1
+--- !u!114 &-7091992198131158093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: addb8527b2fdec748b6df760c987c2ea
+  position: {x: -1941.5001, y: 1573.25}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: 8766453211199839110}
+  - {fileID: -3029896874491639286}
+--- !u!114 &-7054900957234883689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc27a07995c1a9843a2057206ff45abe, type: 3}
+  m_Name: JururuPatternSelect
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 45574691161da1046b7745e95b06a6d7
+  position: {x: 2115.9995, y: 420.79987}
+  description: "\uACF5\uACA95"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: -1247163319849123774}
+  boss: {fileID: 0}
+  pattern: 7
+--- !u!114 &-6974050299638404965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f58c107ce8f076449ef1088fafcd6ff, type: 3}
+  m_Name: JururuSetPattern
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: d0e7e8ad1eaa103408c67dd02190d4c2
+  position: {x: 1817.5996, y: 703.9999}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  pattern: 9
+--- !u!114 &-6867864966520128778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0b0a6076cccb44593864c2ca2ed3e0, type: 3}
+  m_Name: BossAtk
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: cf2667e284dcc544a9312ec2c8b5f7f2
+  position: {x: -1552.7001, y: 1445.2502}
+  description: "\uACF5\uACA91"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  atkNum: 1
+  isSkip: 0
+  WaitForEnd: 1
+--- !u!114 &-6673106844128542502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca9d19e534784747bfcb3a22da08879, type: 3}
+  m_Name: DashNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: cd25c2ded8bef244b8cce039e56a147a
+  position: {x: -603.1, y: 1968.4502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  time: 0.7
+  distance: 6
+  isBackDash: 1
+--- !u!114 &-6484079034544359400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: b6d9146ebd8b73e46984a2e36f3c9aec
+  position: {x: -2566.3003, y: 1838.0503}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -559759559697280964}
+  - {fileID: 8382203431302726169}
+  - {fileID: 7325782943717132199}
+--- !u!114 &-6431329498721488367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1c11a93355af8479ad73b171652195, type: 3}
+  m_Name: BossChangeDir
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 06ad18b76b5833b498fba5e7f05a555f
+  position: {x: -1740.7001, y: 1437.25}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+--- !u!114 &-6337570532925578166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ae70e4fe4ab9bb4d8b987b3683c0a98, type: 3}
+  m_Name: ChangeDir
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 74e56c4076ef2ad4d8795ce0bbf75777
+  position: {x: 1359.3002, y: 2074.8503}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-6281646414064639969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: aeed020e42127424aa3192872f8ae071
+  position: {x: -972.8002, y: 739.19995}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 2
+--- !u!114 &-6087599238400038763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 311d1eb8e1165b44f92f052e421c602c
+  position: {x: 6094.2427, y: 1392.7001}
+  description: "\uC774\uB3D9 \uC0C1\uD0DC\uB85C \uBCC0\uACBD"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 2
+--- !u!114 &-6080275686783434265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 42f98d7f9892c324b87f4cd1ce31974f
+  position: {x: -524.7001, y: 1562.8501}
+  description: "\uB51C\uB808\uC774\uC0C1\uD0DC\uB85C \uBCC0\uACBD"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 4
+--- !u!114 &-6028852823723897181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f2e0707f2e91d4daf5f7f971bc7a06, type: 3}
+  m_Name: SelectNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: c0d22ec84a777ea488d22c73d009a0ca
+  position: {x: 1526.5001, y: 1673.2502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: 8109075003048889297}
+  - {fileID: 2082315996547265478}
+--- !u!114 &-5953067865018745362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: abf60c9257363974d862716712de2883
+  position: {x: 1036.7996, y: 567.9999}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -4470567436606987037}
+  - {fileID: -1767595727260265783}
+  - {fileID: -3788149573871759155}
+--- !u!114 &-5945582329107835254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc27a07995c1a9843a2057206ff45abe, type: 3}
+  m_Name: JururuPatternSelect
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 7e3b8cb29cd99594b8e2ded6e9ca2b75
+  position: {x: 381.20007, y: 428.94998}
+  description: "\uACF5\uACA92"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 7512694219855553514}
+  boss: {fileID: 0}
+  pattern: 4
+--- !u!114 &-5926360439736532663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a9dea50fa0b1cd4793f298d7bc9f14d, type: 3}
+  m_Name: CoolDownCheck
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: cc38a917363f74f4295b81166dfa76a0
+  position: {x: -1440.7001, y: 1118.8501}
+  description: "\uCFE8\uD0C0\uC784 5~10\uCD08"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 111674100173944808}
+  cdMin: 5
+  cdMax: 10
+  startCD: 1
+--- !u!114 &-5902010180491101090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3404a2c0c5ae83349b04ebe66a236b06, type: 3}
+  m_Name: Disappear
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 6bbeefdc9f60a184fb214be222af565f
+  position: {x: 4356, y: 1393.6}
+  description: "0.2\uCD08 \uB3D9\uC548 \uC0AC\uB77C\uC9D0"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  time: 0.2
+--- !u!114 &-5764621997497483659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1c11a93355af8479ad73b171652195, type: 3}
+  m_Name: BossChangeDir
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 2d3c622cc451f0941b12ecabb5d65c29
+  position: {x: -756.7, y: 1966.8501}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+--- !u!114 &-5726718421807826344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01b934a255c317646bed1ae1b48b8f4c, type: 3}
+  m_Name: SkipNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 25b5ec3c74327e543ba9de9634df0b04
+  position: {x: 6681.975, y: 1388.8}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-5716355650723635923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 5de37db36c1f49a44a4a3367e3c74d66
+  position: {x: 1452.1001, y: 1943.6501}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -6337570532925578166}
+  - {fileID: -3770384416470008380}
+--- !u!114 &-5685364209319855979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 045b3d6de84bedc4c88f953c12c7a5c3, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 1639acf5b944ca84280969e47e86b8e5
+  position: {x: -44.000072, y: -62.839767}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 6533637627268982664}
+--- !u!114 &-5633887103635213694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1c11a93355af8479ad73b171652195, type: 3}
+  m_Name: BossChangeDir
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 712846186d980de4ea49e83382a6f6b4
+  position: {x: -3441.5002, y: 1474.0503}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+--- !u!114 &-5325262413337578142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc27a07995c1a9843a2057206ff45abe, type: 3}
+  m_Name: JururuPatternSelect
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 9caeaef5f5c9d9648ad8f110add39a31
+  position: {x: 1022.3997, y: 441.59985}
+  description: "\uACF5\uACA93"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: -5953067865018745362}
+  boss: {fileID: 0}
+  pattern: 5
+--- !u!114 &-5232494218139664891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e49b564260952a641a103e07191353f8, type: 3}
+  m_Name: SequenceNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 0b58e92a748d4e74c87fcb6e8189a8fa
+  position: {x: 4652.8, y: 1517.1078}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -632050394030995880}
+  - {fileID: 1065680122450053868}
+--- !u!114 &-5185100058178257398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca9d19e534784747bfcb3a22da08879, type: 3}
+  m_Name: DashNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 7921fcfe21c3fb34d92f532476e497ee
+  position: {x: -773.60016, y: 741.6}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  time: 1
+  distance: 0
+  isBackDash: 1
+--- !u!114 &-4920514974739865044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0b0a6076cccb44593864c2ca2ed3e0, type: 3}
+  m_Name: BossAtk
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 3086629c267dfe741b4a4db295099313
+  position: {x: 1639.1997, y: 719.9999}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  atkNum: 4
+  isSkip: 0
+  WaitForEnd: 1
+--- !u!114 &-4916037739150132161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca9d19e534784747bfcb3a22da08879, type: 3}
+  m_Name: DashNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 56ce3b2d2f6c4454b9c3d5a1f0657023
+  position: {x: -1180.7, y: 2205.2502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  time: 1.1
+  distance: 14
+  isBackDash: 1
+--- !u!114 &-4823836885520213385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5986307fdf1829a49ac441939924a352, type: 3}
+  m_Name: RepeatNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: dc9ed9b6a69895b4881a638b71d17962
+  position: {x: 4652.8, y: 1389.6001}
+  description: "6\uBC88 \uBC18\uBCF5"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: -5232494218139664891}
+  count: 6
+--- !u!114 &-4470567436606987037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 4d1e9fe91da92044c8e7557a523aa9d1
+  position: {x: 867.1997, y: 720.7998}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 3
+--- !u!114 &-4407584235805316560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1c11a93355af8479ad73b171652195, type: 3}
+  m_Name: BossChangeDir
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: b0d0a1c46fbec8b46aa781a068ae7a24
+  position: {x: -4207.1177, y: 1725.8075}
+  description: "\uBC29\uD5A5 \uCCB4\uD06C"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+--- !u!114 &-4306425172383978547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9828f1c40f70f35459a89333b0f9f00a, type: 3}
+  m_Name: RaycastCheck
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 22fa16579a89a4d4babbd55de46a6f66
+  position: {x: -1129.5, y: 1942.8501}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: -836871678558099685}
+  fixedRayCast:
+  - {x: -7, y: 0}
+  _layerMask:
+    serializedVersion: 2
+    m_Bits: 8192
+--- !u!114 &-4186307125691349551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19015f7c793eaa4891478f5bd24a38e, type: 3}
+  m_Name: SetRigidType
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 8855fff91f9ea024d8241090e023b042
+  position: {x: 3693.5994, y: 1595.2}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  bodyType: 0
+--- !u!114 &-3839440573973891352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: efd23fae716dac34ba9d9dee8ea24c80
+  position: {x: 3596.1003, y: 1371.6501}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: 4648143654617281808}
+  - {fileID: -1146666354304197351}
+  - {fileID: -4186307125691349551}
+  - {fileID: 962251856445998693}
+--- !u!114 &-3824360417798494819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83d59b320a268114c89d45ff182a4a48, type: 3}
+  m_Name: IfPlayerDistance
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 1ef5c3bfd97fb9e488875906a46c4a59
+  position: {x: -1932.7001, y: 1437.25}
+  description: "5\uBBF8\uD130 \uC774\uC0C1\uC77C \uB54C"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: -7091992198131158093}
+  boss: {fileID: 0}
+  distance: 5
+  color: {r: 0.6886792, g: 0.04807758, b: 0.04807758, a: 1}
+  distanceType: 0
+--- !u!114 &-3801358923880269068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f0585188b9f6c458233280cf6cf6c8, type: 3}
+  m_Name: DelayNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: d20402b74c357e548b149b35540feef3
+  position: {x: 6248.223, y: 1551.38}
+  description: "\uB300\uAE30"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  duration: 0
+--- !u!114 &-3788149573871759155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f58c107ce8f076449ef1088fafcd6ff, type: 3}
+  m_Name: JururuSetPattern
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 51d6f870670111f4cb9c9041f3443656
+  position: {x: 1246.3997, y: 720.7998}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  pattern: 9
+--- !u!114 &-3770384416470008380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca9d19e534784747bfcb3a22da08879, type: 3}
+  m_Name: DashNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 5dd616f8a2e69a740a89df8cb496ed1d
+  position: {x: 1543.3, y: 2074.8503}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  time: 1.1
+  distance: 14
+  isBackDash: 1
+--- !u!114 &-3714092867602235145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: d7e0d23ed6364b94ba23fb9044daca2d
+  position: {x: 1977.9342, y: 752.8}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 3
+--- !u!114 &-3713676077479778465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 491c51c0303c66f489e1115f5f4f0646
+  position: {x: -812.80023, y: 580.7999}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -6281646414064639969}
+  - {fileID: -5185100058178257398}
+  - {fileID: 1222249249046054939}
+--- !u!114 &-3587130974055699130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f0585188b9f6c458233280cf6cf6c8, type: 3}
+  m_Name: DelayNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: f29ee3a2037699e4eb18f6d52c5f28ba
+  position: {x: -4897, y: 1090}
+  description: "\uB300\uAE30"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  duration: 0
+--- !u!114 &-3512496073841996851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56813b060ebd68040b57cba890191168, type: 3}
+  m_Name: IfPlayerXDistance
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: c6d293db3bb48c94ba5653d4e28cc746
+  position: {x: 1520.1, y: 1541.2502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: -6028852823723897181}
+  boss: {fileID: 0}
+  distance: 0
+  distanceType: 1
+--- !u!114 &-3355923192790544892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0b0a6076cccb44593864c2ca2ed3e0, type: 3}
+  m_Name: BossAtk
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: bb7a62ab7c2f7564c84e5de733038b80
+  position: {x: 2761.7, y: 1682.0503}
+  description: "\uACF5\uACA94"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  atkNum: 4
+  isSkip: 0
+  WaitForEnd: 1
+--- !u!114 &-3059473264128345836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbdb51727408c30499e0d43372f22791, type: 3}
+  m_Name: IfBossState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 0f6d04286a6c56f458b1848e11e40ba2
+  position: {x: 5627.999, y: 1614.3999}
+  description: Summon1
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: -1445863982471028144}
+  boss: {fileID: 0}
+  stateList: 08000000
+--- !u!114 &-3029896874491639286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d517ef1ee91db6439e200c895088d3d, type: 3}
+  m_Name: DashToPos
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 8139e2339d6bee84c9a7f1c41d45be41
+  position: {x: -1813.5001, y: 1717.2502}
+  description: "\uC55E\uB300\uC26C"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  objectName: Player
+  speed: 15
+  distanceCondition: 3
+  stopIfOp: 1
+--- !u!114 &-3019787498332233091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56813b060ebd68040b57cba890191168, type: 3}
+  m_Name: IfPlayerXDistance
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 04b4a9d1651bd3341b70d4b1368656a8
+  position: {x: -2810.3, y: 1594.0503}
+  description: "3\uBBF8\uD130 \uC774\uD558\uC77C \uB54C"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: -2225379110841576112}
+  boss: {fileID: 0}
+  distance: 3
+  distanceType: 1
+--- !u!114 &-3011013210756636076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 27677be0843493149a3cc0a0f5a85e49
+  position: {x: -1535.2007, y: 720}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 2
+--- !u!114 &-2988786792254811698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: c8ef8c819aaeed24484122d904dc0796
+  position: {x: -3195.1003, y: 1304.4502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -5633887103635213694}
+  - {fileID: 3084186993802752968}
+  - {fileID: -1638678711657411452}
+  - {fileID: 7185874163505947675}
+--- !u!114 &-2656454323267171052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 5b20ba7d7e6c8ee4da65941960c9d591
+  position: {x: 175.2, y: 704.79987}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 3
+--- !u!114 &-2542374131472911654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1c11a93355af8479ad73b171652195, type: 3}
+  m_Name: BossChangeDir
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: ceb34d0d1fb65094cb26d32f4aa89bb8
+  position: {x: 1005.7001, y: 1798.05}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+--- !u!114 &-2427248739405145293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc27a07995c1a9843a2057206ff45abe, type: 3}
+  m_Name: JururuPatternSelect
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 9f74c5d00e2b6bb49b0ecbdb4fc1105a
+  position: {x: -347.12936, y: 453.99997}
+  description: "\uACF5\uACA91"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 3072824483785128387}
+  boss: {fileID: 0}
+  pattern: 3
+--- !u!114 &-2225379110841576112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f2e0707f2e91d4daf5f7f971bc7a06, type: 3}
+  m_Name: SelectNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: bfca29afd66480741ab9346c44edb98d
+  position: {x: -2803.1, y: 1706.8501}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -1317148663990225700}
+  - {fileID: -6484079034544359400}
+--- !u!114 &-1897720134731117014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: e4b1fa0b932b4434a9af2eba9a885f14
+  position: {x: 2670.5002, y: 1491.6501}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: 8334165735770289491}
+  - {fileID: 9170747240306563471}
+  - {fileID: -3355923192790544892}
+  - {fileID: -303522876091082510}
+  - {fileID: 3360880183778478332}
+--- !u!114 &-1767595727260265783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0b0a6076cccb44593864c2ca2ed3e0, type: 3}
+  m_Name: BossAtk
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 0919039fafcf2734fb275a2db0f233c1
+  position: {x: 1060.7997, y: 720.7998}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  atkNum: 3
+  isSkip: 0
+  WaitForEnd: 1
+--- !u!114 &-1667833960281299617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 31a0e5d9da25cc04b8550378d3112ed6
+  position: {x: 6360.2227, y: 1243.38}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: 7401983932665776704}
+  - {fileID: -8816252022251623840}
+--- !u!114 &-1652585252745451015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 5f7b5165300cc3d4285632cbe8154ae2
+  position: {x: -3062.3003, y: 1697.25}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -8977321190153611630}
+  - {fileID: 8581753976144401351}
+--- !u!114 &-1638678711657411452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80db9defa107fce4b91a059d6224360a, type: 3}
+  m_Name: CheckPhase
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 483f373d0fb6d1a4f9200bf204234cc8
+  position: {x: -3061.5, y: 1470.05}
+  description: "2\uD398\uC774\uC988"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: -7193605355944260198}
+  boss: {fileID: 0}
+  phase: 2
+--- !u!114 &-1614115997121281139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f2e0707f2e91d4daf5f7f971bc7a06, type: 3}
+  m_Name: SelectNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 656bba5f3c3948b48ac5a80f7f91f925
+  position: {x: 5707.928, y: 1477.5999}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -3059473264128345836}
+  - {fileID: 5736171059640301213}
+--- !u!114 &-1451363196262281066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0b0a6076cccb44593864c2ca2ed3e0, type: 3}
+  m_Name: BossAtk
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 56b183509dc2b40408dd608f731c3806
+  position: {x: 906.5, y: 1545.2502}
+  description: "\uACF5\uACA9\uD328\uD134 2"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  atkNum: 2
+  isSkip: 0
+  WaitForEnd: 1
+--- !u!114 &-1445863982471028144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 442d555d44786304ea79a66c8ebd348e
+  position: {x: 5627.999, y: 1738.3999}
+  description: "\uC774\uB3D9\uC0C1\uD0DC\uB85C \uBCC0\uACBD"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 2
+--- !u!114 &-1410625129982696691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56813b060ebd68040b57cba890191168, type: 3}
+  m_Name: IfPlayerXDistance
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 37cb45d92e8237a409dbee2022d0591a
+  position: {x: -3207.1003, y: 1165.25}
+  description: "3m \uC774\uD558\uC77C \uB54C"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: -2988786792254811698}
+  boss: {fileID: 0}
+  distance: 3
+  distanceType: 1
+--- !u!114 &-1368142158641632522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ae70e4fe4ab9bb4d8b987b3683c0a98, type: 3}
+  m_Name: ChangeDir
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 0fcde63556d048e4dab0ef6cdfb13ab1
+  position: {x: -141.5, y: 2227.6501}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-1317148663990225700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9828f1c40f70f35459a89333b0f9f00a, type: 3}
+  m_Name: RaycastCheck
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: fa1b9453b3d58964abbe36f582540977
+  position: {x: -2881.5, y: 1877.2502}
+  description: "\uD6C4\uBC29 8\uBBF8\uD130 \uB0B4\uC5D0 \uBCBD\uC774 \uC788\uC744
+    \uACBD\uC6B0"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 5501732691756615570}
+  fixedRayCast:
+  - {x: -8, y: 0}
+  _layerMask:
+    serializedVersion: 2
+    m_Bits: 8192
+--- !u!114 &-1252737743424843109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f58c107ce8f076449ef1088fafcd6ff, type: 3}
+  m_Name: JururuSetPattern
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: ff34131c5e8e442428766429cc82f6b6
+  position: {x: -49.60014, y: 722.39984}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  pattern: 9
+--- !u!114 &-1247163319849123774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 9bdcca559b07bb14481e22f6545985d6
+  position: {x: 2138.3997, y: 564.7998}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -3714092867602235145}
+  - {fileID: 3804325560995918260}
+  - {fileID: -8170399200683960262}
+  - {fileID: 4824959517888864207}
+  - {fileID: 1718970534129307466}
+--- !u!114 &-1146666354304197351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0b0a6076cccb44593864c2ca2ed3e0, type: 3}
+  m_Name: BossAtk
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: a14291bd7583a2f4c9145ddaa1c4fcf5
+  position: {x: 3501.7002, y: 1580.4502}
+  description: "\uACF5\uACA95"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  atkNum: 5
+  isSkip: 0
+  WaitForEnd: 1
+--- !u!114 &-908600153676273326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80db9defa107fce4b91a059d6224360a, type: 3}
+  m_Name: CheckPhase
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 05411bd5b737d22488dea4a739c6e838
+  position: {x: -1387.1, y: 1440.4502}
+  description: "2\uD398\uC774\uC988"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 3572974511475667233}
+  boss: {fileID: 0}
+  phase: 2
+--- !u!114 &-836871678558099685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 704f092eeecdd1348913437d9d60d628
+  position: {x: -1128.7, y: 2042.8501}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: 9206788532598266907}
+  - {fileID: -4916037739150132161}
+  - {fileID: 7730968067058007139}
+  - {fileID: 7325024939625011224}
+--- !u!114 &-632050394030995880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f0585188b9f6c458233280cf6cf6c8, type: 3}
+  m_Name: DelayNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: b55757ed8add8ad45893ff84fc35f70a
+  position: {x: 4556.8, y: 1672}
+  description: "1.5\uCD08 \uB300\uAE30"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  duration: 1
+--- !u!114 &-604954381282632525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f58c107ce8f076449ef1088fafcd6ff, type: 3}
+  m_Name: JururuSetPattern
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: a52e0d5c3c53b2948bad8da664a5d112
+  position: {x: -1737.6003, y: 669.6}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  pattern: 9
+--- !u!114 &-559759559697280964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1c11a93355af8479ad73b171652195, type: 3}
+  m_Name: BossChangeDir
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: d1dc43647a5cebb4c934ddb61c2b537f
+  position: {x: -2568.7, y: 1980.4502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+--- !u!114 &-303522876091082510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19015f7c793eaa4891478f5bd24a38e, type: 3}
+  m_Name: SetRigidType
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: bcffc782800380b4fb8b133245b3cea5
+  position: {x: 2923.3003, y: 1675.6501}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  bodyType: 0
+--- !u!114 &-246899919249830218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f68b9164df768c4196848440aa64acb, type: 3}
+  m_Name: WaitForAlert
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: b48ea34bf11c6eb4c8630fc21fb35c66
+  position: {x: 4196.8, y: 1387.2001}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  message: SummonStart
+  maxTime: 5
+--- !u!114 &-221836782020134544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f58c107ce8f076449ef1088fafcd6ff, type: 3}
+  m_Name: JururuSetPattern
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: e1ef4e0d742c5ff4cbae55cc2b11096e
+  position: {x: -1184.8007, y: 720}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  pattern: 9
+--- !u!114 &-5350661356333242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b14f9d3894f6a08459fe76ddbb7dbf3e, type: 3}
+  m_Name: SetAnimation
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: ff3f931da77f1fb42a55c2cefa2a8f1e
+  position: {x: 5352, y: 1488}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  type: 2
+  paramName: SummonEnd
+  paramValue: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf138383b1605d4b9606f1434a09fcb, type: 3}
+  m_Name: JururuTestAI
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: -5685364209319855979}
+  treeState: 0
+  nodes:
+  - {fileID: -5685364209319855979}
+  - {fileID: 6716147478827162916}
+  - {fileID: -4407584235805316560}
+  - {fileID: 7254982912558731811}
+  - {fileID: -6080275686783434265}
+  - {fileID: 2194495341078846624}
+  - {fileID: 1440550928322578456}
+  - {fileID: 2738652178299899087}
+  - {fileID: -7440080001323237005}
+  - {fileID: -4823836885520213385}
+  - {fileID: 7818533599104301547}
+  - {fileID: 5730850069150303628}
+  - {fileID: -1445863982471028144}
+  - {fileID: -5232494218139664891}
+  - {fileID: -632050394030995880}
+  - {fileID: 1065680122450053868}
+  - {fileID: 2471526330025891929}
+  - {fileID: 13368225660082151}
+  - {fileID: -1614115997121281139}
+  - {fileID: -3059473264128345836}
+  - {fileID: 5736171059640301213}
+  - {fileID: 5292716356443606290}
+  - {fileID: -6087599238400038763}
+  - {fileID: 78253175794879112}
+  - {fileID: -1897720134731117014}
+  - {fileID: 3360880183778478332}
+  - {fileID: -3839440573973891352}
+  - {fileID: 962251856445998693}
+  - {fileID: 4648143654617281808}
+  - {fileID: -4186307125691349551}
+  - {fileID: 9170747240306563471}
+  - {fileID: -303522876091082510}
+  - {fileID: -3801358923880269068}
+  - {fileID: 7401983932665776704}
+  - {fileID: -8816252022251623840}
+  - {fileID: -1667833960281299617}
+  - {fileID: -3824360417798494819}
+  - {fileID: -5350661356333242}
+  - {fileID: -246899919249830218}
+  - {fileID: -7250040826090033929}
+  - {fileID: -4916037739150132161}
+  - {fileID: 6973042580760830814}
+  - {fileID: -4306425172383978547}
+  - {fileID: -7634545844931268372}
+  - {fileID: 9206788532598266907}
+  - {fileID: -5764621997497483659}
+  - {fileID: -836871678558099685}
+  - {fileID: -7355026131905562265}
+  - {fileID: -6673106844128542502}
+  - {fileID: -3029896874491639286}
+  - {fileID: -9029556456634426132}
+  - {fileID: -3512496073841996851}
+  - {fileID: 5794242611086679828}
+  - {fileID: 9024326117921640576}
+  - {fileID: 2272324966275309204}
+  - {fileID: -1368142158641632522}
+  - {fileID: -7100382093926178976}
+  - {fileID: 5050064078324606536}
+  - {fileID: 6444913213433999202}
+  - {fileID: 3986137715143279472}
+  - {fileID: -6028852823723897181}
+  - {fileID: 8109075003048889297}
+  - {fileID: -5716355650723635923}
+  - {fileID: -6337570532925578166}
+  - {fileID: -3770384416470008380}
+  - {fileID: 2082315996547265478}
+  - {fileID: 5597607219252200292}
+  - {fileID: 1727039145629142120}
+  - {fileID: -7091992198131158093}
+  - {fileID: 8766453211199839110}
+  - {fileID: -8856865989190355835}
+  - {fileID: 2321003972195394792}
+  - {fileID: 4698622875824537805}
+  - {fileID: 1865372701590760450}
+  - {fileID: 4535317853888075162}
+  - {fileID: 111674100173944808}
+  - {fileID: -2988786792254811698}
+  - {fileID: -1410625129982696691}
+  - {fileID: -3019787498332233091}
+  - {fileID: -2225379110841576112}
+  - {fileID: -1317148663990225700}
+  - {fileID: 5501732691756615570}
+  - {fileID: 1104605280439230813}
+  - {fileID: 8462462175094611955}
+  - {fileID: -6484079034544359400}
+  - {fileID: -559759559697280964}
+  - {fileID: 8382203431302726169}
+  - {fileID: -8993710559816934462}
+  - {fileID: -6431329498721488367}
+  - {fileID: 6703029050177319356}
+  - {fileID: -7737444942703485979}
+  - {fileID: -5926360439736532663}
+  - {fileID: -1638678711657411452}
+  - {fileID: -908600153676273326}
+  - {fileID: -1652585252745451015}
+  - {fileID: -8977321190153611630}
+  - {fileID: -7151121023233753213}
+  - {fileID: 2943609774942765251}
+  - {fileID: -7193605355944260198}
+  - {fileID: 3572974511475667233}
+  - {fileID: 7185874163505947675}
+  - {fileID: -7526259550422083935}
+  - {fileID: 7325782943717132199}
+  - {fileID: -8315751856437368340}
+  - {fileID: 7730968067058007139}
+  - {fileID: 7325024939625011224}
+  - {fileID: 5887279818630403773}
+  - {fileID: 7278370253626292944}
+  - {fileID: -5902010180491101090}
+  - {fileID: 4846005408512554784}
+  - {fileID: 8334165735770289491}
+  - {fileID: 1958722847091726614}
+  - {fileID: 1947664645936318864}
+  - {fileID: -5726718421807826344}
+  - {fileID: 3918396495142729358}
+  - {fileID: -3587130974055699130}
+  - {fileID: -5633887103635213694}
+  - {fileID: 7212339813243914510}
+  - {fileID: 72847429999677581}
+  - {fileID: -2542374131472911654}
+  - {fileID: 3084186993802752968}
+  - {fileID: 8581753976144401351}
+  - {fileID: -6867864966520128778}
+  - {fileID: 7052348710920451061}
+  - {fileID: -1451363196262281066}
+  - {fileID: 3786578638208839648}
+  - {fileID: 7479488251202558862}
+  - {fileID: -3355923192790544892}
+  - {fileID: -1146666354304197351}
+  - {fileID: -2427248739405145293}
+  - {fileID: 5914728460582927809}
+  - {fileID: 4143780494414033599}
+  - {fileID: 3072824483785128387}
+  - {fileID: 6533637627268982664}
+  - {fileID: 7815799313388064906}
+  - {fileID: 4717889762486005396}
+  - {fileID: -7908433432210127620}
+  - {fileID: 121987148802214958}
+  - {fileID: -7931946188622945822}
+  - {fileID: 8968313206571192281}
+  - {fileID: -5945582329107835254}
+  - {fileID: -5325262413337578142}
+  - {fileID: 8760917118602232687}
+  - {fileID: -7054900957234883689}
+  - {fileID: 4146310753898372146}
+  - {fileID: 4425230154348872012}
+  - {fileID: 4159974642870830462}
+  - {fileID: -3011013210756636076}
+  - {fileID: 6391566143902501830}
+  - {fileID: -3713676077479778465}
+  - {fileID: -6281646414064639969}
+  - {fileID: -5185100058178257398}
+  - {fileID: 7512694219855553514}
+  - {fileID: -5953067865018745362}
+  - {fileID: -2656454323267171052}
+  - {fileID: 6309698055363832172}
+  - {fileID: -4470567436606987037}
+  - {fileID: -1767595727260265783}
+  - {fileID: 8450287376199996720}
+  - {fileID: 99173922300451771}
+  - {fileID: -4920514974739865044}
+  - {fileID: -1247163319849123774}
+  - {fileID: -3714092867602235145}
+  - {fileID: -8170399200683960262}
+  - {fileID: 1222249249046054939}
+  - {fileID: -604954381282632525}
+  - {fileID: -221836782020134544}
+  - {fileID: -1252737743424843109}
+  - {fileID: -3788149573871759155}
+  - {fileID: -6974050299638404965}
+  - {fileID: 1718970534129307466}
+  - {fileID: 7689959916708629235}
+  - {fileID: 3804325560995918260}
+  - {fileID: 4824959517888864207}
+  blackboard:
+    jururuBoss:
+      pattern: 9
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+--- !u!114 &13368225660082151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22386275ddab908498bb0a48330e5d2b, type: 3}
+  m_Name: MoveToPos
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: ab5f3796c5f319243942385d6c16a0b8
+  position: {x: 5186.7886, y: 1489.5997}
+  description: "\uC544\uB798\uB85C 3\uCD08\uB3D9\uC548 \uC774\uB3D9"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  objectName: SummonEndPos
+  time: 3
+  ease: 3
+--- !u!114 &72847429999677581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: d459aef387f03e040aef398f8fd79ad8
+  position: {x: 1097.7001, y: 1658.05}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -2542374131472911654}
+  - {fileID: 3786578638208839648}
+--- !u!114 &78253175794879112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 94ae0131545f2da4791baa8c9105d8e1
+  position: {x: 5982.242, y: 1229.7}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: 5292716356443606290}
+  - {fileID: -6087599238400038763}
+--- !u!114 &99173922300451771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 9dc57b8d07a44a149a3aa1d0e974f6ab
+  position: {x: 1456.7998, y: 719.9999}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 3
+--- !u!114 &111674100173944808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: e6b5dae7ca734b94c9b2310fd24d3d08
+  position: {x: -1437.5, y: 1256.4502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -3824360417798494819}
+  - {fileID: -6431329498721488367}
+  - {fileID: -6867864966520128778}
+  - {fileID: -908600153676273326}
+  - {fileID: -8315751856437368340}
+--- !u!114 &121987148802214958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5986307fdf1829a49ac441939924a352, type: 3}
+  m_Name: RepeatNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: ca72d6ecfeb8f754ea2483f3ea6bb085
+  position: {x: -1904.8004, y: 669.6}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: -7931946188622945822}
+  count: 0
+--- !u!114 &962251856445998693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 5a76caabfc8ce8c469abdf2517cc3e02
+  position: {x: 3883.3, y: 1578.8501}
+  description: "\uB51C\uB808\uC774 \uC0C1\uD0DC\uB85C \uBCC0\uACBD"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 4
+--- !u!114 &1065680122450053868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8961d0f6cfed0334a8f80759fb815234, type: 3}
+  m_Name: SummonNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: b596b67c123e8ff40982f5ab932d48d0
+  position: {x: 4744.158, y: 1672}
+  description: "\uBAAC\uC2A4\uD130 \uC18C\uD658"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  address: Prefabs/JururuMinion
+--- !u!114 &1104605280439230813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ae70e4fe4ab9bb4d8b987b3683c0a98, type: 3}
+  m_Name: ChangeDir
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 2293913d04c32f44bbd208b4f4160e81
+  position: {x: -2867.1003, y: 2146.05}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1222249249046054939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f58c107ce8f076449ef1088fafcd6ff, type: 3}
+  m_Name: JururuSetPattern
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 0fe140dc211a8294f82ccdf7d8d60429
+  position: {x: -604.00037, y: 746.4001}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  pattern: 9
+--- !u!114 &1440550928322578456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: ee6ac26a1bb0c624388794309b3e8364
+  position: {x: 1267.3002, y: 1537.2502}
+  description: "\uB51C\uB808\uC774\uC0C1\uD0DC\uB85C \uBCC0\uACBD"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 4
+--- !u!114 &1718970534129307466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f58c107ce8f076449ef1088fafcd6ff, type: 3}
+  m_Name: JururuSetPattern
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: cff1479d16e2f164888d3553a561a1c1
+  position: {x: 2575.9998, y: 760.7999}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  pattern: 9
+--- !u!114 &1727039145629142120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca9d19e534784747bfcb3a22da08879, type: 3}
+  m_Name: DashNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 3ea86be51213a664f938c06d05cd3917
+  position: {x: 1852.1002, y: 1949.2502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  time: 0.7
+  distance: 6
+  isBackDash: 1
+--- !u!114 &1865372701590760450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d517ef1ee91db6439e200c895088d3d, type: 3}
+  m_Name: DashToPos
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 4e3149b64e9527941b5b276084af7ffb
+  position: {x: 748.9, y: 1985.2502}
+  description: "\uC55E\uB300\uC26C"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  objectName: Player
+  speed: 15
+  distanceCondition: 8
+  stopIfOp: 1
+--- !u!114 &1947664645936318864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e49b564260952a641a103e07191353f8, type: 3}
+  m_Name: SequenceNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: ff98b353836ec3f4ab575277ac90e2cb
+  position: {x: 6759.2, y: 1237.6001}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -5726718421807826344}
+  - {fileID: 1958722847091726614}
+--- !u!114 &1958722847091726614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f0585188b9f6c458233280cf6cf6c8, type: 3}
+  m_Name: DelayNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: b7927c40abfcc5244bd46d6dc0a40b92
+  position: {x: 6876, y: 1395.2001}
+  description: "\uACC4\uC18D \uB300\uAE30"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  duration: 0
+--- !u!114 &2082315996547265478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 863c62d7d59e1c84da983792c63dc34f
+  position: {x: 1724.1002, y: 1812.4502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: 5597607219252200292}
+  - {fileID: 1727039145629142120}
+--- !u!114 &2194495341078846624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 0eefa8473b395a74c8d78471090f72a7
+  position: {x: 529.7001, y: 1273.2502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -8856865989190355835}
+  - {fileID: 6703029050177319356}
+  - {fileID: -1451363196262281066}
+  - {fileID: 7212339813243914510}
+  - {fileID: 1440550928322578456}
+--- !u!114 &2272324966275309204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 11c3517cab2577b4d9df70727553334d
+  position: {x: -70.29999, y: 2104.4502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -1368142158641632522}
+  - {fileID: -7100382093926178976}
+--- !u!114 &2321003972195394792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: fa3cf198de6b45f4a979321bb14be5a6
+  position: {x: 657.7001, y: 1854.0503}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: 4698622875824537805}
+  - {fileID: 1865372701590760450}
+--- !u!114 &2471526330025891929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22386275ddab908498bb0a48330e5d2b, type: 3}
+  m_Name: MoveToPos
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 753fe86a1234e774f845336b2bf99fa9
+  position: {x: 4488.8, y: 1387.2001}
+  description: "\uC704\uB85C \uC21C\uAC04\uC774\uB3D9"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  objectName: SummonStartPos
+  time: 0
+  ease: 1
+--- !u!114 &2738652178299899087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 6f73aa7abd9301e4d97e7329b09a3533
+  position: {x: 1838.5001, y: 1378.8501}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -3512496073841996851}
+  - {fileID: -7737444942703485979}
+  - {fileID: 7479488251202558862}
+  - {fileID: -7440080001323237005}
+--- !u!114 &2943609774942765251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1c11a93355af8479ad73b171652195, type: 3}
+  m_Name: BossChangeDir
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: f92e908e2cbeef545a2239d90d0f773c
+  position: {x: -1544.7, y: 1826.8501}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+--- !u!114 &3072824483785128387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: f37f3cf7c2ec10a44a5cc0c8ae8585ea
+  position: {x: -308.80002, y: 578.7999}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: 4143780494414033599}
+  - {fileID: 5914728460582927809}
+  - {fileID: -1252737743424843109}
+--- !u!114 &3084186993802752968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0b0a6076cccb44593864c2ca2ed3e0, type: 3}
+  m_Name: BossAtk
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: f4fcae1213af1d84094891ac8ddc4ef1
+  position: {x: -3285.5002, y: 1482.0503}
+  description: "\uACF5\uACA9\uD328\uD134 1"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  atkNum: 1
+  isSkip: 0
+  WaitForEnd: 1
+--- !u!114 &3360880183778478332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 0031c4d9ddb1fa3458fc426c852ee6aa
+  position: {x: 3098.5002, y: 1676.4502}
+  description: "\uB51C\uB808\uC774\uC0C1\uD0DC\uB85C \uBCC0\uACBD"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 4
+--- !u!114 &3572974511475667233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56813b060ebd68040b57cba890191168, type: 3}
+  m_Name: IfPlayerXDistance
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 54f193e236e2afb44844c6dccf357d14
+  position: {x: -1392.7, y: 1548.4502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: -7151121023233753213}
+  boss: {fileID: 0}
+  distance: 4
+  distanceType: 1
+--- !u!114 &3786578638208839648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0b0a6076cccb44593864c2ca2ed3e0, type: 3}
+  m_Name: BossAtk
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 81e83b0c4d466a844b67c8d83d24da9c
+  position: {x: 1172.1001, y: 1788.4502}
+  description: "\uACF5\uACA9\uD328\uD1341"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  atkNum: 1
+  isSkip: 0
+  WaitForEnd: 1
+--- !u!114 &3804325560995918260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19015f7c793eaa4891478f5bd24a38e, type: 3}
+  m_Name: SetRigidType
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 50e279281ce67114b8499a53cd754b7a
+  position: {x: 2124, y: 754.39996}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  bodyType: 2
+--- !u!114 &3918396495142729358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbdb51727408c30499e0d43372f22791, type: 3}
+  m_Name: IfBossState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 41100ce4b7f0efd4aa9fb811f06eb813
+  position: {x: -4898, y: 944}
+  description: Wait
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: -3587130974055699130}
+  boss: {fileID: 0}
+  stateList: 00000000
+--- !u!114 &3986137715143279472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca9d19e534784747bfcb3a22da08879, type: 3}
+  m_Name: DashNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 66fe4912ca998d747a1ad40deb1b09f6
+  position: {x: 440.90005, y: 2122.05}
+  description: "\uBC31\uB300\uC26C"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  time: 0.7
+  distance: 6
+  isBackDash: 1
+--- !u!114 &4143780494414033599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 4d24614c28d6f1a4dbf620be724779a9
+  position: {x: -413.52933, y: 738.80005}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 3
+--- !u!114 &4146310753898372146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc27a07995c1a9843a2057206ff45abe, type: 3}
+  m_Name: JururuPatternSelect
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: a3f9ce6f54668c54996e035faf1b94ed
+  position: {x: -1388.8007, y: 400.80002}
+  description: "\uC55E\uB300\uC26C"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 4159974642870830462}
+  boss: {fileID: 0}
+  pattern: 1
+--- !u!114 &4159974642870830462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 7ba18064a4ba3b34287bea3dc2dce9b8
+  position: {x: -1380.8007, y: 537.6}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -3011013210756636076}
+  - {fileID: 6391566143902501830}
+  - {fileID: -221836782020134544}
+--- !u!114 &4425230154348872012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc27a07995c1a9843a2057206ff45abe, type: 3}
+  m_Name: JururuPatternSelect
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: e5d6229a1cf572d438e92af20f10b1a2
+  position: {x: -812.0003, y: 435.99997}
+  description: "\uBC31\uB300\uC26C"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: -3713676077479778465}
+  boss: {fileID: 0}
+  pattern: 2
+--- !u!114 &4535317853888075162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56813b060ebd68040b57cba890191168, type: 3}
+  m_Name: IfPlayerXDistance
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 01882376b4c7c5644a617f2c2904426e
+  position: {x: 648.90015, y: 1733.2502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 2321003972195394792}
+  boss: {fileID: 0}
+  distance: 9
+  distanceType: 0
+--- !u!114 &4648143654617281808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19015f7c793eaa4891478f5bd24a38e, type: 3}
+  m_Name: SetRigidType
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 22045e65d581a9041bfab7ebbdef7f85
+  position: {x: 3314.5002, y: 1572.4502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  bodyType: 2
+--- !u!114 &4698622875824537805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1c11a93355af8479ad73b171652195, type: 3}
+  m_Name: BossChangeDir
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: b7d76fc1212291747a3b0cd6e9655acb
+  position: {x: 580.9001, y: 1983.6504}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+--- !u!114 &4717889762486005396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 820b7c244682f1649af38d79f5d23efe
+  position: {x: -1952.0004, y: 529.6}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: 8968313206571192281}
+  - {fileID: 121987148802214958}
+  - {fileID: -604954381282632525}
+--- !u!114 &4824959517888864207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19015f7c793eaa4891478f5bd24a38e, type: 3}
+  m_Name: SetRigidType
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 13a03619fe995e2429487702b62ed93e
+  position: {x: 2439.9473, y: 754.4}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  bodyType: 0
+--- !u!114 &4846005408512554784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f0585188b9f6c458233280cf6cf6c8, type: 3}
+  m_Name: DelayNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: c89bb43a606ba2c4ca69bc0ae88242db
+  position: {x: 5011.9004, y: 1489.6002}
+  description: "1.5\uCD08 \uB300\uAE30"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  duration: 1.5
+--- !u!114 &5050064078324606536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: e6c7d18d1f1c3ad468fe2af484d59322
+  position: {x: 348.90002, y: 1992.4504}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: 6444913213433999202}
+  - {fileID: 3986137715143279472}
+--- !u!114 &5292716356443606290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da4c68393c0d7ed45ae120d740b2ac55, type: 3}
+  m_Name: TransformNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 9d52bf07383448743aaae257d3bf456c
+  position: {x: 5906.3994, y: 1396.8}
+  description: "2\uD398\uC774\uC988\uB85C \uBCC0\uC2E0"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  phase: 2
+--- !u!114 &5501732691756615570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 2df6885e6e0382b4eab158470534f043
+  position: {x: -2868.7002, y: 2012.4502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: 1104605280439230813}
+  - {fileID: 8462462175094611955}
+  - {fileID: -7526259550422083935}
+--- !u!114 &5597607219252200292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1c11a93355af8479ad73b171652195, type: 3}
+  m_Name: BossChangeDir
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: b5ef6aa632a8c7846a2bf10ccba4664c
+  position: {x: 1697.7001, y: 1942.8501}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+--- !u!114 &5730850069150303628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 787de5a31845cdb46843c734c9b10cf1, type: 3}
+  m_Name: SummonsCheck
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 191ee68e3cb7ab148a793d5459d99f96
+  position: {x: 4826.493, y: 1479.9998}
+  description: "\uC18C\uD658\uC218 \uC804\uBA78 \uC5EC\uBD80 \uCCB4\uD06C"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+--- !u!114 &5736171059640301213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 87a919198b3242d448436c7681a38662
+  position: {x: 5819.128, y: 1669.5999}
+  description: "\uBCC0\uC2E0 \uC0C1\uD0DC\uB85C \uBCC0\uACBD"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 6
+--- !u!114 &5794242611086679828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9828f1c40f70f35459a89333b0f9f00a, type: 3}
+  m_Name: RaycastCheck
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: fe4fa210cec713f419a764b5e448d386
+  position: {x: -67.100006, y: 1994.05}
+  description: "\uBCBD \uCCB4\uD06C"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 2272324966275309204}
+  fixedRayCast:
+  - {x: -7, y: 0}
+  _layerMask:
+    serializedVersion: 2
+    m_Bits: 8192
+--- !u!114 &5887279818630403773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f0585188b9f6c458233280cf6cf6c8, type: 3}
+  m_Name: DelayNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 393d817f5e5f0f044988691ddc105ff2
+  position: {x: -455.10004, y: 1978.8503}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  duration: 0.5
+--- !u!114 &5914728460582927809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0b0a6076cccb44593864c2ca2ed3e0, type: 3}
+  m_Name: BossAtk
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 28d8b17a981ca2948a997e821ba42b1c
+  position: {x: -225.5293, y: 730.7999}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  atkNum: 1
+  isSkip: 0
+  WaitForEnd: 1
+--- !u!114 &6309698055363832172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0b0a6076cccb44593864c2ca2ed3e0, type: 3}
+  m_Name: BossAtk
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 37b48641c6af4d740bc79a9e837f9036
+  position: {x: 349.59998, y: 704.79987}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  atkNum: 2
+  isSkip: 0
+  WaitForEnd: 1
+--- !u!114 &6391566143902501830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca9d19e534784747bfcb3a22da08879, type: 3}
+  m_Name: DashNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: e16ce2287bafb214080369d92d16ff92
+  position: {x: -1350.4008, y: 714.4}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  time: 1
+  distance: 0
+  isBackDash: 0
+--- !u!114 &6444913213433999202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1c11a93355af8479ad73b171652195, type: 3}
+  m_Name: BossChangeDir
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 5f780111812d6114fb300f4b69c82638
+  position: {x: 220.90005, y: 2119.6504}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+--- !u!114 &6533637627268982664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f2e0707f2e91d4daf5f7f971bc7a06, type: 3}
+  m_Name: SelectNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: f6a13d2c169d09d4a9a736edf73af009
+  position: {x: -47.199993, y: 170.35455}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: 7815799313388064906}
+  - {fileID: 4146310753898372146}
+  - {fileID: 4425230154348872012}
+  - {fileID: -2427248739405145293}
+  - {fileID: -5945582329107835254}
+  - {fileID: -5325262413337578142}
+  - {fileID: 8760917118602232687}
+  - {fileID: -7054900957234883689}
+--- !u!114 &6703029050177319356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1c11a93355af8479ad73b171652195, type: 3}
+  m_Name: BossChangeDir
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 2376bc77957bc9b41a8a1cfccbe761c1
+  position: {x: 733.7, y: 1540.4502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+--- !u!114 &6716147478827162916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56a810b98ddec47439377a9a122e9cf5, type: 3}
+  m_Name: MoveNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 4bf3d09bd3012a149b0a7ee52a0b1428
+  position: {x: -4018.1174, y: 1724.8075}
+  description: "\uC774\uB3D9"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  time: 0
+--- !u!114 &6973042580760830814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56813b060ebd68040b57cba890191168, type: 3}
+  m_Name: IfPlayerXDistance
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: e6f47c3806112c24c9f7845483724831
+  position: {x: -948.7001, y: 1553.2502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: -7634545844931268372}
+  boss: {fileID: 0}
+  distance: 3
+  distanceType: 1
+--- !u!114 &7052348710920451061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0b0a6076cccb44593864c2ca2ed3e0, type: 3}
+  m_Name: BossAtk
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 679524ec7c659cb44956936bb4c66c57
+  position: {x: -1366.3002, y: 1833.25}
+  description: "\uACF5\uACA91"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  atkNum: 1
+  isSkip: 0
+  WaitForEnd: 1
+--- !u!114 &7185874163505947675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f2e0707f2e91d4daf5f7f971bc7a06, type: 3}
+  m_Name: SelectNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: e145275838c26d648895b09774af37e9
+  position: {x: -2649.5002, y: 1458.8501}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -3019787498332233091}
+  - {fileID: -8993710559816934462}
+--- !u!114 &7212339813243914510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56813b060ebd68040b57cba890191168, type: 3}
+  m_Name: IfPlayerXDistance
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 2508ea4b2f0a5d8449c456dba754a8d3
+  position: {x: 1089.7, y: 1538.8501}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 72847429999677581}
+  boss: {fileID: 0}
+  distance: 3
+  distanceType: 1
+--- !u!114 &7254982912558731811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e49b564260952a641a103e07191353f8, type: 3}
+  m_Name: SequenceNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 96604dcf46411a3489c9404b61a96ea4
+  position: {x: -4130.1177, y: 1478.8075}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -4407584235805316560}
+  - {fileID: 6716147478827162916}
+--- !u!114 &7278370253626292944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: ab52dd6feebb6b445ade34a2095e5a64
+  position: {x: -315.9, y: 1977.2502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 2
+--- !u!114 &7325024939625011224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: c92b5ef3903fead43a17de2fbf01d03f
+  position: {x: -893.50006, y: 2202.8503}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 2
+--- !u!114 &7325782943717132199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 3412947a161af64449497360a2c782f4
+  position: {x: -2247.1003, y: 1981.2502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 4
+--- !u!114 &7401983932665776704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250198d1a36e44f478f1b28f7c53a674, type: 3}
+  m_Name: SetDelayTime
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 5a5be6b81a876634d81ab99c883eaa9f
+  position: {x: 6256, y: 1404.8}
+  description: "\uB300\uAE30 \uC2DC\uAC04 \uC124\uC815"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: -3801358923880269068}
+  minTime: 0.6
+  maxTime: 1
+--- !u!114 &7479488251202558862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0b0a6076cccb44593864c2ca2ed3e0, type: 3}
+  m_Name: BossAtk
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 8cefb1383e568bb48b96e1d32c36bcd1
+  position: {x: 2023.3, y: 1561.25}
+  description: "\uACF5\uACA93"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  atkNum: 3
+  isSkip: 0
+  WaitForEnd: 1
+--- !u!114 &7512694219855553514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 1ae3767439dc2864d9241cdae0e627db
+  position: {x: 393.6, y: 540}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -2656454323267171052}
+  - {fileID: 6309698055363832172}
+  - {fileID: 7689959916708629235}
+--- !u!114 &7689959916708629235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f58c107ce8f076449ef1088fafcd6ff, type: 3}
+  m_Name: JururuSetPattern
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 5bf38bace2be0644580d4ef43c41256e
+  position: {x: 540.25006, y: 702.7001}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  pattern: 9
+--- !u!114 &7730968067058007139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f0585188b9f6c458233280cf6cf6c8, type: 3}
+  m_Name: DelayNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 7b7e59261a594224b81a42e9f269a499
+  position: {x: -1039.9001, y: 2204.4502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  duration: 0.5
+--- !u!114 &7815799313388064906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc27a07995c1a9843a2057206ff45abe, type: 3}
+  m_Name: JururuPatternSelect
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 770334224f047d04791e77c6386ecb5b
+  position: {x: -1964.0005, y: 408.79996}
+  description: "\uC774\uB3D9"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 4717889762486005396}
+  boss: {fileID: 0}
+  pattern: 0
+--- !u!114 &7818533599104301547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e49b564260952a641a103e07191353f8, type: 3}
+  m_Name: SequenceNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 4665fd282d248094bbc467fe567840f0
+  position: {x: 4644.9224, y: 1165.3599}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -246899919249830218}
+  - {fileID: -5902010180491101090}
+  - {fileID: 2471526330025891929}
+  - {fileID: -4823836885520213385}
+  - {fileID: 5730850069150303628}
+  - {fileID: 4846005408512554784}
+  - {fileID: 13368225660082151}
+  - {fileID: -5350661356333242}
+  - {fileID: -7250040826090033929}
+  - {fileID: -1614115997121281139}
+--- !u!114 &8109075003048889297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9828f1c40f70f35459a89333b0f9f00a, type: 3}
+  m_Name: RaycastCheck
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 2adf3be8ecf45714d8b565e6db02c065
+  position: {x: 1451.3, y: 1822.8501}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: -5716355650723635923}
+  fixedRayCast:
+  - {x: -7, y: 0}
+  _layerMask:
+    serializedVersion: 2
+    m_Bits: 8192
+--- !u!114 &8334165735770289491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d517ef1ee91db6439e200c895088d3d, type: 3}
+  m_Name: DashToPos
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 61c5fd43c3e25eb4aabfb6c80880f1eb
+  position: {x: 2448.9, y: 1684.4502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  objectName: SummonEndPos
+  speed: 10
+  distanceCondition: 0
+  stopIfOp: 0
+--- !u!114 &8382203431302726169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca9d19e534784747bfcb3a22da08879, type: 3}
+  m_Name: DashNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: e8adbf26cc461f442b8b1a2fc6a0939d
+  position: {x: -2399.1, y: 1978.8503}
+  description: "\uBC31\uB300\uC26C"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  time: 0.7
+  distance: 6
+  isBackDash: 1
+--- !u!114 &8450287376199996720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9030718f26d4ca870d35098dab85, type: 3}
+  m_Name: ExcuteAll
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 5a37a84a58a519c4882434d446dbd8b6
+  position: {x: 1547.9996, y: 556.7998}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: 99173922300451771}
+  - {fileID: -4920514974739865044}
+  - {fileID: -6974050299638404965}
+--- !u!114 &8462462175094611955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca9d19e534784747bfcb3a22da08879, type: 3}
+  m_Name: DashNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 2f775aaf662ffef4181420e7055fa4e2
+  position: {x: -2711.1, y: 2144.4502}
+  description: "\uBC31\uB300\uC26C"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  time: 1.1
+  distance: 14
+  isBackDash: 1
+--- !u!114 &8581753976144401351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0b0a6076cccb44593864c2ca2ed3e0, type: 3}
+  m_Name: BossAtk
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: c2eea908ab7979443a0d3f057d14c418
+  position: {x: -3029.5002, y: 1829.2502}
+  description: "\uACF5\uACA9\uD328\uD134 1"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  atkNum: 1
+  isSkip: 0
+  WaitForEnd: 1
+--- !u!114 &8760917118602232687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc27a07995c1a9843a2057206ff45abe, type: 3}
+  m_Name: JururuPatternSelect
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 6424cd74a8e4e5649864228416411bc0
+  position: {x: 1525.5997, y: 412.79984}
+  description: "\uACF5\uACA94"
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 8450287376199996720}
+  boss: {fileID: 0}
+  pattern: 6
+--- !u!114 &8766453211199839110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1c11a93355af8479ad73b171652195, type: 3}
+  m_Name: BossChangeDir
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: f7448429cbdf26447b75baf7813c68b6
+  position: {x: -2045.5001, y: 1710.8501}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+--- !u!114 &8968313206571192281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7e2585531bbc449905e390d8bca6fd, type: 3}
+  m_Name: BossSetState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: d84be11d0142b5640be905801fde19b2
+  position: {x: -2093.6003, y: 681.6}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  boss: {fileID: 0}
+  bossState: 2
+--- !u!114 &9024326117921640576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f2e0707f2e91d4daf5f7f971bc7a06, type: 3}
+  m_Name: SelectNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 55260e4d34f1bf2439166d0c03e8c5ac
+  position: {x: 48.100044, y: 1835.6501}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: 5794242611086679828}
+  - {fileID: 5050064078324606536}
+--- !u!114 &9170747240306563471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19015f7c793eaa4891478f5bd24a38e, type: 3}
+  m_Name: SetRigidType
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 5387c01897255974282e9e0d93b6af63
+  position: {x: 2596.1003, y: 1683.6501}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  bodyType: 2
+--- !u!114 &9206788532598266907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ae70e4fe4ab9bb4d8b987b3683c0a98, type: 3}
+  m_Name: ChangeDir
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 80c6eada249ec794a935b62fa76688f9
+  position: {x: -1351.1, y: 2197.2502}
+  description: 
+  blackBoard:
+    jururuBoss:
+      pattern: 0
+    currentNodeName: 
+    currentNode: {fileID: 0}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []

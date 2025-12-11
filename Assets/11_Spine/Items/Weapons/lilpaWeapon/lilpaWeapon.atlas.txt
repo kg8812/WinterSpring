@@ -1,0 +1,9 @@
+lilpaWeapon.png
+size:2048,2048
+pma:true
+lilpa
+bounds:2,1172,1554,433
+offsets:1441,1571,3504,3504
+vilchanSword
+bounds:2,775,1603,395
+offsets:1440,1549,3504,3504

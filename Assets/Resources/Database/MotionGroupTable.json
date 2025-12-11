@@ -1,0 +1,1285 @@
+{
+  "3001": {
+    "index": 3001,
+    "groundMotions": [
+      1000,
+      1001,
+      1002
+    ],
+    "airMotions": [
+      10001,
+      10011,
+      10021
+    ],
+    "groundColliders": [
+      10003,
+      10013,
+      10023
+    ],
+    "airColliders": [
+      10004,
+      10014,
+      10024
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3002": {
+    "index": 3002,
+    "groundMotions": [
+      1005,
+      1006,
+      1007
+    ],
+    "airMotions": [
+      2005,
+      2006,
+      2007
+    ],
+    "groundColliders": [
+      3003,
+      3004,
+      3005
+    ],
+    "airColliders": [
+      3003,
+      3004,
+      3005
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3003": {
+    "index": 3003,
+    "groundMotions": [
+      1100,
+      1101,
+      1102
+    ],
+    "airMotions": [
+      11001,
+      11011,
+      11021
+    ],
+    "groundColliders": [
+      11003,
+      11013,
+      11023
+    ],
+    "airColliders": [
+      11004,
+      11014,
+      11024
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3004": {
+    "index": 3004,
+    "groundMotions": [
+      1105,
+      1101
+    ],
+    "airMotions": [
+      2105,
+      2101
+    ],
+    "groundColliders": [
+      3009,
+      3010
+    ],
+    "airColliders": [
+      3009,
+      3010
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3005": {
+    "index": 3005,
+    "groundMotions": [
+      1200,
+      1202,
+      1201
+    ],
+    "airMotions": [
+      2200,
+      2202,
+      2201
+    ],
+    "groundColliders": [
+      3011,
+      3012,
+      3013
+    ],
+    "airColliders": [
+      3011,
+      3012,
+      3013
+    ],
+    "groundLegMotions": [
+      5001,
+      5001,
+      5001
+    ],
+    "airLegMotions": [
+      5000,
+      5000,
+      5000
+    ]
+  },
+  "3006": {
+    "index": 3006,
+    "groundMotions": [
+      1200,
+      1201,
+      1202
+    ],
+    "airMotions": [
+      12001,
+      12011,
+      12021
+    ],
+    "groundColliders": [
+      12003,
+      12013,
+      12023
+    ],
+    "airColliders": [
+      12004,
+      12014,
+      12024
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3007": {
+    "index": 3007,
+    "groundMotions": [
+      1300,
+      1301,
+      1302
+    ],
+    "airMotions": [
+      13001,
+      13011
+    ],
+    "groundColliders": [
+      13003,
+      13013,
+      13023
+    ],
+    "airColliders": [
+      13004,
+      13014
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3008": {
+    "index": 3008,
+    "groundMotions": [
+      1400,
+      1401,
+      1402
+    ],
+    "airMotions": [
+      14001,
+      14011
+    ],
+    "groundColliders": [
+      14003,
+      14013,
+      14023
+    ],
+    "airColliders": [
+      14004,
+      14014
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3009": {
+    "index": 3009,
+    "groundMotions": [
+      9000,
+      9000,
+      9001
+    ],
+    "airMotions": [
+      90001,
+      90001
+    ],
+    "groundColliders": [
+      90003,
+      90003,
+      90013
+    ],
+    "airColliders": [
+      90004,
+      90004
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3010": {
+    "index": 3010,
+    "groundMotions": [
+      1601
+    ],
+    "airMotions": [
+      2601
+    ],
+    "groundColliders": [
+      3025
+    ],
+    "airColliders": [
+      3025
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3011": {
+    "index": 3011,
+    "groundMotions": [
+      1206,
+      1210,
+      1211
+    ],
+    "airMotions": [
+      2206,
+      2210,
+      2211
+    ],
+    "groundColliders": [
+      3026,
+      3027,
+      3028
+    ],
+    "airColliders": [
+      3026,
+      3027,
+      3028
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3012": {
+    "index": 3012,
+    "groundMotions": [
+      1101,
+      1105
+    ],
+    "airMotions": [
+      2101,
+      2105
+    ],
+    "groundColliders": [
+      3029,
+      3030
+    ],
+    "airColliders": [
+      3029,
+      3030
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3013": {
+    "index": 3013,
+    "groundMotions": [
+      1206,
+      1207,
+      1206
+    ],
+    "airMotions": [
+      2206,
+      2207,
+      2206
+    ],
+    "groundColliders": [
+      3031,
+      3032,
+      3033
+    ],
+    "airColliders": [
+      3031,
+      3032,
+      3033
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3014": {
+    "index": 3014,
+    "groundMotions": [
+      1800,
+      1800
+    ],
+    "airMotions": [
+      2800,
+      2800
+    ],
+    "groundColliders": [
+      3034,
+      3035
+    ],
+    "airColliders": [
+      3034,
+      3035
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3015": {
+    "index": 3015,
+    "groundMotions": [
+      1400,
+      1401,
+      1402
+    ],
+    "airMotions": [
+      2400,
+      2401,
+      2402
+    ],
+    "groundColliders": [
+      3036,
+      3037,
+      3038
+    ],
+    "airColliders": [
+      3036,
+      3037,
+      3038
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3016": {
+    "index": 3016,
+    "groundMotions": [
+      1200,
+      1202,
+      1201
+    ],
+    "airMotions": [
+      2200,
+      2202,
+      2201
+    ],
+    "groundColliders": [
+      3039,
+      3040,
+      3041
+    ],
+    "airColliders": [
+      3039,
+      3040,
+      3041
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3017": {
+    "index": 3017,
+    "groundMotions": [
+      1005,
+      1005,
+      1003
+    ],
+    "airMotions": [
+      2005,
+      2005,
+      2003
+    ],
+    "groundColliders": [
+      3042,
+      3043,
+      3044
+    ],
+    "airColliders": [
+      3042,
+      3043,
+      3044
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3018": {
+    "index": 3018,
+    "groundMotions": [
+      1400,
+      1401,
+      1402
+    ],
+    "airMotions": [
+      2400,
+      2401,
+      2402
+    ],
+    "groundColliders": [
+      3045,
+      3046,
+      3047
+    ],
+    "airColliders": [
+      3045,
+      3046,
+      3047
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3019": {
+    "index": 3019,
+    "groundMotions": [
+      1502,
+      1502
+    ],
+    "airMotions": [
+      2502,
+      2502
+    ],
+    "groundColliders": [
+      3048,
+      3049
+    ],
+    "airColliders": [
+      3048,
+      3049
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3020": {
+    "index": 3020,
+    "groundMotions": [
+      1010,
+      1011,
+      1012
+    ],
+    "airMotions": [
+      10101,
+      10111
+    ],
+    "groundColliders": [
+      10103,
+      10113,
+      10123
+    ],
+    "airColliders": [
+      10104,
+      10114
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3021": {
+    "index": 3021,
+    "groundMotions": [
+      1000,
+      1001,
+      1008
+    ],
+    "airMotions": [
+      2000,
+      2001,
+      2008
+    ],
+    "groundColliders": [
+      3053,
+      3054,
+      3055
+    ],
+    "airColliders": [
+      3053,
+      3054,
+      3055
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3022": {
+    "index": 3022,
+    "groundMotions": [
+      1006,
+      1010,
+      1004
+    ],
+    "airMotions": [
+      2006,
+      2010,
+      2004
+    ],
+    "groundColliders": [
+      3056,
+      3057,
+      3058
+    ],
+    "airColliders": [
+      3056,
+      3057,
+      3058
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3023": {
+    "index": 3023,
+    "groundMotions": [
+      1101,
+      1104
+    ],
+    "airMotions": [
+      2101,
+      2104
+    ],
+    "groundColliders": [
+      3059,
+      3060
+    ],
+    "airColliders": [
+      3059,
+      3060
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3024": {
+    "index": 3024,
+    "groundMotions": [
+      1101,
+      1102
+    ],
+    "airMotions": [
+      2101,
+      2102
+    ],
+    "groundColliders": [
+      3061,
+      3062
+    ],
+    "airColliders": [
+      3061,
+      3062
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3025": {
+    "index": 3025,
+    "groundMotions": [
+      1212,
+      1212
+    ],
+    "airMotions": [
+      2212,
+      2212
+    ],
+    "groundColliders": [
+      3063,
+      3064
+    ],
+    "airColliders": [
+      3063,
+      3064
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3026": {
+    "index": 3026,
+    "groundMotions": [
+      1300,
+      1302
+    ],
+    "airMotions": [
+      2300,
+      2302
+    ],
+    "groundColliders": [
+      3065,
+      3066
+    ],
+    "airColliders": [
+      3065,
+      3066
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3027": {
+    "index": 3027,
+    "groundMotions": [
+      1601
+    ],
+    "airMotions": [
+      2601
+    ],
+    "groundColliders": [
+      3067
+    ],
+    "airColliders": [
+      3067
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3028": {
+    "index": 3028,
+    "groundMotions": [
+      1400,
+      1401,
+      1402
+    ],
+    "airMotions": [
+      2400,
+      2401,
+      2402
+    ],
+    "groundColliders": [
+      3068,
+      3069,
+      3070
+    ],
+    "airColliders": [
+      3068,
+      3069,
+      3070
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3029": {
+    "index": 3029,
+    "groundMotions": [
+      1700,
+      1705,
+      1703
+    ],
+    "airMotions": [
+      2700,
+      2705,
+      2703
+    ],
+    "groundColliders": [
+      3071,
+      3072,
+      3074
+    ],
+    "airColliders": [
+      3071,
+      3072,
+      3074
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3030": {
+    "index": 3030,
+    "groundMotions": [
+      1000,
+      1001,
+      1008
+    ],
+    "airMotions": [
+      2000,
+      2001,
+      2008
+    ],
+    "groundColliders": [
+      3075,
+      3076,
+      3077
+    ],
+    "airColliders": [
+      3075,
+      3076,
+      3077
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3031": {
+    "index": 3031,
+    "groundMotions": [
+      1601
+    ],
+    "airMotions": [
+      2601
+    ],
+    "groundColliders": [
+      3084
+    ],
+    "airColliders": [
+      3084
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3032": {
+    "index": 3032,
+    "groundMotions": [
+      1101,
+      1102
+    ],
+    "airMotions": [
+      2101,
+      2102
+    ],
+    "groundColliders": [
+      3085,
+      3086
+    ],
+    "airColliders": [
+      3085,
+      3086
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3033": {
+    "index": 3033,
+    "groundMotions": [
+      1501,
+      1503,
+      1502
+    ],
+    "airMotions": [
+      2501,
+      2503,
+      2502
+    ],
+    "groundColliders": [
+      3087,
+      3088,
+      3089
+    ],
+    "airColliders": [
+      3087,
+      3088,
+      3089
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3034": {
+    "index": 3034,
+    "groundMotions": [
+      1005,
+      1005,
+      1003
+    ],
+    "airMotions": [
+      2005,
+      2005,
+      2003
+    ],
+    "groundColliders": [
+      3090,
+      3091,
+      3092
+    ],
+    "airColliders": [
+      3090,
+      3091,
+      3092
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3035": {
+    "index": 3035,
+    "groundMotions": [
+      1206,
+      1304,
+      1304,
+      1304
+    ],
+    "airMotions": [
+      1206,
+      1304,
+      1304,
+      1304
+    ],
+    "groundColliders": [
+      3093,
+      3094,
+      3095,
+      3096
+    ],
+    "airColliders": [
+      3093,
+      3094,
+      3095,
+      3096
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3036": {
+    "index": 3036,
+    "groundMotions": [
+      1302,
+      1300
+    ],
+    "airMotions": [
+      2302,
+      2300
+    ],
+    "groundColliders": [
+      3097,
+      3098
+    ],
+    "airColliders": [
+      3097,
+      3098
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3037": {
+    "index": 3037,
+    "groundMotions": [
+      1006,
+      1006,
+      1018
+    ],
+    "airMotions": [
+      2006,
+      2006,
+      2018
+    ],
+    "groundColliders": [
+      3099,
+      3100,
+      3101
+    ],
+    "airColliders": [
+      3099,
+      3100,
+      3101
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3038": {
+    "index": 3038,
+    "groundMotions": [
+      1100,
+      1106
+    ],
+    "airMotions": [
+      2100,
+      2106
+    ],
+    "groundColliders": [
+      3102,
+      3103
+    ],
+    "airColliders": [
+      31021,
+      31031
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3039": {
+    "index": 3039,
+    "groundMotions": [
+      1300,
+      1302
+    ],
+    "airMotions": [
+      2300,
+      2302
+    ],
+    "groundColliders": [
+      3104,
+      3105
+    ],
+    "airColliders": [
+      3104,
+      3105
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3040": {
+    "index": 3040,
+    "groundMotions": [
+      1702,
+      1700,
+      1703
+    ],
+    "airMotions": [
+      2702,
+      2700,
+      2703
+    ],
+    "groundColliders": [
+      3106,
+      3107,
+      3108
+    ],
+    "airColliders": [
+      3106,
+      3107,
+      3108
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3041": {
+    "index": 3041,
+    "groundMotions": [
+      1911,
+      1910,
+      1912
+    ],
+    "airMotions": [
+      2910,
+      2911,
+      2912
+    ],
+    "groundColliders": [
+      3109,
+      3110,
+      3111
+    ],
+    "airColliders": [
+      3109,
+      3110,
+      3111
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3042": {
+    "index": 3042,
+    "groundMotions": [
+      1208,
+      1208,
+      1206
+    ],
+    "airMotions": [
+      2208,
+      2208,
+      2206
+    ],
+    "groundColliders": [
+      3112,
+      3113,
+      3114
+    ],
+    "airColliders": [
+      3112,
+      3113,
+      3114
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3043": {
+    "index": 3043,
+    "groundMotions": [
+      1500,
+      1502,
+      1502
+    ],
+    "airMotions": [
+      2500,
+      2502,
+      2503
+    ],
+    "groundColliders": [
+      3115,
+      3116,
+      3117
+    ],
+    "airColliders": [
+      3115,
+      3116,
+      3117
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3044": {
+    "index": 3044,
+    "groundMotions": [
+      1014,
+      1015,
+      1016
+    ],
+    "airMotions": [
+      2014,
+      2015,
+      2016
+    ],
+    "groundColliders": [
+      3118,
+      3119,
+      3120
+    ],
+    "airColliders": [
+      3118,
+      3119,
+      3120
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3045": {
+    "index": 3045,
+    "groundMotions": [
+      1400,
+      1401,
+      1402
+    ],
+    "airMotions": [
+      2400,
+      2401,
+      2402
+    ],
+    "groundColliders": [
+      3121,
+      3122,
+      3123
+    ],
+    "airColliders": [
+      3121,
+      3122,
+      3123
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3046": {
+    "index": 3046,
+    "groundMotions": [
+      1300,
+      1301
+    ],
+    "airMotions": [
+      2300,
+      2301
+    ],
+    "groundColliders": [
+      3300,
+      3301
+    ],
+    "airColliders": [
+      33001,
+      33011
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3047": {
+    "index": 3047,
+    "groundMotions": [
+      1203,
+      1200,
+      1202
+    ],
+    "airMotions": [
+      2203,
+      2200,
+      2202
+    ],
+    "groundColliders": [
+      3203,
+      3200,
+      3202
+    ],
+    "airColliders": [
+      32031,
+      32001,
+      32021
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3048": {
+    "index": 3048,
+    "groundMotions": [
+      1500,
+      1501
+    ],
+    "airMotions": [
+      1500,
+      1501
+    ],
+    "groundColliders": [
+      3124,
+      3125
+    ],
+    "airColliders": [
+      3124,
+      3125
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3049": {
+    "index": 3049,
+    "groundMotions": [
+      1200,
+      1201,
+      1202
+    ],
+    "airMotions": [
+      2200,
+      2201,
+      2202
+    ],
+    "groundColliders": [
+      3200,
+      3201,
+      3202
+    ],
+    "airColliders": [
+      32001,
+      32011,
+      32021
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3050": {
+    "index": 3050,
+    "groundMotions": [
+      1700,
+      1701,
+      1702
+    ],
+    "airMotions": [
+      1700,
+      1701,
+      1702
+    ],
+    "groundColliders": [
+      3700,
+      3701,
+      3702
+    ],
+    "airColliders": [
+      3700,
+      3701,
+      3702
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3051": {
+    "index": 3051,
+    "groundMotions": [
+      1100,
+      1102,
+      1101
+    ],
+    "airMotions": [
+      2100,
+      2102,
+      2101
+    ],
+    "groundColliders": [
+      3100,
+      3102,
+      3101
+    ],
+    "airColliders": [
+      31001,
+      31021,
+      31011
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3052": {
+    "index": 3052,
+    "groundMotions": [
+      6000
+    ],
+    "airMotions": [
+      6000
+    ],
+    "groundColliders": [
+      4000
+    ],
+    "airColliders": [
+      4000
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "3053": {
+    "index": 3053,
+    "groundMotions": [
+      6001
+    ],
+    "airMotions": [
+      6001
+    ],
+    "groundColliders": [
+      4001
+    ],
+    "airColliders": [
+      4001
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "30301": {
+    "index": 30301,
+    "groundMotions": [
+      1000,
+      1001,
+      1008
+    ],
+    "airMotions": [
+      2000,
+      2001,
+      2008
+    ],
+    "groundColliders": [
+      3078,
+      3079,
+      3080
+    ],
+    "airColliders": [
+      3078,
+      3079,
+      3080
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  },
+  "30302": {
+    "index": 30302,
+    "groundMotions": [
+      1000,
+      1001,
+      1008
+    ],
+    "airMotions": [
+      2000,
+      2001,
+      2008
+    ],
+    "groundColliders": [
+      3081,
+      3082,
+      3083
+    ],
+    "airColliders": [
+      3081,
+      3082,
+      3083
+    ],
+    "groundLegMotions": [],
+    "airLegMotions": []
+  }
+}

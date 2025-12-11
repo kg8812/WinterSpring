@@ -1,0 +1,16 @@
+chan_ghostsword.png
+size:1024,1024
+pma:true
+body
+bounds:2,114,670,895
+offsets:75,963,832,2211
+body_deco
+bounds:76,850,149,159
+offsets:333,992,832,2211
+body_deco2
+bounds:650,2,169,1007
+offsets:324,80,832,2211
+rotate:180
+grip
+bounds:2,620,87,389
+offsets:366,1752,832,2211

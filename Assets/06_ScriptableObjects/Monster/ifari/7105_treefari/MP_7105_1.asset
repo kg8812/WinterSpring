@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0a1d0b058414779938a84c53595190f, type: 3}
+  m_Name: MP_7105_1
+  m_EditorClassIdentifier: 
+  attacks:
+  - {fileID: 11400000, guid: b276a31d1d727384ab37afce82fecc50, type: 2}
+  movements: []
+  isCliffRun: 1
+  canAtkWithoutTurn: 1
+  haveMoving: 0

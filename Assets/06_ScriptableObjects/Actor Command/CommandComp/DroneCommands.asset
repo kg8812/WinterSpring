@@ -1,0 +1,851 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6c0b645f3dc51841910734b3ac13b58, type: 3}
+  m_Name: DroneCommands
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: e2d7752b053b6ee46b98d2b024ffdf90, type: 2}
+    - {fileID: 11400000, guid: f317b9787e438a947a2f40e6b9c37588, type: 2}
+    - {fileID: 11400000, guid: d64e956b3e2b63b4fa7bad33419eac23, type: 2}
+    - {fileID: 11400000, guid: 7f596a1679c61604eae8d59aebd3420e, type: 2}
+    - {fileID: 11400000, guid: 277a1f2ddc2390f48b779d75396933d5, type: 2}
+    - {fileID: 11400000, guid: 7adf12455c5435448be9feb05a63a076, type: 2}
+    - {fileID: 11400000, guid: 2eeb2f5c29d6c8943aa40b15e2edaf9d, type: 2}
+    - {fileID: 11400000, guid: aed8905e73fb7314c84964245e6f8660, type: 2}
+    - {fileID: 11400000, guid: 966b696f5a694d44cbb1d8d428972e4c, type: 2}
+    - {fileID: 11400000, guid: 7754f669a1ad46f4a9243bf15054ab3e, type: 2}
+    - {fileID: 11400000, guid: cf85b62ba7ed258488e1b79e2137e63b, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Commands
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[Define+GameKey, Assembly-CSharp],[Command.CommandList,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Define+GameKey,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 2|Command.CommandList, Assembly-CSharp
+    - Name: keyDownCommand
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyUpCommand
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyCommand
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 6|Command.CommandList, Assembly-CSharp
+    - Name: keyDownCommand
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyUpCommand
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyCommand
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 10|Command.CommandList, Assembly-CSharp
+    - Name: keyDownCommand
+      Entry: 7
+      Data: 11|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyUpCommand
+      Entry: 7
+      Data: 12|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyCommand
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: 14|Command.CommandList, Assembly-CSharp
+    - Name: keyDownCommand
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyUpCommand
+      Entry: 7
+      Data: 16|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyCommand
+      Entry: 7
+      Data: 17|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: 18|Command.CommandList, Assembly-CSharp
+    - Name: keyDownCommand
+      Entry: 7
+      Data: 19|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyUpCommand
+      Entry: 7
+      Data: 20|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyCommand
+      Entry: 7
+      Data: 21|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: 22|Command.CommandList, Assembly-CSharp
+    - Name: keyDownCommand
+      Entry: 7
+      Data: 23|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyUpCommand
+      Entry: 7
+      Data: 24|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyCommand
+      Entry: 7
+      Data: 25|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9
+    - Name: $v
+      Entry: 7
+      Data: 26|Command.CommandList, Assembly-CSharp
+    - Name: keyDownCommand
+      Entry: 7
+      Data: 27|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyUpCommand
+      Entry: 7
+      Data: 28|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyCommand
+      Entry: 7
+      Data: 29|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: 30|Command.CommandList, Assembly-CSharp
+    - Name: keyDownCommand
+      Entry: 7
+      Data: 31|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyUpCommand
+      Entry: 7
+      Data: 32|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyCommand
+      Entry: 7
+      Data: 33|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 11
+    - Name: $v
+      Entry: 7
+      Data: 34|Command.CommandList, Assembly-CSharp
+    - Name: keyDownCommand
+      Entry: 7
+      Data: 35|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyUpCommand
+      Entry: 7
+      Data: 36|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyCommand
+      Entry: 7
+      Data: 37|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 38|Command.CommandList, Assembly-CSharp
+    - Name: keyDownCommand
+      Entry: 7
+      Data: 39|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyUpCommand
+      Entry: 7
+      Data: 40|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyCommand
+      Entry: 7
+      Data: 41|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 42|Command.CommandList, Assembly-CSharp
+    - Name: keyDownCommand
+      Entry: 7
+      Data: 43|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyUpCommand
+      Entry: 7
+      Data: 44|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyCommand
+      Entry: 7
+      Data: 45|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 46|Command.CommandList, Assembly-CSharp
+    - Name: keyDownCommand
+      Entry: 7
+      Data: 47|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyUpCommand
+      Entry: 7
+      Data: 48|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyCommand
+      Entry: 7
+      Data: 49|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 12
+    - Name: $v
+      Entry: 7
+      Data: 50|Command.CommandList, Assembly-CSharp
+    - Name: keyDownCommand
+      Entry: 7
+      Data: 51|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyUpCommand
+      Entry: 7
+      Data: 52|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyCommand
+      Entry: 7
+      Data: 53|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 13
+    - Name: $v
+      Entry: 7
+      Data: 54|Command.CommandList, Assembly-CSharp
+    - Name: keyDownCommand
+      Entry: 7
+      Data: 55|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyUpCommand
+      Entry: 7
+      Data: 56|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: keyCommand
+      Entry: 7
+      Data: 57|System.Collections.Generic.List`1[[Command.ActorCommand, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  inputEmptyMove: {fileID: 11400000, guid: a7211888cc2034b4ca48fe4ad8b5e089, type: 2}
+  inputIdle: {fileID: 11400000, guid: 1c282c6f9e5306f459cd08f3ac6eec6d, type: 2}

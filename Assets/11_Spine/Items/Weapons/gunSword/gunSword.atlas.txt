@@ -1,0 +1,9 @@
+gunSword.png
+size:1024,1024
+pma:true
+gunsword
+bounds:2,552,729,179
+offsets:1671,1687,3504,3504
+gunswordMelee
+bounds:2,374,723,176
+offsets:1642,1666,3504,3504

@@ -1,0 +1,35 @@
+jingburger_skill_puppy.png
+size:1649,465
+pma:true
+Body
+bounds:2,5,709,458
+offsets:446,842,1461,2068
+Ear
+bounds:1509,59,129,188
+offsets:973,1110,1461,2068
+Front leg
+bounds:1160,109,209,354
+offsets:843,705,1461,2068
+Front leg paw
+bounds:713,4,101,74
+offsets:903,615,1461,2068
+Front leg2
+bounds:1160,2,105,142
+offsets:864,615,1461,2068
+rotate:90
+Head
+bounds:1371,249,276,214
+offsets:970,1118,1461,2068
+Hind leg
+bounds:713,80,276,383
+offsets:426,727,1461,2068
+Hind leg paw
+bounds:816,12,99,66
+offsets:478,617,1461,2068
+Hind leg2
+bounds:1371,65,136,182
+offsets:412,615,1461,2068
+Tail
+bounds:991,18,445,167
+offsets:128,1027,1461,2068
+rotate:90

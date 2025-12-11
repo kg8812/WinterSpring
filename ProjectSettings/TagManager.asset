@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Map
+  - Object
+  - Interaction
+  - Effect
+  - Dropable
+  - Platform
+  - EnemyEffect
+  - Wall
+  - PassiveSummon
+  - ActiveSummon
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Map
+  - Water
+  - UI
+  - Player
+  - 
+  - Enemy
+  - 
+  - Effect
+  - EnemyProjectile
+  - 
+  - Wall
+  - Summon
+  - Platform
+  - BackGround
+  - Destroyable
+  - 
+  - MiniMap
+  - Ground
+  - Extra
+  - 
+  - OnGround
+  - 
+  - Trigger
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: MiniMap
+    uniqueID: 2883645163
+    locked: 0
+  - name: Bg
+    uniqueID: 2950392693
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Environment
+    uniqueID: 362721331
+    locked: 0
+  - name: InGameUI
+    uniqueID: 3161370433
+    locked: 0
+  - name: AttackObject
+    uniqueID: 3131612847
+    locked: 0
+  - name: Fragment
+    uniqueID: 2054127487
+    locked: 0
+  - name: Monster
+    uniqueID: 1860150365
+    locked: 0
+  - name: Summon
+    uniqueID: 1419885955
+    locked: 0
+  - name: Player
+    uniqueID: 2093907805
+    locked: 0
+  - name: Drop
+    uniqueID: 3622682847
+    locked: 0
+  - name: Masking
+    uniqueID: 253469895
+    locked: 0
+  - name: Effect
+    uniqueID: 489290079
+    locked: 0
+  - name: Field
+    uniqueID: 1308913097
+    locked: 0
+  - name: Fg
+    uniqueID: 1994350449
+    locked: 0
+  - name: UIElements
+    uniqueID: 4119754197
+    locked: 0
+  - name: Fade
+    uniqueID: 2055051833
+    locked: 0

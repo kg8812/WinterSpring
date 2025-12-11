@@ -1,0 +1,85 @@
+{
+  "1": {
+    "index": 1,
+    "groupIndex": 100,
+    "itemType": 1,
+    "itemIndex": 1020,
+    "count": 1,
+    "priceType": 0,
+    "price": 10
+  },
+  "2": {
+    "index": 2,
+    "groupIndex": 100,
+    "itemType": 1,
+    "itemIndex": 1018,
+    "count": 1,
+    "priceType": 0,
+    "price": 10
+  },
+  "3": {
+    "index": 3,
+    "groupIndex": 100,
+    "itemType": 2,
+    "itemIndex": 2018,
+    "count": 1,
+    "priceType": 1,
+    "price": 12,
+    "itemName": "흘려베기"
+  },
+  "4": {
+    "index": 4,
+    "groupIndex": 100,
+    "itemType": 2,
+    "itemIndex": 2021,
+    "count": 1,
+    "priceType": 0,
+    "price": 13,
+    "itemName": "메테오"
+  },
+  "5": {
+    "index": 5,
+    "groupIndex": 100,
+    "itemType": 3,
+    "itemIndex": 3004,
+    "count": 1,
+    "priceType": 1,
+    "price": 6
+  },
+  "6": {
+    "index": 6,
+    "groupIndex": 100,
+    "itemType": 3,
+    "itemIndex": 3042,
+    "count": 1,
+    "priceType": 0,
+    "price": 8
+  },
+  "7": {
+    "index": 7,
+    "groupIndex": 100,
+    "itemType": 3,
+    "itemIndex": 3044,
+    "count": 1,
+    "priceType": 1,
+    "price": 6
+  },
+  "8": {
+    "index": 8,
+    "groupIndex": 100,
+    "itemType": 4,
+    "itemIndex": 5111,
+    "count": 1,
+    "priceType": 0,
+    "price": 51
+  },
+  "9": {
+    "index": 9,
+    "groupIndex": 100,
+    "itemType": 4,
+    "itemIndex": 5112,
+    "count": 1,
+    "priceType": 1,
+    "price": 3
+  }
+}

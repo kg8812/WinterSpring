@@ -1,0 +1,10 @@
+﻿{
+  "2101": {
+    "mapImg": "2101MapImg.png",
+    "zeroPixel": [500, 300]
+  },
+  "2102": {
+    "mapImg": "2102MapImg.png",
+    "zeroPixel": [500, 300]
+  }
+}

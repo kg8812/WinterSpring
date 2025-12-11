@@ -1,0 +1,29 @@
+ruru_elite_stonefox_dummy.png
+size:1024,1024
+pma:true
+body
+bounds:2,508,233,483
+offsets:2,2,237,487
+head
+bounds:216,280,137,226
+offsets:2,2,141,230
+레이어 1
+bounds:2,2,207,85
+offsets:2,2,211,89
+레이어 1 복사
+bounds:303,67,211,61
+offsets:2,2,215,65
+rotate:90
+레이어 2
+bounds:237,572,91,211
+offsets:2,2,95,215
+레이어 2 복사
+bounds:237,785,119,206
+offsets:2,2,123,210
+레이어 3
+bounds:2,89,299,151
+offsets:2,2,303,155
+레이어 3 복사
+bounds:2,242,264,212
+offsets:2,2,268,216
+rotate:90

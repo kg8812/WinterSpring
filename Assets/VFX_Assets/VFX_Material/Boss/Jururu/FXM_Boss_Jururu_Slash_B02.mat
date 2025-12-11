@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FXM_Boss_Jururu_Slash_B02
+  m_Shader: {fileID: 4800000, guid: 0874a5e4056d3a144ae3babe5ad5069f, type: 3}
+  m_ValidKeywords:
+  - _USE_CUSTOM_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Dissove_Texture:
+        m_Texture: {fileID: 2800000, guid: 93afafdc5fb3623489ffd517d3f11574, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Main_Texture:
+        m_Texture: {fileID: 2800000, guid: a910e3d4643d63d4f82881cf3c011741, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise_Texture:
+        m_Texture: {fileID: 2800000, guid: c2a2220383ca55a489a953b9b7498ec4, type: 3}
+        m_Scale: {x: 3, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sword_Texture:
+        m_Texture: {fileID: 2800000, guid: b0f89c89b1a49c145ba27144d651719b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _Diss_UPanner: 0.7
+    - _Diss_VPanner: 0
+    - _Dissolve: 0.587
+    - _Emi_Offset: 0.027
+    - _Emi_Range: 3.41
+    - _Fade_Distance: 0
+    - _Hade_Ins: 8.48
+    - _Head_Range: -0.622
+    - _Main_Ins: 1
+    - _Main_Pow: 1
+    - _Main_UPanner: 1
+    - _Main_VPanner: 0
+    - _Mask_Ragne: 1
+    - _Noise_UPanner: 1
+    - _Noise_VPanner: 0
+    - _Opacity: 2
+    - _Sword_UOffset: 0.017
+    - _UVNoise_Str: 0.052
+    - _Use_Custom: 1
+    m_Colors:
+    - _Emi_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Main_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,58 @@
+{
+  "100": {
+    "index": 100,
+    "dmg": 100,
+    "atkStrategy": 0,
+    "atkType": "SkillAttack",
+    "isHitReaction": false,
+    "buffGroup": 0
+  },
+  "601": {
+    "index": 601,
+    "dmg": 50,
+    "atkStrategy": 0,
+    "atkType": "SkillAttack",
+    "isHitReaction": false,
+    "buffGroup": 0
+  },
+  "1001": {
+    "index": 1001,
+    "dmg": 120,
+    "atkStrategy": 0,
+    "atkType": "SkillAttack",
+    "isHitReaction": false,
+    "buffGroup": 0
+  },
+  "1015": {
+    "index": 1015,
+    "dmg": 0,
+    "atkStrategy": 0,
+    "atkType": "SkillAttack",
+    "isHitReaction": false,
+    "buffGroup": 0
+  },
+  "1025": {
+    "index": 1025,
+    "dmg": 100,
+    "atkStrategy": 0,
+    "atkType": "SkillAttack",
+    "isHitReaction": false,
+    "buffGroup": 1026
+  },
+  "1030": {
+    "index": 1030,
+    "dmg": 20,
+    "atkStrategy": 0,
+    "atkType": "SkillAttack",
+    "isHitReaction": false,
+    "buffGroup": 0
+  },
+  "1032": {
+    "index": 1032,
+    "dmg": 20,
+    "atkStrategy": 0,
+    "atkType": "SkillAttack",
+    "isHitReaction": false,
+    "buffGroup": 0
+  }
+}

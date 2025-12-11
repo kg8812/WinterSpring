@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 860d0d41f2ea7d0489796ad3e428c00d, type: 3}
+  m_Name: LeadVocalSkill
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: user
+      Entry: 6
+      Data: 
+    - Name: animator
+      Entry: 6
+      Data: 
+    - Name: attacker
+      Entry: 6
+      Data: 
+    - Name: mover
+      Entry: 6
+      Data: 
+    - Name: hit
+      Entry: 6
+      Data: 
+    - Name: skeleton
+      Entry: 6
+      Data: 
+    - Name: eventUser
+      Entry: 6
+      Data: 
+    - Name: direction
+      Entry: 6
+      Data: 
+    - Name: statUser
+      Entry: 6
+      Data: 
+    - Name: dashUser
+      Entry: 6
+      Data: 
+    - Name: activeUser
+      Entry: 6
+      Data: 
+    - Name: passiveUser
+      Entry: 6
+      Data: 
+    - Name: weaponSkillUser
+      Entry: 6
+      Data: 
+  _cdStartType: 0
+  baseCd: 1
+  duration: 0
+  isMotion: 1
+  maxStack: 0
+  minStackCd: 0
+  cdStart: 0
+  unEquipCd: 0
+  baseDmg: 360
+  baseGroggy: 380
+  nameString: 0
+  descString: 30190
+  CurCastTime: 0
+  CurChargeTime: 0
+  usableWhenAttack: 0
+  chargeDmgRatio: 0
+  chargeGroggyRatio: 0
+  CastTime: 0
+  CastType: 0
+  ChargeTime: 0
+  chargeMoveDebuff: 0
+  chargeInfos: []
+  chargeType: 0
+  skill2: {fileID: 0}
+  useFrame: 0
+  Skill2: {fileID: 0}
+  isCharge: 0
+  index: 119
+  info: {fileID: 11400000, guid: 6e19d755ee7b7c944bfbc474d66d00ed, type: 2}
+  size1: {x: 1, y: 1}
+  size2: {x: 1, y: 3}
+  dmgReduce: 50
+  groggyReduce: 80
+  reduceTime: 0.5
+  ease: 1

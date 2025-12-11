@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ae864b55932e024f9f415085d2170ba, type: 3}
+  m_Name: GoseguPassive
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: user
+      Entry: 6
+      Data: 
+    - Name: animator
+      Entry: 6
+      Data: 
+    - Name: attacker
+      Entry: 6
+      Data: 
+    - Name: mover
+      Entry: 6
+      Data: 
+    - Name: hit
+      Entry: 6
+      Data: 
+    - Name: skeleton
+      Entry: 6
+      Data: 
+    - Name: eventUser
+      Entry: 6
+      Data: 
+    - Name: direction
+      Entry: 6
+      Data: 
+    - Name: statUser
+      Entry: 6
+      Data: 
+    - Name: dashUser
+      Entry: 6
+      Data: 
+    - Name: activeUser
+      Entry: 6
+      Data: 
+    - Name: passiveUser
+      Entry: 6
+      Data: 
+    - Name: weaponSkillUser
+      Entry: 6
+      Data: 
+    - Name: OnDroneAttack
+      Entry: 6
+      Data: 
+    - Name: OnDroneChange
+      Entry: 6
+      Data: 
+  _cdStartType: 0
+  baseCd: 5
+  duration: 0
+  isMotion: 0
+  index: 0
+  skillMotionType: 0
+  maxStack: 0
+  minStackCd: 0
+  cdStart: 0
+  unEquipCd: 0
+  EnterSkillState: 1
+  baseDmg: 30
+  bodyFactor: 0
+  spiritFactor: 0
+  finesseFactor: 0
+  baseGroggy: 50
+  nameString: 9501
+  descString: 0
+  itemId: 4501
+  CurCastTime: 0
+  CurChargeTime: 0
+  mainDrone: {fileID: 7732436794419615123, guid: 025604b82e937424fa31b25e185e4ad2, type: 3}
+  _droneInfos: []

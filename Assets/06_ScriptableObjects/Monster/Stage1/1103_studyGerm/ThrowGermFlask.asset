@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cae17deed8d4e28b4ac7fbcdffbaabf, type: 3}
+  m_Name: ThrowGermFlask
+  m_EditorClassIdentifier: 
+  AttackObjectDatas:
+  - isConsiderDirection: 1
+    transformName: 
+    offset: {x: 0, y: 0.51, z: 0}
+    obj: {fileID: -1153345881860352478, guid: ab5603b031a21aa4c8fc6f52fc4f0776, type: 3}
+  creationDelay: 0
+  initVecType: 0
+  isFireImmediately: 1
+  _curProj: {fileID: 0}
+  storeInProjectileList: 1

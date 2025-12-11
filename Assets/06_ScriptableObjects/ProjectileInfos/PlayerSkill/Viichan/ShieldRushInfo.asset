@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1656bde48925344ba256f05dfdbe250, type: 3}
+  m_Name: ShieldRushInfo
+  m_EditorClassIdentifier: 
+  isHitReaction: 1
+  knockBackForce: 0
+  knockBackTime: 0
+  knockBackAngle: 0
+  isSameDefaultGroggyKnockBack: 1
+  knockBackData:
+    knockBackType: 0
+    knockBackForce: 30
+    knockBackTime: 0
+    knockBackAngle: 0
+    symmetryType: 0
+    directionType: 0
+  groggyKnockBackData:
+    knockBackType: 0
+    knockBackForce: 0
+    knockBackTime: 0
+    knockBackAngle: 0
+    symmetryType: 0
+    directionType: 0
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 131328
+  isAtk: 1
+  AdditionalAtkCount: 0
+  dmg: 50
+  duration: 0
+  attackType: 0
+  atkTypeEnum: 1
+  frequency: 0
+  firstDmg: 100
+  firstGroggy: 100
+  delayTime: 0
+  cd: 0
+  gravityScale: 0
+  acceleration: 0
+  maxDistance: 0
+  wallConflictType: 0
+  groundConflictType: 0
+  targetConflictType: 0
+  penetrationMax: 0
+  penetrationDmg: 0
+  penetrationGroggy: 0
+  penetrationRadius: 0
+  firstVelocity: {x: 0, y: 0}
+  isRotateToVelocity: 1
+  projDirection: 0
+  isYFlipByDirection: 0
+  destroyWhenZero: 0
+  followPower: 0
+  followRange: 0
+  guideTargetType: 0
+  targetFoundAngle: 0

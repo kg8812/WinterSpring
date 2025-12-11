@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FXM_Boss_Jururu_Shield02
+  m_Shader: {fileID: 4800000, guid: 8f564562fa00579459a82c567c6dd9b8, type: 3}
+  m_ValidKeywords:
+  - _USE_CUSTOM_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Dissolve_Texture:
+        m_Texture: {fileID: 2800000, guid: b629a424c3c3ce64e9691e76c1aa0ea3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Main_Texture:
+        m_Texture: {fileID: 2800000, guid: ccc75f1af72145741a1a02d12ccbc2e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_Texture:
+        m_Texture: {fileID: 2800000, guid: 62783772e12d75f41a516efc80a0b118, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise_Tex02:
+        m_Texture: {fileID: 2800000, guid: 9d4f08fd5b544864fba35452ea823fb0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise_Texture:
+        m_Texture: {fileID: 2800000, guid: a910e3d4643d63d4f82881cf3c011741, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 430290cde91568a40b070f18e6532eef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _Diss_UPanner: 0
+    - _Diss_VPanner: 0
+    - _Dissolve: 0.3
+    - _Dissolve_UPanner: 0
+    - _Dissolve_VPanner: 0
+    - _Edge_Thickness: 0.55
+    - _Edge_Thinkness: 0
+    - _Main_Opacity: 0.25
+    - _Mask_Range: 0.54
+    - _Noise02_UPanner: 0
+    - _Noise02_VPanner: -0.5
+    - _Noise_Str: 0.2
+    - _Noise_Str02: 0.2
+    - _Noise_UPanner: 0
+    - _Noise_VPanner: -0.6
+    - _OutLine_Tinkness: 0.55
+    - _Range: 1
+    - _Rot: 0
+    - _Sub_Texture_Opacity: 4
+    - _Sub_UPanner: 0
+    - _Sub_VPanner: 0
+    - _Use_Custom: 1
+    m_Colors:
+    - _Color0: {r: 1, g: 1, b: 1, a: 0}
+    - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Edge_color: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Main_Color: {r: 51.984146, g: 8.091872, b: 8.091872, a: 0}
+  m_BuildTextureStacks: []

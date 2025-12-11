@@ -1,0 +1,1 @@
+Debuff_LostHpLose, Debuff_MaxHpLose, Debuff_HpLose, Debuff_AtkHpLose, Debuff_CurHpLose,Debuff_GroggyLose

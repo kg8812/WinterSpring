@@ -1,0 +1,17 @@
+ExplosionFlower.png
+size:2048,2048
+pma:true
+scale:0.5
+ExplosionFlowerBrow
+bounds:675,256,500,545
+ExplosionFlowerHead
+bounds:2,2,635,671
+rotate:90
+ExplosionFlowerHeadBack
+bounds:2,1173,776,671
+ExplosionFlowerRoot
+bounds:2,638,807,533
+offsets:66,0,887,1061
+ExplosionFlowerStick
+bounds:780,1212,204,632
+offsets:0,0,207,633

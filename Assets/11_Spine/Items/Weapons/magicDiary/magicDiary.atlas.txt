@@ -1,0 +1,17 @@
+magicDiary.png
+size:1024,1024
+pma:true
+1
+bounds:641,480,171,290
+offsets:21,34,385,375
+2
+bounds:515,492,194,320
+offsets:37,19,385,375
+rotate:180
+3
+bounds:293,477,253,335
+offsets:40,19,385,375
+rotate:180
+4
+bounds:2,477,342,335
+offsets:22,12,385,375

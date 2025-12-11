@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 60de16ec1f81a8b4b8fa604c853e9069
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Main_Texture: {fileID: 2800000, guid: f016926f4da6b354eac19272eb7b012f, type: 3}
+  - _Noise_Texture: {fileID: 2800000, guid: e352ba45d12e9ea449f86114ee6bb980, type: 3}
+  - _Dissolve_Texture: {fileID: 2800000, guid: 93afafdc5fb3623489ffd517d3f11574, type: 3}
+  - _Circle: {fileID: 2800000, guid: 7ba4a682d31b464459128e57b9cbe33c, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

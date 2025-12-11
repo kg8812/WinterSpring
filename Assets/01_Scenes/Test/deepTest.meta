@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/01_Scenes/Test/deepTest.meta
+guid: 6fd89727ddf21464eac6a11c1acbb763
+folderAsset: yes
+DefaultImporter:
+========
+guid: ad2790e2e419f1b438900d5b1d161c06
+TextScriptImporter:
+>>>>>>>> develop:Assets/Resources/Database/MotionGroupTable.json.meta
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

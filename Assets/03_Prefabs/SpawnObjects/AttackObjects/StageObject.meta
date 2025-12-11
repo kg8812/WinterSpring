@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/07_Animations/Monster/common/5_ine.meta
+guid: 78180500b069d3243a351fd86ddb7033
+========
+guid: 1d34c84901ca2724cbfbf1de2defe108
+>>>>>>>> develop:Assets/03_Prefabs/SpawnObjects/AttackObjects/StageObject.meta
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

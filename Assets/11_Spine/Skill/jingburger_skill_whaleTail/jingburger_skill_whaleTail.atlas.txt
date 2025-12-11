@@ -1,0 +1,5 @@
+jingburger_skill_whaleTail.png
+size:1207,1355
+pma:true
+whaleTail
+bounds:2,2,1203,1351

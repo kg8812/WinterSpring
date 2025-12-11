@@ -1,0 +1,14 @@
+leaf_dustfari_dummy.png
+size:2048,1024
+pma:true
+body
+bounds:990,93,772,495
+offsets:108,101,1031,1054
+rotate:90
+head
+bounds:2,93,986,775
+offsets:28,256,1031,1054
+ice
+bounds:1487,2,866,313
+offsets:83,50,1031,1054
+rotate:90

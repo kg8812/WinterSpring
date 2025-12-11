@@ -1,0 +1,221 @@
+{
+  "0": {
+    "cutIndex": 0
+  },
+  "80100": {
+    "cutIndex": 80100,
+    "cutSceneId": 801,
+    "index": 0,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 2,
+    "scriptKor": "일어났니, 새로운 봄의 인형아."
+  },
+  "80101": {
+    "cutIndex": 80101,
+    "cutSceneId": 801,
+    "index": 1,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 2,
+    "scriptKor": "몸은 좀 어떠니? 기능 점검을 해 볼까?"
+  },
+  "80102": {
+    "cutIndex": 80102,
+    "cutSceneId": 801,
+    "index": 2,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 2,
+    "scriptKor": "원념에 물든 이들을 조심해. 마주친다면, 정화해 줘."
+  },
+  "80200": {
+    "cutIndex": 80200,
+    "cutSceneId": 802,
+    "index": 0,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "봄꽃 결정이야. 에버그린의 마법사들이 너를 위해 만들어 두었지."
+  },
+  "80201": {
+    "cutIndex": 80201,
+    "cutSceneId": 802,
+    "index": 1,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "긴 겨울의 원념에 망가지고 말았구나. 하지만..."
+  },
+  "80202": {
+    "cutIndex": 80202,
+    "cutSceneId": 802,
+    "index": 2,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "너의 힘이 있다면 정화할 수 있어. 너는 특별하니까."
+  },
+  "80203": {
+    "cutIndex": 80203,
+    "cutSceneId": 802,
+    "index": 3,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "이 결정에는 복구와 기록의 힘이 있단다. 잊지 말고 자주 사용하렴."
+  },
+  "80300": {
+    "cutIndex": 80300,
+    "cutSceneId": 803,
+    "index": 0,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "......원념에 물들어 변이된 정령이야."
+  },
+  "80301": {
+    "cutIndex": 80301,
+    "cutSceneId": 803,
+    "index": 1,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "긴 겨울의 끝에, 많은 이들이 저렇게 되고 말았어."
+  },
+  "80302": {
+    "cutIndex": 80302,
+    "cutSceneId": 803,
+    "index": 2,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "너가 저들에게 봄을 돌려줄 수 있단다. 도와주겠니?"
+  },
+  "80400": {
+    "cutIndex": 80400,
+    "cutSceneId": 804,
+    "index": 0,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "고마워. 이 아이도 다시 따스함을 되찾았구나."
+  },
+  "80401": {
+    "cutIndex": 80401,
+    "cutSceneId": 804,
+    "index": 1,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "언젠가, 에버그린의 모든 이들이 저렇게 되기를."
+  },
+  "80402": {
+    "cutIndex": 80402,
+    "cutSceneId": 804,
+    "index": 2,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "길을 막고 있던 원념이 녹았어. 이제 제어실까지 갈 수 있게 되었네."
+  },
+  "80500": {
+    "cutIndex": 80500,
+    "cutSceneId": 805,
+    "index": 0,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "여기서부터 시작해보자. 하나씩, 하나씩."
+  },
+  "80501": {
+    "cutIndex": 80501,
+    "cutSceneId": 805,
+    "index": 1,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "창고에 또 가 보고 싶니?"
+  },
+  "80502": {
+    "cutIndex": 80502,
+    "cutSceneId": 805,
+    "index": 2,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "조심히 다녀오렴."
+  },
+  "90200": {
+    "cutIndex": 90200,
+    "cutSceneId": 902,
+    "index": 0,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "더미 텍스트."
+  },
+  "101130100": {
+    "cutIndex": 101130100,
+    "cutSceneId": 1011301,
+    "index": 0,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "숲 보스 조우 눈나 대사 1"
+  },
+  "101130101": {
+    "cutIndex": 101130101,
+    "cutSceneId": 1011301,
+    "index": 1,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "숲 보스 조우 눈나 대사 2"
+  },
+  "101130102": {
+    "cutIndex": 101130102,
+    "cutSceneId": 1011301,
+    "index": 2,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "숲 보스 조우 눈나 대사 3"
+  },
+  "101130103": {
+    "cutIndex": 101130103,
+    "cutSceneId": 1011301,
+    "index": 3,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "숲 보스 조우 눈나 대사 4"
+  },
+  "101130200": {
+    "cutIndex": 101130200,
+    "cutSceneId": 1011302,
+    "index": 0,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "숲 보스 처치 눈나 대사 1"
+  },
+  "101130201": {
+    "cutIndex": 101130201,
+    "cutSceneId": 1011302,
+    "index": 1,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "숲 보스 처치 눈나 대사 2"
+  },
+  "101130202": {
+    "cutIndex": 101130202,
+    "cutSceneId": 1011302,
+    "index": 2,
+    "speaker": 9104,
+    "isAuto": false,
+    "duration": 0,
+    "scriptKor": "숲 보스 처치 눈나 대사 3"
+  }
+}

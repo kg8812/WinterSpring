@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e43b9a821bbd1e7419fc4277c4f4ea3f, type: 3}
+  m_Name: 30009
+  m_EditorClassIdentifier: 
+  monsterDatas:
+  - position: {x: 325.91675, y: -46.498695}
+    parentGuid: a54f2ce9-3dec-437f-bb57-3cd92dcba936
+    guid: 4d3df6a1-117b-470e-ad8b-9a7bca785cfa
+    monsterID: 3101
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 320.30325, y: -40.437702}
+    parentGuid: a54f2ce9-3dec-437f-bb57-3cd92dcba936
+    guid: 85b0bbb5-3401-49ed-bf12-054a62cf4435
+    monsterID: 7101
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 316.43338, y: -40.285942}
+    parentGuid: a54f2ce9-3dec-437f-bb57-3cd92dcba936
+    guid: 5f9177c7-5068-4b40-a3ad-8e0dd247cd2e
+    monsterID: 7101
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 319.8553, y: -33.423313}
+    parentGuid: a54f2ce9-3dec-437f-bb57-3cd92dcba936
+    guid: f186db48-3653-4597-8a5a-856c2c4bc089
+    monsterID: 7102
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 308.22614, y: -36.43987}
+    parentGuid: a54f2ce9-3dec-437f-bb57-3cd92dcba936
+    guid: 51f9d73d-ea7b-4937-9440-a3cfd16b92f9
+    monsterID: 7104
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 311.0662, y: -46.498695}
+    parentGuid: a54f2ce9-3dec-437f-bb57-3cd92dcba936
+    guid: c74a376c-eac9-45e2-90ec-83c1f6bd7e85
+    monsterID: 3101
+    scale: {x: 1, y: 1, z: 1}

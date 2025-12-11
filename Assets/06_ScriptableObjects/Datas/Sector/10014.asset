@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e43b9a821bbd1e7419fc4277c4f4ea3f, type: 3}
+  m_Name: 10014
+  m_EditorClassIdentifier: 
+  monsterDatas:
+  - position: {x: 55.05, y: 37.95}
+    parentGuid: a54f2ce9-3dec-437f-bb57-3cd92dcba936
+    guid: 034fd9ae-766a-477f-a510-a853ecedb49a
+    monsterID: 1104
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 50.67376, y: 37.58887}
+    parentGuid: a54f2ce9-3dec-437f-bb57-3cd92dcba936
+    guid: 4a3bd096-0b7e-4f46-b4e0-4a47f7e097f0
+    monsterID: 1101
+    scale: {x: 1, y: 1, z: 1}

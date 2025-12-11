@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c1fa5c3c851594e926d48c1bbd254b, type: 3}
+  m_Name: IneTree2D
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  index: 109
+  circle1Count: 2
+  circle2Frequency: 0.5
+  holyBeamRadius: 0.5
+  holyBeamInfo: {fileID: 11400000, guid: d6dfef35dda2f1c46aa70338a020bed2, type: 2}
+  count: 5
+  padding: 1
+  paddingTime: 0.1
+  dmg: 100
+  groggy: 0
+  time: 0.5

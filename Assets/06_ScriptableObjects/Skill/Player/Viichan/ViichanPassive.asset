@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f408352806561814ca21c99c6c3aa679, type: 3}
+  m_Name: ViichanPassive
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: user
+      Entry: 6
+      Data: 
+    - Name: animator
+      Entry: 6
+      Data: 
+    - Name: attacker
+      Entry: 6
+      Data: 
+    - Name: mover
+      Entry: 6
+      Data: 
+    - Name: hit
+      Entry: 6
+      Data: 
+    - Name: skeleton
+      Entry: 6
+      Data: 
+    - Name: eventUser
+      Entry: 6
+      Data: 
+    - Name: direction
+      Entry: 6
+      Data: 
+    - Name: statUser
+      Entry: 6
+      Data: 
+    - Name: dashUser
+      Entry: 6
+      Data: 
+    - Name: activeUser
+      Entry: 6
+      Data: 
+    - Name: passiveUser
+      Entry: 6
+      Data: 
+    - Name: weaponSkillUser
+      Entry: 6
+      Data: 
+    - Name: OnGaugeChange
+      Entry: 6
+      Data: 
+    - Name: OnBeastStart
+      Entry: 6
+      Data: 
+    - Name: OnBeastEnd
+      Entry: 6
+      Data: 
+    - Name: OnBeastAtk
+      Entry: 6
+      Data: 
+  _cdStartType: 0
+  baseCd: 0
+  duration: 0
+  isMotion: 1
+  index: 0
+  skillMotionType: 1
+  maxStack: 0
+  minStackCd: 0
+  cdStart: 0
+  unEquipCd: 0
+  EnterSkillState: 1
+  baseDmg: 50
+  bodyFactor: 0
+  spiritFactor: 0
+  finesseFactor: 0
+  baseGroggy: 0
+  nameString: 9601
+  descString: 0
+  itemId: 4601
+  CurCastTime: 0
+  CurChargeTime: 0
+  groggy: 20
+  maxGauge: 100
+  atkGauge: 20
+  minGroggy: 50
+  extraGauge: 5
+  interactionRadius: 3
+  atkTime: 0.5
+  beastDuration: 20
+  moveSpeedBuff: 20
+  isDemandEnhanced: 0
+  shieldSkill: {fileID: 0}
+  grabSkill: {fileID: 0}

@@ -1,0 +1,2010 @@
+{
+  "1000": {
+    "index": 1000,
+    "motionName": "woodenSword/attack_1"
+  },
+  "1001": {
+    "index": 1001,
+    "motionName": "woodenSword/attack_2"
+  },
+  "1002": {
+    "index": 1002,
+    "motionName": "woodenSword/attack_3"
+  },
+  "1006": {
+    "index": 1006,
+    "motionName": "sword_attack_7"
+  },
+  "1007": {
+    "index": 1007,
+    "motionName": "sword_attack_8"
+  },
+  "1008": {
+    "index": 1008,
+    "motionName": "sword_attack_9"
+  },
+  "1009": {
+    "index": 1009,
+    "motionName": "sword_attack_10"
+  },
+  "1010": {
+    "index": 1010,
+    "motionName": "sword_attack_11"
+  },
+  "1011": {
+    "index": 1011,
+    "motionName": "sword_attack_12"
+  },
+  "1012": {
+    "index": 1012,
+    "motionName": "sword_attack_13"
+  },
+  "1013": {
+    "index": 1013,
+    "motionName": "sword_attack_14"
+  },
+  "1014": {
+    "index": 1014,
+    "motionName": "sword_attack_15"
+  },
+  "1015": {
+    "index": 1015,
+    "motionName": "sword_attack_16"
+  },
+  "1016": {
+    "index": 1016,
+    "motionName": "sword_attack_17"
+  },
+  "1017": {
+    "index": 1017,
+    "motionName": "sword_attack_18"
+  },
+  "1018": {
+    "index": 1018,
+    "motionName": "sword_attack_19"
+  },
+  "1019": {
+    "index": 1019,
+    "motionName": "sword_attack_20"
+  },
+  "1020": {
+    "index": 1020,
+    "motionName": "sword_attack_21"
+  },
+  "1100": {
+    "index": 1100,
+    "motionName": "greatSword/attack_1"
+  },
+  "1101": {
+    "index": 1101,
+    "motionName": "greatSword/attack_2"
+  },
+  "1102": {
+    "index": 1102,
+    "motionName": "greatSword/attack_3"
+  },
+  "1103": {
+    "index": 1103,
+    "motionName": "twohand_attack_4"
+  },
+  "1104": {
+    "index": 1104,
+    "motionName": "twohand_attack_5"
+  },
+  "1105": {
+    "index": 1105,
+    "motionName": "twohand_attack_6"
+  },
+  "1106": {
+    "index": 1106,
+    "motionName": "twohand_attack_7"
+  },
+  "1107": {
+    "index": 1107,
+    "motionName": "twohand_attack_8"
+  },
+  "1108": {
+    "index": 1108,
+    "motionName": "twohand_attack_9"
+  },
+  "1109": {
+    "index": 1109,
+    "motionName": "twohand_thrust"
+  },
+  "1200": {
+    "index": 1200,
+    "motionName": "spear/attack_1"
+  },
+  "1201": {
+    "index": 1201,
+    "motionName": "spear/attack_2"
+  },
+  "1202": {
+    "index": 1202,
+    "motionName": "spear/attack_3"
+  },
+  "1203": {
+    "index": 1203,
+    "motionName": "spear_attack_4"
+  },
+  "1204": {
+    "index": 1204,
+    "motionName": "spear_attack_5"
+  },
+  "1205": {
+    "index": 1205,
+    "motionName": "spear_attack_6"
+  },
+  "1206": {
+    "index": 1206,
+    "motionName": "spear_attack_7"
+  },
+  "1207": {
+    "index": 1207,
+    "motionName": "spear_attack_8"
+  },
+  "1208": {
+    "index": 1208,
+    "motionName": "spear_attack_9"
+  },
+  "1209": {
+    "index": 1209,
+    "motionName": "spear_attack_10"
+  },
+  "1210": {
+    "index": 1210,
+    "motionName": "spear_attack_11"
+  },
+  "1211": {
+    "index": 1211,
+    "motionName": "spear_attack_12"
+  },
+  "1212": {
+    "index": 1212,
+    "motionName": "spear_attack_13"
+  },
+  "1213": {
+    "index": 1213,
+    "motionName": "spear_fly"
+  },
+  "1214": {
+    "index": 1214,
+    "motionName": "spear_fly_end"
+  },
+  "1300": {
+    "index": 1300,
+    "motionName": "wand/attack_1"
+  },
+  "1301": {
+    "index": 1301,
+    "motionName": "wand/attack_2"
+  },
+  "1302": {
+    "index": 1302,
+    "motionName": "wand/attack_3"
+  },
+  "1303": {
+    "index": 1303,
+    "motionName": "staff_attack_4"
+  },
+  "1304": {
+    "index": 1304,
+    "motionName": "staff_attack_5"
+  },
+  "1305": {
+    "index": 1305,
+    "motionName": "staff_attack_6"
+  },
+  "1306": {
+    "index": 1306,
+    "motionName": "staff_attack_7"
+  },
+  "1307": {
+    "index": 1307,
+    "motionName": "staff_attack_8"
+  },
+  "1308": {
+    "index": 1308,
+    "motionName": "staff_attack_9"
+  },
+  "1400": {
+    "index": 1400,
+    "motionName": "orb/attack_1"
+  },
+  "1401": {
+    "index": 1401,
+    "motionName": "orb/attack_2"
+  },
+  "1402": {
+    "index": 1402,
+    "motionName": "orb/attack_3"
+  },
+  "1403": {
+    "index": 1403,
+    "motionName": "orb_attack_4"
+  },
+  "1500": {
+    "index": 1500,
+    "motionName": "gun_attack_1"
+  },
+  "1501": {
+    "index": 1501,
+    "motionName": "gun_attack_2"
+  },
+  "1502": {
+    "index": 1502,
+    "motionName": "gun_attack_3"
+  },
+  "1503": {
+    "index": 1503,
+    "motionName": "gun_attack_4"
+  },
+  "1504": {
+    "index": 1504,
+    "motionName": "gun_attack_5"
+  },
+  "1505": {
+    "index": 1505,
+    "motionName": "gun_attack_6"
+  },
+  "1599": {
+    "index": 1599,
+    "motionName": "gun_dash"
+  },
+  "1600": {
+    "index": 1600,
+    "motionName": "rifle_attack_1"
+  },
+  "1601": {
+    "index": 1601,
+    "motionName": "rifle_attack_2"
+  },
+  "1602": {
+    "index": 1602,
+    "motionName": "rifle_attack_3"
+  },
+  "1700": {
+    "index": 1700,
+    "motionName": "punch_attack_1"
+  },
+  "1701": {
+    "index": 1701,
+    "motionName": "punch_attack_2"
+  },
+  "1702": {
+    "index": 1702,
+    "motionName": "punch_attack_3"
+  },
+  "1703": {
+    "index": 1703,
+    "motionName": "punch_attack_4"
+  },
+  "1704": {
+    "index": 1704,
+    "motionName": "punch_attack_5"
+  },
+  "1705": {
+    "index": 1705,
+    "motionName": "punch_attack_6"
+  },
+  "1706": {
+    "index": 1706,
+    "motionName": "punch_attack_7"
+  },
+  "1707": {
+    "index": 1707,
+    "motionName": "punch_strong"
+  },
+  "1800": {
+    "index": 1800,
+    "motionName": "shield_attack_1"
+  },
+  "1801": {
+    "index": 1801,
+    "motionName": "shield_attack_2"
+  },
+  "1802": {
+    "index": 1802,
+    "motionName": "shield_attack_3"
+  },
+  "1900": {
+    "index": 1900,
+    "motionName": "dualgun_attack_1"
+  },
+  "1910": {
+    "index": 1910,
+    "motionName": "dualsword_attack_1"
+  },
+  "1911": {
+    "index": 1911,
+    "motionName": "dualsword_attack_2"
+  },
+  "1912": {
+    "index": 1912,
+    "motionName": "dualsword_attack_3"
+  },
+  "2000": {
+    "index": 2000,
+    "motionName": "sword_attack_1"
+  },
+  "2001": {
+    "index": 2001,
+    "motionName": "sword_attack_2"
+  },
+  "2002": {
+    "index": 2002,
+    "motionName": "sword_attack_3"
+  },
+  "2003": {
+    "index": 2003,
+    "motionName": "sword_attack_4"
+  },
+  "2004": {
+    "index": 2004,
+    "motionName": "sword_attack_5"
+  },
+  "2005": {
+    "index": 2005,
+    "motionName": "sword_attack_6"
+  },
+  "2006": {
+    "index": 2006,
+    "motionName": "sword_attack_7"
+  },
+  "2007": {
+    "index": 2007,
+    "motionName": "sword_attack_8"
+  },
+  "2008": {
+    "index": 2008,
+    "motionName": "sword_attack_9"
+  },
+  "2009": {
+    "index": 2009,
+    "motionName": "sword_attack_10"
+  },
+  "2010": {
+    "index": 2010,
+    "motionName": "sword_attack_11"
+  },
+  "2011": {
+    "index": 2011,
+    "motionName": "sword_attack_12"
+  },
+  "2012": {
+    "index": 2012,
+    "motionName": "sword_attack_13"
+  },
+  "2013": {
+    "index": 2013,
+    "motionName": "sword_attack_14"
+  },
+  "2014": {
+    "index": 2014,
+    "motionName": "sword_attack_15"
+  },
+  "2015": {
+    "index": 2015,
+    "motionName": "sword_attack_16"
+  },
+  "2016": {
+    "index": 2016,
+    "motionName": "sword_attack_17"
+  },
+  "2017": {
+    "index": 2017,
+    "motionName": "sword_attack_18"
+  },
+  "2018": {
+    "index": 2018,
+    "motionName": "sword_attack_19"
+  },
+  "2019": {
+    "index": 2019,
+    "motionName": "sword_attack_20"
+  },
+  "2020": {
+    "index": 2020,
+    "motionName": "sword_attack_21"
+  },
+  "2100": {
+    "index": 2100,
+    "motionName": "twohand_attack_1"
+  },
+  "2101": {
+    "index": 2101,
+    "motionName": "twohand_attack_2"
+  },
+  "2102": {
+    "index": 2102,
+    "motionName": "twohand_attack_3"
+  },
+  "2103": {
+    "index": 2103,
+    "motionName": "twohand_attack_4"
+  },
+  "2104": {
+    "index": 2104,
+    "motionName": "twohand_attack_5"
+  },
+  "2105": {
+    "index": 2105,
+    "motionName": "twohand_attack_6"
+  },
+  "2106": {
+    "index": 2106,
+    "motionName": "twohand_attack_7"
+  },
+  "2107": {
+    "index": 2107,
+    "motionName": "twohand_attack_8"
+  },
+  "2108": {
+    "index": 2108,
+    "motionName": "twohand_attack_9"
+  },
+  "2109": {
+    "index": 2109,
+    "motionName": "twohand_thrust"
+  },
+  "2200": {
+    "index": 2200,
+    "motionName": "spear_attack_1"
+  },
+  "2201": {
+    "index": 2201,
+    "motionName": "spear_attack_2"
+  },
+  "2202": {
+    "index": 2202,
+    "motionName": "spear_attack_3"
+  },
+  "2203": {
+    "index": 2203,
+    "motionName": "spear_attack_4"
+  },
+  "2204": {
+    "index": 2204,
+    "motionName": "spear_attack_5"
+  },
+  "2205": {
+    "index": 2205,
+    "motionName": "spear_attack_6"
+  },
+  "2206": {
+    "index": 2206,
+    "motionName": "spear_attack_7"
+  },
+  "2207": {
+    "index": 2207,
+    "motionName": "spear_attack_8"
+  },
+  "2208": {
+    "index": 2208,
+    "motionName": "spear_attack_9"
+  },
+  "2209": {
+    "index": 2209,
+    "motionName": "spear_attack_10"
+  },
+  "2210": {
+    "index": 2210,
+    "motionName": "spear_attack_11"
+  },
+  "2211": {
+    "index": 2211,
+    "motionName": "spear_attack_12"
+  },
+  "2212": {
+    "index": 2212,
+    "motionName": "spear_attack_13"
+  },
+  "2213": {
+    "index": 2213,
+    "motionName": "spear_fly"
+  },
+  "2214": {
+    "index": 2214,
+    "motionName": "spear_fly_end"
+  },
+  "2300": {
+    "index": 2300,
+    "motionName": "staff_attack_1"
+  },
+  "2301": {
+    "index": 2301,
+    "motionName": "staff_attack_2"
+  },
+  "2302": {
+    "index": 2302,
+    "motionName": "staff_attack_3"
+  },
+  "2303": {
+    "index": 2303,
+    "motionName": "staff_attack_4"
+  },
+  "2304": {
+    "index": 2304,
+    "motionName": "staff_attack_5"
+  },
+  "2305": {
+    "index": 2305,
+    "motionName": "staff_attack_6"
+  },
+  "2306": {
+    "index": 2306,
+    "motionName": "staff_attack_7"
+  },
+  "2307": {
+    "index": 2307,
+    "motionName": "staff_attack_8"
+  },
+  "2308": {
+    "index": 2308,
+    "motionName": "staff_attack_9"
+  },
+  "2400": {
+    "index": 2400,
+    "motionName": "orb_attack_1"
+  },
+  "2401": {
+    "index": 2401,
+    "motionName": "orb_attack_2"
+  },
+  "2402": {
+    "index": 2402,
+    "motionName": "orb_attack_3"
+  },
+  "2403": {
+    "index": 2403,
+    "motionName": "orb_attack_4"
+  },
+  "2500": {
+    "index": 2500,
+    "motionName": "gun_attack_1"
+  },
+  "2501": {
+    "index": 2501,
+    "motionName": "gun_attack_2"
+  },
+  "2502": {
+    "index": 2502,
+    "motionName": "gun_attack_3"
+  },
+  "2503": {
+    "index": 2503,
+    "motionName": "gun_attack_4"
+  },
+  "2504": {
+    "index": 2504,
+    "motionName": "gun_attack_5"
+  },
+  "2505": {
+    "index": 2505,
+    "motionName": "gun_attack_6"
+  },
+  "2600": {
+    "index": 2600,
+    "motionName": "rifle_attack_1"
+  },
+  "2601": {
+    "index": 2601,
+    "motionName": "rifle_attack_2"
+  },
+  "2602": {
+    "index": 2602,
+    "motionName": "rifle_attack_3"
+  },
+  "2700": {
+    "index": 2700,
+    "motionName": "punch_attack_1"
+  },
+  "2701": {
+    "index": 2701,
+    "motionName": "punch_attack_2"
+  },
+  "2702": {
+    "index": 2702,
+    "motionName": "punch_attack_3"
+  },
+  "2703": {
+    "index": 2703,
+    "motionName": "punch_attack_4"
+  },
+  "2704": {
+    "index": 2704,
+    "motionName": "punch_attack_5"
+  },
+  "2705": {
+    "index": 2705,
+    "motionName": "punch_attack_6"
+  },
+  "2706": {
+    "index": 2706,
+    "motionName": "punch_attack_7"
+  },
+  "2707": {
+    "index": 2707,
+    "motionName": "punch_strong"
+  },
+  "2800": {
+    "index": 2800,
+    "motionName": "shield_attack_1"
+  },
+  "2801": {
+    "index": 2801,
+    "motionName": "shield_attack_2"
+  },
+  "2802": {
+    "index": 2802,
+    "motionName": "shield_attack_3"
+  },
+  "2900": {
+    "index": 2900,
+    "motionName": "dualgun_attack_1"
+  },
+  "2910": {
+    "index": 2910,
+    "motionName": "dualsword_attack_1"
+  },
+  "2911": {
+    "index": 2911,
+    "motionName": "dualsword_attack_2"
+  },
+  "2912": {
+    "index": 2912,
+    "motionName": "dualsword_attack_3"
+  },
+  "3000": {
+    "index": 3000,
+    "motionName": "WoodenSwordCollider1"
+  },
+  "3001": {
+    "index": 3001,
+    "motionName": "WoodenSwordCollider2"
+  },
+  "3002": {
+    "index": 3002,
+    "motionName": "WoodenSwordCollider3"
+  },
+  "3003": {
+    "index": 3003,
+    "motionName": "KnifeCollider1"
+  },
+  "3004": {
+    "index": 3004,
+    "motionName": "KnifeCollider2"
+  },
+  "3005": {
+    "index": 3005,
+    "motionName": "KnifeCollider3"
+  },
+  "3006": {
+    "index": 3006,
+    "motionName": "GreatSwordCollider1"
+  },
+  "3007": {
+    "index": 3007,
+    "motionName": "GreatSwordCollider2"
+  },
+  "3008": {
+    "index": 3008,
+    "motionName": "GreatSwordCollider3"
+  },
+  "3009": {
+    "index": 3009,
+    "motionName": "HammerCollider1"
+  },
+  "3010": {
+    "index": 3010,
+    "motionName": "HammerCollider2"
+  },
+  "3011": {
+    "index": 3011,
+    "motionName": "ScytheCollider1"
+  },
+  "3012": {
+    "index": 3012,
+    "motionName": "ScytheCollider2"
+  },
+  "3013": {
+    "index": 3013,
+    "motionName": "ScytheCollider3"
+  },
+  "3014": {
+    "index": 3014,
+    "motionName": "SpearCollider1"
+  },
+  "3015": {
+    "index": 3015,
+    "motionName": "SpearCollider2"
+  },
+  "3016": {
+    "index": 3016,
+    "motionName": "SpearCollider3"
+  },
+  "3017": {
+    "index": 3017,
+    "motionName": "StaffCollider1"
+  },
+  "3018": {
+    "index": 3018,
+    "motionName": "StaffCollider2"
+  },
+  "3019": {
+    "index": 3019,
+    "motionName": "OrbCollider1"
+  },
+  "3020": {
+    "index": 3020,
+    "motionName": "OrbCollider2"
+  },
+  "3021": {
+    "index": 3021,
+    "motionName": "OrbCollider3"
+  },
+  "3022": {
+    "index": 3022,
+    "motionName": "GunCollider1"
+  },
+  "3023": {
+    "index": 3023,
+    "motionName": "GunCollider2"
+  },
+  "3024": {
+    "index": 3024,
+    "motionName": "GunCollider3"
+  },
+  "3025": {
+    "index": 3025,
+    "motionName": "SniperCollider1"
+  },
+  "3026": {
+    "index": 3026,
+    "motionName": "SuryongeumCollider1"
+  },
+  "3027": {
+    "index": 3027,
+    "motionName": "SuryongeumCollider2"
+  },
+  "3028": {
+    "index": 3028,
+    "motionName": "SuryongeumCollider3"
+  },
+  "3029": {
+    "index": 3029,
+    "motionName": "LollipopCollider1"
+  },
+  "3030": {
+    "index": 3030,
+    "motionName": "LollipopCollider2"
+  },
+  "3031": {
+    "index": 3031,
+    "motionName": "CandyStickCollider1"
+  },
+  "3032": {
+    "index": 3032,
+    "motionName": "CandyStickCollider2"
+  },
+  "3033": {
+    "index": 3033,
+    "motionName": "CandyStickCollider3"
+  },
+  "3034": {
+    "index": 3034,
+    "motionName": "SlapShieldCollider1"
+  },
+  "3035": {
+    "index": 3035,
+    "motionName": "SlapShieldCollider2"
+  },
+  "3036": {
+    "index": 3036,
+    "motionName": "MangThreeCollider1"
+  },
+  "3037": {
+    "index": 3037,
+    "motionName": "MangThreeCollider2"
+  },
+  "3038": {
+    "index": 3038,
+    "motionName": "MangThreeCollider3"
+  },
+  "3039": {
+    "index": 3039,
+    "motionName": "HotOrangeCollider1"
+  },
+  "3040": {
+    "index": 3040,
+    "motionName": "HotOrangeCollider2"
+  },
+  "3041": {
+    "index": 3041,
+    "motionName": "HotOrangeCollider3"
+  },
+  "3042": {
+    "index": 3042,
+    "motionName": "FantasticDawnCollider1"
+  },
+  "3043": {
+    "index": 3043,
+    "motionName": "FantasticDawnCollider2"
+  },
+  "3044": {
+    "index": 3044,
+    "motionName": "FantasticDawnCollider3"
+  },
+  "3045": {
+    "index": 3045,
+    "motionName": "GoatSeguCollider1"
+  },
+  "3046": {
+    "index": 3046,
+    "motionName": "GoatSeguCollider2"
+  },
+  "3047": {
+    "index": 3047,
+    "motionName": "GoatSeguCollider3"
+  },
+  "3048": {
+    "index": 3048,
+    "motionName": "LeadVocalCollider1"
+  },
+  "3049": {
+    "index": 3049,
+    "motionName": "LeadVocalCollider2"
+  },
+  "3050": {
+    "index": 3050,
+    "motionName": "ChiselKnifeCollider1"
+  },
+  "3051": {
+    "index": 3051,
+    "motionName": "ChiselKnifeCollider2"
+  },
+  "3052": {
+    "index": 3052,
+    "motionName": "ChiselKnifeCollider3"
+  },
+  "3053": {
+    "index": 3053,
+    "motionName": "PaladinSwordCollider1"
+  },
+  "3054": {
+    "index": 3054,
+    "motionName": "PaladinSwordCollider2"
+  },
+  "3055": {
+    "index": 3055,
+    "motionName": "PaladinSwordCollider3"
+  },
+  "3056": {
+    "index": 3056,
+    "motionName": "NyongpaSwordCollider1"
+  },
+  "3057": {
+    "index": 3057,
+    "motionName": "NyongpaSwordCollider2"
+  },
+  "3058": {
+    "index": 3058,
+    "motionName": "NyongpaSwordCollider3"
+  },
+  "3059": {
+    "index": 3059,
+    "motionName": "BarbellCollider1"
+  },
+  "3060": {
+    "index": 3060,
+    "motionName": "BarbellCollider2"
+  },
+  "3061": {
+    "index": 3061,
+    "motionName": "ReinforcingCollider1"
+  },
+  "3062": {
+    "index": 3062,
+    "motionName": "ReinforcingCollider2"
+  },
+  "3063": {
+    "index": 3063,
+    "motionName": "BoneHarpoonCollider1"
+  },
+  "3064": {
+    "index": 3064,
+    "motionName": "BoneHarpoonCollider2"
+  },
+  "3065": {
+    "index": 3065,
+    "motionName": "PriestWandCollider1"
+  },
+  "3066": {
+    "index": 3066,
+    "motionName": "PriestWandCollider2"
+  },
+  "3067": {
+    "index": 3067,
+    "motionName": "OraburgerSniperCollider1"
+  },
+  "3068": {
+    "index": 3068,
+    "motionName": "SpellBookCollider1"
+  },
+  "3069": {
+    "index": 3069,
+    "motionName": "SpellBookCollider2"
+  },
+  "3070": {
+    "index": 3070,
+    "motionName": "SpellBookCollider3"
+  },
+  "3071": {
+    "index": 3071,
+    "motionName": "LikeDragonCollider1"
+  },
+  "3072": {
+    "index": 3072,
+    "motionName": "LikeDragonCollider2"
+  },
+  "3073": {
+    "index": 3073,
+    "motionName": "LikeDragonCollider3"
+  },
+  "3074": {
+    "index": 3074,
+    "motionName": "LikeDragonCollider4"
+  },
+  "3075": {
+    "index": 3075,
+    "motionName": "DesireSwordCollider1"
+  },
+  "3076": {
+    "index": 3076,
+    "motionName": "DesireSwordCollider2"
+  },
+  "3077": {
+    "index": 3077,
+    "motionName": "DesireSwordCollider3"
+  },
+  "3078": {
+    "index": 3078,
+    "motionName": "DesireSwordCollider4"
+  },
+  "3079": {
+    "index": 3079,
+    "motionName": "DesireSwordCollider5"
+  },
+  "3080": {
+    "index": 3080,
+    "motionName": "DesireSwordCollider6"
+  },
+  "3081": {
+    "index": 3081,
+    "motionName": "DesireSwordCollider7"
+  },
+  "3082": {
+    "index": 3082,
+    "motionName": "DesireSwordCollider8"
+  },
+  "3083": {
+    "index": 3083,
+    "motionName": "DesireSwordCollider9"
+  },
+  "3084": {
+    "index": 3084,
+    "motionName": "HunterGunCollider1"
+  },
+  "3085": {
+    "index": 3085,
+    "motionName": "FrozenFlagCollider1"
+  },
+  "3086": {
+    "index": 3086,
+    "motionName": "FrozenFlagCollider2"
+  },
+  "3087": {
+    "index": 3087,
+    "motionName": "GunSwordRangeCollider1"
+  },
+  "3088": {
+    "index": 3088,
+    "motionName": "GunSwordRangeCollider2"
+  },
+  "3089": {
+    "index": 3089,
+    "motionName": "GunSwordRangeCollider3"
+  },
+  "3090": {
+    "index": 3090,
+    "motionName": "GunSwordMeleeCollider1"
+  },
+  "3091": {
+    "index": 3091,
+    "motionName": "GunSwordMeleeCollider2"
+  },
+  "3092": {
+    "index": 3092,
+    "motionName": "GunSwordMeleeCollider3"
+  },
+  "3093": {
+    "index": 3093,
+    "motionName": "StormScytheCollider1"
+  },
+  "3094": {
+    "index": 3094,
+    "motionName": "StormScytheCollider2"
+  },
+  "3095": {
+    "index": 3095,
+    "motionName": "StormScytheCollider3"
+  },
+  "3096": {
+    "index": 3096,
+    "motionName": "StormScytheCollider4"
+  },
+  "3097": {
+    "index": 3097,
+    "motionName": "MachineWandCollider1"
+  },
+  "3098": {
+    "index": 3098,
+    "motionName": "MachineWandCollider2"
+  },
+  "3099": {
+    "index": 3099,
+    "motionName": "HopeSwordCollider1"
+  },
+  "3100": {
+    "index": 3100,
+    "motionName": "HopeSwordCollider2"
+  },
+  "3101": {
+    "index": 3101,
+    "motionName": "HopeSwordCollider3"
+  },
+  "3102": {
+    "index": 3102,
+    "motionName": "PlagueAxeCollider1"
+  },
+  "3103": {
+    "index": 3103,
+    "motionName": "PlagueAxeCollider2"
+  },
+  "3104": {
+    "index": 3104,
+    "motionName": "GoldWindInstrumentCollider1"
+  },
+  "3105": {
+    "index": 3105,
+    "motionName": "GoldWindInstrumentCollider2"
+  },
+  "3106": {
+    "index": 3106,
+    "motionName": "BlackRoseGloveCollider1"
+  },
+  "3107": {
+    "index": 3107,
+    "motionName": "BlackRoseGloveCollider2"
+  },
+  "3108": {
+    "index": 3108,
+    "motionName": "BlackRoseGloveCollider3"
+  },
+  "3109": {
+    "index": 3109,
+    "motionName": "KingguSwordCollider1"
+  },
+  "3110": {
+    "index": 3110,
+    "motionName": "KingguSwordCollider2"
+  },
+  "3111": {
+    "index": 3111,
+    "motionName": "KingguSwordCollider3"
+  },
+  "3112": {
+    "index": 3112,
+    "motionName": "GuardianSpearCollider1"
+  },
+  "3113": {
+    "index": 3113,
+    "motionName": "GuardianSpearCollider2"
+  },
+  "3114": {
+    "index": 3114,
+    "motionName": "GuardianSpearCollider3"
+  },
+  "3115": {
+    "index": 3115,
+    "motionName": "GravityWellCollider1"
+  },
+  "3116": {
+    "index": 3116,
+    "motionName": "GravityWellCollider2"
+  },
+  "3117": {
+    "index": 3117,
+    "motionName": "GravityWellCollider3"
+  },
+  "3118": {
+    "index": 3118,
+    "motionName": "DoorLockKeyCollider1"
+  },
+  "3119": {
+    "index": 3119,
+    "motionName": "DoorLockKeyCollider2"
+  },
+  "3120": {
+    "index": 3120,
+    "motionName": "DoorLockKeyCollider3"
+  },
+  "3121": {
+    "index": 3121,
+    "motionName": "MagicDiaryCollider1"
+  },
+  "3122": {
+    "index": 3122,
+    "motionName": "MagicDiaryCollider2"
+  },
+  "3123": {
+    "index": 3123,
+    "motionName": "MagicDiaryCollider3"
+  },
+  "3124": {
+    "index": 3124,
+    "motionName": "LilpaGunCollider1"
+  },
+  "3125": {
+    "index": 3125,
+    "motionName": "LilpaGunCollider2"
+  },
+  "4000": {
+    "index": 4000,
+    "motionName": "LilpaShotgunCollider"
+  },
+  "4001": {
+    "index": 4001,
+    "motionName": "LilpaSwordCollider"
+  },
+  "5000": {
+    "index": 5000,
+    "motionName": "attack_leg_1"
+  },
+  "5001": {
+    "index": 5001,
+    "motionName": "attack_leg_2"
+  },
+  "6000": {
+    "index": 6000,
+    "motionName": "skill/active_rifle"
+  },
+  "6001": {
+    "index": 6001,
+    "motionName": "skill/active_sword"
+  },
+  "9000": {
+    "index": 9000,
+    "motionName": "pistol/attack_1"
+  },
+  "9001": {
+    "index": 9001,
+    "motionName": "pistol/attack_2"
+  },
+  "9002": {
+    "index": 9002,
+    "motionName": "pistol/attack_3"
+  },
+  "10001": {
+    "index": 10001,
+    "motionName": "woodenSword/attack_fly_1"
+  },
+  "10002": {
+    "index": 10002,
+    "motionName": "woodenSword/attack_move_1"
+  },
+  "10003": {
+    "index": 10003,
+    "motionName": "WoodenSwordCollider1"
+  },
+  "10004": {
+    "index": 10004,
+    "motionName": "WoodenSwordAirCollider1"
+  },
+  "10011": {
+    "index": 10011,
+    "motionName": "woodenSword/attack_fly_2"
+  },
+  "10012": {
+    "index": 10012,
+    "motionName": "woodenSword/attack_move_2"
+  },
+  "10013": {
+    "index": 10013,
+    "motionName": "WoodenSwordCollider2"
+  },
+  "10014": {
+    "index": 10014,
+    "motionName": "WoodenSwordAirCollider2"
+  },
+  "10021": {
+    "index": 10021,
+    "motionName": "woodenSword/attack_fly_3"
+  },
+  "10022": {
+    "index": 10022,
+    "motionName": "woodenSword/attack_move_3"
+  },
+  "10023": {
+    "index": 10023,
+    "motionName": "WoodenSwordCollider3"
+  },
+  "10024": {
+    "index": 10024,
+    "motionName": "WoodenSwordAirCollider3"
+  },
+  "10101": {
+    "index": 10101,
+    "motionName": "chiselKnife/attack_fly_1"
+  },
+  "10102": {
+    "index": 10102,
+    "motionName": "chiselKnife/attack_move_1"
+  },
+  "10103": {
+    "index": 10103,
+    "motionName": "ChiselKnifeCollider1"
+  },
+  "10104": {
+    "index": 10104,
+    "motionName": "ChiselKnifeAirCollider1"
+  },
+  "10111": {
+    "index": 10111,
+    "motionName": "chiselKnife/attack_fly_2"
+  },
+  "10112": {
+    "index": 10112,
+    "motionName": "chiselKnife/attack_move_2"
+  },
+  "10113": {
+    "index": 10113,
+    "motionName": "ChiselKnifeCollider2"
+  },
+  "10114": {
+    "index": 10114,
+    "motionName": "ChiselKnifeAirCollider2"
+  },
+  "10121": {
+    "index": 10121,
+    "motionName": ""
+  },
+  "10122": {
+    "index": 10122,
+    "motionName": "chiselKnife/attack_move_3"
+  },
+  "10123": {
+    "index": 10123,
+    "motionName": "ChiselKnifeCollider3"
+  },
+  "10124": {
+    "index": 10124,
+    "motionName": ""
+  },
+  "11001": {
+    "index": 11001,
+    "motionName": "greatSword/attack_fly_1"
+  },
+  "11002": {
+    "index": 11002,
+    "motionName": "greatSword/attack_move_1"
+  },
+  "11003": {
+    "index": 11003,
+    "motionName": "GreatSwordCollider1"
+  },
+  "11004": {
+    "index": 11004,
+    "motionName": "GreatSwordAirCollider1"
+  },
+  "11011": {
+    "index": 11011,
+    "motionName": "greatSword/attack_fly_2"
+  },
+  "11012": {
+    "index": 11012,
+    "motionName": "greatSword/attack_move_2"
+  },
+  "11013": {
+    "index": 11013,
+    "motionName": "GreatSwordCollider2"
+  },
+  "11014": {
+    "index": 11014,
+    "motionName": "GreatSwordAirCollider2"
+  },
+  "11021": {
+    "index": 11021,
+    "motionName": "greatSword/attack_fly_3"
+  },
+  "11022": {
+    "index": 11022,
+    "motionName": "greatSword/attack_move_3"
+  },
+  "11023": {
+    "index": 11023,
+    "motionName": "GreatSwordCollider3"
+  },
+  "11024": {
+    "index": 11024,
+    "motionName": "GreatSwordAirCollider3"
+  },
+  "12001": {
+    "index": 12001,
+    "motionName": "spear/attack_fly_1"
+  },
+  "12002": {
+    "index": 12002,
+    "motionName": "spear/attack_move_1"
+  },
+  "12003": {
+    "index": 12003,
+    "motionName": "SpearCollider1"
+  },
+  "12004": {
+    "index": 12004,
+    "motionName": "SpearAirCollider1"
+  },
+  "12011": {
+    "index": 12011,
+    "motionName": "spear/attack_fly_2"
+  },
+  "12012": {
+    "index": 12012,
+    "motionName": "spear/attack_move_2"
+  },
+  "12013": {
+    "index": 12013,
+    "motionName": "SpearCollider2"
+  },
+  "12014": {
+    "index": 12014,
+    "motionName": "SpearAirCollider2"
+  },
+  "12021": {
+    "index": 12021,
+    "motionName": "spear/attack_fly_3"
+  },
+  "12022": {
+    "index": 12022,
+    "motionName": "spear/attack_move_3"
+  },
+  "12023": {
+    "index": 12023,
+    "motionName": "SpearCollider3"
+  },
+  "12024": {
+    "index": 12024,
+    "motionName": "SpearAirCollider3"
+  },
+  "13001": {
+    "index": 13001,
+    "motionName": "wand/attack_fly_1"
+  },
+  "13002": {
+    "index": 13002,
+    "motionName": "wand/attack_move_1"
+  },
+  "13003": {
+    "index": 13003,
+    "motionName": "WandCollider1"
+  },
+  "13004": {
+    "index": 13004,
+    "motionName": "WandAirCollider1"
+  },
+  "13011": {
+    "index": 13011,
+    "motionName": "wand/attack_fly_2"
+  },
+  "13012": {
+    "index": 13012,
+    "motionName": "wand/attack_move_2"
+  },
+  "13013": {
+    "index": 13013,
+    "motionName": "WandCollider2"
+  },
+  "13014": {
+    "index": 13014,
+    "motionName": "WandAirCollider2"
+  },
+  "13021": {
+    "index": 13021,
+    "motionName": ""
+  },
+  "13022": {
+    "index": 13022,
+    "motionName": "wand/attack_move_3"
+  },
+  "13023": {
+    "index": 13023,
+    "motionName": "WandCollider3"
+  },
+  "13024": {
+    "index": 13024,
+    "motionName": ""
+  },
+  "14001": {
+    "index": 14001,
+    "motionName": "orb/attack_fly_1"
+  },
+  "14002": {
+    "index": 14002,
+    "motionName": "orb/attack_move_1"
+  },
+  "14003": {
+    "index": 14003,
+    "motionName": "OrbCollider1"
+  },
+  "14004": {
+    "index": 14004,
+    "motionName": "OrbAirCollider1"
+  },
+  "14011": {
+    "index": 14011,
+    "motionName": "orb/attack_fly_2"
+  },
+  "14012": {
+    "index": 14012,
+    "motionName": "orb/attack_move_2"
+  },
+  "14013": {
+    "index": 14013,
+    "motionName": "OrbCollider2"
+  },
+  "14014": {
+    "index": 14014,
+    "motionName": "OrbAirCollider2"
+  },
+  "14021": {
+    "index": 14021,
+    "motionName": ""
+  },
+  "14022": {
+    "index": 14022,
+    "motionName": "orb/attack_move_3"
+  },
+  "14023": {
+    "index": 14023,
+    "motionName": "OrbCollider3"
+  },
+  "14024": {
+    "index": 14024,
+    "motionName": ""
+  },
+  "30001": {
+    "index": 30001,
+    "motionName": "WoodenSwordAirCollider1"
+  },
+  "30011": {
+    "index": 30011,
+    "motionName": "WoodenSwordAirCollider2"
+  },
+  "30021": {
+    "index": 30021,
+    "motionName": "WoodenSwordAirCollider3"
+  },
+  "30031": {
+    "index": 30031,
+    "motionName": "KnifeAirCollider1"
+  },
+  "30041": {
+    "index": 30041,
+    "motionName": "KnifeAirCollider2"
+  },
+  "30051": {
+    "index": 30051,
+    "motionName": "KnifeAirCollider3"
+  },
+  "30061": {
+    "index": 30061,
+    "motionName": "GreatSwordAirCollider1"
+  },
+  "30071": {
+    "index": 30071,
+    "motionName": "GreatSwordAirCollider2"
+  },
+  "30081": {
+    "index": 30081,
+    "motionName": "GreatSwordAirCollider3"
+  },
+  "30091": {
+    "index": 30091,
+    "motionName": "HammerAirCollider1"
+  },
+  "30101": {
+    "index": 30101,
+    "motionName": "HammerAirCollider2"
+  },
+  "30111": {
+    "index": 30111,
+    "motionName": "ScytheAirCollider1"
+  },
+  "30121": {
+    "index": 30121,
+    "motionName": "ScytheAirCollider2"
+  },
+  "30131": {
+    "index": 30131,
+    "motionName": "ScytheAirCollider3"
+  },
+  "30141": {
+    "index": 30141,
+    "motionName": "SpearAirCollider1"
+  },
+  "30151": {
+    "index": 30151,
+    "motionName": "SpearAirCollider2"
+  },
+  "30161": {
+    "index": 30161,
+    "motionName": "SpearAirCollider3"
+  },
+  "30171": {
+    "index": 30171,
+    "motionName": "StaffAirCollider1"
+  },
+  "30181": {
+    "index": 30181,
+    "motionName": "StaffAirCollider2"
+  },
+  "30191": {
+    "index": 30191,
+    "motionName": "OrbAirCollider1"
+  },
+  "30201": {
+    "index": 30201,
+    "motionName": "OrbAirCollider2"
+  },
+  "30211": {
+    "index": 30211,
+    "motionName": "OrbAirCollider3"
+  },
+  "30221": {
+    "index": 30221,
+    "motionName": "GunAirCollider1"
+  },
+  "30231": {
+    "index": 30231,
+    "motionName": "GunAirCollider2"
+  },
+  "30241": {
+    "index": 30241,
+    "motionName": "GunAirCollider3"
+  },
+  "30251": {
+    "index": 30251,
+    "motionName": "SniperAirCollider1"
+  },
+  "30261": {
+    "index": 30261,
+    "motionName": "SuryongeumAirCollider1"
+  },
+  "30271": {
+    "index": 30271,
+    "motionName": "SuryongeumAirCollider2"
+  },
+  "30281": {
+    "index": 30281,
+    "motionName": "SuryongeumAirCollider3"
+  },
+  "30291": {
+    "index": 30291,
+    "motionName": "LollipopAirCollider1"
+  },
+  "30301": {
+    "index": 30301,
+    "motionName": "LollipopAirCollider2"
+  },
+  "30311": {
+    "index": 30311,
+    "motionName": "CandyStickAirCollider1"
+  },
+  "30321": {
+    "index": 30321,
+    "motionName": "CandyStickAirCollider2"
+  },
+  "30331": {
+    "index": 30331,
+    "motionName": "CandyStickAirCollider3"
+  },
+  "30341": {
+    "index": 30341,
+    "motionName": "SlapShieldAirCollider1"
+  },
+  "30351": {
+    "index": 30351,
+    "motionName": "SlapShieldAirCollider2"
+  },
+  "30361": {
+    "index": 30361,
+    "motionName": "MangThreeAirCollider1"
+  },
+  "30371": {
+    "index": 30371,
+    "motionName": "MangThreeAirCollider2"
+  },
+  "30381": {
+    "index": 30381,
+    "motionName": "MangThreeAirCollider3"
+  },
+  "30391": {
+    "index": 30391,
+    "motionName": "HotOrangeAirCollider1"
+  },
+  "30401": {
+    "index": 30401,
+    "motionName": "HotOrangeAirCollider2"
+  },
+  "30411": {
+    "index": 30411,
+    "motionName": "HotOrangeAirCollider3"
+  },
+  "30421": {
+    "index": 30421,
+    "motionName": "FantasticDawnAirCollider1"
+  },
+  "30431": {
+    "index": 30431,
+    "motionName": "FantasticDawnAirCollider2"
+  },
+  "30441": {
+    "index": 30441,
+    "motionName": "FantasticDawnAirCollider3"
+  },
+  "30451": {
+    "index": 30451,
+    "motionName": "GoatSeguAirCollider1"
+  },
+  "30461": {
+    "index": 30461,
+    "motionName": "GoatSeguAirCollider2"
+  },
+  "30471": {
+    "index": 30471,
+    "motionName": "GoatSeguAirCollider3"
+  },
+  "30481": {
+    "index": 30481,
+    "motionName": "LeadVocalAirCollider1"
+  },
+  "30491": {
+    "index": 30491,
+    "motionName": "LeadVocalAirCollider2"
+  },
+  "30501": {
+    "index": 30501,
+    "motionName": "ChiselKnifeAirCollider1"
+  },
+  "30511": {
+    "index": 30511,
+    "motionName": "ChiselKnifeAirCollider2"
+  },
+  "30521": {
+    "index": 30521,
+    "motionName": "ChiselKnifeAirCollider3"
+  },
+  "30531": {
+    "index": 30531,
+    "motionName": "PaladinSwordAirCollider1"
+  },
+  "30541": {
+    "index": 30541,
+    "motionName": "PaladinSwordAirCollider2"
+  },
+  "30551": {
+    "index": 30551,
+    "motionName": "PaladinSwordAirCollider3"
+  },
+  "30561": {
+    "index": 30561,
+    "motionName": "NyongpaSwordAirCollider1"
+  },
+  "30571": {
+    "index": 30571,
+    "motionName": "NyongpaSwordAirCollider2"
+  },
+  "30581": {
+    "index": 30581,
+    "motionName": "NyongpaSwordAirCollider3"
+  },
+  "30591": {
+    "index": 30591,
+    "motionName": "BarbellAirCollider1"
+  },
+  "30601": {
+    "index": 30601,
+    "motionName": "BarbellAirCollider2"
+  },
+  "30611": {
+    "index": 30611,
+    "motionName": "ReinforcingAirCollider1"
+  },
+  "30621": {
+    "index": 30621,
+    "motionName": "ReinforcingAirCollider2"
+  },
+  "30631": {
+    "index": 30631,
+    "motionName": "BoneHarpoonAirCollider1"
+  },
+  "30641": {
+    "index": 30641,
+    "motionName": "BoneHarpoonAirCollider2"
+  },
+  "30651": {
+    "index": 30651,
+    "motionName": "PriestWandAirCollider1"
+  },
+  "30661": {
+    "index": 30661,
+    "motionName": "PriestWandAirCollider2"
+  },
+  "30671": {
+    "index": 30671,
+    "motionName": "OraburgerSniperAirCollider1"
+  },
+  "30681": {
+    "index": 30681,
+    "motionName": "SpellBookAirCollider1"
+  },
+  "30691": {
+    "index": 30691,
+    "motionName": "SpellBookAirCollider2"
+  },
+  "30701": {
+    "index": 30701,
+    "motionName": "SpellBookAirCollider3"
+  },
+  "30711": {
+    "index": 30711,
+    "motionName": "LikeDragonAirCollider1"
+  },
+  "30721": {
+    "index": 30721,
+    "motionName": "LikeDragonAirCollider2"
+  },
+  "30731": {
+    "index": 30731,
+    "motionName": "LikeDragonAirCollider3"
+  },
+  "30741": {
+    "index": 30741,
+    "motionName": "LikeDragonAirCollider4"
+  },
+  "30751": {
+    "index": 30751,
+    "motionName": "DesireSwordAirCollider1"
+  },
+  "30761": {
+    "index": 30761,
+    "motionName": "DesireSwordAirCollider2"
+  },
+  "30771": {
+    "index": 30771,
+    "motionName": "DesireSwordAirCollider3"
+  },
+  "30781": {
+    "index": 30781,
+    "motionName": "DesireSwordAirCollider4"
+  },
+  "30791": {
+    "index": 30791,
+    "motionName": "DesireSwordAirCollider5"
+  },
+  "30801": {
+    "index": 30801,
+    "motionName": "DesireSwordAirCollider6"
+  },
+  "30811": {
+    "index": 30811,
+    "motionName": "DesireSwordAirCollider7"
+  },
+  "30821": {
+    "index": 30821,
+    "motionName": "DesireSwordAirCollider8"
+  },
+  "30831": {
+    "index": 30831,
+    "motionName": "DesireSwordAirCollider9"
+  },
+  "30841": {
+    "index": 30841,
+    "motionName": "HunterGunAirCollider1"
+  },
+  "30851": {
+    "index": 30851,
+    "motionName": "FrozenFlagAirCollider1"
+  },
+  "30861": {
+    "index": 30861,
+    "motionName": "FrozenFlagAirCollider2"
+  },
+  "30871": {
+    "index": 30871,
+    "motionName": "GunSwordRangeAirCollider1"
+  },
+  "30881": {
+    "index": 30881,
+    "motionName": "GunSwordRangeAirCollider2"
+  },
+  "30891": {
+    "index": 30891,
+    "motionName": "GunSwordRangeAirCollider3"
+  },
+  "30901": {
+    "index": 30901,
+    "motionName": "GunSwordMeleeAirCollider1"
+  },
+  "30911": {
+    "index": 30911,
+    "motionName": "GunSwordMeleeAirCollider2"
+  },
+  "30921": {
+    "index": 30921,
+    "motionName": "GunSwordMeleeAirCollider3"
+  },
+  "30931": {
+    "index": 30931,
+    "motionName": "StormScytheAirCollider1"
+  },
+  "30941": {
+    "index": 30941,
+    "motionName": "StormScytheAirCollider2"
+  },
+  "30951": {
+    "index": 30951,
+    "motionName": "StormScytheAirCollider3"
+  },
+  "30961": {
+    "index": 30961,
+    "motionName": "StormScytheAirCollider4"
+  },
+  "30971": {
+    "index": 30971,
+    "motionName": "MachineWandAirCollider1"
+  },
+  "30981": {
+    "index": 30981,
+    "motionName": "MachineWandAirCollider2"
+  },
+  "30991": {
+    "index": 30991,
+    "motionName": "HopeSwordAirCollider1"
+  },
+  "31001": {
+    "index": 31001,
+    "motionName": "HopeSwordAirCollider2"
+  },
+  "31011": {
+    "index": 31011,
+    "motionName": "HopeSwordAirCollider3"
+  },
+  "31021": {
+    "index": 31021,
+    "motionName": "PlagueAxeAirCollider1"
+  },
+  "31031": {
+    "index": 31031,
+    "motionName": "PlagueAxeAirCollider2"
+  },
+  "31041": {
+    "index": 31041,
+    "motionName": "GoldWindInstrumentAirCollider1"
+  },
+  "31051": {
+    "index": 31051,
+    "motionName": "GoldWindInstrumentAirCollider2"
+  },
+  "31061": {
+    "index": 31061,
+    "motionName": "BlackRoseGloveAirCollider1"
+  },
+  "31071": {
+    "index": 31071,
+    "motionName": "BlackRoseGloveAirCollider2"
+  },
+  "31081": {
+    "index": 31081,
+    "motionName": "BlackRoseGloveAirCollider3"
+  },
+  "31091": {
+    "index": 31091,
+    "motionName": "KingguSwordAirCollider1"
+  },
+  "31101": {
+    "index": 31101,
+    "motionName": "KingguSwordAirCollider2"
+  },
+  "31111": {
+    "index": 31111,
+    "motionName": "KingguSwordAirCollider3"
+  },
+  "31121": {
+    "index": 31121,
+    "motionName": "GuardianSpearAirCollider1"
+  },
+  "31131": {
+    "index": 31131,
+    "motionName": "GuardianSpearAirCollider2"
+  },
+  "31141": {
+    "index": 31141,
+    "motionName": "GuardianSpearAirCollider3"
+  },
+  "31151": {
+    "index": 31151,
+    "motionName": "GravityWellAirCollider1"
+  },
+  "31161": {
+    "index": 31161,
+    "motionName": "GravityWellAirCollider2"
+  },
+  "31171": {
+    "index": 31171,
+    "motionName": "GravityWellAirCollider3"
+  },
+  "31181": {
+    "index": 31181,
+    "motionName": "DoorLockKeyAirCollider1"
+  },
+  "31191": {
+    "index": 31191,
+    "motionName": "DoorLockKeyAirCollider2"
+  },
+  "31211": {
+    "index": 31211,
+    "motionName": "MagicDiaryAirCollider1"
+  },
+  "31221": {
+    "index": 31221,
+    "motionName": "MagicDiaryAirCollider2"
+  },
+  "31231": {
+    "index": 31231,
+    "motionName": "MagicDiaryAirCollider3"
+  },
+  "90001": {
+    "index": 90001,
+    "motionName": "pistol/attack_fly_1"
+  },
+  "90002": {
+    "index": 90002,
+    "motionName": "pistol/attack_move_1"
+  },
+  "90003": {
+    "index": 90003,
+    "motionName": "PistolCollider1"
+  },
+  "90004": {
+    "index": 90004,
+    "motionName": "PistolAirCollider1"
+  },
+  "90011": {
+    "index": 90011,
+    "motionName": "pistol/attack_fly_2"
+  },
+  "90012": {
+    "index": 90012,
+    "motionName": "pistol/attack_move_2"
+  },
+  "90013": {
+    "index": 90013,
+    "motionName": "PistolCollider2"
+  },
+  "90014": {
+    "index": 90014,
+    "motionName": "PistolAirCollider2"
+  }
+}

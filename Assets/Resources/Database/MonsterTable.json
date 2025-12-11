@@ -1,0 +1,968 @@
+{
+  "1101": {
+    "index": 1101,
+    "monsterId": 1101,
+    "monsterType": "Common",
+    "maxHp": 170,
+    "atkPower": 40,
+    "moveSpeed": 120,
+    "groggyGauge": 150,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      2,
+      3
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1005,
+    "dropExp": 5
+  },
+  "1102": {
+    "index": 1102,
+    "monsterId": 1102,
+    "monsterType": "Common",
+    "maxHp": 550,
+    "atkPower": 80,
+    "moveSpeed": 130,
+    "groggyGauge": 450,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.8,
+      0.9
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1006,
+    "dropExp": 5
+  },
+  "1103": {
+    "index": 1103,
+    "monsterId": 1103,
+    "monsterType": "Common",
+    "maxHp": 350,
+    "atkPower": 40,
+    "moveSpeed": 0,
+    "groggyGauge": 300,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.3,
+      0.6
+    ],
+    "isPatrol": false,
+    "isMove": false,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1005,
+    "dropExp": 5
+  },
+  "1104": {
+    "index": 1104,
+    "monsterId": 1104,
+    "monsterType": "Common",
+    "maxHp": 140,
+    "atkPower": 30,
+    "moveSpeed": 400,
+    "groggyGauge": 60,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.1,
+      0.3
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": true,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1005,
+    "dropExp": 5
+  },
+  "1201": {
+    "index": 1201,
+    "monsterId": 1201,
+    "monsterType": "Elite",
+    "maxHp": 4000,
+    "atkPower": 30,
+    "moveSpeed": 150,
+    "groggyGauge": 850,
+    "groggyRecovery": 20,
+    "delayDuration": [
+      0.2,
+      0.5
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1007,
+    "dropExp": 5
+  },
+  "1301": {
+    "index": 1301,
+    "monsterId": 1301,
+    "monsterType": "Boss",
+    "maxHp": 5000,
+    "atkPower": 31,
+    "moveSpeed": 220,
+    "groggyGauge": 1050,
+    "groggyRecovery": 50,
+    "delayDuration": [
+      0.2,
+      0.5
+    ],
+    "isPatrol": false,
+    "isMove": false,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1023,
+    "dropExp": 5
+  },
+  "1401": {
+    "index": 1401,
+    "monsterId": 1401,
+    "monsterType": "Elite",
+    "maxHp": 2000,
+    "atkPower": 40,
+    "moveSpeed": 1500,
+    "groggyGauge": 400,
+    "groggyRecovery": 40,
+    "delayDuration": [
+      0,
+      1
+    ],
+    "isPatrol": false,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1007,
+    "dropExp": 5
+  },
+  "2101": {
+    "index": 2101,
+    "monsterId": 2101,
+    "monsterType": "Common",
+    "maxHp": 400,
+    "atkPower": 40,
+    "moveSpeed": 150,
+    "groggyGauge": 240,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.2,
+      0.5
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      2,
+      3
+    ],
+    "dropIndex": 1009,
+    "dropExp": 5
+  },
+  "2102": {
+    "index": 2102,
+    "monsterId": 2102,
+    "monsterType": "Common",
+    "maxHp": 350,
+    "atkPower": 30,
+    "moveSpeed": 120,
+    "groggyGauge": 180,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.2,
+      0.6
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      2,
+      3
+    ],
+    "dropIndex": 1008,
+    "dropExp": 5
+  },
+  "2103": {
+    "index": 2103,
+    "monsterId": 2103,
+    "monsterType": "Common",
+    "maxHp": 200,
+    "atkPower": 25,
+    "moveSpeed": 0,
+    "groggyGauge": 180,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.2,
+      0.5
+    ],
+    "isPatrol": false,
+    "isMove": false,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1008,
+    "dropExp": 5
+  },
+  "2104": {
+    "index": 2104,
+    "monsterId": 2104,
+    "monsterType": "Common",
+    "maxHp": 150,
+    "atkPower": 20,
+    "moveSpeed": 3,
+    "groggyGauge": 120,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.3,
+      0.6
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": true,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1008,
+    "dropExp": 5
+  },
+  "2201": {
+    "index": 2201,
+    "monsterId": 2201,
+    "monsterType": "Elite",
+    "maxHp": 5600,
+    "atkPower": 50,
+    "moveSpeed": 0,
+    "groggyGauge": 1120,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.2,
+      0.4
+    ],
+    "isPatrol": false,
+    "isMove": false,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1010,
+    "dropExp": 5
+  },
+  "2301": {
+    "index": 2301,
+    "monsterId": 2301,
+    "monsterType": "Boss",
+    "maxHp": 6100,
+    "atkPower": 61,
+    "moveSpeed": 150,
+    "groggyGauge": 610,
+    "groggyRecovery": 61,
+    "delayDuration": [
+      0.6,
+      1
+    ],
+    "isPatrol": false,
+    "isMove": false,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1024,
+    "dropExp": 5
+  },
+  "3101": {
+    "index": 3101,
+    "monsterId": 3101,
+    "monsterType": "Common",
+    "maxHp": 310,
+    "atkPower": 40,
+    "moveSpeed": 100,
+    "groggyGauge": 180,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      1,
+      1.2
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1011,
+    "dropExp": 5
+  },
+  "3102": {
+    "index": 3102,
+    "monsterId": 3102,
+    "monsterType": "Common",
+    "maxHp": 320,
+    "atkPower": 45,
+    "moveSpeed": 140,
+    "groggyGauge": 180,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      1,
+      1.2
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1011,
+    "dropExp": 5
+  },
+  "3103": {
+    "index": 3103,
+    "monsterId": 3103,
+    "monsterType": "Common",
+    "maxHp": 380,
+    "atkPower": 50,
+    "moveSpeed": 0,
+    "groggyGauge": 240,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.4,
+      0.8
+    ],
+    "isPatrol": false,
+    "isMove": false,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1012,
+    "dropExp": 5
+  },
+  "3104": {
+    "index": 3104,
+    "monsterId": 3104,
+    "monsterType": "Common",
+    "maxHp": 240,
+    "atkPower": 30,
+    "moveSpeed": 400,
+    "groggyGauge": 120,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.2,
+      0.8
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": true,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1011,
+    "dropExp": 5
+  },
+  "3201": {
+    "index": 3201,
+    "monsterId": 3201,
+    "monsterType": "Elite",
+    "maxHp": 6800,
+    "atkPower": 60,
+    "moveSpeed": 110,
+    "groggyGauge": 9999,
+    "groggyRecovery": 9999,
+    "delayDuration": [
+      0,
+      0.2
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1013,
+    "dropExp": 5
+  },
+  "3301": {
+    "index": 3301,
+    "monsterId": 3301,
+    "monsterType": "Boss",
+    "maxHp": 7800,
+    "atkPower": 35,
+    "moveSpeed": 120,
+    "groggyGauge": 350,
+    "groggyRecovery": 60,
+    "delayDuration": [
+      0.5,
+      1.5
+    ],
+    "isPatrol": false,
+    "isMove": false,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1025,
+    "dropExp": 5
+  },
+  "4101": {
+    "index": 4101,
+    "monsterId": 4101,
+    "monsterType": "Common",
+    "maxHp": 450,
+    "atkPower": 60,
+    "moveSpeed": 250,
+    "groggyGauge": 240,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.2,
+      0.55
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1015,
+    "dropExp": 5
+  },
+  "4102": {
+    "index": 4102,
+    "monsterId": 4102,
+    "monsterType": "Common",
+    "maxHp": 360,
+    "atkPower": 50,
+    "moveSpeed": 220,
+    "groggyGauge": 180,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.3,
+      0.55
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1014,
+    "dropExp": 5
+  },
+  "4103": {
+    "index": 4103,
+    "monsterId": 4103,
+    "monsterType": "Common",
+    "maxHp": 320,
+    "atkPower": 40,
+    "moveSpeed": 220,
+    "groggyGauge": 180,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.3,
+      0.55
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1014,
+    "dropExp": 5
+  },
+  "4104": {
+    "index": 4104,
+    "monsterId": 4104,
+    "monsterType": "Common",
+    "maxHp": 320,
+    "atkPower": 30,
+    "moveSpeed": 220,
+    "groggyGauge": 180,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.3,
+      0.55
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": true,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1014,
+    "dropExp": 5
+  },
+  "4201": {
+    "index": 4201,
+    "monsterId": 4201,
+    "monsterType": "Elite",
+    "maxHp": 11000,
+    "atkPower": 65,
+    "moveSpeed": 220,
+    "groggyGauge": 900,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.3,
+      0.55
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1016,
+    "dropExp": 5
+  },
+  "4301": {
+    "index": 4301,
+    "monsterId": 4301,
+    "monsterType": "Boss",
+    "maxHp": 7800,
+    "atkPower": 35,
+    "moveSpeed": 120,
+    "groggyGauge": 350,
+    "groggyRecovery": 60,
+    "delayDuration": [
+      0.5,
+      1.5
+    ],
+    "isPatrol": false,
+    "isMove": false,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1026,
+    "dropExp": 5
+  },
+  "5101": {
+    "index": 5101,
+    "monsterId": 5101,
+    "monsterType": "Common",
+    "maxHp": 370,
+    "atkPower": 45,
+    "moveSpeed": 100,
+    "groggyGauge": 180,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.2,
+      0.5
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1017,
+    "dropExp": 5
+  },
+  "5102": {
+    "index": 5102,
+    "monsterId": 5102,
+    "monsterType": "Common",
+    "maxHp": 500,
+    "atkPower": 60,
+    "moveSpeed": 100,
+    "groggyGauge": 180,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.2,
+      0.5
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1017,
+    "dropExp": 5
+  },
+  "5103": {
+    "index": 5103,
+    "monsterId": 5103,
+    "monsterType": "Common",
+    "maxHp": 620,
+    "atkPower": 65,
+    "moveSpeed": 100,
+    "groggyGauge": 240,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.2,
+      0.5
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1018,
+    "dropExp": 5
+  },
+  "5104": {
+    "index": 5104,
+    "monsterId": 5104,
+    "monsterType": "Common",
+    "maxHp": 340,
+    "atkPower": 40,
+    "moveSpeed": 100,
+    "groggyGauge": 120,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.2,
+      0.5
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": true,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1017,
+    "dropExp": 5
+  },
+  "5105": {
+    "index": 5105,
+    "monsterId": 5105,
+    "monsterType": "Common",
+    "maxHp": 720,
+    "atkPower": 40,
+    "moveSpeed": 0,
+    "groggyGauge": 9999,
+    "groggyRecovery": 9999,
+    "delayDuration": [
+      0.2,
+      0.5
+    ],
+    "isPatrol": false,
+    "isMove": false,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1017,
+    "dropExp": 5
+  },
+  "5201": {
+    "index": 5201,
+    "monsterId": 5201,
+    "monsterType": "Elite",
+    "maxHp": 11000,
+    "atkPower": 70,
+    "moveSpeed": 0,
+    "groggyGauge": 900,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.2,
+      0.5
+    ],
+    "isPatrol": false,
+    "isMove": false,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1019,
+    "dropExp": 5
+  },
+  "5301": {
+    "index": 5301,
+    "monsterId": 5301,
+    "monsterType": "Boss",
+    "maxHp": 7800,
+    "atkPower": 35,
+    "moveSpeed": 120,
+    "groggyGauge": 350,
+    "groggyRecovery": 60,
+    "delayDuration": [
+      0.5,
+      1.5
+    ],
+    "isPatrol": false,
+    "isMove": false,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1027,
+    "dropExp": 5
+  },
+  "6101": {
+    "index": 6101,
+    "monsterId": 6101,
+    "monsterType": "Common",
+    "maxHp": 460,
+    "atkPower": 50,
+    "moveSpeed": 100,
+    "groggyGauge": 240,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.2,
+      0.5
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1020,
+    "dropExp": 5
+  },
+  "6102": {
+    "index": 6102,
+    "monsterId": 6102,
+    "monsterType": "Common",
+    "maxHp": 630,
+    "atkPower": 70,
+    "moveSpeed": 100,
+    "groggyGauge": 240,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.2,
+      0.5
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1020,
+    "dropExp": 5
+  },
+  "6103": {
+    "index": 6103,
+    "monsterId": 6103,
+    "monsterType": "Common",
+    "maxHp": 720,
+    "atkPower": 80,
+    "moveSpeed": 100,
+    "groggyGauge": 300,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.2,
+      0.5
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1021,
+    "dropExp": 5
+  },
+  "6104": {
+    "index": 6104,
+    "monsterId": 6104,
+    "monsterType": "Common",
+    "maxHp": 420,
+    "atkPower": 40,
+    "moveSpeed": 100,
+    "groggyGauge": 180,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.2,
+      0.5
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": true,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1020,
+    "dropExp": 5
+  },
+  "6201": {
+    "index": 6201,
+    "monsterId": 6201,
+    "monsterType": "Elite",
+    "maxHp": 16000,
+    "atkPower": 70,
+    "moveSpeed": 220,
+    "groggyGauge": 1120,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.2,
+      0.5
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1022,
+    "dropExp": 5
+  },
+  "6301": {
+    "index": 6301,
+    "monsterId": 6301,
+    "monsterType": "Boss",
+    "maxHp": 7800,
+    "atkPower": 35,
+    "moveSpeed": 120,
+    "groggyGauge": 350,
+    "groggyRecovery": 60,
+    "delayDuration": [
+      0.5,
+      1.5
+    ],
+    "isPatrol": false,
+    "isMove": false,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1028,
+    "dropExp": 5
+  },
+  "7101": {
+    "index": 7101,
+    "monsterId": 7101,
+    "monsterType": "Common",
+    "maxHp": 170,
+    "atkPower": 30,
+    "moveSpeed": 80,
+    "groggyGauge": 150,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.2,
+      0.5
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1005,
+    "dropExp": 5
+  },
+  "7102": {
+    "index": 7102,
+    "monsterId": 7102,
+    "monsterType": "Common",
+    "maxHp": 550,
+    "atkPower": 40,
+    "moveSpeed": 100,
+    "groggyGauge": 450,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.8,
+      0.9
+    ],
+    "isPatrol": true,
+    "isMove": true,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1005,
+    "dropExp": 5
+  },
+  "7104": {
+    "index": 7104,
+    "monsterId": 7104,
+    "monsterType": "Common",
+    "maxHp": 140,
+    "atkPower": 30,
+    "moveSpeed": 0,
+    "groggyGauge": 60,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.5,
+      0.7
+    ],
+    "isPatrol": false,
+    "isMove": false,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1005,
+    "dropExp": 5
+  },
+  "7105": {
+    "index": 7105,
+    "monsterId": 7105,
+    "monsterType": "Common",
+    "maxHp": 520,
+    "atkPower": 80,
+    "moveSpeed": 0,
+    "groggyGauge": 420,
+    "groggyRecovery": 30,
+    "delayDuration": [
+      0.5,
+      0.7
+    ],
+    "isPatrol": false,
+    "isMove": false,
+    "isFlying": false,
+    "patrolDuration": [
+      3,
+      5
+    ],
+    "dropIndex": 1006,
+    "dropExp": 5
+  }
+}

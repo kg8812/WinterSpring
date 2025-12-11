@@ -1,0 +1,3 @@
+Debuff_Atk,Debuff_Def, Debuff_AtkSpeed, Debuff_MoveSpeed, Debuff_CritProb, Debuff_CritDmg, 
+Debuff_CD, Debuff_Mentality, Debuff_MaxHp, Debuff_DmgReduce, Debuff_ExtraDmg, 
+Debuff_GoldRate, Debuff_HealRate,Debuff_ShieldRate,

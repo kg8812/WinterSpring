@@ -1,0 +1,2 @@
+Buff_DoubleJump, Debuff_SequenceStack, Buff_Warmth,MarkStack,StarEye,Celerity,HunterStack
+,RefinedAnger,DisCharge,ExpansionBullet

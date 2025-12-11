@@ -1,0 +1,17 @@
+IceFlower.png
+size:2048,2048
+pma:true
+scale:0.5
+IceFlowerHead
+bounds:2,981,458,541
+IceFlowerRoot
+bounds:461,843,679,239
+rotate:90
+IceFlowerStick
+bounds:2,148,650,922
+rotate:270
+IceFlowerSub01
+bounds:492,2,430,459
+IceFlowerSub02
+bounds:2,414,666,510
+rotate:180

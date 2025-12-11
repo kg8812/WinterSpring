@@ -1,0 +1,2 @@
+Buff_Atk,Buff_Def, Buff_AtkSpeed, Buff_MoveSpeed, Buff_CritProb, Buff_CritDmg, Buff_CD, Buff_Mentality, Buff_MaxHp, Buff_DmgReduce, Buff_ExtraDmg, 
+Buff_GoldRate,Buff_HealRate,Buff_ShieldRate,Buff_AllStat,

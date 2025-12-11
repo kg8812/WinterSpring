@@ -1,0 +1,1 @@
+Buff_MaxHpRegen, Buff_LostHpRegen, Buff_HpRegen, Buff_LifeSteal, Buff_ShieldHpRegen

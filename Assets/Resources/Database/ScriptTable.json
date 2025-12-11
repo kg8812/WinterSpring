@@ -1,0 +1,154 @@
+﻿{
+  "910100": {
+    "speaker": 9101,
+    "index": 0,
+    "priority": 1,
+    "unique": false,
+    "isAuto": false,
+    "duration": [
+      0
+    ],
+    "scriptsKor": [
+      "상점을 이용하시겠습니까?"
+    ]
+  },
+  "910101": {
+    "speaker": 9101,
+    "index": 1,
+    "priority": 1,
+    "unique": false,
+    "isAuto": false,
+    "duration": [
+      0
+    ],
+    "scriptsKor": [
+      "맛있는 과일 사세요~",
+      "오늘 들여왔습니다~"
+    ]
+  },
+  "910102": {
+    "speaker": 9101,
+    "index": 2,
+    "priority": 1,
+    "unique": false,
+    "isAuto": false,
+    "duration": [
+      0
+    ],
+    "scriptsKor": [
+      "환영합니다!"
+    ]
+  },
+  "910200": {
+    "speaker": 9102,
+    "index": 0,
+    "priority": 1,
+    "unique": false,
+    "isAuto": false,
+    "duration": [
+      0
+    ],
+    "scriptsKor": [
+      "난 코 큰 사람이 싫어.",
+      "왜냐고? 그냥 싫어"
+    ]
+  },
+  "910201": {
+    "speaker": 9102,
+    "index": 1,
+    "priority": 1,
+    "unique": false,
+    "isAuto": false,
+    "duration": [
+      0
+    ],
+    "scriptsKor": [
+      "어이 형씨, 돈 좀 줘."
+    ]
+  },
+  "910300": {
+    "speaker": 9103,
+    "index": 0,
+    "priority": 2,
+    "unique": true,
+    "isAuto": false,
+    "duration": [
+      0
+    ],
+    "scriptsKor": [
+      "지도....살래..?",
+      "있으면 분명... 좋은 일이 있을거야."
+    ]
+  },
+  "910301": {
+    "speaker": 9103,
+    "index": 1,
+    "priority": 1,
+    "unique": false,
+    "isAuto": false,
+    "duration": [
+      0
+    ],
+    "scriptsKor": [
+      "더...더 이상 상세하기 그리긴 어려워..."
+    ]
+  },
+  "910400": {
+    "speaker": 9104,
+    "index": 0,
+    "priority": 2,
+    "unique": true,
+    "isAuto": true,
+    "duration": [
+      2
+    ],
+    "scriptsKor": [
+      "너 스스로를 지킬 줄 알아야 해."
+    ]
+  },
+  "910401": {
+    "speaker": 9104,
+    "index": 1,
+    "priority": 1,
+    "unique": true,
+    "isAuto": true,
+    "duration": [
+      3,
+      3,
+      3
+    ],
+    "scriptsKor": [
+      "네가 깨어나기까지 오랜 시간이 걸렸단다.",
+      "어떤 것들은, 기나긴 겨울을 견디지 못했어.",
+      "그럼에도 남아 있는 것이 있을 거야."
+    ]
+  },
+  "910402": {
+    "speaker": 9104,
+    "index": 2,
+    "priority": 0,
+    "unique": false,
+    "isAuto": true,
+    "duration": [
+      1,
+      0
+    ],
+    "scriptsKor": [
+      "창고에 또 가 보고 싶니?",
+      "~튜토리얼을 다시 시작하시겠습니까?#3^-1"
+    ]
+  },
+  "910403": {
+    "speaker": 9104,
+    "index": 3,
+    "priority": 0,
+    "unique": false,
+    "isAuto": true,
+    "duration": [
+      2
+    ],
+    "scriptsKor": [
+      "조심히 다녀오렴<?startTutorial>"
+    ]
+  }
+}

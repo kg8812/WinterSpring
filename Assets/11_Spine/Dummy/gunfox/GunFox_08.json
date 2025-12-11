@@ -1,0 +1,483 @@
+{
+"skeleton": {
+	"hash": "k7puqYF618M",
+	"spine": "4.1.23",
+	"x": -924.24,
+	"y": -33.32,
+	"width": 2002,
+	"height": 855,
+	"images": "./out/",
+	"audio": "D:/ART_work/001.작업/spine/winter_spring"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "GunFox_08", "parent": "root", "x": -0.09, "y": 120.29 },
+	{ "name": "body", "parent": "GunFox_08", "x": 9.5, "y": 165.37 },
+	{ "name": "body2", "parent": "body", "length": 151.41, "rotation": 42.66, "x": -12.14, "y": 136.21 },
+	{ "name": "head", "parent": "body2", "length": 147.5, "rotation": -67.48, "x": 156.15, "y": -7.77 },
+	{ "name": "arm", "parent": "body2", "length": 106.2, "rotation": -121.83, "x": 84.01, "y": 4.93 },
+	{ "name": "elbow", "parent": "arm", "length": 877.1, "rotation": 85.14, "x": 106.03, "y": -0.01 },
+	{ "name": "target", "parent": "root", "x": 945.82, "y": 468.54, "color": "ff3f00ff" }
+],
+"slots": [
+	{ "name": "under", "bone": "body", "attachment": "under" },
+	{ "name": "gun", "bone": "elbow", "attachment": "gun" },
+	{ "name": "head", "bone": "head", "attachment": "head" },
+	{ "name": "body", "bone": "body2", "attachment": "body" },
+	{ "name": "arm", "bone": "arm", "attachment": "arm" }
+],
+"ik": [
+	{
+		"name": "target",
+		"bones": [ "elbow" ],
+		"target": "target",
+		"mix": 0
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"arm": {
+				"arm": { "x": 46.18, "y": -4.73, "rotation": 79.17, "width": 90, "height": 123 }
+			},
+			"body": {
+				"body": { "x": 64.83, "y": 201.75, "rotation": -42.66, "width": 395, "height": 415 }
+			},
+			"gun": {
+				"gun": { "x": 402.45, "y": -22.62, "rotation": -5.97, "width": 1199, "height": 284 }
+			},
+			"head": {
+				"head": { "x": 46.04, "y": 64.51, "rotation": 24.83, "width": 245, "height": 297 }
+			},
+			"under": {
+				"under": { "x": -251.16, "y": 74.02, "width": 1365, "height": 786 }
+			}
+		}
+	}
+],
+"animations": {
+	"attack": {
+		"bones": {
+			"body2": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{
+						"time": 1,
+						"curve": [ 1.006, -5.78, 1.022, -22.78, 1.011, 0, 1.022, 0 ]
+					},
+					{
+						"time": 1.0333,
+						"x": -22.78,
+						"curve": [ 1.122, -22.78, 1.211, 0, 1.122, 0, 1.211, 0 ]
+					},
+					{ "time": 1.3 }
+				]
+			},
+			"arm": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1 },
+					{ "time": 1.0333, "value": -43.44 },
+					{ "time": 1.3 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1 },
+					{ "time": 1.0333, "x": -32.96, "y": -9.99 },
+					{ "time": 1.3 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{
+						"time": 1,
+						"curve": [ 1.021, -19.62, 1.044, -31.98, 1.021, -0.8, 1.044, -1.31 ]
+					},
+					{
+						"time": 1.0667,
+						"x": -31.98,
+						"y": -1.31,
+						"curve": [ 1.144, -31.98, 1.222, 0, 1.144, -1.31, 1.222, 0 ]
+					},
+					{ "time": 1.3 }
+				]
+			},
+			"elbow": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				]
+			}
+		},
+		"ik": {
+			"target": [
+				{}
+			]
+		}
+	},
+	"attack_end": {
+		"bones": {
+			"body2": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.0333 },
+					{ "time": 0.1333, "value": 18.8, "curve": "stepped" },
+					{ "time": 0.4333, "value": 18.8 },
+					{ "time": 0.5333, "value": 42.64, "curve": "stepped" },
+					{ "time": 0.7, "value": 42.64 },
+					{ "time": 0.7667, "value": 41.21 },
+					{ "time": 0.8333, "value": 53.64 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.0667 },
+					{ "time": 0.1667, "x": 2.76, "y": 6.65, "curve": "stepped" },
+					{ "time": 0.3667, "x": 2.76, "y": 6.65 },
+					{ "time": 0.4333, "x": 5.24, "y": 4.17 },
+					{ "time": 0.5333, "x": 6.24, "y": 5.66 },
+					{ "time": 0.5667, "x": 15.68, "y": 5.66, "curve": "stepped" },
+					{
+						"time": 0.7667,
+						"x": 15.68,
+						"y": 5.66,
+						"curve": [ 0.789, 15.68, 0.811, 14.07, 0.789, 5.66, 0.811, 15.35 ]
+					},
+					{ "time": 0.8333, "x": 14.07, "y": 15.35 }
+				]
+			},
+			"arm": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "value": -29.14, "curve": "stepped" },
+					{ "time": 0.3333, "value": -29.14 },
+					{ "time": 0.4333, "value": -58.55, "curve": "stepped" },
+					{ "time": 0.7, "value": -58.55 },
+					{ "time": 0.7667, "value": -70.71 },
+					{ "time": 0.8333, "value": -62.44 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1667, "x": -14.22, "y": -4.33, "curve": "stepped" },
+					{ "time": 0.3333, "x": -14.22, "y": -4.33 },
+					{ "time": 0.4333, "x": -18.42, "y": 15.69, "curve": "stepped" },
+					{ "time": 0.7667, "x": -18.42, "y": 15.69 },
+					{ "time": 0.8333, "x": 18.76, "y": 41.68 }
+				]
+			},
+			"elbow": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "value": -1.65, "curve": "stepped" },
+					{ "time": 0.3667, "value": -1.65 },
+					{ "time": 0.4333, "value": 30.97, "curve": "stepped" },
+					{ "time": 0.7333, "value": 30.97 },
+					{ "time": 0.8333, "value": 92.98 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1667, "x": -0.61, "y": -2.27, "curve": "stepped" },
+					{ "time": 0.3667, "x": -0.61, "y": -2.27, "curve": "stepped" },
+					{ "time": 0.4333, "x": -0.61, "y": -2.27, "curve": "stepped" },
+					{ "time": 0.7333, "x": -0.61, "y": -2.27 },
+					{ "time": 0.8333, "x": 21.07, "y": 70.43 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.0333 },
+					{ "time": 0.1333, "value": -20.27, "curve": "stepped" },
+					{ "time": 0.3667, "value": -20.27 },
+					{ "time": 0.4333, "value": -13.99 },
+					{ "time": 0.4667, "value": -25.71, "curve": "stepped" },
+					{ "time": 0.7667, "value": -25.71 },
+					{ "time": 0.8333, "value": -33.78 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.0667 },
+					{ "time": 0.1667, "x": -11.29, "y": 0.9, "curve": "stepped" },
+					{ "time": 0.3667, "x": -11.29, "y": 0.9 },
+					{ "time": 0.4333, "x": -7.75, "y": 5.2 },
+					{ "time": 0.4667, "x": -10.52, "y": -10.45, "curve": "stepped" },
+					{ "time": 0.7667, "x": -10.52, "y": -10.45 },
+					{ "time": 0.8333 }
+				]
+			}
+		},
+		"ik": {
+			"target": [
+				{},
+				{ "time": 0.0667, "mix": 0, "curve": "stepped" },
+				{ "time": 0.8333, "mix": 0 }
+			]
+		},
+		"drawOrder": [
+			{},
+			{
+				"time": 0.3,
+				"offsets": [
+					{ "slot": "gun", "offset": 3 }
+				]
+			}
+		]
+	},
+	"attack_ready": {
+		"bones": {
+			"body2": {
+				"rotate": [
+					{ "value": 53.64 },
+					{ "time": 0.0667, "value": 41.21 },
+					{ "time": 0.1333, "value": 42.64, "curve": "stepped" },
+					{ "time": 0.3, "value": 42.64 },
+					{ "time": 0.4333, "value": 18.8, "curve": "stepped" },
+					{ "time": 0.7333, "value": 18.8 },
+					{ "time": 0.8333 }
+				],
+				"translate": [
+					{
+						"x": 14.07,
+						"y": 15.35,
+						"curve": [ 0.033, 14.07, 0.033, 15.68, 0.033, 15.35, 0.033, 5.66 ]
+					},
+					{ "time": 0.0667, "x": 15.68, "y": 5.66, "curve": "stepped" },
+					{ "time": 0.2667, "x": 15.68, "y": 5.66 },
+					{ "time": 0.3, "x": 6.24, "y": 5.66 },
+					{ "time": 0.4, "x": 5.24, "y": 4.17 },
+					{ "time": 0.5, "x": 2.76, "y": 6.65, "curve": "stepped" },
+					{ "time": 0.7, "x": 2.76, "y": 6.65 },
+					{ "time": 0.8 }
+				]
+			},
+			"arm": {
+				"rotate": [
+					{ "value": -62.44 },
+					{ "time": 0.0667, "value": -70.71 },
+					{ "time": 0.1333, "value": -58.55, "curve": "stepped" },
+					{ "time": 0.4333, "value": -58.55 },
+					{ "time": 0.5333, "value": -29.14, "curve": "stepped" },
+					{ "time": 0.7, "value": -29.14 },
+					{ "time": 0.8667 }
+				],
+				"translate": [
+					{ "x": 18.76, "y": 41.68 },
+					{ "time": 0.0667, "x": -18.42, "y": 15.69, "curve": "stepped" },
+					{ "time": 0.4333, "x": -18.42, "y": 15.69 },
+					{ "time": 0.5333, "x": -14.22, "y": -4.33, "curve": "stepped" },
+					{ "time": 0.7, "x": -14.22, "y": -4.33 },
+					{ "time": 0.8667 }
+				]
+			},
+			"elbow": {
+				"rotate": [
+					{ "value": 92.98 },
+					{ "time": 0.1, "value": 30.97, "curve": "stepped" },
+					{ "time": 0.4333, "value": 30.97 },
+					{ "time": 0.5, "value": -1.65, "curve": "stepped" },
+					{ "time": 0.7, "value": -1.65 },
+					{ "time": 0.8667 }
+				],
+				"translate": [
+					{ "x": 21.07, "y": 70.43 },
+					{ "time": 0.1, "x": -0.61, "y": -2.27, "curve": "stepped" },
+					{ "time": 0.4333, "x": -0.61, "y": -2.27, "curve": "stepped" },
+					{ "time": 0.5, "x": -0.61, "y": -2.27, "curve": "stepped" },
+					{ "time": 0.7, "x": -0.61, "y": -2.27 },
+					{ "time": 0.8667 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "value": -33.78 },
+					{ "time": 0.0667, "value": -25.71, "curve": "stepped" },
+					{ "time": 0.3667, "value": -25.71 },
+					{ "time": 0.4, "value": -13.99 },
+					{ "time": 0.5, "value": -20.27, "curve": "stepped" },
+					{ "time": 0.7333, "value": -20.27 },
+					{ "time": 0.8333 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.0667, "x": -10.52, "y": -10.45, "curve": "stepped" },
+					{ "time": 0.3667, "x": -10.52, "y": -10.45 },
+					{ "time": 0.4333, "x": -7.75, "y": 5.2 },
+					{ "time": 0.5, "x": -11.29, "y": 0.9, "curve": "stepped" },
+					{ "time": 0.7, "x": -11.29, "y": 0.9 },
+					{ "time": 0.8 }
+				]
+			}
+		},
+		"ik": {
+			"target": [
+				{ "mix": 0, "curve": "stepped" },
+				{ "time": 0.8, "mix": 0 },
+				{ "time": 0.8667 }
+			]
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "gun", "offset": 3 }
+				]
+			},
+			{ "time": 0.7 }
+		]
+	},
+	"damaged": {},
+	"dead": {
+		"bones": {
+			"body2": {
+				"rotate": [
+					{ "value": 53.64, "curve": "stepped" },
+					{
+						"time": 0.1333,
+						"value": 53.64,
+						"curve": [ 0.533, 53.34, 0.516, 41.03 ]
+					},
+					{
+						"time": 0.5333,
+						"value": 35.88,
+						"curve": [ 0.692, 30.1, 1.019, 11.61 ]
+					},
+					{ "time": 1.1, "value": -32.88 }
+				],
+				"translate": [
+					{
+						"x": 14.07,
+						"y": 15.35,
+						"curve": [ 0.5, 14.07, 0.479, 14.07, 0.5, 8.43, 0.479, -289.72 ]
+					},
+					{
+						"time": 0.5,
+						"x": 14.07,
+						"y": -409.1,
+						"curve": [ 0.522, 14.07, 0.544, 14.07, 0.5, -410.79, 0.544, -392.23 ]
+					},
+					{ "time": 0.5667, "x": 14.07, "y": -392.23 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{
+						"value": -33.78,
+						"curve": [ 0.156, -33.78, 0.454, -46.77 ]
+					},
+					{
+						"time": 0.4667,
+						"value": -61.38,
+						"curve": [ 0.622, -61.38, 0.889, -40.31 ]
+					},
+					{
+						"time": 0.9333,
+						"value": -27.49,
+						"curve": [ 0.989, -27.49, 1.071, 20.7 ]
+					},
+					{ "time": 1.1, "value": 31.63 }
+				],
+				"translate": [
+					{
+						"curve": [ 0.156, 0, 0.454, -45.28, 0.156, 0, 0.454, -19.85 ]
+					},
+					{
+						"time": 0.4667,
+						"x": -96.21,
+						"y": -42.19,
+						"curve": [ 0.622, -96.21, 0.889, -35.92, 0.622, -42.19, 0.889, -52.4 ]
+					},
+					{
+						"time": 0.9333,
+						"x": 0.75,
+						"y": -58.6,
+						"curve": [ 0.989, 0.75, 1.071, 65, 0.989, -58.6, 1.071, -17.59 ]
+					},
+					{ "time": 1.1, "x": 79.58, "y": -8.29 }
+				]
+			},
+			"arm": {
+				"rotate": [
+					{ "value": -62.44 }
+				],
+				"translate": [
+					{ "x": 18.76, "y": 41.68 }
+				]
+			},
+			"elbow": {
+				"rotate": [
+					{ "value": 92.98 }
+				],
+				"translate": [
+					{ "x": 21.07, "y": 70.43 }
+				]
+			}
+		},
+		"ik": {
+			"target": [
+				{ "mix": 0 }
+			]
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "gun", "offset": 3 }
+				]
+			}
+		]
+	},
+	"groggy": {},
+	"idle": {
+		"bones": {
+			"body2": {
+				"rotate": [
+					{ "value": 53.64 }
+				],
+				"translate": [
+					{ "x": 14.07, "y": 15.35 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "value": -33.78 }
+				]
+			},
+			"arm": {
+				"rotate": [
+					{ "value": -62.44 }
+				],
+				"translate": [
+					{ "x": 18.76, "y": 41.68 }
+				]
+			},
+			"elbow": {
+				"rotate": [
+					{ "value": 92.98 }
+				],
+				"translate": [
+					{ "x": 21.07, "y": 70.43 }
+				]
+			}
+		},
+		"ik": {
+			"target": [
+				{ "mix": 0 }
+			]
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "gun", "offset": 3 }
+				]
+			}
+		]
+	}
+}
+}

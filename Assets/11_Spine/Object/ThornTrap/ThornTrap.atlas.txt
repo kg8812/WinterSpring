@@ -1,0 +1,19 @@
+ThornTrap.png
+size:1024,1024
+pma:true
+scale:0.5
+레이어 1
+bounds:2,457,452,314
+offsets:256,338,1002,1002
+레이어 2
+bounds:2,184,485,280
+offsets:263,350,1002,1002
+rotate:180
+레이어 4
+bounds:421,359,412,237
+offsets:278,372,1002,1002
+rotate:90
+레이어 5
+bounds:529,165,344,242
+offsets:331,354,1002,1002
+rotate:90

@@ -1,0 +1,298 @@
+{
+  "0": {
+    "index": 0,
+    "typeName": "Buff_DoubleJump"
+  },
+  "1": {
+    "index": 1,
+    "typeName": "Debuff_SequenceStack"
+  },
+  "2": {
+    "index": 2,
+    "typeName": "Buff_Warmth"
+  },
+  "3": {
+    "index": 3,
+    "typeName": "MarkStack"
+  },
+  "4": {
+    "index": 4,
+    "typeName": "StarEye"
+  },
+  "5": {
+    "index": 5,
+    "typeName": "Celerity"
+  },
+  "6": {
+    "index": 6,
+    "typeName": "HunterStack"
+  },
+  "7": {
+    "index": 7,
+    "typeName": "RefinedAnger"
+  },
+  "8": {
+    "index": 8,
+    "typeName": "DisCharge"
+  },
+  "9": {
+    "index": 9,
+    "typeName": "ExpansionBullet"
+  },
+  "100": {
+    "index": 100,
+    "typeName": "Buff_Atk"
+  },
+  "101": {
+    "index": 101,
+    "typeName": "Buff_Def"
+  },
+  "102": {
+    "index": 102,
+    "typeName": "Buff_AtkSpeed"
+  },
+  "103": {
+    "index": 103,
+    "typeName": "Buff_MoveSpeed"
+  },
+  "104": {
+    "index": 104,
+    "typeName": "Buff_CritProb"
+  },
+  "105": {
+    "index": 105,
+    "typeName": "Buff_CritDmg"
+  },
+  "106": {
+    "index": 106,
+    "typeName": "Buff_CD"
+  },
+  "107": {
+    "index": 107,
+    "typeName": "Buff_Mentality"
+  },
+  "108": {
+    "index": 108,
+    "typeName": "Buff_MaxHp"
+  },
+  "109": {
+    "index": 109,
+    "typeName": "Buff_DmgReduce"
+  },
+  "110": {
+    "index": 110,
+    "typeName": "Buff_ExtraDmg"
+  },
+  "111": {
+    "index": 111,
+    "typeName": "Buff_GoldRate"
+  },
+  "112": {
+    "index": 112,
+    "typeName": "Buff_HealRate"
+  },
+  "113": {
+    "index": 113,
+    "typeName": "Buff_ShieldRate"
+  },
+  "114": {
+    "index": 114,
+    "typeName": "Buff_AllStat"
+  },
+  "200": {
+    "index": 200,
+    "typeName": "Debuff_Atk"
+  },
+  "201": {
+    "index": 201,
+    "typeName": "Debuff_Def"
+  },
+  "202": {
+    "index": 202,
+    "typeName": "Debuff_AtkSpeed"
+  },
+  "203": {
+    "index": 203,
+    "typeName": "Debuff_MoveSpeed"
+  },
+  "204": {
+    "index": 204,
+    "typeName": "Debuff_CritProb"
+  },
+  "205": {
+    "index": 205,
+    "typeName": "Debuff_CritDmg"
+  },
+  "206": {
+    "index": 206,
+    "typeName": "Debuff_CD"
+  },
+  "207": {
+    "index": 207,
+    "typeName": "Debuff_Mentality"
+  },
+  "208": {
+    "index": 208,
+    "typeName": "Debuff_MaxHp"
+  },
+  "209": {
+    "index": 209,
+    "typeName": "Debuff_DmgReduce"
+  },
+  "210": {
+    "index": 210,
+    "typeName": "Debuff_ExtraDmg"
+  },
+  "211": {
+    "index": 211,
+    "typeName": "Debuff_GoldRate"
+  },
+  "212": {
+    "index": 212,
+    "typeName": "Debuff_HealRate"
+  },
+  "213": {
+    "index": 213,
+    "typeName": "Debuff_ShieldRate"
+  },
+  "300": {
+    "index": 300,
+    "typeName": "Buff_BasicAtkEnhance"
+  },
+  "400": {
+    "index": 400,
+    "typeName": "Debuff_Stun"
+  },
+  "401": {
+    "index": 401,
+    "typeName": "Debuff_Chill"
+  },
+  "402": {
+    "index": 402,
+    "typeName": "Debuff_Frozen"
+  },
+  "403": {
+    "index": 403,
+    "typeName": "Debuff_Grab"
+  },
+  "404": {
+    "index": 404,
+    "typeName": "Debuff_KnockBack"
+  },
+  "405": {
+    "index": 405,
+    "typeName": "Debuff_BonusDmg"
+  },
+  "406": {
+    "index": 406,
+    "typeName": "Debuff_Execution"
+  },
+  "407": {
+    "index": 407,
+    "typeName": "Debuff_Tied"
+  },
+  "600": {
+    "index": 600,
+    "typeName": "Debuff_Burn"
+  },
+  "601": {
+    "index": 601,
+    "typeName": "Debuff_Poison"
+  },
+  "602": {
+    "index": 602,
+    "typeName": "Debuff_Bleed"
+  },
+  "603": {
+    "index": 603,
+    "typeName": "Debuff_RasenganResidue"
+  },
+  "700": {
+    "index": 700,
+    "typeName": "Buff_LostHpRegen"
+  },
+  "701": {
+    "index": 701,
+    "typeName": "Buff_MaxHpRegen"
+  },
+  "702": {
+    "index": 702,
+    "typeName": "Buff_HpRegen"
+  },
+  "703": {
+    "index": 703,
+    "typeName": "Buff_LifeSteal"
+  },
+  "704": {
+    "index": 704,
+    "typeName": "Buff_ShieldHpRegen"
+  },
+  "800": {
+    "index": 800,
+    "typeName": "Buff_Barrier"
+  },
+  "801": {
+    "index": 801,
+    "typeName": "Buff_DefBarrier"
+  },
+  "1100": {
+    "index": 1100,
+    "typeName": "Debuff_MaxHpLose"
+  },
+  "1101": {
+    "index": 1101,
+    "typeName": "Debuff_LostHpLose"
+  },
+  "1102": {
+    "index": 1102,
+    "typeName": "Debuff_HpLose"
+  },
+  "1103": {
+    "index": 1103,
+    "typeName": "Debuff_AtkHpLose"
+  },
+  "1104": {
+    "index": 1104,
+    "typeName": "Debuff_CurHpLose"
+  },
+  "1105": {
+    "index": 1105,
+    "typeName": "Debuff_GroggyLose"
+  },
+  "1300": {
+    "index": 1300,
+    "typeName": "Buff_Sight"
+  },
+  "1301": {
+    "index": 1301,
+    "typeName": "Buff_AirDashCount"
+  },
+  "1302": {
+    "index": 1302,
+    "typeName": "Buff_RepairValue"
+  },
+  "1303": {
+    "index": 1303,
+    "typeName": "Buff_RepairCount"
+  },
+  "1304": {
+    "index": 1304,
+    "typeName": "Buff_WeaponCD"
+  },
+  "1305": {
+    "index": 1305,
+    "typeName": "Buff_SkillDmg"
+  },
+  "1306": {
+    "index": 1306,
+    "typeName": "Buff_DashRange"
+  },
+  "1400": {
+    "index": 1400,
+    "typeName": "Buff_ActiveDuration"
+  },
+  "1401": {
+    "index": 1401,
+    "typeName": "Buff_ActiveCD"
+  }
+}

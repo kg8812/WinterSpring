@@ -1,0 +1,319 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8757600761542118479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbdb51727408c30499e0d43372f22791, type: 3}
+  m_Name: IfBossState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 84eedee3d1530f649879b2c72d75d3fd
+  position: {x: -456.80005, y: 843.2}
+  description: Attack
+  blackBoard: {}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 0}
+  boss: {fileID: 0}
+  stateList: 
+--- !u!114 &-8045995736854455343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbdb51727408c30499e0d43372f22791, type: 3}
+  m_Name: IfBossState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 07ebee7e0a95dcf4d8a3b2847c6c262b
+  position: {x: -825.59985, y: 835.2}
+  description: Move
+  blackBoard: {}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 0}
+  boss: {fileID: 0}
+  stateList: 
+--- !u!114 &-7484511668708923397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbdb51727408c30499e0d43372f22791, type: 3}
+  m_Name: IfBossState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 872ca7ecd7e6ad74e96df2ed20e21f44
+  position: {x: 3.1999512, y: 843.2}
+  description: Groggy
+  blackBoard: {}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 0}
+  boss: {fileID: 0}
+  stateList: 
+--- !u!114 &-6778961687416648959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbdb51727408c30499e0d43372f22791, type: 3}
+  m_Name: IfBossState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: e4213a20f57b78848bf33fb800583b20
+  position: {x: 430.40015, y: 851.2}
+  description: Down
+  blackBoard: {}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 0}
+  boss: {fileID: 0}
+  stateList: 
+--- !u!114 &-5685364209319855979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 045b3d6de84bedc4c88f953c12c7a5c3, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 1639acf5b944ca84280969e47e86b8e5
+  position: {x: -84, y: 96.79999}
+  description: 
+  blackBoard: {}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: -1004130031816935174}
+--- !u!114 &-4697916155608154680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbdb51727408c30499e0d43372f22791, type: 3}
+  m_Name: IfBossState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 5d31e36a7396ad44b82a166a6f44a63a
+  position: {x: -220, y: 835.2}
+  description: Delay
+  blackBoard: {}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 0}
+  boss: {fileID: 0}
+  stateList: 
+--- !u!114 &-2314737561429402105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbdb51727408c30499e0d43372f22791, type: 3}
+  m_Name: IfBossState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 577e06fad2497174a91b159285913bdc
+  position: {x: -1611.2, y: 545.60004}
+  description: Wait
+  blackBoard: {}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 0}
+  boss: {fileID: 0}
+  stateList: 
+--- !u!114 &-1004130031816935174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e49b564260952a641a103e07191353f8, type: 3}
+  m_Name: SequenceNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 37c0aeb4cce2e6b46960b69b85ccc0f7
+  position: {x: -108.80005, y: 248}
+  description: 
+  blackBoard: {}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: 5115552450320108859}
+--- !u!114 &-578898294183732554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbdb51727408c30499e0d43372f22791, type: 3}
+  m_Name: IfBossState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 5bf27cf77a02f5c4897fb669a24bdc6f
+  position: {x: 215.19995, y: 843.2}
+  description: Transform
+  blackBoard: {}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 0}
+  boss: {fileID: 0}
+  stateList: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf138383b1605d4b9606f1434a09fcb, type: 3}
+  m_Name: BossTreeBase
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: -5685364209319855979}
+  treeState: 0
+  nodes:
+  - {fileID: -5685364209319855979}
+  - {fileID: 5115552450320108859}
+  - {fileID: -2314737561429402105}
+  - {fileID: 5949558749259043085}
+  - {fileID: -8045995736854455343}
+  - {fileID: -8757600761542118479}
+  - {fileID: -4697916155608154680}
+  - {fileID: -7484511668708923397}
+  - {fileID: -578898294183732554}
+  - {fileID: -6778961687416648959}
+  - {fileID: -1004130031816935174}
+  blackboard: {}
+  actor: {fileID: 0}
+--- !u!114 &5115552450320108859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f2e0707f2e91d4daf5f7f971bc7a06, type: 3}
+  m_Name: SelectNode
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: c630ddef1c6ecc043a547730922bdab7
+  position: {x: -110.3999, y: 385.60004}
+  description: 
+  blackBoard: {}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  children:
+  - {fileID: -2314737561429402105}
+  - {fileID: 5949558749259043085}
+  - {fileID: -8045995736854455343}
+  - {fileID: -8757600761542118479}
+  - {fileID: -4697916155608154680}
+  - {fileID: -7484511668708923397}
+  - {fileID: -578898294183732554}
+  - {fileID: -6778961687416648959}
+--- !u!114 &5949558749259043085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbdb51727408c30499e0d43372f22791, type: 3}
+  m_Name: IfBossState
+  m_EditorClassIdentifier: 
+  state: 0
+  isStarted: 0
+  guid: 0038d6c786881e543be39305fcfc1208
+  position: {x: -1412.8, y: 537.60004}
+  description: Prepare
+  blackBoard: {}
+  actor: {fileID: 0}
+  tree: {fileID: 0}
+  OnAlert:
+    m_PersistentCalls:
+      m_Calls: []
+  child: {fileID: 0}
+  boss: {fileID: 0}
+  stateList: 

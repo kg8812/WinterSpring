@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/03_Prefabs/Directing.meta
+guid: 2f90139aef41eac4fae0970c39a5e12d
+========
+guid: eeda36fa26c640a4da0fadf5f8f211ef
+>>>>>>>> develop:Assets/08_Animations/Player/AttackColliders.meta
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

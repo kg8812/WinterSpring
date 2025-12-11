@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ViichanOverrider
+  m_Controller: {fileID: 9100000, guid: 67c2201662cd8fc4b8af7cf640d28be8, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 4579150137219156396, guid: 2721a74a79287104594dfe2b77437150, type: 2}
+    m_OverrideClip: {fileID: 385174756342284679, guid: 7bf07a7b55d65c34b9248f37f7234ec2, type: 2}
+  - m_OriginalClip: {fileID: -337050070069615848, guid: 2721a74a79287104594dfe2b77437150, type: 2}
+    m_OverrideClip: {fileID: 8507901861630409896, guid: 7bf07a7b55d65c34b9248f37f7234ec2, type: 2}
+  - m_OriginalClip: {fileID: -6322417298287157121, guid: 7bf07a7b55d65c34b9248f37f7234ec2, type: 2}
+    m_OverrideClip: {fileID: -6322417298287157121, guid: 7bf07a7b55d65c34b9248f37f7234ec2, type: 2}
+  - m_OriginalClip: {fileID: 7919334184652345862, guid: 7bf07a7b55d65c34b9248f37f7234ec2, type: 2}
+    m_OverrideClip: {fileID: 7919334184652345862, guid: 7bf07a7b55d65c34b9248f37f7234ec2, type: 2}

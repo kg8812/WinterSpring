@@ -1,0 +1,773 @@
+{
+  "0": {
+    "index": 0,
+    "name": 7001,
+    "description": 8001,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "1": {
+    "index": 1,
+    "name": 7002,
+    "description": 8002,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "2": {
+    "index": 2,
+    "name": 7003,
+    "description": 8003,
+    "maxStack": 0,
+    "duration": 0,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": true,
+    "iconPath": "BuffIcon_frozenFlag"
+  },
+  "3": {
+    "index": 3,
+    "name": 7004,
+    "description": 8004,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "4": {
+    "index": 4,
+    "name": 7005,
+    "description": 8005,
+    "maxStack": 7,
+    "duration": 0,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "5": {
+    "index": 5,
+    "name": 7006,
+    "description": 8006,
+    "maxStack": 10,
+    "duration": 0,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "6": {
+    "index": 6,
+    "name": 7007,
+    "description": 8007,
+    "maxStack": 5,
+    "duration": 3,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": false
+  },
+  "7": {
+    "index": 7,
+    "name": 7008,
+    "description": 8008,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "8": {
+    "index": 8,
+    "name": 7009,
+    "description": 8009,
+    "maxStack": 1,
+    "duration": 50,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": true,
+    "iconPath": "BuffIcon_archmageMask"
+  },
+  "9": {
+    "index": 9,
+    "name": 7010,
+    "description": 8010,
+    "maxStack": 3,
+    "duration": 0,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": true,
+    "iconPath": "BuffIcon_atkUp"
+  },
+  "100": {
+    "index": 100,
+    "name": 7011,
+    "description": 8011,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": true,
+    "iconPath": "BuffIcon_atkUp"
+  },
+  "101": {
+    "index": 101,
+    "name": 7012,
+    "description": 8012,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": true,
+    "iconPath": "BuffIcon_defUp"
+  },
+  "102": {
+    "index": 102,
+    "name": 7013,
+    "description": 8013,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": false
+  },
+  "103": {
+    "index": 103,
+    "name": 7014,
+    "description": 8014,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": true,
+    "iconPath": "BuffIcon_speedUp"
+  },
+  "104": {
+    "index": 104,
+    "name": 7015,
+    "description": 8015,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": true,
+    "iconPath": "BuffIcon_critChanceUp"
+  },
+  "105": {
+    "index": 105,
+    "name": 7016,
+    "description": 8016,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": false
+  },
+  "106": {
+    "index": 106,
+    "name": 7017,
+    "description": 8017,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": false
+  },
+  "107": {
+    "index": 107,
+    "name": 7018,
+    "description": 8018,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": false
+  },
+  "108": {
+    "index": 108,
+    "name": 7019,
+    "description": 8019,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": false
+  },
+  "109": {
+    "index": 109,
+    "name": 7020,
+    "description": 8020,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": true,
+    "iconPath": "BuffIcon_hitDown"
+  },
+  "110": {
+    "index": 110,
+    "name": 7021,
+    "description": 8021,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": true,
+    "iconPath": "BuffIcon_atkUp"
+  },
+  "111": {
+    "index": 111,
+    "name": 7022,
+    "description": 8022,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": false
+  },
+  "112": {
+    "index": 112,
+    "name": 7023,
+    "description": 8023,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": false
+  },
+  "113": {
+    "index": 113,
+    "name": 7024,
+    "description": 8024,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": false
+  },
+  "114": {
+    "index": 114,
+    "name": 7025,
+    "description": 8025,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": false
+  },
+  "200": {
+    "index": 200,
+    "name": 7026,
+    "description": 8026,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": true,
+    "iconPath": "BuffIcon_atkDown"
+  },
+  "201": {
+    "index": 201,
+    "name": 7027,
+    "description": 8027,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": true,
+    "iconPath": "BuffIcon_defDown"
+  },
+  "202": {
+    "index": 202,
+    "name": 7028,
+    "description": 8028,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": false
+  },
+  "203": {
+    "index": 203,
+    "name": 7029,
+    "description": 8029,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": true,
+    "iconPath": "BuffIcon_speedDown"
+  },
+  "204": {
+    "index": 204,
+    "name": 7030,
+    "description": 8030,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": true,
+    "iconPath": "BuffIcon_critChanceDown"
+  },
+  "205": {
+    "index": 205,
+    "name": 7031,
+    "description": 8031,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": false
+  },
+  "206": {
+    "index": 206,
+    "name": 7032,
+    "description": 8032,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": false
+  },
+  "207": {
+    "index": 207,
+    "name": 7033,
+    "description": 8033,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": false
+  },
+  "208": {
+    "index": 208,
+    "name": 7034,
+    "description": 8034,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": false
+  },
+  "209": {
+    "index": 209,
+    "name": 7035,
+    "description": 8035,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": true,
+    "iconPath": "BuffIcon_hitUp"
+  },
+  "210": {
+    "index": 210,
+    "name": 7036,
+    "description": 8036,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": true,
+    "iconPath": "BuffIcon_atkDown"
+  },
+  "211": {
+    "index": 211,
+    "name": 7037,
+    "description": 8037,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": false
+  },
+  "212": {
+    "index": 212,
+    "name": 7038,
+    "description": 8038,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": false
+  },
+  "213": {
+    "index": 213,
+    "name": 7039,
+    "description": 8039,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": false
+  },
+  "300": {
+    "index": 300,
+    "name": 7040,
+    "description": 8040,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 1,
+    "amount": [],
+    "showIcon": false
+  },
+  "400": {
+    "index": 400,
+    "name": 7041,
+    "description": 8041,
+    "maxStack": 1,
+    "duration": 5,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "401": {
+    "index": 401,
+    "name": 7042,
+    "description": 8042,
+    "maxStack": 0,
+    "duration": 5,
+    "stackDecrease": 0,
+    "amount": [
+      30,
+      2
+    ],
+    "showIcon": false
+  },
+  "402": {
+    "index": 402,
+    "name": 7043,
+    "description": 8043,
+    "maxStack": 1,
+    "duration": 3,
+    "stackDecrease": 0,
+    "amount": [
+      30
+    ],
+    "showIcon": false
+  },
+  "403": {
+    "index": 403,
+    "name": 7044,
+    "description": 8044,
+    "maxStack": 1,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "404": {
+    "index": 404,
+    "name": 7045,
+    "description": 8045,
+    "maxStack": 1,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "405": {
+    "index": 405,
+    "name": 7046,
+    "description": 8046,
+    "maxStack": 0,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "406": {
+    "index": 406,
+    "name": 7047,
+    "description": 8047,
+    "maxStack": 1,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "407": {
+    "index": 407,
+    "name": 7048,
+    "description": 8048,
+    "maxStack": 1,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "600": {
+    "index": 600,
+    "name": 7049,
+    "description": 8049,
+    "maxStack": 5,
+    "duration": 4,
+    "stackDecrease": 1,
+    "amount": [
+      2,
+      30
+    ],
+    "showIcon": false
+  },
+  "601": {
+    "index": 601,
+    "name": 7050,
+    "description": 8050,
+    "maxStack": 5,
+    "duration": 4,
+    "stackDecrease": 1,
+    "amount": [
+      2,
+      6
+    ],
+    "showIcon": false
+  },
+  "602": {
+    "index": 602,
+    "name": 7051,
+    "description": 8051,
+    "maxStack": 5,
+    "duration": 4,
+    "stackDecrease": 1,
+    "amount": [
+      2,
+      10
+    ],
+    "showIcon": false
+  },
+  "603": {
+    "index": 603,
+    "name": 7052,
+    "description": 8052,
+    "maxStack": 1,
+    "duration": 7,
+    "stackDecrease": 1,
+    "amount": [
+      15
+    ],
+    "showIcon": false
+  },
+  "700": {
+    "index": 700,
+    "name": 7053,
+    "description": 8053,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "701": {
+    "index": 701,
+    "name": 7054,
+    "description": 8054,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "702": {
+    "index": 702,
+    "name": 7055,
+    "description": 8055,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "703": {
+    "index": 703,
+    "name": 7056,
+    "description": 8056,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "704": {
+    "index": 704,
+    "name": 7057,
+    "description": 8057,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "800": {
+    "index": 800,
+    "name": 7058,
+    "description": 8058,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "801": {
+    "index": 801,
+    "name": 7059,
+    "description": 8059,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "1100": {
+    "index": 1100,
+    "name": 7060,
+    "description": 8060,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "1101": {
+    "index": 1101,
+    "name": 7061,
+    "description": 8061,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "1102": {
+    "index": 1102,
+    "name": 7062,
+    "description": 8062,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "1103": {
+    "index": 1103,
+    "name": 7063,
+    "description": 8063,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "1104": {
+    "index": 1104,
+    "name": 7064,
+    "description": 8064,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "1105": {
+    "index": 1105,
+    "name": 7065,
+    "description": 8065,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "1300": {
+    "index": 1300,
+    "name": 7066,
+    "description": 8066,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "1301": {
+    "index": 1301,
+    "name": 7067,
+    "description": 8067,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "1302": {
+    "index": 1302,
+    "name": 7068,
+    "description": 8068,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "1303": {
+    "index": 1303,
+    "name": 7069,
+    "description": 8069,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "1304": {
+    "index": 1304,
+    "name": 7070,
+    "description": 8070,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "1305": {
+    "index": 1305,
+    "name": 7071,
+    "description": 8071,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "1306": {
+    "index": 1306,
+    "name": 7072,
+    "description": 8072,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "1400": {
+    "index": 1400,
+    "name": 7073,
+    "description": 8073,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  },
+  "1401": {
+    "index": 1401,
+    "name": 7074,
+    "description": 8074,
+    "maxStack": 5,
+    "duration": 10,
+    "stackDecrease": 0,
+    "amount": [],
+    "showIcon": false
+  }
+}

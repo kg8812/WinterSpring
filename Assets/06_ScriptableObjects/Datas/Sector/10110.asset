@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e43b9a821bbd1e7419fc4277c4f4ea3f, type: 3}
+  m_Name: 10110
+  m_EditorClassIdentifier: 
+  monsterDatas:
+  - position: {x: 125.49868, y: 31.23893}
+    parentGuid: a54f2ce9-3dec-437f-bb57-3cd92dcba936
+    guid: 9bb858dc-70f3-4db0-8af7-698aab9e9c72
+    monsterID: 1103
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 126.05998, y: 17.229996}
+    parentGuid: a54f2ce9-3dec-437f-bb57-3cd92dcba936
+    guid: 556cae49-8913-49d8-80b7-30cdab4cfd4d
+    monsterID: 1101
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 125.61998, y: 27.120667}
+    parentGuid: a54f2ce9-3dec-437f-bb57-3cd92dcba936
+    guid: 06c745cb-8ab6-4120-9f3a-dcc0c7c44386
+    monsterID: 1103
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 132.31998, y: 21.979996}
+    parentGuid: a54f2ce9-3dec-437f-bb57-3cd92dcba936
+    guid: a7a8e0f9-dc10-48be-a855-c3a4c45d29ff
+    monsterID: 1101
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 128.95381, y: 18.39301}
+    parentGuid: a54f2ce9-3dec-437f-bb57-3cd92dcba936
+    guid: 7b95f6e1-ae13-452c-9819-1e83f45963b5
+    monsterID: 1104
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 118.21736, y: 32.345226}
+    parentGuid: a54f2ce9-3dec-437f-bb57-3cd92dcba936
+    guid: 1ef02785-e1ac-481e-ac73-f623f14eae3d
+    monsterID: 7104
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 131.65195, y: 30.622845}
+    parentGuid: a54f2ce9-3dec-437f-bb57-3cd92dcba936
+    guid: 395e28db-3ee0-4923-be68-18d5e431c257
+    monsterID: 7104
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 118.13786, y: 28.767975}
+    parentGuid: a54f2ce9-3dec-437f-bb57-3cd92dcba936
+    guid: 3bd77f5b-1d87-423f-96d4-472b5303f758
+    monsterID: 7104
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 125.5518, y: 38.337093}
+    parentGuid: a54f2ce9-3dec-437f-bb57-3cd92dcba936
+    guid: 349a7d62-bfc3-45d0-b4b4-9a2ee8494c75
+    monsterID: 7104
+    scale: {x: 1, y: 1, z: 1}

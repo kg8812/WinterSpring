@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Tutorial_Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Tutorial_Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 385aeb3e3ff35dd4db1b1ece76383fc2
+  m_SerializeEntries:
+  - m_GUID: 87c51c50cc612254e9ec0aa2150348c8
+    m_Address: Assets/05_Sprites/Background/tutorial/tuto2/tuto2.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - memoryTest
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7e510621fdbb1f4e998f03d503deb9f
+    m_Address: Assets/05_Sprites/Background/tutorial/tuto4/tuto4.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - memoryTest
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46b6003f8ade7ee4e9b804338192d5a3
+    m_Address: Assets/05_Sprites/Background/tutorial/tuto3/tuto3.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - memoryTest
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 102da49548b1dbd458cc0df85ab81f4a
+    m_Address: Assets/05_Sprites/Background/tutorial/Tuto1/tutorialBackground.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - memoryTest
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 4b42412136e3f6d4c86ac87a87b843a7, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 703dc06a0867de74688b45fd8f624721, type: 2}
+    - {fileID: 11400000, guid: 52d889ebb34a30b4b8596daf5f95b93a, type: 2}

@@ -1,0 +1,482 @@
+{
+  "1001": {
+    "index": 1001,
+    "dropGroups": [
+      100
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "1002": {
+    "index": 1002,
+    "dropGroups": [
+      110
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "1003": {
+    "index": 1003,
+    "dropGroups": [
+      120
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "1004": {
+    "index": 1004,
+    "dropGroups": [
+      130
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "1005": {
+    "index": 1005,
+    "dropGroups": [
+      2100,
+      2101
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1006": {
+    "index": 1006,
+    "dropGroups": [
+      2102,
+      2103
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1007": {
+    "index": 1007,
+    "dropGroups": [
+      2104,
+      2105
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1008": {
+    "index": 1008,
+    "dropGroups": [
+      2200,
+      2201
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1009": {
+    "index": 1009,
+    "dropGroups": [
+      2202,
+      2203
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1010": {
+    "index": 1010,
+    "dropGroups": [
+      2204,
+      2205
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1011": {
+    "index": 1011,
+    "dropGroups": [
+      2300,
+      2301
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1012": {
+    "index": 1012,
+    "dropGroups": [
+      2302,
+      2303
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1013": {
+    "index": 1013,
+    "dropGroups": [
+      2304,
+      2305
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1014": {
+    "index": 1014,
+    "dropGroups": [
+      2400,
+      2401
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1015": {
+    "index": 1015,
+    "dropGroups": [
+      2402,
+      2403
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1016": {
+    "index": 1016,
+    "dropGroups": [
+      2404,
+      2405
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1017": {
+    "index": 1017,
+    "dropGroups": [
+      2500,
+      2501
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1018": {
+    "index": 1018,
+    "dropGroups": [
+      2502,
+      2503
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1019": {
+    "index": 1019,
+    "dropGroups": [
+      2504,
+      2505
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1020": {
+    "index": 1020,
+    "dropGroups": [
+      2600,
+      2601
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1021": {
+    "index": 1021,
+    "dropGroups": [
+      2602,
+      2603
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1022": {
+    "index": 1022,
+    "dropGroups": [
+      2604,
+      2605
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1023": {
+    "index": 1023,
+    "dropGroups": [
+      3000,
+      3001
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1024": {
+    "index": 1024,
+    "dropGroups": [
+      3100,
+      3101
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1025": {
+    "index": 1025,
+    "dropGroups": [
+      3200,
+      3201
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1026": {
+    "index": 1026,
+    "dropGroups": [
+      3300,
+      3301
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1027": {
+    "index": 1027,
+    "dropGroups": [
+      3400,
+      3401
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "1028": {
+    "index": 1028,
+    "dropGroups": [
+      3500,
+      3501
+    ],
+    "dropGroupChances": [
+      1000,
+      1000
+    ]
+  },
+  "2001": {
+    "index": 2001,
+    "dropGroups": [
+      130,
+      130,
+      130
+    ],
+    "dropGroupChances": [
+      1000,
+      1000,
+      1000
+    ]
+  },
+  "2002": {
+    "index": 2002,
+    "dropGroups": [
+      110,
+      110,
+      110
+    ],
+    "dropGroupChances": [
+      1000,
+      1000,
+      1000
+    ]
+  },
+  "42101": {
+    "index": 42101,
+    "dropGroups": [
+      120
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "42102": {
+    "index": 42102,
+    "dropGroups": [
+      120
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "42103": {
+    "index": 42103,
+    "dropGroups": [
+      120
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "42104": {
+    "index": 42104,
+    "dropGroups": [
+      120
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "42105": {
+    "index": 42105,
+    "dropGroups": [
+      120
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "42106": {
+    "index": 42106,
+    "dropGroups": [
+      120
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "42107": {
+    "index": 42107,
+    "dropGroups": [
+      120
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "42108": {
+    "index": 42108,
+    "dropGroups": [
+      120
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "42109": {
+    "index": 42109,
+    "dropGroups": [
+      120
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "42110": {
+    "index": 42110,
+    "dropGroups": [
+      120
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "42111": {
+    "index": 42111,
+    "dropGroups": [
+      120
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "42112": {
+    "index": 42112,
+    "dropGroups": [
+      120
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "42113": {
+    "index": 42113,
+    "dropGroups": [
+      120
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "42201": {
+    "index": 42201,
+    "dropGroups": [
+      120
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "42202": {
+    "index": 42202,
+    "dropGroups": [
+      120
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "42203": {
+    "index": 42203,
+    "dropGroups": [
+      120
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "42401": {
+    "index": 42401,
+    "dropGroups": [
+      120
+    ],
+    "dropGroupChances": [
+      1000
+    ]
+  },
+  "": {}
+}

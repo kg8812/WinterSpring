@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a22da3a3b6c30694ba147145b6c2209a, type: 3}
+  m_Name: ViichanData
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  baseStat:
+    maxHp: 210
+    atk: 50
+    moveSpeed: 400
+    atkSpeed: 0
+    dmgReduce: 0
+    def: 0
+    mental: 0
+    critProb: 5
+    critDmg: 115
+    cdReduction: 0
+    goldRate: 0
+    extraDmg: 0
+    healRate: 0
+    shieldRate: 0
+    critHit: 0
+    body: 15
+    spirit: 5
+    finesse: 10
+  playerStat:
+    JumpPower: 7.1
+    JumpMax: 1
+    currentPotionCapacity: 3
+    dashTime: 0.7
+    dashSpeed: 5
+    dashInvincibleTime: 0.25
+    airDashCount: 0
+    maxPotionCapacity: 3
+    potionUseTime: 1
+    potionIncreaseHpRatio: 30
+    potionIncreaseHp: 20
+  skeletonDataAsset: {fileID: 11400000, guid: ac8944574c75f4441b18ce11567eea08, type: 2}
+  initialSkinName: default
+  activeSkill: {fileID: 11400000, guid: 15dddd59be83cb7429ad4bae9d291201, type: 2}
+  passiveSkill: {fileID: 11400000, guid: f46d74905e1f35a4883dc86a527dcf59, type: 2}
+  spirit: 1
+  body: 4
+  finesse: 2

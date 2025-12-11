@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Popup
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 08811b7e135d25d4da3f90b059989db0, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 6581bf70084cbc34fb16f34748617162, type: 3}
+  - {fileID: 21300000, guid: ce220c907618af349861aa01046b0bcd, type: 3}
+  - {fileID: 21300000, guid: 7aa116a03b98a50458c2aa2825954b9d, type: 3}
+  - {fileID: 21300000, guid: 9f893a31d90b13f4abde21940abf5294, type: 3}
+  - {fileID: -2028052793, guid: f3055ac11f82e5e4ca0694602881ca50, type: 3}
+  - {fileID: 21300000, guid: f39a22122069b9b4394b1e501faaf7da, type: 3}
+  - {fileID: 21300000, guid: acef2f628a4eea04aa3d65d90978d16c, type: 3}
+  - {fileID: 21300000, guid: 0caa04c24f3606447b8b7448ce762daf, type: 3}
+  - {fileID: 21300000, guid: e5c01d43063e770479cc37221f8bcf2d, type: 3}
+  - {fileID: 21300000, guid: 004940533849fc34f8dbc68e1cffa93f, type: 3}
+  - {fileID: 21300000, guid: 626696346801d4144a26de9453bc9931, type: 3}
+  - {fileID: 961349917, guid: 158f3cb4c97a1214a9b061be306875a8, type: 3}
+  - {fileID: 21300000, guid: 7ce54d155a9633c4d87f3935ca56b171, type: 3}
+  - {fileID: 21300000, guid: a3c5fa852652c5245a2a18c6d5e1296d, type: 3}
+  - {fileID: -1363732461, guid: a25c9616fd1c677428bdb1bcba94d259, type: 3}
+  - {fileID: 21300000, guid: 2a5884d7c94eef44aad2cd66432aa53b, type: 3}
+  - {fileID: 21300000, guid: 8b6696f7d72b56c4c97c01c1b113e6a8, type: 3}
+  - {fileID: 21300000, guid: d81d64b8fa3f4e343af7ba29c161a627, type: 3}
+  - {fileID: 244394547, guid: 2a9f850995ca037498ec3ab3a80603af, type: 3}
+  - {fileID: 21300000, guid: de3269dacbc02644ab4744e1a8ecef5a, type: 3}
+  - {fileID: 21300000, guid: 22f65cdae83bd2c40b1ff0195984486b, type: 3}
+  - {fileID: 21300000, guid: b6904fbb9e19c6742b2ffa5fc78f6854, type: 3}
+  - {fileID: 21300000, guid: 2b63479c616004e40ab722f4a844562f, type: 3}
+  - {fileID: -699555053, guid: 29fcd9bd7194c7a4ba404009b8144460, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - line
+  - imgBox
+  - backBtnSelected
+  - Hover Selected Button
+  - Idle Box_0
+  - tutorialListBox
+  - box
+  - imgBox
+  - systemPopupBox
+  - convBox
+  - backBtn
+  - Hover Selected Button_0
+  - Background
+  - Idel Button
+  - Idle Button_0
+  - Hover Snow Effect
+  - backBtnHover
+  - lobbyGold
+  - menuBox_0
+  - Arrow L
+  - tutorialPopupBox
+  - Arrow R
+  - lineBox
+  - Idle button_0
+  m_RenderDataMap: {}
+  m_Tag: Popup
+  m_IsVariant: 0

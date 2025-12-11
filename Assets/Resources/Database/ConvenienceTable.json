@@ -1,0 +1,172 @@
+{
+  "1000": {
+    "index": 1000,
+    "name": "이단 점프",
+    "desc": "이단 점프를 할 수 있게 된다.",
+    "priceWarmth": 0,
+    "unlock": 0,
+    "amounts": [
+      1
+    ]
+  },
+  "1001": {
+    "index": 1001,
+    "name": "인형 성장_영구 성장",
+    "desc": "언니의 영구 성장을 활성화한다.",
+    "priceWarmth": 50,
+    "unlock": 1000,
+    "amounts": [
+      0
+    ]
+  },
+  "1002": {
+    "index": 1002,
+    "name": "온기 공유",
+    "desc": "언니의 온기 공유를 활성화한다.",
+    "priceWarmth": 200,
+    "unlock": 1001,
+    "amounts": [
+      0
+    ]
+  },
+  "1003": {
+    "index": 1003,
+    "name": "언니의 방 열쇠",
+    "desc": "언니의 방에 들어갈 수 있다.",
+    "priceWarmth": 300,
+    "unlock": 1002,
+    "amounts": [
+      0
+    ]
+  },
+  "1010": {
+    "index": 1010,
+    "name": "원념 주머니 lv.1",
+    "desc": "원념을 100 가지고 시작한다.",
+    "priceWarmth": 100,
+    "unlock": 1000,
+    "amounts": [
+      100
+    ]
+  },
+  "1011": {
+    "index": 1011,
+    "name": "원념 주머니 lv.2",
+    "desc": "원념을 200 가지고 시작한다.",
+    "priceWarmth": 200,
+    "unlock": 1010,
+    "amounts": [
+      100
+    ]
+  },
+  "1012": {
+    "index": 1012,
+    "name": "원념 주머니 lv.3",
+    "desc": "원념을 300 가지고 시작한다.",
+    "priceWarmth": 300,
+    "unlock": 1011,
+    "amounts": [
+      100
+    ]
+  },
+  "1020": {
+    "index": 1020,
+    "name": "장식 바구니",
+    "desc": "악세사리를 얻을 수 있는 오브젝트를 활성화한다.",
+    "priceWarmth": 300,
+    "unlock": 1000,
+    "amounts": [
+      0
+    ]
+  },
+  "1030": {
+    "index": 1030,
+    "name": "온기의 회복 lv.1",
+    "desc": "수리 최대 횟수가 1 증가한다.",
+    "priceWarmth": 150,
+    "unlock": 1001,
+    "amounts": [
+      1
+    ]
+  },
+  "1031": {
+    "index": 1031,
+    "name": "온기의 회복 lv.2",
+    "desc": "수리 최대 횟수가 2 증가한다.",
+    "priceWarmth": 250,
+    "unlock": 1030,
+    "amounts": [
+      1
+    ]
+  },
+  "1040": {
+    "index": 1040,
+    "name": "상인의 유대 lv.1",
+    "desc": "상점 품목의 가격이 10% 감소한다.",
+    "priceWarmth": 200,
+    "unlock": 1000,
+    "amounts": [
+      10
+    ]
+  },
+  "1041": {
+    "index": 1041,
+    "name": "상인의 유대 lv.2",
+    "desc": "상점 품목의 가격이 15% 감소한다.",
+    "priceWarmth": 300,
+    "unlock": 1040,
+    "amounts": [
+      5
+    ]
+  },
+  "1042": {
+    "index": 1042,
+    "name": "상인의 유대 lv.3",
+    "desc": "상점 품목의 가격이 20% 감소한다.",
+    "priceWarmth": 400,
+    "unlock": 1041,
+    "amounts": [
+      5
+    ]
+  },
+  "1050": {
+    "index": 1050,
+    "name": "더 좋은 무기고",
+    "desc": "무기를 얻을 수 있는 오브젝트를 활성화한다.",
+    "priceWarmth": 300,
+    "unlock": 1000,
+    "amounts": [
+      1
+    ]
+  },
+  "1060": {
+    "index": 1060,
+    "name": "온기의 샘 lv.1",
+    "desc": "쉼터에 있는, 수리 횟수를 1회 제공하는 오브젝트를 활성화한다.",
+    "priceWarmth": 100,
+    "unlock": 1001,
+    "amounts": [
+      1
+    ]
+  },
+  "1061": {
+    "index": 1061,
+    "name": "온기의 샘 lv.2",
+    "desc": "제공하는 수리 횟수가 1회 더 증가한다.",
+    "priceWarmth": 200,
+    "unlock": 1060,
+    "amounts": [
+      1
+    ]
+  },
+  "1070": {
+    "index": 1070,
+    "name": "가호의 석상",
+    "desc": "각 0번 섹터에 랜덤하게 버프를 주는 오브젝트를 활성화한다.",
+    "priceWarmth": 200,
+    "unlock": 1001,
+    "amounts": [
+      0
+    ]
+  }
+}

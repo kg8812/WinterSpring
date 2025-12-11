@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: tutorialBackground
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 0a57835e608656541ae3724d2c26d404, type: 3}
+    - {fileID: 2800000, guid: a34540919fa26084d960c1b7f5b6820a, type: 3}
+    - {fileID: 2800000, guid: 9bd83d6a3a46ea1438fec166195722a8, type: 3}
+    - {fileID: 2800000, guid: a68d76073690fb943a3e8f9f1d846b0c, type: 3}
+    - {fileID: 2800000, guid: 73a2289501b439949a51b9c91328b8d4, type: 3}
+    - {fileID: 2800000, guid: 9d9fb96d64dbdb44796ba7e544e31e26, type: 3}
+    - {fileID: 2800000, guid: 7fcd450445466b149ae5b827734aa085, type: 3}
+    - {fileID: 2800000, guid: ee57965d3a3ab5947a0acbba9a95c2ec, type: 3}
+    - {fileID: 2800000, guid: 0a7ca0e4d22bb9743b0a499f0e0ceed6, type: 3}
+    - {fileID: 2800000, guid: ddc272b98abc06a45ad41af9ec865d14, type: 3}
+    - {fileID: 2800000, guid: 48b0a164a40cd2941ab074e964518370, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a34540919fa26084d960c1b7f5b6820a, type: 3}
+  - {fileID: 21300000, guid: 7fcd450445466b149ae5b827734aa085, type: 3}
+  - {fileID: 21300000, guid: 48b0a164a40cd2941ab074e964518370, type: 3}
+  - {fileID: 21300000, guid: 0a7ca0e4d22bb9743b0a499f0e0ceed6, type: 3}
+  - {fileID: 21300000, guid: 73a2289501b439949a51b9c91328b8d4, type: 3}
+  - {fileID: 21300000, guid: a68d76073690fb943a3e8f9f1d846b0c, type: 3}
+  - {fileID: 21300000, guid: ddc272b98abc06a45ad41af9ec865d14, type: 3}
+  - {fileID: 21300000, guid: 9bd83d6a3a46ea1438fec166195722a8, type: 3}
+  - {fileID: 21300000, guid: ee57965d3a3ab5947a0acbba9a95c2ec, type: 3}
+  - {fileID: 21300000, guid: 9d9fb96d64dbdb44796ba7e544e31e26, type: 3}
+  - {fileID: 21300000, guid: 0a57835e608656541ae3724d2c26d404, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - tutorial_0_back_02
+  - tutorial_0_Gear_04
+  - tutorial_0_Gear_00
+  - tutorial_0_background_00_02
+  - tutorial_0_Gear_02
+  - tutorial_0_Gear_01
+  - tutorial_0_Front_00
+  - tutorial_0_Front_01
+  - tutorial_0_background_00_01
+  - tutorial_0_Gear_03
+  - tutorial_0_back_01
+  m_RenderDataMap: {}
+  m_Tag: tutorialBackground
+  m_IsVariant: 0

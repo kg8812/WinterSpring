@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Accessory
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 0884d2efe7831814891c6e89be59d3a3, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 34a84600107791645bab0db25822661c, type: 3}
+  - {fileID: 21300000, guid: b29ff7605171c244081b9f9ee36c0dd6, type: 3}
+  - {fileID: 21300000, guid: 60e26421cee2cfa45aeddcc95596b5a4, type: 3}
+  - {fileID: 21300000, guid: 2067b1d111e22e24abf1dcca181b550b, type: 3}
+  - {fileID: 21300000, guid: 84b3f772e3633284db5285ac5b4b0804, type: 3}
+  - {fileID: 21300000, guid: 6cc702c242c0008499924d769d6db374, type: 3}
+  - {fileID: 21300000, guid: 0f06f1e20f07bc54fbc4eb82a5a3b660, type: 3}
+  - {fileID: 21300000, guid: 8de82283c11e61943adfa4c6b9d94f6c, type: 3}
+  - {fileID: 21300000, guid: 52136bf3bfb6fdb4c867542a04a6f5f7, type: 3}
+  - {fileID: 21300000, guid: 044ccff396fa8584ab2c5a6c559ed158, type: 3}
+  - {fileID: 21300000, guid: bb2c7164ec5823d4c9da4a7199bb5203, type: 3}
+  - {fileID: 21300000, guid: cfa72c942af95c94390a276e4e9dd25f, type: 3}
+  - {fileID: 21300000, guid: cbedcca4bcf9f794db0ceb0f318504bb, type: 3}
+  - {fileID: 21300000, guid: b0f41de434e85ad4fb425a679d184dc9, type: 3}
+  - {fileID: 21300000, guid: ece6c2657138ada4fbaba6c30bbd0bb6, type: 3}
+  - {fileID: 21300000, guid: 1db860562d3edd74cbcbbadf596bc8b2, type: 3}
+  - {fileID: 21300000, guid: a90803964ac9b8b4aa12231c79e38f26, type: 3}
+  - {fileID: 21300000, guid: 1e0f49d6e500b8d408b58f63b2b578b0, type: 3}
+  - {fileID: 21300000, guid: ab17a6175791c284db8e4c357b5e4512, type: 3}
+  - {fileID: 21300000, guid: 94b883572e5712e4082ae3b9c6063a35, type: 3}
+  - {fileID: 21300000, guid: 0867de6785ac3c8438d532e6717c26b0, type: 3}
+  - {fileID: 21300000, guid: 3d9354b70d7f9a14da28d878b47ecfd4, type: 3}
+  - {fileID: 21300000, guid: ca5187e7948b32648a21331e2fdd00f2, type: 3}
+  - {fileID: 21300000, guid: dac2628809651f2489f061a5afc8996a, type: 3}
+  - {fileID: 21300000, guid: 26ea5b88d7f73e34fa6af025cefc27cd, type: 3}
+  - {fileID: 21300000, guid: e4945fc8cc6e1894699d9be010b9483e, type: 3}
+  - {fileID: 21300000, guid: 3f97bb19adf5b7646a166c9035b9f4ea, type: 3}
+  - {fileID: 21300000, guid: abe9555956e5ca541b2df27705ef6d00, type: 3}
+  - {fileID: 21300000, guid: e819f8697e838a749990b4d8e3aedcbb, type: 3}
+  - {fileID: 21300000, guid: eb408da9166a5a748963d8cd7ca379ec, type: 3}
+  - {fileID: 21300000, guid: 1a04647a163fc3e43a92a2c284c34322, type: 3}
+  - {fileID: 21300000, guid: 58878bca53724b74896989b38b161a53, type: 3}
+  - {fileID: 21300000, guid: 6b800afa6ee114d4f89bf361eba8f04e, type: 3}
+  - {fileID: 21300000, guid: 0eec613b9b2e58648866e36940dd47af, type: 3}
+  - {fileID: 21300000, guid: 4100c93b52fccd74cb3fa22b3f9542cb, type: 3}
+  - {fileID: 21300000, guid: fe7c705cb10e5dc4193c6011c4ffb5d7, type: 3}
+  - {fileID: 21300000, guid: d93ebc7c5fa97354d94d80719b44ab2e, type: 3}
+  - {fileID: 21300000, guid: 4e1f3abcfc795dc409dd86057a285c4e, type: 3}
+  - {fileID: 21300000, guid: 6a35edccde285694a8dbd407e2c9d300, type: 3}
+  - {fileID: 21300000, guid: c82d6afcfcd93b945b3e0628888481b8, type: 3}
+  - {fileID: 21300000, guid: 441e555d13ed909419039a69b07176c8, type: 3}
+  - {fileID: 21300000, guid: 2e3f2d8d70b9cd949bb98fcbf38385ac, type: 3}
+  - {fileID: 21300000, guid: d2fe20cd00a1f3e4b9cb2e5dcbd6b982, type: 3}
+  - {fileID: 21300000, guid: 24d7b71e257220c4a9df0f6477c943e7, type: 3}
+  - {fileID: 21300000, guid: 92f3ad3ef28aa794f94423486f86b5ca, type: 3}
+  - {fileID: 21300000, guid: bc94bd9e263486b4e8fb424e6d8d49a8, type: 3}
+  - {fileID: 21300000, guid: 08876ece4f4596a409acd2bce50ae24a, type: 3}
+  - {fileID: 21300000, guid: 1a66222f16307bb4d8530ebfcbf75bf4, type: 3}
+  - {fileID: 21300000, guid: 9d87977ffa3056a4998df14e730296c2, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - blueFlymachine
+  - ipariHairband
+  - peridotCompass
+  - yellowHelmet
+  - smallHairpin
+  - whaleDoll
+  - elkSeal
+  - silverHair
+  - oldPostcard
+  - frozenDiary
+  - chainBlade
+  - spiritScepter
+  - bloodArrow
+  - emptyCan
+  - fancyWand
+  - dangerSword
+  - riddleToad
+  - growArt
+  - archmageMask
+  - wakomBrush
+  - lighthouseArt
+  - whaleSeal
+  - disciplineGloves
+  - monsterTail
+  - oldLens
+  - oldLocket
+  - advisorBell
+  - devilSeal
+  - tigerToken
+  - deniedHood
+  - burdock
+  - windFeather
+  - invalidityOrder
+  - nobilityParasol
+  - starCloak
+  - 36Token
+  - accHolyAxe
+  - fancyDualblade
+  - stiffLetter
+  - jemMask
+  - whoSketch
+  - pointBaton
+  - pianoSmell
+  - unfinishVow
+  - teaSet
+  - magicGun
+  - imperialLetter
+  - clumsyCloth
+  - magicDumbbell
+  m_RenderDataMap: {}
+  m_Tag: Accessory
+  m_IsVariant: 0

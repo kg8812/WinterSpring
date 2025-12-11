@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7039411936815361751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 846450740858832122}
+  - component: {fileID: 4145443460867421100}
+  - component: {fileID: 512428023894170618}
+  - component: {fileID: 5451988287123206637}
+  - component: {fileID: 6221348383730859219}
+  m_Layer: 25
+  m_Name: Trigger_ClearArena_01
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &846450740858832122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7039411936815361751}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &4145443460867421100
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7039411936815361751}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &512428023894170618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7039411936815361751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75dce034bb3879e4cbbad29afc0ff541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 0
+  OnTaskActivate:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &5451988287123206637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7039411936815361751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab43a8a82c8342ed85c8888b00ea9175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerId: 0
+  isRepeat: 0
+  timeType: 0
+  preTriggerIds: 00000000
+  strategyData:
+    StrategyType: 1
+  activatedDatas:
+  - ActivateType: 1
+    BGMAddress: []
+    EnterSFXAddress: 
+    ExitSFXAddress: ArenaEnter_dummy
+    ArenaBGMFadeInTime: 0
+    ArenaBGMFadeOutTime: 2
+    subCamId: 0
+    componentGroup: {fileID: 0}
+    isPoly: 0
+    polygonCollider: {fileID: 0}
+    boxCollider: {fileID: 0}
+    priority: 0
+    isOn: 0
+    resetConfiner: 0
+    inGameCutSceneId: 0
+    gameObject: {fileID: 0}
+    active: 0
+    sectorID: 0
+    exitSectorID: 0
+    injectionIDs: 
+    bgmInfo:
+      clipAddresses: []
+      initialNumber: 0
+      fadeOutTime: 0
+      delay: 0
+      fadeInTime: 0
+      channel: 0
+    playerData:
+      baseStat:
+        maxHp: 0
+        atk: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        dmgReduce: 0
+        def: 0
+        mental: 0
+        critProb: 0
+        critDmg: 0
+        cdReduction: 0
+        goldRate: 0
+        extraDmg: 0
+        healRate: 0
+        shieldRate: 0
+        critHit: 0
+        body: 0
+        spirit: 0
+        finesse: 0
+      playerStat:
+        potionCount: 0
+        jumpMax: 0
+  OnActivate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 512428023894170618}
+        m_TargetAssemblyTypeName: TaskActivation, Assembly-CSharp
+        m_MethodName: DoTask
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _col: {fileID: 4145443460867421100}
+  useFade: 0
+  useTaskCondition: 1
+  taskIndex: 0
+--- !u!50 &6221348383730859219
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7039411936815361751}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

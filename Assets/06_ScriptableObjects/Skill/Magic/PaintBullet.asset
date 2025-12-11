@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e290f12455ccaff4cb7a2507367953d7, type: 3}
+  m_Name: PaintBullet
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: user
+      Entry: 6
+      Data: 
+    - Name: animator
+      Entry: 6
+      Data: 
+    - Name: attacker
+      Entry: 6
+      Data: 
+    - Name: mover
+      Entry: 6
+      Data: 
+    - Name: hit
+      Entry: 6
+      Data: 
+    - Name: skeleton
+      Entry: 6
+      Data: 
+    - Name: eventUser
+      Entry: 6
+      Data: 
+    - Name: direction
+      Entry: 6
+      Data: 
+    - Name: statUser
+      Entry: 6
+      Data: 
+    - Name: dashUser
+      Entry: 6
+      Data: 
+    - Name: activeUser
+      Entry: 6
+      Data: 
+    - Name: passiveUser
+      Entry: 6
+      Data: 
+    - Name: weaponSkillUser
+      Entry: 6
+      Data: 
+  _cdStartType: 1
+  baseCd: 7
+  duration: 0
+  isMotion: 1
+  index: 110
+  skillMotionType: 0
+  maxStack: 0
+  minStackCd: 0
+  cdStart: 0
+  unEquipCd: 0
+  EnterSkillState: 1
+  baseDmg: 100
+  bodyFactor: 0
+  spiritFactor: 0
+  finesseFactor: 0
+  baseGroggy: 0
+  nameString: 6008
+  descString: 0
+  itemId: 2008
+  CurCastTime: 0
+  CurChargeTime: 0
+  usableWhenAttack: 0
+  usePlayerCheck: 1
+  chargeDmgRatio: 0
+  chargeGroggyRatio: 0
+  CastTime: 0
+  CastType: 0
+  ChargeTime: 4.2
+  EndChargeAutomatic: 1
+  chargeMoveDebuff: 50
+  chargeInfos:
+  - time: 0
+    dmg: 100
+    groggy: 0
+  - time: 1
+    dmg: 100
+    groggy: 0
+  - time: 2.5
+    dmg: 100
+    groggy: 0
+  - time: 4.2
+    dmg: 100
+    groggy: 0
+  chargeType: 0
+  skill2: {fileID: 0}
+  useFrame: 0
+  Skill2: {fileID: 0}
+  isCharging: 0
+  projectileInfo: {fileID: 11400000, guid: d60c997f6dc92fb4a9bb5652c4ee0792, type: 2}
+  sizes:
+  - 2
+  - 3
+  - 4.5
+  - 7

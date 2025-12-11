@@ -1,0 +1,240 @@
+﻿{
+  "201": {
+    "floorID": 201,
+    "stage": 2,
+    "floor": 1,
+    "selection": 2,
+    "sectorId": [
+      2102,
+      2110,
+      2111,
+      2113
+    ],
+    "chance": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "202": {
+    "floorID": 202,
+    "stage": 2,
+    "floor": 2,
+    "selection": 3,
+    "sectorId": [
+      2110,
+      2111,
+      2113,
+      2202,
+      2001,
+      2002
+    ],
+    "chance": [
+      1,
+      1,
+      1,
+      1,
+      10,
+      10
+    ]
+  },
+  "203": {
+    "floorID": 203,
+    "stage": 2,
+    "floor": 3,
+    "selection": 3,
+    "sectorId": [
+      2102,
+      2110,
+      2113,
+      2202,
+      2401
+    ],
+    "chance": [
+      1,
+      1,
+      1,
+      1,
+      10
+    ]
+  },
+  "204": {
+    "floorID": 204,
+    "stage": 2,
+    "floor": 4,
+    "selection": 3,
+    "sectorId": [
+      2102,
+      2110,
+      2111,
+      2113,
+      2202,
+      2003
+    ],
+    "chance": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      10
+    ]
+  },
+  "205": {
+    "floorID": 205,
+    "stage": 2,
+    "floor": 5,
+    "selection": 1,
+    "sectorId": [
+      2901
+    ],
+    "chance": [
+      1
+    ]
+  },
+  "701": {
+    "floorID": 701,
+    "stage": 7,
+    "floor": 1,
+    "selection": 3,
+    "sectorId": [
+      1106,
+      1201,
+      1202,
+      1204,
+      1301,
+      1302
+    ],
+    "chance": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "702": {
+    "floorID": 702,
+    "stage": 7,
+    "floor": 2,
+    "selection": 3,
+    "sectorId": [
+      2102,
+      2111,
+      2114,
+      2202,
+      2204,
+      2208,
+      2303,
+      2304
+    ],
+    "chance": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "703": {
+    "floorID": 703,
+    "stage": 7,
+    "floor": 3,
+    "selection": 3,
+    "sectorId": [
+      3103,
+      3104,
+      3105,
+      3106,
+      3202,
+      3211,
+      3301
+    ],
+    "chance": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "704": {
+    "floorID": 704,
+    "stage": 7,
+    "floor": 4,
+    "selection": 2,
+    "sectorId": [
+      4103,
+      4201
+    ],
+    "chance": [
+      1,
+      1
+    ]
+  },
+  "705": {
+    "floorID": 705,
+    "stage": 7,
+    "floor": 5,
+    "selection": 3,
+    "sectorId": [
+      5102,
+      5103,
+      5104,
+      5106,
+      5201,
+      5202
+    ],
+    "chance": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "706": {
+    "floorID": 706,
+    "stage": 7,
+    "floor": 6,
+    "selection": 1,
+    "sectorId": [
+      6202
+    ],
+    "chance": [
+      1
+    ]
+  },
+  "707": {
+    "floorID": 707,
+    "stage": 7,
+    "floor": 7,
+    "selection": 1,
+    "sectorId": [
+      2401
+    ],
+    "chance": [
+      1
+    ]
+  },
+  "708": {
+    "floorID": 708,
+    "stage": 7,
+    "floor": 8,
+    "selection": 1,
+    "sectorId": [
+      2901
+    ],
+    "chance": [
+      1
+    ]
+  }
+}

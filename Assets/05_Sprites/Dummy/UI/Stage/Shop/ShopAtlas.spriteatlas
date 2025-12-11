@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShopAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 1331aaa29df872b4399417ebd02baae4, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f927e5f0fa0a3894f9bcea154a104e2f, type: 3}
+  - {fileID: 21300000, guid: 3af5af9373e22b64d95c10a1ec34fd68, type: 3}
+  - {fileID: 21300000, guid: 3bb099e3896fb1b4188708a8c38d9a98, type: 3}
+  - {fileID: 21300000, guid: 3295bc4502b2ed849b87946c73f203c2, type: 3}
+  - {fileID: 21300000, guid: f768c7956c8ee5a449a53d6df0bc2b64, type: 3}
+  - {fileID: 21300000, guid: c17d8517ec9faf243a3a0d1a56d05288, type: 3}
+  - {fileID: 21300000, guid: 5b09c617aa5885040a8af6f27c2cf3d2, type: 3}
+  - {fileID: 146668301, guid: 166759578dfe13b4fa4fe153e76ee98a, type: 3}
+  - {fileID: 21300000, guid: 2aa94c087347bcc4cb948355128ef4d1, type: 3}
+  - {fileID: -1784343881, guid: 807841e8f22754d4d9ea3437da7cb937, type: 3}
+  - {fileID: 21300000, guid: 05336639666808349808ca895d896f4b, type: 3}
+  - {fileID: -790074655, guid: 9344b639cd2787b4eac55eecabd62d92, type: 3}
+  - {fileID: 21300000, guid: 982a5a79d8489f142becffd28a4e64a1, type: 3}
+  - {fileID: 21300000, guid: 405b8fb9e2746bb45a10e9f127998a13, type: 3}
+  - {fileID: 841673162, guid: 030fa2c9e9ebb6f44a0818362cce144e, type: 3}
+  - {fileID: 21300000, guid: f76ba6aaf83d7434ebd0bf3df362ad54, type: 3}
+  - {fileID: 21300000, guid: bc3c992be7666f6478fa0db819963057, type: 3}
+  - {fileID: 21300000, guid: 9f665babd595b174c94161b8fc42e357, type: 3}
+  - {fileID: 21300000, guid: 6cd1899c6ca4f184eac03af5420b84b1, type: 3}
+  - {fileID: 21300000, guid: 76b2e41df7dc0284ca61a5eeee896be2, type: 3}
+  - {fileID: 21300000, guid: d4873ccdefbe36241a1c3fab071f05dc, type: 3}
+  - {fileID: 21300000, guid: 7282c05e355cfec4cb05da78a5868ed7, type: 3}
+  - {fileID: -1355025151, guid: 13f666fe28db1024184a2c1d352e8748, type: 3}
+  - {fileID: 21300000, guid: 9b57402f909cf99418d711b6a564a1d6, type: 3}
+  - {fileID: 21300000, guid: b991b5df2cad7824ba2defaafbb152de, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - E Key
+  - Q Key
+  - Divide Bar
+  - Sample2
+  - Arrow R
+  - Weapon
+  - Money
+  - List Highlight_0
+  - Stat Icon
+  - item box_0
+  - Money Box
+  - box highlight_0
+  - WeaponStat Icon
+  - Weapon Skill
+  - Idle Button_0
+  - Arrow L
+  - Hover Button
+  - Sample1
+  - Shop Background
+  - Sample3
+  - Selected Gradient
+  - WeaponSkill Icon
+  - Purchase Button_0
+  - Accessory
+  - Purchase Popup
+  m_RenderDataMap: {}
+  m_Tag: ShopAtlas
+  m_IsVariant: 0

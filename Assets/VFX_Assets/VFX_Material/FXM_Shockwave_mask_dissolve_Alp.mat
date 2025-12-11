@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FXM_Shockwave_mask_dissolve_Alp
+  m_Shader: {fileID: 4800000, guid: 6b66274a2fc0ac748b0729afa4c0634e, type: 3}
+  m_ValidKeywords:
+  - _SUB_COLOR_UV_VERTICAL
+  - _USE_DISSOLVE_ON
+  - _USE_MASK_ON
+  - _USE_NORMAL_ON
+  - _USE_STEP_ON
+  m_InvalidKeywords:
+  - _SUB_COLOR_UV_U
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Dissolve_SubTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Dissolve_Tex:
+        m_Texture: {fileID: 2800000, guid: a910e3d4643d63d4f82881cf3c011741, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Main_Tex:
+        m_Texture: {fileID: 2800000, guid: 7ead229491461f64fb8abd86dfcd7d4b, type: 3}
+        m_Scale: {x: 1, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_Tex:
+        m_Texture: {fileID: 2800000, guid: 65024605b79d91549a3238d2de50c6a9, type: 3}
+        m_Scale: {x: 1, y: 1.32}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_Tex:
+        m_Texture: {fileID: 2800000, guid: eb8166f070234134e84a814d6b0d460c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _BlendRGBDst: 10
+    - _BlendRGBSrc: 5
+    - _CustomCullMode: 0
+    - _Dissolve_Polar: 0
+    - _Dissolve_Upanner: 0
+    - _Dissolve_Vpanner: 0
+    - _Distortion_Custom: 0
+    - _EnableExternalAlpha: 0
+    - _Main_Intensity: 1
+    - _Main_Panner: 0
+    - _Main_Polar: 0
+    - _Main_Power: 1
+    - _Main_Upanner: 0
+    - _Main_Vpanner: 0
+    - _Mask_Custom: 0
+    - _Mask_Upanner: 0
+    - _Mask_Vpanner: 0
+    - _Normal_Polar: 0
+    - _Normal_Strength: 0.16
+    - _Step_Edge_Thickness: 0
+    - _Step_Value: 0.1
+    - _Sub_Color_Hardness: 1
+    - _Sub_Color_Intensity: 1
+    - _Sub_Color_Offset: -0.5
+    - _Sub_Color_UV: 0
+    - _Sub_Dissolve: 0
+    - _Use_Dissolve: 0
+    - _Use_Mask: 0
+    - _Use_Normal: 0
+    - _Use_Step: 1
+    - _Use_Sub_Color: 0
+    - _Vertex_Normal_Strength: 0.31
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Edge_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _Main_Color: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 1}
+    - _Normal_Panner_And_Offset: {r: 0.5, g: 0.5, b: 0.2, a: 0.2}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Sub_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

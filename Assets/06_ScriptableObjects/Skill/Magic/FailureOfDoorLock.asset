@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40967781ac361140918fd6eeebf0e5c, type: 3}
+  m_Name: FailureOfDoorLock
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: user
+      Entry: 6
+      Data: 
+    - Name: animator
+      Entry: 6
+      Data: 
+    - Name: attacker
+      Entry: 6
+      Data: 
+    - Name: mover
+      Entry: 6
+      Data: 
+    - Name: hit
+      Entry: 6
+      Data: 
+    - Name: skeleton
+      Entry: 6
+      Data: 
+    - Name: eventUser
+      Entry: 6
+      Data: 
+    - Name: direction
+      Entry: 6
+      Data: 
+    - Name: statUser
+      Entry: 6
+      Data: 
+    - Name: dashUser
+      Entry: 6
+      Data: 
+    - Name: activeUser
+      Entry: 6
+      Data: 
+    - Name: passiveUser
+      Entry: 6
+      Data: 
+    - Name: weaponSkillUser
+      Entry: 6
+      Data: 
+  _cdStartType: 2
+  baseCd: 10
+  duration: 5
+  isMotion: 1
+  index: 144
+  skillMotionType: 0
+  maxStack: 0
+  minStackCd: 0
+  cdStart: 0
+  unEquipCd: 0
+  EnterSkillState: 1
+  baseDmg: 0
+  bodyFactor: 0
+  spiritFactor: 0
+  finesseFactor: 0
+  baseGroggy: 0
+  nameString: 6012
+  descString: 30440
+  itemId: 2012
+  CurCastTime: 0
+  CurChargeTime: 0
+  usableWhenAttack: 0
+  usePlayerCheck: 1
+  chargeDmgRatio: 0
+  chargeGroggyRatio: 0
+  CastTime: 0
+  CastType: 0
+  ChargeTime: 0
+  EndChargeAutomatic: 1
+  chargeMoveDebuff: 0
+  chargeInfos: []
+  chargeType: 0
+  skill2: {fileID: 0}
+  useFrame: 0
+  Skill2: {fileID: 0}
+  isCharging: 0
+  doorDmg: 100
+  doorGroggy: 0
+  radius: 1
+  pos: {x: 1, y: 6}
+  dropEase: 2
+  doorSpeed: 0.4
+  time1: 0.4
+  dashDistance: 1
+  dashTime: 0.5
+  distance: 3
+  atkInfo: {fileID: 11400000, guid: 5bf422ce75d99e240926e1d5c57c04c0, type: 2}
+  weaponGroggy: 0

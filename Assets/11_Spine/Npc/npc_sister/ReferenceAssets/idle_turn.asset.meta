@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/14_Spine/Npc/npc_sister/ReferenceAssets/idle_turn.asset.meta
+guid: b9a5f2cf5631d6c438e60b9f7d11ec09
+========
+guid: e580428960fbd2e43b1817f386076bb6
+>>>>>>>> develop:Assets/08_Animations/Player/AirAtk3.anim.meta
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

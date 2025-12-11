@@ -1,0 +1,442 @@
+{
+  "1": {
+    "index": 1,
+    "statGroup": "Atk",
+    "lvl": 0,
+    "value": 0,
+    "addValue": 0,
+    "cost": 0
+  },
+  "2": {
+    "index": 2,
+    "statGroup": "Atk",
+    "lvl": 1,
+    "value": 10,
+    "addValue": 10,
+    "cost": 5
+  },
+  "3": {
+    "index": 3,
+    "statGroup": "Atk",
+    "lvl": 2,
+    "value": 15,
+    "addValue": 5,
+    "cost": 5
+  },
+  "4": {
+    "index": 4,
+    "statGroup": "Atk",
+    "lvl": 3,
+    "value": 20,
+    "addValue": 5,
+    "cost": 5
+  },
+  "5": {
+    "index": 5,
+    "statGroup": "Atk",
+    "lvl": 4,
+    "value": 25,
+    "addValue": 5,
+    "cost": 5
+  },
+  "6": {
+    "index": 6,
+    "statGroup": "Atk",
+    "lvl": 5,
+    "value": 30,
+    "addValue": 5,
+    "cost": 5
+  },
+  "7": {
+    "index": 7,
+    "statGroup": "Atk",
+    "lvl": 6,
+    "value": 35,
+    "addValue": 5,
+    "cost": 5
+  },
+  "8": {
+    "index": 8,
+    "statGroup": "Atk",
+    "lvl": 7,
+    "value": 40,
+    "addValue": 5,
+    "cost": 5
+  },
+  "9": {
+    "index": 9,
+    "statGroup": "Atk",
+    "lvl": 8,
+    "value": 45,
+    "addValue": 5,
+    "cost": 5
+  },
+  "10": {
+    "index": 10,
+    "statGroup": "Atk",
+    "lvl": 9,
+    "value": 50,
+    "addValue": 5,
+    "cost": 5
+  },
+  "11": {
+    "index": 11,
+    "statGroup": "Atk",
+    "lvl": 10,
+    "value": 55,
+    "addValue": 5,
+    "cost": 5
+  },
+  "12": {
+    "index": 12,
+    "statGroup": "MaxHp",
+    "lvl": 0,
+    "value": 0,
+    "addValue": 0,
+    "cost": 0
+  },
+  "13": {
+    "index": 13,
+    "statGroup": "MaxHp",
+    "lvl": 1,
+    "value": 10,
+    "addValue": 10,
+    "cost": 5
+  },
+  "14": {
+    "index": 14,
+    "statGroup": "MaxHp",
+    "lvl": 2,
+    "value": 15,
+    "addValue": 5,
+    "cost": 5
+  },
+  "15": {
+    "index": 15,
+    "statGroup": "MaxHp",
+    "lvl": 3,
+    "value": 20,
+    "addValue": 5,
+    "cost": 5
+  },
+  "16": {
+    "index": 16,
+    "statGroup": "MaxHp",
+    "lvl": 4,
+    "value": 25,
+    "addValue": 5,
+    "cost": 5
+  },
+  "17": {
+    "index": 17,
+    "statGroup": "MaxHp",
+    "lvl": 5,
+    "value": 30,
+    "addValue": 5,
+    "cost": 5
+  },
+  "18": {
+    "index": 18,
+    "statGroup": "MaxHp",
+    "lvl": 6,
+    "value": 35,
+    "addValue": 5,
+    "cost": 5
+  },
+  "19": {
+    "index": 19,
+    "statGroup": "MaxHp",
+    "lvl": 7,
+    "value": 40,
+    "addValue": 5,
+    "cost": 5
+  },
+  "20": {
+    "index": 20,
+    "statGroup": "MaxHp",
+    "lvl": 8,
+    "value": 45,
+    "addValue": 5,
+    "cost": 5
+  },
+  "21": {
+    "index": 21,
+    "statGroup": "MaxHp",
+    "lvl": 9,
+    "value": 50,
+    "addValue": 5,
+    "cost": 5
+  },
+  "22": {
+    "index": 22,
+    "statGroup": "MaxHp",
+    "lvl": 10,
+    "value": 55,
+    "addValue": 5,
+    "cost": 5
+  },
+  "23": {
+    "index": 23,
+    "statGroup": "Def",
+    "lvl": 0,
+    "value": 0,
+    "addValue": 0,
+    "cost": 0
+  },
+  "24": {
+    "index": 24,
+    "statGroup": "Def",
+    "lvl": 1,
+    "value": 10,
+    "addValue": 10,
+    "cost": 5
+  },
+  "25": {
+    "index": 25,
+    "statGroup": "Def",
+    "lvl": 2,
+    "value": 15,
+    "addValue": 5,
+    "cost": 5
+  },
+  "26": {
+    "index": 26,
+    "statGroup": "Def",
+    "lvl": 3,
+    "value": 20,
+    "addValue": 5,
+    "cost": 5
+  },
+  "27": {
+    "index": 27,
+    "statGroup": "Def",
+    "lvl": 4,
+    "value": 25,
+    "addValue": 5,
+    "cost": 5
+  },
+  "28": {
+    "index": 28,
+    "statGroup": "Def",
+    "lvl": 5,
+    "value": 30,
+    "addValue": 5,
+    "cost": 5
+  },
+  "29": {
+    "index": 29,
+    "statGroup": "Def",
+    "lvl": 6,
+    "value": 35,
+    "addValue": 5,
+    "cost": 5
+  },
+  "30": {
+    "index": 30,
+    "statGroup": "Def",
+    "lvl": 7,
+    "value": 40,
+    "addValue": 5,
+    "cost": 5
+  },
+  "31": {
+    "index": 31,
+    "statGroup": "Def",
+    "lvl": 8,
+    "value": 45,
+    "addValue": 5,
+    "cost": 5
+  },
+  "32": {
+    "index": 32,
+    "statGroup": "Def",
+    "lvl": 9,
+    "value": 50,
+    "addValue": 5,
+    "cost": 5
+  },
+  "33": {
+    "index": 33,
+    "statGroup": "Def",
+    "lvl": 10,
+    "value": 55,
+    "addValue": 5,
+    "cost": 5
+  },
+  "34": {
+    "index": 34,
+    "statGroup": "MoveSpeed",
+    "lvl": 0,
+    "value": 0,
+    "addValue": 0,
+    "cost": 0
+  },
+  "35": {
+    "index": 35,
+    "statGroup": "MoveSpeed",
+    "lvl": 1,
+    "value": 10,
+    "addValue": 10,
+    "cost": 5
+  },
+  "36": {
+    "index": 36,
+    "statGroup": "MoveSpeed",
+    "lvl": 2,
+    "value": 15,
+    "addValue": 5,
+    "cost": 5
+  },
+  "37": {
+    "index": 37,
+    "statGroup": "MoveSpeed",
+    "lvl": 3,
+    "value": 20,
+    "addValue": 5,
+    "cost": 5
+  },
+  "38": {
+    "index": 38,
+    "statGroup": "MoveSpeed",
+    "lvl": 4,
+    "value": 25,
+    "addValue": 5,
+    "cost": 5
+  },
+  "39": {
+    "index": 39,
+    "statGroup": "MoveSpeed",
+    "lvl": 5,
+    "value": 30,
+    "addValue": 5,
+    "cost": 5
+  },
+  "40": {
+    "index": 40,
+    "statGroup": "MoveSpeed",
+    "lvl": 6,
+    "value": 35,
+    "addValue": 5,
+    "cost": 5
+  },
+  "41": {
+    "index": 41,
+    "statGroup": "MoveSpeed",
+    "lvl": 7,
+    "value": 40,
+    "addValue": 5,
+    "cost": 5
+  },
+  "42": {
+    "index": 42,
+    "statGroup": "MoveSpeed",
+    "lvl": 8,
+    "value": 45,
+    "addValue": 5,
+    "cost": 5
+  },
+  "43": {
+    "index": 43,
+    "statGroup": "MoveSpeed",
+    "lvl": 9,
+    "value": 50,
+    "addValue": 5,
+    "cost": 5
+  },
+  "44": {
+    "index": 44,
+    "statGroup": "MoveSpeed",
+    "lvl": 10,
+    "value": 55,
+    "addValue": 5,
+    "cost": 5
+  },
+  "45": {
+    "index": 45,
+    "statGroup": "CritProb",
+    "lvl": 0,
+    "value": 0,
+    "addValue": 0,
+    "cost": 0
+  },
+  "46": {
+    "index": 46,
+    "statGroup": "CritProb",
+    "lvl": 1,
+    "value": 10,
+    "addValue": 10,
+    "cost": 5
+  },
+  "47": {
+    "index": 47,
+    "statGroup": "CritProb",
+    "lvl": 2,
+    "value": 15,
+    "addValue": 5,
+    "cost": 5
+  },
+  "48": {
+    "index": 48,
+    "statGroup": "CritProb",
+    "lvl": 3,
+    "value": 20,
+    "addValue": 5,
+    "cost": 5
+  },
+  "49": {
+    "index": 49,
+    "statGroup": "CritProb",
+    "lvl": 4,
+    "value": 25,
+    "addValue": 5,
+    "cost": 5
+  },
+  "50": {
+    "index": 50,
+    "statGroup": "CritProb",
+    "lvl": 5,
+    "value": 30,
+    "addValue": 5,
+    "cost": 5
+  },
+  "51": {
+    "index": 51,
+    "statGroup": "CritProb",
+    "lvl": 6,
+    "value": 35,
+    "addValue": 5,
+    "cost": 5
+  },
+  "52": {
+    "index": 52,
+    "statGroup": "CritProb",
+    "lvl": 7,
+    "value": 40,
+    "addValue": 5,
+    "cost": 5
+  },
+  "53": {
+    "index": 53,
+    "statGroup": "CritProb",
+    "lvl": 8,
+    "value": 45,
+    "addValue": 5,
+    "cost": 5
+  },
+  "54": {
+    "index": 54,
+    "statGroup": "CritProb",
+    "lvl": 9,
+    "value": 50,
+    "addValue": 5,
+    "cost": 5
+  },
+  "55": {
+    "index": 55,
+    "statGroup": "CritProb",
+    "lvl": 10,
+    "value": 55,
+    "addValue": 5,
+    "cost": 5
+  }
+}

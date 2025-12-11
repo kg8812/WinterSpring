@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eebb14a57ddb92042bfe9d1c31bb7cba, type: 3}
+  m_Name: JingburgerPassive
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: user
+      Entry: 6
+      Data: 
+    - Name: animator
+      Entry: 6
+      Data: 
+    - Name: attacker
+      Entry: 6
+      Data: 
+    - Name: mover
+      Entry: 6
+      Data: 
+    - Name: hit
+      Entry: 6
+      Data: 
+    - Name: skeleton
+      Entry: 6
+      Data: 
+    - Name: eventUser
+      Entry: 6
+      Data: 
+    - Name: direction
+      Entry: 6
+      Data: 
+    - Name: statUser
+      Entry: 6
+      Data: 
+    - Name: dashUser
+      Entry: 6
+      Data: 
+    - Name: activeUser
+      Entry: 6
+      Data: 
+    - Name: passiveUser
+      Entry: 6
+      Data: 
+    - Name: weaponSkillUser
+      Entry: 6
+      Data: 
+    - Name: OnFire
+      Entry: 6
+      Data: 
+    - Name: OnAnimalChange
+      Entry: 6
+      Data: 
+    - Name: OnAnimalFire
+      Entry: 6
+      Data: 
+    - Name: OnAnimalStackChange
+      Entry: 6
+      Data: 
+  _cdStartType: 0
+  baseCd: 0
+  duration: 0
+  isMotion: 0
+  index: 0
+  skillMotionType: 0
+  maxStack: 3
+  minStackCd: 0
+  cdStart: 0
+  unEquipCd: 0
+  EnterSkillState: 1
+  baseDmg: 25
+  bodyFactor: 0
+  spiritFactor: 0
+  finesseFactor: 30
+  baseGroggy: 20
+  nameString: 9201
+  descString: 0
+  itemId: 4201
+  CurCastTime: 0
+  CurChargeTime: 0
+  paintGroggy: 1
+  _maxStack: 3
+  info: {fileID: 11400000, guid: 73443bafad53e1145a406ff5e61b0a62, type: 2}
+  count: 2
+  term: 0.15
+  radius: 0.5
+  dogInfo:
+    dmg: 50
+    groggy: 0
+    atkCount: 3
+    count: 7

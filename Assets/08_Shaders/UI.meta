@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/09_Shaders/UI.meta
+guid: 16ccffa703d00a141b4cff675390eec5
+========
+guid: eeda36fa26c640a4da0fadf5f8f211ef
+>>>>>>>> develop:Assets/08_Animations/Player/AttackColliders.meta
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

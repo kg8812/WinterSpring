@@ -1,0 +1,1184 @@
+{
+  "101": {
+    "playerType": "Ine",
+    "tags": [
+      "Feather"
+    ],
+    "treeType": "Passive",
+    "name": 10101,
+    "description": 10151,
+    "tagNames": [
+      11001
+    ],
+    "slotType": "Medium"
+  },
+  "102": {
+    "playerType": "Ine",
+    "tags": [
+      "Feather"
+    ],
+    "treeType": "Passive",
+    "name": 10102,
+    "description": 10152,
+    "tagNames": [
+      11001
+    ],
+    "slotType": "Medium"
+  },
+  "103": {
+    "playerType": "Ine",
+    "tags": [
+      "Feather"
+    ],
+    "treeType": "Passive",
+    "name": 10103,
+    "description": 10153,
+    "tagNames": [
+      11001
+    ],
+    "slotType": "Medium"
+  },
+  "104": {
+    "playerType": "Ine",
+    "tags": [
+      "Feather"
+    ],
+    "treeType": "Passive",
+    "name": 10104,
+    "description": 10154,
+    "tagNames": [
+      11001
+    ],
+    "slotType": "High"
+  },
+  "105": {
+    "playerType": "Ine",
+    "tags": [
+      "Feather"
+    ],
+    "treeType": "Passive",
+    "name": 10105,
+    "description": 10155,
+    "tagNames": [
+      11001
+    ],
+    "slotType": "High"
+  },
+  "106": {
+    "playerType": "Ine",
+    "tags": [
+      "Spell"
+    ],
+    "treeType": "Active",
+    "name": 10106,
+    "description": 10156,
+    "tagNames": [
+      11002
+    ],
+    "slotType": "Medium"
+  },
+  "107": {
+    "playerType": "Ine",
+    "tags": [
+      "Spell"
+    ],
+    "treeType": "Active",
+    "name": 10107,
+    "description": 10157,
+    "tagNames": [
+      11002
+    ],
+    "slotType": "High"
+  },
+  "108": {
+    "playerType": "Ine",
+    "tags": [
+      "Spell"
+    ],
+    "treeType": "Active",
+    "name": 10108,
+    "description": 10158,
+    "tagNames": [
+      11002
+    ],
+    "slotType": "Medium"
+  },
+  "109": {
+    "playerType": "Ine",
+    "tags": [
+      "Spell"
+    ],
+    "treeType": "Active",
+    "name": 10109,
+    "description": 10159,
+    "tagNames": [
+      11002
+    ],
+    "slotType": "High"
+  },
+  "110": {
+    "playerType": "Ine",
+    "tags": [
+      "Spell"
+    ],
+    "treeType": "Active",
+    "name": 10110,
+    "description": 10160,
+    "tagNames": [
+      11002
+    ],
+    "slotType": "High"
+  },
+  "111": {
+    "playerType": "Ine",
+    "tags": [
+      "Feather"
+    ],
+    "treeType": "Support",
+    "name": 10111,
+    "description": 10161,
+    "tagNames": [
+      11001
+    ],
+    "slotType": "Low"
+  },
+  "112": {
+    "playerType": "Ine",
+    "tags": [
+      "Feather"
+    ],
+    "treeType": "Support",
+    "name": 10112,
+    "description": 10162,
+    "tagNames": [
+      11001
+    ],
+    "slotType": "Medium"
+  },
+  "113": {
+    "playerType": "Ine",
+    "tags": [
+      "Spell"
+    ],
+    "treeType": "Support",
+    "name": 10113,
+    "description": 10163,
+    "tagNames": [
+      11002
+    ],
+    "slotType": "Medium"
+  },
+  "114": {
+    "playerType": "Ine",
+    "tags": [
+      "Spell"
+    ],
+    "treeType": "Support",
+    "name": 10114,
+    "description": 10164,
+    "tagNames": [
+      11002
+    ],
+    "slotType": "Low"
+  },
+  "115": {
+    "playerType": "Ine",
+    "tags": [
+      "Feather",
+      "Spell"
+    ],
+    "treeType": "Support",
+    "name": 10115,
+    "description": 10165,
+    "tagNames": [
+      11001,
+      11002
+    ],
+    "slotType": "Low"
+  },
+  "201": {
+    "playerType": "Jingburger",
+    "tags": [
+      "Depiction"
+    ],
+    "treeType": "Passive",
+    "name": 10201,
+    "description": 10251,
+    "tagNames": [
+      11004
+    ],
+    "slotType": "Medium"
+  },
+  "202": {
+    "playerType": "Jingburger",
+    "tags": [
+      "Depiction"
+    ],
+    "treeType": "Passive",
+    "name": 10202,
+    "description": 10252,
+    "tagNames": [
+      11004
+    ],
+    "slotType": "Medium"
+  },
+  "203": {
+    "playerType": "Jingburger",
+    "tags": [
+      "Depiction"
+    ],
+    "treeType": "Passive",
+    "name": 10203,
+    "description": 10253,
+    "tagNames": [
+      11004
+    ],
+    "slotType": "High"
+  },
+  "204": {
+    "playerType": "Jingburger",
+    "tags": [
+      "Depiction"
+    ],
+    "treeType": "Passive",
+    "name": 10204,
+    "description": 10254,
+    "tagNames": [
+      11004
+    ],
+    "slotType": "Low"
+  },
+  "205": {
+    "playerType": "Jingburger",
+    "tags": [
+      "Depiction"
+    ],
+    "treeType": "Passive",
+    "name": 10205,
+    "description": 10255,
+    "tagNames": [
+      11004
+    ],
+    "slotType": "High"
+  },
+  "206": {
+    "playerType": "Jingburger",
+    "tags": [
+      "Coloring"
+    ],
+    "treeType": "Active",
+    "name": 10206,
+    "description": 10256,
+    "tagNames": [
+      11005
+    ],
+    "slotType": "High"
+  },
+  "207": {
+    "playerType": "Jingburger",
+    "tags": [
+      "Coloring"
+    ],
+    "treeType": "Active",
+    "name": 10207,
+    "description": 10257,
+    "tagNames": [
+      11005
+    ],
+    "slotType": "High"
+  },
+  "208": {
+    "playerType": "Jingburger",
+    "tags": [
+      "Coloring"
+    ],
+    "treeType": "Active",
+    "name": 10208,
+    "description": 10258,
+    "tagNames": [
+      11005
+    ],
+    "slotType": "Low"
+  },
+  "209": {
+    "playerType": "Jingburger",
+    "tags": [
+      "Coloring"
+    ],
+    "treeType": "Active",
+    "name": 10209,
+    "description": 10259,
+    "tagNames": [
+      11005
+    ],
+    "slotType": "High"
+  },
+  "210": {
+    "playerType": "Jingburger",
+    "tags": [
+      "Coloring"
+    ],
+    "treeType": "Active",
+    "name": 10210,
+    "description": 10260,
+    "tagNames": [
+      11005
+    ],
+    "slotType": "Medium"
+  },
+  "211": {
+    "playerType": "Jingburger",
+    "tags": [
+      "Coloring"
+    ],
+    "treeType": "Support",
+    "name": 10211,
+    "description": 10261,
+    "tagNames": [
+      11004
+    ],
+    "slotType": "Medium"
+  },
+  "212": {
+    "playerType": "Jingburger",
+    "tags": [
+      "Coloring"
+    ],
+    "treeType": "Support",
+    "name": 10212,
+    "description": 10262,
+    "tagNames": [
+      11004
+    ],
+    "slotType": "Medium"
+  },
+  "213": {
+    "playerType": "Jingburger",
+    "tags": [
+      "Depiction"
+    ],
+    "treeType": "Support",
+    "name": 10213,
+    "description": 10263,
+    "tagNames": [
+      11005
+    ],
+    "slotType": "Medium"
+  },
+  "214": {
+    "playerType": "Jingburger",
+    "tags": [
+      "Depiction"
+    ],
+    "treeType": "Support",
+    "name": 10214,
+    "description": 10264,
+    "tagNames": [
+      11005
+    ],
+    "slotType": "Low"
+  },
+  "215": {
+    "playerType": "Jingburger",
+    "tags": [
+      "Coloring",
+      "Depiction"
+    ],
+    "treeType": "Support",
+    "name": 10215,
+    "description": 10265,
+    "tagNames": [
+      11004,
+      11005
+    ],
+    "slotType": "Medium"
+  },
+  "301": {
+    "playerType": "Lilpa",
+    "tags": [
+      "Hunt"
+    ],
+    "treeType": "Passive",
+    "name": 10301,
+    "description": 10351,
+    "tagNames": [
+      11007
+    ],
+    "slotType": "High"
+  },
+  "302": {
+    "playerType": "Lilpa",
+    "tags": [
+      "Hunt"
+    ],
+    "treeType": "Passive",
+    "name": 10302,
+    "description": 10352,
+    "tagNames": [
+      11007
+    ],
+    "slotType": "Medium"
+  },
+  "303": {
+    "playerType": "Lilpa",
+    "tags": [
+      "Hunt"
+    ],
+    "treeType": "Passive",
+    "name": 10303,
+    "description": 10353,
+    "tagNames": [
+      11007
+    ],
+    "slotType": "Medium"
+  },
+  "304": {
+    "playerType": "Lilpa",
+    "tags": [
+      "Hunt"
+    ],
+    "treeType": "Passive",
+    "name": 10304,
+    "description": 10354,
+    "tagNames": [
+      11007
+    ],
+    "slotType": "High"
+  },
+  "305": {
+    "playerType": "Lilpa",
+    "tags": [
+      "Hunt"
+    ],
+    "treeType": "Passive",
+    "name": 10305,
+    "description": 10355,
+    "tagNames": [
+      11007
+    ],
+    "slotType": "Low"
+  },
+  "306": {
+    "playerType": "Lilpa",
+    "tags": [
+      "Rifle"
+    ],
+    "treeType": "Active",
+    "name": 10306,
+    "description": 10356,
+    "tagNames": [
+      11008
+    ],
+    "slotType": "Low"
+  },
+  "307": {
+    "playerType": "Lilpa",
+    "tags": [
+      "Rifle"
+    ],
+    "treeType": "Active",
+    "name": 10307,
+    "description": 10357,
+    "tagNames": [
+      11008
+    ],
+    "slotType": "High"
+  },
+  "308": {
+    "playerType": "Lilpa",
+    "tags": [
+      "Rifle"
+    ],
+    "treeType": "Active",
+    "name": 10308,
+    "description": 10358,
+    "tagNames": [
+      11008
+    ],
+    "slotType": "Medium"
+  },
+  "309": {
+    "playerType": "Lilpa",
+    "tags": [
+      "Rifle"
+    ],
+    "treeType": "Active",
+    "name": 10309,
+    "description": 10359,
+    "tagNames": [
+      11008
+    ],
+    "slotType": "High"
+  },
+  "310": {
+    "playerType": "Lilpa",
+    "tags": [
+      "Rifle"
+    ],
+    "treeType": "Active",
+    "name": 10310,
+    "description": 10360,
+    "tagNames": [
+      11008
+    ],
+    "slotType": "Medium"
+  },
+  "311": {
+    "playerType": "Lilpa",
+    "tags": [
+      "Rifle"
+    ],
+    "treeType": "Support",
+    "name": 10311,
+    "description": 10361,
+    "tagNames": [
+      11007
+    ],
+    "slotType": "Medium"
+  },
+  "312": {
+    "playerType": "Lilpa",
+    "tags": [
+      "Rifle"
+    ],
+    "treeType": "Support",
+    "name": 10312,
+    "description": 10362,
+    "tagNames": [
+      11007
+    ],
+    "slotType": "Low"
+  },
+  "313": {
+    "playerType": "Lilpa",
+    "tags": [
+      "Hunt"
+    ],
+    "treeType": "Support",
+    "name": 10313,
+    "description": 10363,
+    "tagNames": [
+      11008
+    ],
+    "slotType": "Medium"
+  },
+  "314": {
+    "playerType": "Lilpa",
+    "tags": [
+      "Hunt"
+    ],
+    "treeType": "Support",
+    "name": 10314,
+    "description": 10364,
+    "tagNames": [
+      11008
+    ],
+    "slotType": "Medium"
+  },
+  "315": {
+    "playerType": "Lilpa",
+    "tags": [
+      "Rifle",
+      "Hunt"
+    ],
+    "treeType": "Support",
+    "name": 10315,
+    "description": 10365,
+    "tagNames": [
+      11007,
+      11008
+    ],
+    "slotType": "Medium"
+  },
+  "401": {
+    "playerType": "Jururu",
+    "tags": [
+      "Soldier"
+    ],
+    "treeType": "Passive",
+    "name": 10401,
+    "description": 10451,
+    "tagNames": [
+      11010
+    ],
+    "slotType": "High"
+  },
+  "402": {
+    "playerType": "Jururu",
+    "tags": [
+      "Soldier"
+    ],
+    "treeType": "Passive",
+    "name": 10402,
+    "description": 10452,
+    "tagNames": [
+      11010
+    ],
+    "slotType": "High"
+  },
+  "403": {
+    "playerType": "Jururu",
+    "tags": [
+      "Soldier"
+    ],
+    "treeType": "Passive",
+    "name": 10403,
+    "description": 10453,
+    "tagNames": [
+      11010
+    ],
+    "slotType": "Low"
+  },
+  "404": {
+    "playerType": "Jururu",
+    "tags": [
+      "Soldier"
+    ],
+    "treeType": "Passive",
+    "name": 10404,
+    "description": 10454,
+    "tagNames": [
+      11010
+    ],
+    "slotType": "High"
+  },
+  "405": {
+    "playerType": "Jururu",
+    "tags": [
+      "Soldier"
+    ],
+    "treeType": "Passive",
+    "name": 10405,
+    "description": 10455,
+    "tagNames": [
+      11010
+    ],
+    "slotType": "Low"
+  },
+  "406": {
+    "playerType": "Jururu",
+    "tags": [
+      "Ghost"
+    ],
+    "treeType": "Active",
+    "name": 10406,
+    "description": 10456,
+    "tagNames": [
+      11011
+    ],
+    "slotType": "Medium"
+  },
+  "407": {
+    "playerType": "Jururu",
+    "tags": [
+      "Ghost"
+    ],
+    "treeType": "Active",
+    "name": 10407,
+    "description": 10457,
+    "tagNames": [
+      11011
+    ],
+    "slotType": "High"
+  },
+  "408": {
+    "playerType": "Jururu",
+    "tags": [
+      "Ghost"
+    ],
+    "treeType": "Active",
+    "name": 10408,
+    "description": 10458,
+    "tagNames": [
+      11011
+    ],
+    "slotType": "High"
+  },
+  "409": {
+    "playerType": "Jururu",
+    "tags": [
+      "Ghost"
+    ],
+    "treeType": "Active",
+    "name": 10409,
+    "description": 10459,
+    "tagNames": [
+      11011
+    ],
+    "slotType": "Low"
+  },
+  "410": {
+    "playerType": "Jururu",
+    "tags": [
+      "Ghost"
+    ],
+    "treeType": "Active",
+    "name": 10410,
+    "description": 10460,
+    "tagNames": [
+      11011
+    ],
+    "slotType": "Medium"
+  },
+  "411": {
+    "playerType": "Jururu",
+    "tags": [
+      "Ghost"
+    ],
+    "treeType": "Support",
+    "name": 10411,
+    "description": 10461,
+    "tagNames": [
+      11010
+    ],
+    "slotType": "Medium"
+  },
+  "412": {
+    "playerType": "Jururu",
+    "tags": [
+      "Ghost"
+    ],
+    "treeType": "Support",
+    "name": 10412,
+    "description": 10462,
+    "tagNames": [
+      11010
+    ],
+    "slotType": "Medium"
+  },
+  "413": {
+    "playerType": "Jururu",
+    "tags": [
+      "Soldier"
+    ],
+    "treeType": "Support",
+    "name": 10413,
+    "description": 10463,
+    "tagNames": [
+      11011
+    ],
+    "slotType": "Medium"
+  },
+  "414": {
+    "playerType": "Jururu",
+    "tags": [
+      "Soldier"
+    ],
+    "treeType": "Support",
+    "name": 10414,
+    "description": 10464,
+    "tagNames": [
+      11011
+    ],
+    "slotType": "Medium"
+  },
+  "415": {
+    "playerType": "Jururu",
+    "tags": [
+      "Ghost",
+      "Soldier"
+    ],
+    "treeType": "Support",
+    "name": 10415,
+    "description": 10465,
+    "tagNames": [
+      11010,
+      11011
+    ],
+    "slotType": "Medium"
+  },
+  "501": {
+    "playerType": "Gosegu",
+    "tags": [
+      "Drone"
+    ],
+    "treeType": "Passive",
+    "name": 10501,
+    "description": 10551,
+    "tagNames": [
+      11013
+    ],
+    "slotType": "Medium"
+  },
+  "502": {
+    "playerType": "Gosegu",
+    "tags": [
+      "Drone"
+    ],
+    "treeType": "Passive",
+    "name": 10502,
+    "description": 10552,
+    "tagNames": [
+      11013
+    ],
+    "slotType": "High"
+  },
+  "503": {
+    "playerType": "Gosegu",
+    "tags": [
+      "Drone"
+    ],
+    "treeType": "Passive",
+    "name": 10503,
+    "description": 10553,
+    "tagNames": [
+      11013
+    ],
+    "slotType": "Low"
+  },
+  "504": {
+    "playerType": "Gosegu",
+    "tags": [
+      "Drone"
+    ],
+    "treeType": "Passive",
+    "name": 10504,
+    "description": 10554,
+    "tagNames": [
+      11013
+    ],
+    "slotType": "Low"
+  },
+  "505": {
+    "playerType": "Gosegu",
+    "tags": [
+      "Drone"
+    ],
+    "treeType": "Passive",
+    "name": 10505,
+    "description": 10555,
+    "tagNames": [
+      11013
+    ],
+    "slotType": "High"
+  },
+  "506": {
+    "playerType": "Gosegu",
+    "tags": [
+      "Mecha"
+    ],
+    "treeType": "Active",
+    "name": 10506,
+    "description": 10556,
+    "tagNames": [
+      11014
+    ],
+    "slotType": "High"
+  },
+  "507": {
+    "playerType": "Gosegu",
+    "tags": [
+      "Mecha"
+    ],
+    "treeType": "Active",
+    "name": 10507,
+    "description": 10557,
+    "tagNames": [
+      11014
+    ],
+    "slotType": "High"
+  },
+  "508": {
+    "playerType": "Gosegu",
+    "tags": [
+      "Mecha"
+    ],
+    "treeType": "Active",
+    "name": 10508,
+    "description": 10558,
+    "tagNames": [
+      11014
+    ],
+    "slotType": "High"
+  },
+  "509": {
+    "playerType": "Gosegu",
+    "tags": [
+      "Mecha"
+    ],
+    "treeType": "Active",
+    "name": 10509,
+    "description": 10559,
+    "tagNames": [
+      11014
+    ],
+    "slotType": "Low"
+  },
+  "510": {
+    "playerType": "Gosegu",
+    "tags": [
+      "Mecha"
+    ],
+    "treeType": "Active",
+    "name": 10510,
+    "description": 10560,
+    "tagNames": [
+      11014
+    ],
+    "slotType": "Medium"
+  },
+  "511": {
+    "playerType": "Gosegu",
+    "tags": [
+      "Drone"
+    ],
+    "treeType": "Support",
+    "name": 10511,
+    "description": 10561,
+    "tagNames": [
+      11013
+    ],
+    "slotType": "Medium"
+  },
+  "512": {
+    "playerType": "Gosegu",
+    "tags": [
+      "Drone"
+    ],
+    "treeType": "Support",
+    "name": 10512,
+    "description": 10562,
+    "tagNames": [
+      11013
+    ],
+    "slotType": "Medium"
+  },
+  "513": {
+    "playerType": "Gosegu",
+    "tags": [
+      "Mecha"
+    ],
+    "treeType": "Support",
+    "name": 10513,
+    "description": 10563,
+    "tagNames": [
+      11014
+    ],
+    "slotType": "Medium"
+  },
+  "514": {
+    "playerType": "Gosegu",
+    "tags": [
+      "Mecha"
+    ],
+    "treeType": "Support",
+    "name": 10514,
+    "description": 10564,
+    "tagNames": [
+      11014
+    ],
+    "slotType": "Medium"
+  },
+  "515": {
+    "playerType": "Gosegu",
+    "tags": [
+      "Drone",
+      "Mecha"
+    ],
+    "treeType": "Support",
+    "name": 10515,
+    "description": 10565,
+    "tagNames": [
+      11013,
+      11014
+    ],
+    "slotType": "Medium"
+  },
+  "601": {
+    "playerType": "Viichan",
+    "tags": [
+      "Beast"
+    ],
+    "treeType": "Passive",
+    "name": 10601,
+    "description": 10651,
+    "tagNames": [
+      11016
+    ],
+    "slotType": "Low"
+  },
+  "602": {
+    "playerType": "Viichan",
+    "tags": [
+      "Beast"
+    ],
+    "treeType": "Passive",
+    "name": 10602,
+    "description": 10652,
+    "tagNames": [
+      11016
+    ],
+    "slotType": "Low"
+  },
+  "603": {
+    "playerType": "Viichan",
+    "tags": [
+      "Beast"
+    ],
+    "treeType": "Passive",
+    "name": 10603,
+    "description": 10653,
+    "tagNames": [
+      11016
+    ],
+    "slotType": "High"
+  },
+  "604": {
+    "playerType": "Viichan",
+    "tags": [
+      "Beast"
+    ],
+    "treeType": "Passive",
+    "name": 10604,
+    "description": 10654,
+    "tagNames": [
+      11016
+    ],
+    "slotType": "High"
+  },
+  "605": {
+    "playerType": "Viichan",
+    "tags": [
+      "Beast"
+    ],
+    "treeType": "Passive",
+    "name": 10605,
+    "description": 10655,
+    "tagNames": [
+      11016
+    ],
+    "slotType": "High"
+  },
+  "606": {
+    "playerType": "Viichan",
+    "tags": [
+      "Shield"
+    ],
+    "treeType": "Active",
+    "name": 10606,
+    "description": 10656,
+    "tagNames": [
+      11017
+    ],
+    "slotType": "Medium"
+  },
+  "607": {
+    "playerType": "Viichan",
+    "tags": [
+      "Shield"
+    ],
+    "treeType": "Active",
+    "name": 10607,
+    "description": 10657,
+    "tagNames": [
+      11017
+    ],
+    "slotType": "High"
+  },
+  "608": {
+    "playerType": "Viichan",
+    "tags": [
+      "Shield"
+    ],
+    "treeType": "Active",
+    "name": 10608,
+    "description": 10658,
+    "tagNames": [
+      11017
+    ],
+    "slotType": "High"
+  },
+  "609": {
+    "playerType": "Viichan",
+    "tags": [
+      "Shield"
+    ],
+    "treeType": "Active",
+    "name": 10609,
+    "description": 10659,
+    "tagNames": [
+      11017
+    ],
+    "slotType": "Medium"
+  },
+  "610": {
+    "playerType": "Viichan",
+    "tags": [
+      "Shield"
+    ],
+    "treeType": "Active",
+    "name": 10610,
+    "description": 10660,
+    "tagNames": [
+      11017
+    ],
+    "slotType": "Medium"
+  },
+  "611": {
+    "playerType": "Viichan",
+    "tags": [
+      "Shield"
+    ],
+    "treeType": "Support",
+    "name": 10611,
+    "description": 10661,
+    "tagNames": [
+      11016
+    ],
+    "slotType": "Medium"
+  },
+  "612": {
+    "playerType": "Viichan",
+    "tags": [
+      "Shield"
+    ],
+    "treeType": "Support",
+    "name": 10612,
+    "description": 10662,
+    "tagNames": [
+      11016
+    ],
+    "slotType": "Medium"
+  },
+  "613": {
+    "playerType": "Viichan",
+    "tags": [
+      "Beast"
+    ],
+    "treeType": "Support",
+    "name": 10613,
+    "description": 10663,
+    "tagNames": [
+      11017
+    ],
+    "slotType": "Low"
+  },
+  "614": {
+    "playerType": "Viichan",
+    "tags": [
+      "Beast"
+    ],
+    "treeType": "Support",
+    "name": 10614,
+    "description": 10664,
+    "tagNames": [
+      11017
+    ],
+    "slotType": "Medium"
+  },
+  "615": {
+    "playerType": "Viichan",
+    "tags": [
+      "Shield",
+      "Beast"
+    ],
+    "treeType": "Support",
+    "name": 10615,
+    "description": 10665,
+    "tagNames": [
+      11016,
+      11017
+    ],
+    "slotType": "Medium"
+  }
+}

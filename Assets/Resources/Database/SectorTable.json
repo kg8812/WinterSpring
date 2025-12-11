@@ -1,0 +1,150 @@
+﻿{
+  "1106": {
+    "sectorId": 1106,
+    "sectorType": "Battle"
+  },
+  "1201": {
+    "sectorId": 1201,
+    "sectorType": "Battle"
+  },
+  "1202": {
+    "sectorId": 1202,
+    "sectorType": "Battle"
+  },
+  "1204": {
+    "sectorId": 1204,
+    "sectorType": "Battle"
+  },
+  "1301": {
+    "sectorId": 1301,
+    "sectorType": "Battle"
+  },
+  "1302": {
+    "sectorId": 1302,
+    "sectorType": "Battle"
+  },
+  "2001": {
+    "sectorId": 2001,
+    "sectorType": "Shop"
+  },
+  "2002": {
+    "sectorId": 2002,
+    "sectorType": "Shop"
+  },
+  "2003": {
+    "sectorId": 2003,
+    "sectorType": "NonBattle"
+  },
+  "2102": {
+    "sectorId": 2102,
+    "sectorType": "Battle"
+  },
+  "2110": {
+    "sectorId": 2110,
+    "sectorType": "Battle"
+  },
+  "2111": {
+    "sectorId": 2111,
+    "sectorType": "Battle"
+  },
+  "2113": {
+    "sectorId": 2113,
+    "sectorType": "Battle"
+  },
+  "2114": {
+    "sectorId": 2114,
+    "sectorType": "Battle"
+  },
+  "2202": {
+    "sectorId": 2202,
+    "sectorType": "Battle"
+  },
+  "2204": {
+    "sectorId": 2204,
+    "sectorType": "Battle"
+  },
+  "2208": {
+    "sectorId": 2208,
+    "sectorType": "Battle"
+  },
+  "2303": {
+    "sectorId": 2303,
+    "sectorType": "Battle"
+  },
+  "2304": {
+    "sectorId": 2304,
+    "sectorType": "Battle"
+  },
+  "2401": {
+    "sectorId": 2401,
+    "sectorType": "Elite"
+  },
+  "2901": {
+    "sectorId": 2901,
+    "sectorType": "Boss"
+  },
+  "3103": {
+    "sectorId": 3103,
+    "sectorType": "Battle"
+  },
+  "3104": {
+    "sectorId": 3104,
+    "sectorType": "Battle"
+  },
+  "3105": {
+    "sectorId": 3105,
+    "sectorType": "Battle"
+  },
+  "3106": {
+    "sectorId": 3106,
+    "sectorType": "Battle"
+  },
+  "3202": {
+    "sectorId": 3202,
+    "sectorType": "Battle"
+  },
+  "3211": {
+    "sectorId": 3211,
+    "sectorType": "Battle"
+  },
+  "3301": {
+    "sectorId": 3301,
+    "sectorType": "Battle"
+  },
+  "4103": {
+    "sectorId": 4103,
+    "sectorType": "Battle"
+  },
+  "4201": {
+    "sectorId": 4201,
+    "sectorType": "Battle"
+  },
+  "5102": {
+    "sectorId": 5102,
+    "sectorType": "Battle"
+  },
+  "5103": {
+    "sectorId": 5103,
+    "sectorType": "Battle"
+  },
+  "5104": {
+    "sectorId": 5104,
+    "sectorType": "Battle"
+  },
+  "5106": {
+    "sectorId": 5106,
+    "sectorType": "Battle"
+  },
+  "5201": {
+    "sectorId": 5201,
+    "sectorType": "Battle"
+  },
+  "5202": {
+    "sectorId": 5202,
+    "sectorType": "Battle"
+  },
+  "6202": {
+    "sectorId": 6202,
+    "sectorType": "Battle"
+  }
+}

@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SubBuffAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 6758da031ab8f964c84aa7a65fa81566, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d5143f30421d02342a702ccb18d59f33, type: 3}
+  - {fileID: 21300000, guid: 45406860ddab5334cbe8154b5086c780, type: 3}
+  - {fileID: 21300000, guid: 9d4790e0ed671d64fa0ee5fba5e07b37, type: 3}
+  - {fileID: 21300000, guid: 73e4c4f082482154c93f5ef0d66d0df1, type: 3}
+  - {fileID: 21300000, guid: 9709ef0117a86ae4093cae0c2d027f2c, type: 3}
+  - {fileID: 21300000, guid: ce660232f9398b14f920cddb01d0c2e2, type: 3}
+  - {fileID: 21300000, guid: 5e2f4962764c49048a20ca553c63b0fc, type: 3}
+  - {fileID: 21300000, guid: 811a0872b624a4f4a9adfa837106118d, type: 3}
+  - {fileID: 21300000, guid: 0a67d9f2fb4d945449b494f061064ddc, type: 3}
+  - {fileID: 21300000, guid: 81ff7bf28e8b9bc4ebaa82e8677e9340, type: 3}
+  - {fileID: 21300000, guid: 083015138b4d24f40bc0dd62f38ea2be, type: 3}
+  - {fileID: 21300000, guid: 24ce19f377945194b8014f7828fe45d7, type: 3}
+  - {fileID: 21300000, guid: 9a3a0a24ec9f092479cf8ce2725f122a, type: 3}
+  - {fileID: 21300000, guid: 09f52e94a3c97384abd8d0f325c11296, type: 3}
+  - {fileID: 21300000, guid: f0cea5e4ef83dce43b34778b24b69b81, type: 3}
+  - {fileID: 21300000, guid: 5aa989758fbc794469cebfc0db67b01e, type: 3}
+  - {fileID: 21300000, guid: 0eac33376999f0a4fb06f9185ba072ca, type: 3}
+  - {fileID: 21300000, guid: 0ae8185786c419c43bc6eeef0dcbda85, type: 3}
+  - {fileID: 21300000, guid: f5fe3f281fc81854ea52540f5cec57ab, type: 3}
+  - {fileID: 21300000, guid: 5e5680383e1090940a1799d16f0451fb, type: 3}
+  - {fileID: 21300000, guid: 5b937a48fbb0a904886074899de4233d, type: 3}
+  - {fileID: 21300000, guid: dd7930a8801122c4faf8c971c492c229, type: 3}
+  - {fileID: 21300000, guid: 7ec7aba8068f06f42b4f45ae6e5e8a7b, type: 3}
+  - {fileID: 21300000, guid: 5fc2cef87fbf44941be0a0c394b7648f, type: 3}
+  - {fileID: 21300000, guid: b956ade98bfc7344c88177c6ff23da52, type: 3}
+  - {fileID: 21300000, guid: 51ba73daccec52a43a7555480645cd03, type: 3}
+  - {fileID: 21300000, guid: 4743f8ea020ba4048970f420e9ebd40a, type: 3}
+  - {fileID: 21300000, guid: 9480f52b0e568d34384be7a59327441a, type: 3}
+  - {fileID: 21300000, guid: 46f1f44c8871e334391ff536553304aa, type: 3}
+  - {fileID: 21300000, guid: 53803c2dca4eb3c40a3c69380c475799, type: 3}
+  - {fileID: 21300000, guid: 49a35a7d1666b534b947c07dc9c0b631, type: 3}
+  - {fileID: 21300000, guid: 36fa060e92eb9274192e31e928d5a1db, type: 3}
+  - {fileID: 21300000, guid: 68dd19cec74d25444b60edade27b06c7, type: 3}
+  - {fileID: 21300000, guid: 68a45d5f6d3557745ae9f85f75f6b2c3, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - BuffIcon_elkSeal
+  - BuffIcon_critChanceUp
+  - BuffIcon_fantasticDawn
+  - BuffIcon_speedUp
+  - BuffIcon_likeDragon_speed
+  - BuffIcon_starCloak
+  - BuffIcon_hitDown
+  - BuffIcon_magicGun
+  - BuffIcon_atkDown
+  - BuffIcon_growArt
+  - BuffIcon_leadVocal
+  - BuffIcon_nostalgia
+  - BuffIcon_cold
+  - BuffIcon_atkUp
+  - BuffIcon_hitUp
+  - BuffIcon_fire
+  - BuffIcon_goatSegu
+  - BuffIcon_poison
+  - BuffIcon_defDown
+  - BuffIcon_bleed
+  - BuffIcon_frozenFlag
+  - BuffIcon_ipariHairband
+  - BuffIcon_ imperialLetter
+  - BuffIcon_sisterWarmth
+  - BuffIcon_paladinSword
+  - BuffIcon_likeDragon_atk
+  - BuffIcon_likeDragon_def
+  - BuffIcon_archmageMask
+  - BuffIcon_dangerSword
+  - BuffIcon_defUp
+  - BuffIcon_speedDown
+  - BuffIcon_critChanceDown
+  - BuffIcon_hotOrangeTree
+  - BuffIcon_priestWand
+  m_RenderDataMap: {}
+  m_Tag: SubBuffAtlas
+  m_IsVariant: 0

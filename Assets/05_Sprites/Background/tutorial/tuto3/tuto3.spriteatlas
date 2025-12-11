@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: tuto3
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 8192
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 4d38308f80ca5f24fa681c4ee487a8b9, type: 3}
+    - {fileID: 2800000, guid: e04bfd55b84e7ea4f8866cc3ddadbe10, type: 3}
+    - {fileID: 2800000, guid: b8e9ae0e9922fb041b512c266ddf2226, type: 3}
+    - {fileID: 2800000, guid: db74304669c04d946b68bf2487cd8e79, type: 3}
+    - {fileID: 2800000, guid: 7b82364a30d39cc459be7cdbf4125271, type: 3}
+    - {fileID: 2800000, guid: d2c893ac39a9dd44a8964842f937fd50, type: 3}
+    - {fileID: 2800000, guid: c51042353ac86a34b80e336da88aa54f, type: 3}
+    - {fileID: 2800000, guid: 54e0c8297cc798247976c9ca91b7f835, type: 3}
+    - {fileID: 2800000, guid: decd6afc40b520a4b8bea83c4e3a30d0, type: 3}
+    - {fileID: 2800000, guid: 62845a112a024714c973d0fed4ad0aa0, type: 3}
+    - {fileID: 2800000, guid: 3d3a591a22e3cd84a957f9f4696e7045, type: 3}
+    - {fileID: 2800000, guid: d771c6469e05797438198f0671306e9c, type: 3}
+    - {fileID: 2800000, guid: ef639be6a62a71b468fd3ee189fcc18d, type: 3}
+    - {fileID: 2800000, guid: 8328feaf7b282aa4892cb4ffd9834534, type: 3}
+    - {fileID: 2800000, guid: 3e59c518fce05764887d7c0e09a0949e, type: 3}
+    - {fileID: 2800000, guid: c948190c48367d848b757968f896745d, type: 3}
+    - {fileID: 2800000, guid: d021d7ee3eb24c14d9163dc6433398cd, type: 3}
+    - {fileID: 2800000, guid: 34e11e5caca5d9f499fad9ed083b492b, type: 3}
+    - {fileID: 2800000, guid: 28a42ceac7882ea40b16e792e924fca9, type: 3}
+    - {fileID: 2800000, guid: 3ff0cdf4e7a2040459ffc017df775d4a, type: 3}
+    - {fileID: 2800000, guid: 03b1db585e664d44aab69743ea4e2e6b, type: 3}
+    - {fileID: 2800000, guid: 718c29f568d319548aeefbb6e116012e, type: 3}
+    - {fileID: 2800000, guid: 4387ffeae6b758d4ebe752c6bd84c84d, type: 3}
+    - {fileID: 2800000, guid: d8f1b6045df8fb846aa689e4b8b07fa5, type: 3}
+    - {fileID: 2800000, guid: 917f5cf5383f3034db18e1a2953155fb, type: 3}
+    - {fileID: 2800000, guid: 713cb92278061024ba2adf7f40274ca3, type: 3}
+    - {fileID: 2800000, guid: db3b80219c5ce0644b04a9f73587e568, type: 3}
+    - {fileID: 2800000, guid: 8108434e997bd00498753fbcde6e5e7f, type: 3}
+    - {fileID: 2800000, guid: ec7be6f8eeef76f479eeeb9ff675352a, type: 3}
+    - {fileID: 2800000, guid: 39b3fc794a9b55d4196a47af310d2c54, type: 3}
+    - {fileID: 2800000, guid: d73fb08514a83154583ddad36642cfaf, type: 3}
+    - {fileID: 2800000, guid: 250bb314f75030f42857b38484b423ba, type: 3}
+    - {fileID: 2800000, guid: f524fa7fc598e074a9b3c0d80cf7c568, type: 3}
+    - {fileID: 2800000, guid: a7384217c3d7d7742872d1e794ecf6eb, type: 3}
+    - {fileID: 2800000, guid: 91a75d14066ec684ea1017501119a69b, type: 3}
+    - {fileID: 2800000, guid: 74c195754632c9842964c961438bc05c, type: 3}
+    - {fileID: 2800000, guid: 091d759a91ab5f94087df7a4dea4d512, type: 3}
+    - {fileID: 2800000, guid: d701e134ab5e95746b507c76f52c24cb, type: 3}
+    - {fileID: 2800000, guid: c684ac06ca0655c409171a8b16acada6, type: 3}
+    - {fileID: 2800000, guid: 3457e580bc370d143be82ee555a0ad5f, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 3457e580bc370d143be82ee555a0ad5f, type: 3}
+  - {fileID: 21300000, guid: 62845a112a024714c973d0fed4ad0aa0, type: 3}
+  - {fileID: 21300000, guid: db3b80219c5ce0644b04a9f73587e568, type: 3}
+  - {fileID: 21300000, guid: 713cb92278061024ba2adf7f40274ca3, type: 3}
+  - {fileID: 21300000, guid: d8f1b6045df8fb846aa689e4b8b07fa5, type: 3}
+  - {fileID: 21300000, guid: 250bb314f75030f42857b38484b423ba, type: 3}
+  - {fileID: 21300000, guid: 91a75d14066ec684ea1017501119a69b, type: 3}
+  - {fileID: 21300000, guid: d701e134ab5e95746b507c76f52c24cb, type: 3}
+  - {fileID: 21300000, guid: 3ff0cdf4e7a2040459ffc017df775d4a, type: 3}
+  - {fileID: 21300000, guid: c51042353ac86a34b80e336da88aa54f, type: 3}
+  - {fileID: 21300000, guid: e04bfd55b84e7ea4f8866cc3ddadbe10, type: 3}
+  - {fileID: 21300000, guid: 74c195754632c9842964c961438bc05c, type: 3}
+  - {fileID: 21300000, guid: d73fb08514a83154583ddad36642cfaf, type: 3}
+  - {fileID: 21300000, guid: 718c29f568d319548aeefbb6e116012e, type: 3}
+  - {fileID: 21300000, guid: 917f5cf5383f3034db18e1a2953155fb, type: 3}
+  - {fileID: 21300000, guid: c684ac06ca0655c409171a8b16acada6, type: 3}
+  - {fileID: 21300000, guid: db74304669c04d946b68bf2487cd8e79, type: 3}
+  - {fileID: 21300000, guid: d771c6469e05797438198f0671306e9c, type: 3}
+  - {fileID: 21300000, guid: ef639be6a62a71b468fd3ee189fcc18d, type: 3}
+  - {fileID: 21300000, guid: a7384217c3d7d7742872d1e794ecf6eb, type: 3}
+  - {fileID: 21300000, guid: 3e59c518fce05764887d7c0e09a0949e, type: 3}
+  - {fileID: 21300000, guid: 03b1db585e664d44aab69743ea4e2e6b, type: 3}
+  - {fileID: 21300000, guid: ec7be6f8eeef76f479eeeb9ff675352a, type: 3}
+  - {fileID: 21300000, guid: 54e0c8297cc798247976c9ca91b7f835, type: 3}
+  - {fileID: 21300000, guid: 39b3fc794a9b55d4196a47af310d2c54, type: 3}
+  - {fileID: 21300000, guid: 3d3a591a22e3cd84a957f9f4696e7045, type: 3}
+  - {fileID: 21300000, guid: 7b82364a30d39cc459be7cdbf4125271, type: 3}
+  - {fileID: 21300000, guid: 091d759a91ab5f94087df7a4dea4d512, type: 3}
+  - {fileID: 21300000, guid: 28a42ceac7882ea40b16e792e924fca9, type: 3}
+  - {fileID: 21300000, guid: 4387ffeae6b758d4ebe752c6bd84c84d, type: 3}
+  - {fileID: 21300000, guid: c948190c48367d848b757968f896745d, type: 3}
+  - {fileID: 21300000, guid: 34e11e5caca5d9f499fad9ed083b492b, type: 3}
+  - {fileID: 21300000, guid: d2c893ac39a9dd44a8964842f937fd50, type: 3}
+  - {fileID: 21300000, guid: decd6afc40b520a4b8bea83c4e3a30d0, type: 3}
+  - {fileID: 21300000, guid: b8e9ae0e9922fb041b512c266ddf2226, type: 3}
+  - {fileID: 21300000, guid: 8108434e997bd00498753fbcde6e5e7f, type: 3}
+  - {fileID: 21300000, guid: d021d7ee3eb24c14d9163dc6433398cd, type: 3}
+  - {fileID: 21300000, guid: f524fa7fc598e074a9b3c0d80cf7c568, type: 3}
+  - {fileID: 21300000, guid: 4d38308f80ca5f24fa681c4ee487a8b9, type: 3}
+  - {fileID: 21300000, guid: 8328feaf7b282aa4892cb4ffd9834534, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Tutorial02_Platform02
+  - Tutorial02_DoorBackground01_01
+  - Tutorial02_Lift_02
+  - Tutorial02_Lift_01
+  - Tutorial02_LampPillar_01
+  - Tutorial02_Platform_03
+  - Tutorial02_Platform_06
+  - Tutorial02_Room05_wall01
+  - Tutorial02_Front_08
+  - Tutorial02_background_Room05
+  - Tutorial02_background_Room01
+  - Tutorial02_Platform_07
+  - Tutorial02_Platform_02
+  - Tutorial02_Front_Pipe_02
+  - Tutorial02_LampPillar_02
+  - Tutorial02_Platform01
+  - Tutorial02_background_Room03_01
+  - Tutorial02_DoorBackground02_01
+  - Tutorial02_Front_01
+  - Tutorial02_Platform_05
+  - Tutorial02_Front_03
+  - Tutorial02_Front_Pipe_01
+  - Tutorial02_Pillar_01
+  - Tutorial02_background_Room05_pipe
+  - Tutorial02_Platform02_01
+  - Tutorial02_DoorBackground01_02
+  - Tutorial02_background_Room03_02
+  - Tutorial02_Room03_Fan
+  - Tutorial02_Front_07
+  - Tutorial02_Lamp_01
+  - Tutorial02_Front_04
+  - Tutorial02_Front_06
+  - Tutorial02_background_Room04
+  - Tutorial02_background_Room06
+  - Tutorial02_background_Room02
+  - Tutorial02_Lift_Background
+  - Tutorial02_Front_05
+  - Tutorial02_Platform_04
+  - aaaaaaaaaaaaaaaaaaaaa
+  - Tutorial02_Front_02
+  m_RenderDataMap: {}
+  m_Tag: tuto3
+  m_IsVariant: 0

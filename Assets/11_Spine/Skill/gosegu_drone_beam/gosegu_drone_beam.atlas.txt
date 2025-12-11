@@ -1,0 +1,16 @@
+gosegu_drone_beam.png
+size:1024,512
+filter:Linear,Linear
+pma:true
+body
+bounds:2,204,485,303
+offsets:689,420,1842,1754
+booster
+bounds:489,217,422,290
+offsets:717,238,1842,1754
+engine
+bounds:804,3,210,212
+offsets:858,380,1842,1754
+head
+bounds:489,2,313,213
+offsets:798,570,1842,1754

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SignAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 18bbd43ceb94d4a409944acac3c72d1f, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 9763be1063bbbfa46a48099873280bb3, type: 3}
+  - {fileID: 21300000, guid: fd5619509a3de0f4f83c5a0d2a72049c, type: 3}
+  - {fileID: 21300000, guid: 5644aee037aacf041b26ba4185c0aec9, type: 3}
+  - {fileID: 21300000, guid: cc751954674450b4db6b49b6f7dc429e, type: 3}
+  - {fileID: 21300000, guid: 5e707bb4e54beff4598a66ae0f9fba67, type: 3}
+  - {fileID: 21300000, guid: 5aa01b362f4fdee45bce6be8c2b70662, type: 3}
+  - {fileID: 21300000, guid: 1d7d559659b014e45b02e3d4e5f1a0bc, type: 3}
+  - {fileID: 21300000, guid: 22dc08b6195d43a459c461600864aff9, type: 3}
+  - {fileID: 21300000, guid: 1fbc5cf64f8a84a42a18c9153d72161c, type: 3}
+  - {fileID: 21300000, guid: b6ef5e77a9c66624c8cf07041db9b598, type: 3}
+  - {fileID: 21300000, guid: b2d8ddc881756d14bbcce5624946d92b, type: 3}
+  - {fileID: 21300000, guid: c2ef60e8d06a20c43944718a6ee4015c, type: 3}
+  - {fileID: 21300000, guid: 48476be91adb8bf4f958bd4b1c5ec2df, type: 3}
+  - {fileID: 21300000, guid: d564d14a290079a4a81295217dabf58e, type: 3}
+  - {fileID: 21300000, guid: d6df9c8a6cb5ce949ad9ab82ecf73858, type: 3}
+  - {fileID: 21300000, guid: d34717ea4cd8eb244adaa43f192c614e, type: 3}
+  - {fileID: 21300000, guid: d428c4abeef6b3b42bd37430a807822b, type: 3}
+  - {fileID: 21300000, guid: 9516e67c17d54e942afea8b689226edf, type: 3}
+  - {fileID: 21300000, guid: d5d7628c9a4161443b20c65f7e82ca2b, type: 3}
+  - {fileID: -1868753480, guid: 0431073e2305aab4a8f7204adf80e9bf, type: 3}
+  - {fileID: 21300000, guid: 5b3e8a6e781b44d4391c5c676da2b450, type: 3}
+  - {fileID: 21300000, guid: cfb14bee007175c49adb568890ee0895, type: 3}
+  - {fileID: 21300000, guid: d9fafdaf9bd59814194dfe4878ee9b01, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Sign_hunterSign_2
+  - Sign_nostalgiaSign_1
+  - Sign_hunterSign_3
+  - Sign_keeperSign_5
+  - Sign_keeperSign_7
+  - Sign_keeperSign_4
+  - Sign_nostalgiaSign_Additive
+  - Sign_hunterSign_5
+  - Sign_hunterSign_Additive
+  - Sign_keeperSign_2
+  - Sign_hunterSign_4
+  - Sign_nostalgiaSign_6
+  - Sign_nostalgiaSign_2
+  - Sign_keeperSign_6
+  - Sign_nostalgiaSign_4
+  - Sign_keeperSign_3
+  - Sign_keeperSign_1
+  - Sign_nostalgiaSign_3
+  - Sign_nostalgiaSign_5
+  - Sign_keeperSign_10_0
+  - Sign_hunterSign_1
+  - Sign_keeperSign_9
+  - Sign_keeperSign_8
+  m_RenderDataMap: {}
+  m_Tag: SignAtlas
+  m_IsVariant: 0

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Background
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: -884536311, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+    - {fileID: 401405645, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+    - {fileID: 1746571099, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+    - {fileID: -798094316, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+    - {fileID: -1647455071, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+    - {fileID: 137151220, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+    - {fileID: 1812907410, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+    - {fileID: -1152191043, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+    - {fileID: 1560409811, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+    - {fileID: 1024151073, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+    - {fileID: -1455613357, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+    - {fileID: -1866294194, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 1560409811, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+  - {fileID: 1024151073, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+  - {fileID: -1647455071, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+  - {fileID: 137151220, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+  - {fileID: 1812907410, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+  - {fileID: -1152191043, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+  - {fileID: -884536311, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+  - {fileID: 401405645, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+  - {fileID: 1746571099, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+  - {fileID: -798094316, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+  - {fileID: -1866294194, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+  - {fileID: -1455613357, guid: de4a248d841046b4cbd1192155960e15, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 111111_8
+  - 111111_9
+  - 111111_4
+  - 111111_5
+  - 111111_6
+  - 111111_7
+  - 111111_0
+  - 111111_1
+  - 111111_2
+  - 111111_3
+  - 111111_11
+  - 111111_10
+  m_RenderDataMap: {}
+  m_Tag: Background
+  m_IsVariant: 0

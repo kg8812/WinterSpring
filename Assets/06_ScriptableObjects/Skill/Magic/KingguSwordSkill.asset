@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b5485ed488fe3140bb290f104c47307, type: 3}
+  m_Name: KingguSwordSkill
+  m_EditorClassIdentifier: 
+  _cdStartType: 0
+  MaxStack: 0
+  dmg: 0
+  cd: 0
+  duration: 0
+  nameString: 0
+  descString: 30410
+  dmgRatio: 1
+  curStack: 0
+  icon: {fileID: 0}
+  time: 0
+  stack1: 0
+  stack2: 0
+  size1: {x: 0, y: 0}
+  dmg1: 0
+  size2: {x: 0, y: 0}
+  dmg2: 0
+  size3: {x: 0, y: 0}
+  dmg3: 0

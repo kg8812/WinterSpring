@@ -1,0 +1,1817 @@
+{
+  "1": {
+    "index": 1,
+    "dropGroup": 100,
+    "dropItemType": 3,
+    "dropItemIndex": 3001,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "2": {
+    "index": 2,
+    "dropGroup": 100,
+    "dropItemType": 3,
+    "dropItemIndex": 3002,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "3": {
+    "index": 3,
+    "dropGroup": 100,
+    "dropItemType": 3,
+    "dropItemIndex": 3003,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "4": {
+    "index": 4,
+    "dropGroup": 100,
+    "dropItemType": 3,
+    "dropItemIndex": 3004,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "5": {
+    "index": 5,
+    "dropGroup": 100,
+    "dropItemType": 3,
+    "dropItemIndex": 3005,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "6": {
+    "index": 6,
+    "dropGroup": 100,
+    "dropItemType": 3,
+    "dropItemIndex": 3006,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "7": {
+    "index": 7,
+    "dropGroup": 100,
+    "dropItemType": 3,
+    "dropItemIndex": 3007,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "8": {
+    "index": 8,
+    "dropGroup": 100,
+    "dropItemType": 3,
+    "dropItemIndex": 3008,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "9": {
+    "index": 9,
+    "dropGroup": 100,
+    "dropItemType": 3,
+    "dropItemIndex": 3009,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "10": {
+    "index": 10,
+    "dropGroup": 100,
+    "dropItemType": 3,
+    "dropItemIndex": 3010,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "11": {
+    "index": 11,
+    "dropGroup": 100,
+    "dropItemType": 3,
+    "dropItemIndex": 3011,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "12": {
+    "index": 12,
+    "dropGroup": 110,
+    "dropItemType": 3,
+    "dropItemIndex": 3012,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "13": {
+    "index": 13,
+    "dropGroup": 110,
+    "dropItemType": 3,
+    "dropItemIndex": 3013,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "14": {
+    "index": 14,
+    "dropGroup": 110,
+    "dropItemType": 3,
+    "dropItemIndex": 3014,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "15": {
+    "index": 15,
+    "dropGroup": 110,
+    "dropItemType": 3,
+    "dropItemIndex": 3015,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "16": {
+    "index": 16,
+    "dropGroup": 110,
+    "dropItemType": 3,
+    "dropItemIndex": 3016,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "17": {
+    "index": 17,
+    "dropGroup": 110,
+    "dropItemType": 3,
+    "dropItemIndex": 3017,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "18": {
+    "index": 18,
+    "dropGroup": 110,
+    "dropItemType": 3,
+    "dropItemIndex": 3018,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "19": {
+    "index": 19,
+    "dropGroup": 110,
+    "dropItemType": 3,
+    "dropItemIndex": 3019,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "20": {
+    "index": 20,
+    "dropGroup": 110,
+    "dropItemType": 3,
+    "dropItemIndex": 3020,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "21": {
+    "index": 21,
+    "dropGroup": 110,
+    "dropItemType": 3,
+    "dropItemIndex": 3021,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "22": {
+    "index": 22,
+    "dropGroup": 110,
+    "dropItemType": 3,
+    "dropItemIndex": 3022,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "23": {
+    "index": 23,
+    "dropGroup": 110,
+    "dropItemType": 3,
+    "dropItemIndex": 3023,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "24": {
+    "index": 24,
+    "dropGroup": 110,
+    "dropItemType": 3,
+    "dropItemIndex": 3024,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "25": {
+    "index": 25,
+    "dropGroup": 110,
+    "dropItemType": 3,
+    "dropItemIndex": 3025,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "26": {
+    "index": 26,
+    "dropGroup": 110,
+    "dropItemType": 3,
+    "dropItemIndex": 3026,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "27": {
+    "index": 27,
+    "dropGroup": 110,
+    "dropItemType": 3,
+    "dropItemIndex": 3027,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "28": {
+    "index": 28,
+    "dropGroup": 110,
+    "dropItemType": 3,
+    "dropItemIndex": 3028,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "29": {
+    "index": 29,
+    "dropGroup": 110,
+    "dropItemType": 3,
+    "dropItemIndex": 3029,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "30": {
+    "index": 30,
+    "dropGroup": 110,
+    "dropItemType": 3,
+    "dropItemIndex": 3030,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "31": {
+    "index": 31,
+    "dropGroup": 110,
+    "dropItemType": 3,
+    "dropItemIndex": 3031,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "32": {
+    "index": 32,
+    "dropGroup": 120,
+    "dropItemType": 3,
+    "dropItemIndex": 3032,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "33": {
+    "index": 33,
+    "dropGroup": 120,
+    "dropItemType": 3,
+    "dropItemIndex": 3033,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "34": {
+    "index": 34,
+    "dropGroup": 120,
+    "dropItemType": 3,
+    "dropItemIndex": 3034,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "35": {
+    "index": 35,
+    "dropGroup": 120,
+    "dropItemType": 3,
+    "dropItemIndex": 3035,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "36": {
+    "index": 36,
+    "dropGroup": 120,
+    "dropItemType": 3,
+    "dropItemIndex": 3036,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "37": {
+    "index": 37,
+    "dropGroup": 120,
+    "dropItemType": 3,
+    "dropItemIndex": 3037,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "38": {
+    "index": 38,
+    "dropGroup": 120,
+    "dropItemType": 3,
+    "dropItemIndex": 3038,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "39": {
+    "index": 39,
+    "dropGroup": 120,
+    "dropItemType": 3,
+    "dropItemIndex": 3039,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "40": {
+    "index": 40,
+    "dropGroup": 120,
+    "dropItemType": 3,
+    "dropItemIndex": 3040,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "41": {
+    "index": 41,
+    "dropGroup": 120,
+    "dropItemType": 3,
+    "dropItemIndex": 3041,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "42": {
+    "index": 42,
+    "dropGroup": 120,
+    "dropItemType": 3,
+    "dropItemIndex": 3042,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "43": {
+    "index": 43,
+    "dropGroup": 120,
+    "dropItemType": 3,
+    "dropItemIndex": 3043,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "44": {
+    "index": 44,
+    "dropGroup": 120,
+    "dropItemType": 3,
+    "dropItemIndex": 3044,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "45": {
+    "index": 45,
+    "dropGroup": 120,
+    "dropItemType": 3,
+    "dropItemIndex": 3045,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "46": {
+    "index": 46,
+    "dropGroup": 120,
+    "dropItemType": 3,
+    "dropItemIndex": 3046,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "47": {
+    "index": 47,
+    "dropGroup": 120,
+    "dropItemType": 3,
+    "dropItemIndex": 3047,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "48": {
+    "index": 48,
+    "dropGroup": 120,
+    "dropItemType": 3,
+    "dropItemIndex": 3048,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "49": {
+    "index": 49,
+    "dropGroup": 120,
+    "dropItemType": 3,
+    "dropItemIndex": 3049,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "50": {
+    "index": 50,
+    "dropGroup": 120,
+    "dropItemType": 3,
+    "dropItemIndex": 3050,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "51": {
+    "index": 51,
+    "dropGroup": 120,
+    "dropItemType": 3,
+    "dropItemIndex": 3051,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "52": {
+    "index": 52,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1001,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "53": {
+    "index": 53,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1002,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "54": {
+    "index": 54,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1003,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "55": {
+    "index": 55,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1004,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "56": {
+    "index": 56,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1005,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "57": {
+    "index": 57,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1006,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "58": {
+    "index": 58,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1007,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "59": {
+    "index": 59,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1008,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "60": {
+    "index": 60,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1009,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "61": {
+    "index": 61,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1010,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "62": {
+    "index": 62,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1011,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "63": {
+    "index": 63,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1012,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "64": {
+    "index": 64,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1013,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "65": {
+    "index": 65,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1014,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "66": {
+    "index": 66,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1015,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "67": {
+    "index": 67,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1016,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "68": {
+    "index": 68,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1017,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "69": {
+    "index": 69,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1018,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "70": {
+    "index": 70,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1019,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "71": {
+    "index": 71,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1020,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "72": {
+    "index": 72,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1021,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "73": {
+    "index": 73,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1022,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "74": {
+    "index": 74,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1023,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "75": {
+    "index": 75,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1024,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "76": {
+    "index": 76,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1025,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "77": {
+    "index": 77,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1026,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "78": {
+    "index": 78,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1027,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "79": {
+    "index": 79,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1028,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "80": {
+    "index": 80,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1029,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "81": {
+    "index": 81,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1030,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "82": {
+    "index": 82,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1031,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "83": {
+    "index": 83,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1032,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "84": {
+    "index": 84,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1033,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "85": {
+    "index": 85,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1034,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "86": {
+    "index": 86,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1035,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "87": {
+    "index": 87,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1036,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "88": {
+    "index": 88,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1037,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "89": {
+    "index": 89,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1038,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "90": {
+    "index": 90,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1039,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "91": {
+    "index": 91,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1040,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "92": {
+    "index": 92,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1041,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "93": {
+    "index": 93,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1042,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "94": {
+    "index": 94,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1043,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "95": {
+    "index": 95,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1044,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "96": {
+    "index": 96,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1045,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "97": {
+    "index": 97,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1046,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "98": {
+    "index": 98,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1047,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "99": {
+    "index": 99,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1048,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "100": {
+    "index": 100,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1049,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "101": {
+    "index": 101,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1050,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "102": {
+    "index": 102,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1051,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "103": {
+    "index": 103,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1052,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "104": {
+    "index": 104,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1053,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "105": {
+    "index": 105,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1054,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "106": {
+    "index": 106,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1055,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "107": {
+    "index": 107,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1056,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "108": {
+    "index": 108,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1057,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "109": {
+    "index": 109,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1058,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "110": {
+    "index": 110,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1059,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "111": {
+    "index": 111,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1060,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "112": {
+    "index": 112,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1061,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "113": {
+    "index": 113,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1062,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "114": {
+    "index": 114,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1063,
+    "chance": 1,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "115": {
+    "index": 115,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1064,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "116": {
+    "index": 116,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1065,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "117": {
+    "index": 117,
+    "dropGroup": 130,
+    "dropItemType": 1,
+    "dropItemIndex": 1066,
+    "chance": 2,
+    "amount": [
+      1,
+      1
+    ]
+  },
+  "10100": {
+    "index": 10100,
+    "dropGroup": 2100,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      36,
+      62
+    ]
+  },
+  "10101": {
+    "index": 10101,
+    "dropGroup": 2101,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      1,
+      3
+    ]
+  },
+  "10200": {
+    "index": 10200,
+    "dropGroup": 2102,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      48,
+      74
+    ]
+  },
+  "10201": {
+    "index": 10201,
+    "dropGroup": 2103,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      1,
+      5
+    ]
+  },
+  "10300": {
+    "index": 10300,
+    "dropGroup": 2104,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      53,
+      87
+    ]
+  },
+  "10301": {
+    "index": 10301,
+    "dropGroup": 2105,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      3,
+      7
+    ]
+  },
+  "10400": {
+    "index": 10400,
+    "dropGroup": 2200,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      48,
+      74
+    ]
+  },
+  "10401": {
+    "index": 10401,
+    "dropGroup": 2201,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      1,
+      3
+    ]
+  },
+  "10500": {
+    "index": 10500,
+    "dropGroup": 2202,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      53,
+      87
+    ]
+  },
+  "10501": {
+    "index": 10501,
+    "dropGroup": 2203,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      2,
+      5
+    ]
+  },
+  "10600": {
+    "index": 10600,
+    "dropGroup": 2204,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      78,
+      128
+    ]
+  },
+  "10601": {
+    "index": 10601,
+    "dropGroup": 2205,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      3,
+      7
+    ]
+  },
+  "10700": {
+    "index": 10700,
+    "dropGroup": 2300,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      53,
+      87
+    ]
+  },
+  "10701": {
+    "index": 10701,
+    "dropGroup": 2301,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      2,
+      5
+    ]
+  },
+  "10800": {
+    "index": 10800,
+    "dropGroup": 2302,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      78,
+      128
+    ]
+  },
+  "10801": {
+    "index": 10801,
+    "dropGroup": 2303,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      3,
+      7
+    ]
+  },
+  "10900": {
+    "index": 10900,
+    "dropGroup": 2304,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      116,
+      140
+    ]
+  },
+  "10901": {
+    "index": 10901,
+    "dropGroup": 2305,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      5,
+      10
+    ]
+  },
+  "11000": {
+    "index": 11000,
+    "dropGroup": 2400,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      78,
+      128
+    ]
+  },
+  "11001": {
+    "index": 11001,
+    "dropGroup": 2401,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      3,
+      7
+    ]
+  },
+  "11100": {
+    "index": 11100,
+    "dropGroup": 2402,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      116,
+      140
+    ]
+  },
+  "11101": {
+    "index": 11101,
+    "dropGroup": 2403,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      5,
+      10
+    ]
+  },
+  "11200": {
+    "index": 11200,
+    "dropGroup": 2404,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      138,
+      173
+    ]
+  },
+  "11201": {
+    "index": 11201,
+    "dropGroup": 2405,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      8,
+      15
+    ]
+  },
+  "11300": {
+    "index": 11300,
+    "dropGroup": 2500,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      116,
+      140
+    ]
+  },
+  "11301": {
+    "index": 11301,
+    "dropGroup": 2501,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      5,
+      10
+    ]
+  },
+  "11400": {
+    "index": 11400,
+    "dropGroup": 2502,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      138,
+      173
+    ]
+  },
+  "11401": {
+    "index": 11401,
+    "dropGroup": 2503,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      8,
+      15
+    ]
+  },
+  "11500": {
+    "index": 11500,
+    "dropGroup": 2504,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      156,
+      182
+    ]
+  },
+  "11501": {
+    "index": 11501,
+    "dropGroup": 2505,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      12,
+      17
+    ]
+  },
+  "11600": {
+    "index": 11600,
+    "dropGroup": 2600,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      138,
+      173
+    ]
+  },
+  "11601": {
+    "index": 11601,
+    "dropGroup": 2601,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      8,
+      15
+    ]
+  },
+  "11700": {
+    "index": 11700,
+    "dropGroup": 2602,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      156,
+      182
+    ]
+  },
+  "11701": {
+    "index": 11701,
+    "dropGroup": 2603,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      12,
+      17
+    ]
+  },
+  "11800": {
+    "index": 11800,
+    "dropGroup": 2604,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      178,
+      227
+    ]
+  },
+  "11801": {
+    "index": 11801,
+    "dropGroup": 2605,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      15,
+      20
+    ]
+  },
+  "20100": {
+    "index": 20100,
+    "dropGroup": 3000,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      91,
+      105
+    ]
+  },
+  "20101": {
+    "index": 20101,
+    "dropGroup": 3001,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      15,
+      20
+    ]
+  },
+  "20200": {
+    "index": 20200,
+    "dropGroup": 3100,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      130,
+      138
+    ]
+  },
+  "20201": {
+    "index": 20201,
+    "dropGroup": 3101,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      18,
+      23
+    ]
+  },
+  "20300": {
+    "index": 20300,
+    "dropGroup": 3200,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      141,
+      149
+    ]
+  },
+  "20301": {
+    "index": 20301,
+    "dropGroup": 3201,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      20,
+      26
+    ]
+  },
+  "20400": {
+    "index": 20400,
+    "dropGroup": 3300,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      175,
+      183
+    ]
+  },
+  "20401": {
+    "index": 20401,
+    "dropGroup": 3301,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      23,
+      28
+    ]
+  },
+  "20500": {
+    "index": 20500,
+    "dropGroup": 3400,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      190,
+      200
+    ]
+  },
+  "20501": {
+    "index": 20501,
+    "dropGroup": 3401,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      25,
+      30
+    ]
+  },
+  "20600": {
+    "index": 20600,
+    "dropGroup": 3500,
+    "dropItemType": 0,
+    "dropItemIndex": 0,
+    "chance": 1,
+    "amount": [
+      230,
+      237
+    ]
+  },
+  "20601": {
+    "index": 20601,
+    "dropGroup": 3501,
+    "dropItemType": 0,
+    "dropItemIndex": 1,
+    "chance": 1,
+    "amount": [
+      28,
+      35
+    ]
+  }
+}

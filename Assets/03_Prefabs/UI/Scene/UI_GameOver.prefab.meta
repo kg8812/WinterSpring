@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Resources/Database/Component/Component2030100.json.meta
+guid: ee95a6855e8c9bf4aad5348fd5548332
+TextScriptImporter:
+========
+guid: b4694cfd42ce51b4994c0df9a36b1ae3
+PrefabImporter:
+>>>>>>>> develop:Assets/Resources_moved/Prefabs/UI/Scene/UI_GameOver.prefab.meta
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

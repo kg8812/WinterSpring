@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FXM_Magic_Circle_Moon
+  m_Shader: {fileID: 4800000, guid: 312f0d8f2b1ab004ebe475cd40bc377f, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _USE_PANNER_NODE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Dissolve_Texture:
+        m_Texture: {fileID: 2800000, guid: f016926f4da6b354eac19272eb7b012f, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Main_Texture:
+        m_Texture: {fileID: 2800000, guid: 618745628a7f3134e82cc908d9478cc4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise_Texture:
+        m_Texture: {fileID: 2800000, guid: 918a6aeb7921775409afc774084f6a6e, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _Sub_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 918a6aeb7921775409afc774084f6a6e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _Dissolve: 1
+    - _Dissolve_UPanner: 0
+    - _Dissolve_VPanner: 0
+    - _Fade_Distance: 0
+    - _Main_Ins: 1
+    - _Main_Power: 1
+    - _Main_UPanner: 0
+    - _Main_VPanner: 0
+    - _Noise_Str: 0
+    - _Noise_UPanner: 0
+    - _Noise_VPanner: 0
+    - _Opacity: 1
+    - _SubTex_Ins: 1
+    - _SubTex_Power: 1
+    - _Use_Custom: 0
+    - _Use_Panner_Node: 1
+    - _Use_Step_Dissolve: 0
+    - __dirty: 0
+    m_Colors:
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Main_Color: {r: 1.7752404, g: 1.3519138, b: 2.6082377, a: 0}
+    - _SubTex_Color: {r: 0.2578764, g: 0.5045603, b: 0.8962264, a: 0}
+  m_BuildTextureStacks: []

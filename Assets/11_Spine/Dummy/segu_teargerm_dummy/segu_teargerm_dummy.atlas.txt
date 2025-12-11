@@ -1,0 +1,6 @@
+segu_teargerm_dummy.png
+size:1024,1024
+pma:true
+레이어 2
+bounds:2,2,600,599
+offsets:215,192,983,938

@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29992a1c4f9042a4db43941a243a8f28, type: 3}
+  m_Name: IneActive
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: user
+      Entry: 6
+      Data: 
+    - Name: animator
+      Entry: 6
+      Data: 
+    - Name: attacker
+      Entry: 6
+      Data: 
+    - Name: mover
+      Entry: 6
+      Data: 
+    - Name: hit
+      Entry: 6
+      Data: 
+    - Name: skeleton
+      Entry: 6
+      Data: 
+    - Name: eventUser
+      Entry: 6
+      Data: 
+    - Name: direction
+      Entry: 6
+      Data: 
+    - Name: statUser
+      Entry: 6
+      Data: 
+    - Name: dashUser
+      Entry: 6
+      Data: 
+    - Name: activeUser
+      Entry: 6
+      Data: 
+    - Name: passiveUser
+      Entry: 6
+      Data: 
+    - Name: weaponSkillUser
+      Entry: 6
+      Data: 
+    - Name: OnCircle2Spawn
+      Entry: 6
+      Data: 
+  _cdStartType: 0
+  baseCd: 0.5
+  duration: 0
+  isMotion: 1
+  index: 0
+  skillMotionType: 1
+  maxStack: 0
+  minStackCd: 0
+  cdStart: 0
+  unEquipCd: 0
+  EnterSkillState: 1
+  baseDmg: 25
+  bodyFactor: 0
+  spiritFactor: 30
+  finesseFactor: 0
+  baseGroggy: 0
+  nameString: 9102
+  descString: 0
+  itemId: 4102
+  CurCastTime: 0
+  CurChargeTime: 0
+  usableWhenAttack: 0
+  usePlayerCheck: 1
+  chargeDmgRatio: 0
+  chargeGroggyRatio: 0
+  CastTime: 0
+  CastType: 0
+  ChargeTime: 2.5
+  EndChargeAutomatic: 1
+  chargeMoveDebuff: 50
+  chargeInfos:
+  - time: 0
+    dmg: 100
+    groggy: 100
+  - time: 0.5
+    dmg: 100
+    groggy: 100
+  - time: 1
+    dmg: 100
+    groggy: 100
+  - time: 2.5
+    dmg: 100
+    groggy: 100
+  chargeType: 0
+  skill2: {fileID: 11400000, guid: 9a3c290c7064b8243a405f5831c93e39, type: 2}
+  useFrame: 0
+  Skill2: {fileID: 0}
+  isCharging: 0
+  maxCircle: 3
+  maxMana: 100
+  magicCircleRadius: 2
+  manaGainInSecond: 1
+  manaGain: 1
+  circle1Count: 3
+  circle1Info: {fileID: 11400000, guid: 3e0658af19408e142bbee4e8a5daa49f, type: 2}
+  circle1Radius: 0.1
+  circle1groggy: 5
+  circle1Pos: {x: 0.5, y: 0}
+  circle2Mana: 30
+  circle2Radius: 3
+  circle2Info: {fileID: 11400000, guid: 2fe852794aaeffb449cd2595e8c2d397, type: 2}
+  circle2Groggy: 20
+  circle2AtkFrequency: 1
+  circle2Duration: 5
+  circle3Mana: 60
+  circle3Info: {fileID: 11400000, guid: 38a1b9c05d9c4334b96813483f65bcf5, type: 2}
+  circle3Radius: 0.5
+  circle3groggy: 10
+  meteorRadius: 2
+  meteorAngle: 45
+  meteorSpeed: 10
+  meteorEase: 2
+  meteorAtkInfo: {fileID: 11400000, guid: e8162aa8c73624a43a209de7ce0fb770, type: 2}
+  circle3ExpRadius: 4
+  circle3ExpGroggy: 50
+  circle4Mana: 100
+  circle4ManaUse: 5
+  circle4Radius: 2.5
+  circle4Dmg: 100
+  circle4Groggy: 0
+  circle4BeamInfo1: {fileID: 11400000, guid: 7f6f9089346d53949b4407224d592af3, type: 2}
+  beam1Groggy: 0
+  circle4BeamRadius: 5
+  circle4BeamInfo2: {fileID: 11400000, guid: 9aab59bac9b086a4a88d786cdb9b7a92, type: 2}
+  beam2Groggy: 0
+  spearFrequency: 0.5
+  spearCount: 10
+  spearRadius: 0.05
+  spearInfo: {fileID: 11400000, guid: b0899126030e51f49ba07010eca3572f, type: 2}
+  spearGroggy: 0
+  isCircle4: 0

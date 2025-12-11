@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a22da3a3b6c30694ba147145b6c2209a, type: 3}
+  m_Name: GoseguData
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  baseStat:
+    maxHp: 200
+    atk: 50
+    moveSpeed: 400
+    atkSpeed: 0
+    dmgReduce: 0
+    def: 0
+    mental: 0
+    critProb: 5
+    critDmg: 115
+    cdReduction: 0
+    goldRate: 0
+    extraDmg: 0
+    healRate: 0
+    shieldRate: 0
+    critHit: 0
+    body: 5
+    spirit: 10
+    finesse: 15
+  playerStat:
+    JumpPower: 7.1
+    JumpMax: 1
+    currentPotionCapacity: 3
+    dashTime: 0.7
+    dashSpeed: 5
+    dashInvincibleTime: 0.25
+    airDashCount: 0
+    maxPotionCapacity: 3
+    potionUseTime: 1
+    potionIncreaseHpRatio: 30
+    potionIncreaseHp: 20
+  skeletonDataAsset: {fileID: 11400000, guid: cc00644829ca30640a4cc228a23c7341, type: 2}
+  initialSkinName: default
+  activeSkill: {fileID: 11400000, guid: 3154d2bc93011784cbdaf3e9736f13f8, type: 2}
+  passiveSkill: {fileID: 11400000, guid: 821d85e6fa676bf4e9edeb1b78740567, type: 2}
+  spirit: 3
+  body: 1
+  finesse: 3

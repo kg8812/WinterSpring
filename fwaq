@@ -1,0 +1,561 @@
+[33mcommit 855dc9c5cdbb77f5dcae3ada4ef271adc089e185[m[33m ([m[1;36mHEAD -> [m[1;32mhuman/chamwhy[m[33m, [m[1;31morigin/human/chamwhy[m[33m)[m
+Merge: e8b210610 1d55a6ff7
+Author: chamwhy <chamwhy8@gmail.com>
+Date:   Sun Jun 16 01:33:09 2024 +0900
+
+    Merge branch 'develop2' into human/chamwhy
+
+[33mcommit 1d55a6ff7debcc77387321c302e81be42fb80657[m[33m ([m[1;31morigin/debugging-chamwhy[m[33m, [m[1;32mdebugging-chamwhy[m[33m)[m
+Merge: 10dfed05c cf729f530
+Author: chamwhy <chamwhy8@gmail.com>
+Date:   Sun Jun 16 01:00:40 2024 +0900
+
+    Merge branch 'develop2' into debugging-chamwhy
+
+[33mcommit 10dfed05c21f12b39957e990eec30fcf531476a9[m
+Author: chamwhy <chamwhy8@gmail.com>
+Date:   Sun Jun 16 01:00:08 2024 +0900
+
+    fix: 영구성장 ui 업데이트 구현
+
+[33mcommit cf729f5304c24731fbc5b3f235c5fae1a1b77f9d[m
+Author: ws05162 <ws05162@gmail.com>
+Date:   Sun Jun 16 00:59:56 2024 +0900
+
+    빌드에 섹터 추가
+    
+    +몬스터 데이터 초기화
+
+[33mcommit 0b393961c5fc3a2b74b51f4eb7a5da5ee7307e1a[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Sat Jun 15 23:46:01 2024 +0900
+
+    Fix 온기 수정
+
+[33mcommit e8b210610b9b557b9e398702116ed3c979e3fd48[m
+Author: chamwhy <chamwhy8@gmail.com>
+Date:   Sat Jun 15 23:45:13 2024 +0900
+
+    ui collection
+
+[33mcommit 39823541e8ced4c26af931d4d2db52dfb74a595a[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Sat Jun 15 21:30:41 2024 +0900
+
+    Update UI_ConveniencePopup.cs
+
+[33mcommit 9fdcd62a955718f7e0c97e7aa892d474bc58dcac[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Sat Jun 15 19:45:45 2024 +0900
+
+    Fix 릴파 샷건 버그 수정
+    
+    총알에 중력 적용되던 버그 수정
+
+[33mcommit b0deac82f9c940cdedb8e19821520261af82874e[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Sat Jun 15 19:25:21 2024 +0900
+
+    Fix 릴파 스킬 버그 수정
+    
+    인벤토리 장비템 꼬임 방지를 위해 탭메뉴를 키면 원래 무기를 장착하도록 설정
+
+[33mcommit ac675c040ebe02b2b8832fe9328ea300c6505235[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Sat Jun 15 19:08:21 2024 +0900
+
+    Fix 릴파 스킬 수정
+    
+    공격중에만 모션 캔슬되도록 수정
+    대쉬 도중에도 사용할 수 있도록 변경
+
+[33mcommit df976e35cb65e30fb2178574e0f6963414b8deb3[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Sat Jun 15 18:19:55 2024 +0900
+
+    Fix 기본공격 강화 적용 안되는 버그 수정
+
+[33mcommit b4afba53aeba28f0c258f6735e1831be8206b00d[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Fri Jun 14 22:29:13 2024 +0900
+
+    Update SwordSkill.asset
+
+[33mcommit 4a83d7f3322cc86837f93e775ee5ed718be768ad[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Fri Jun 14 22:19:02 2024 +0900
+
+    빈폴더 삭제
+
+[33mcommit b9cde2143678fb10b49078dd29407fdc09b49a24[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Fri Jun 14 22:17:24 2024 +0900
+
+    Update OpenTab.cs
+
+[33mcommit 5190f5d55137488a6b9fc356b3dee0b795ec36d9[m
+Merge: c4a28f31a 63bf13180
+Author: kg8812 <kg88124@gmail.com>
+Date:   Fri Jun 14 22:16:07 2024 +0900
+
+    Merge branch 'develop2' into Apis-Weapon
+
+[33mcommit c4a28f31ae4d9c2f311b42e3e3e2bf48951de04b[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Fri Jun 14 22:15:56 2024 +0900
+
+    Feat 모든 캐릭 무기 스킬 적용완료
+
+[33mcommit 8867707f8653d801aa2b7835e9dfc0d1a820bd13[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Fri Jun 14 21:01:58 2024 +0900
+
+    Update 0Debuff_Stun.cs
+
+[33mcommit 59ea3e5e25dfb54bb5cdfa6a27b30301a0c11406[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Fri Jun 14 20:40:07 2024 +0900
+
+    Feat 스킬 그로기 수치 추가
+
+[33mcommit 4f6a88a801781bbb2789a5734c0449532b8674ac[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Fri Jun 14 20:13:31 2024 +0900
+
+    Feat 관통탄 구현
+
+[33mcommit 160d08ea75dc73030dcf978491c78bd0ce561a4e[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Fri Jun 14 19:59:45 2024 +0900
+
+    Update WindBallExplosion.prefab
+
+[33mcommit 4c9391b94f34d3125c666f4fa9d75bb99ac0d206[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Fri Jun 14 18:51:55 2024 +0900
+
+    Fix 스킬 버그 수정
+    
+    피격시 캐스팅 및 차징 스킬 취소 안되는 버그 수정
+
+[33mcommit 3ff9e076fd87614dda43a47b829b001a822605cb[m
+Merge: 491441100 63bf13180
+Author: chamwhy <chamwhy8@gmail.com>
+Date:   Fri Jun 14 15:12:52 2024 +0900
+
+    Merge branch 'develop2' into human/chamwhy
+
+[33mcommit 63bf13180d033bf77000522909a3e5b407503269[m
+Merge: cfa512060 5d009b06e
+Author: chamwhy <chamwhy8@gmail.com>
+Date:   Fri Jun 14 09:26:28 2024 +0900
+
+    Merge branch 'develop2' into debug
+
+[33mcommit 5d009b06ef8af6b13feab190cb1c9013f98cee92[m[33m ([m[1;31morigin/pr-reFact[m[33m)[m
+Merge: a13c066de ab4f40a7c
+Author: chamwhy <chamwhy8@gmail.com>
+Date:   Fri Jun 14 09:09:08 2024 +0900
+
+    Merge branch 'develop2' into pr-reFact
+
+[33mcommit ed458972e51a3a9c90c93ab54293849c6b5b1b5d[m
+Merge: 75dd314ef ab4f40a7c
+Author: kg8812 <kg88124@gmail.com>
+Date:   Fri Jun 14 03:19:19 2024 +0900
+
+    Merge branch 'develop2' into Apis-Weapon
+
+[33mcommit 75dd314ef2a7b8207d2fc39c7986080442513ca5[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Fri Jun 14 03:11:48 2024 +0900
+
+    Feat 스나이퍼 구현 완료
+
+[33mcommit 491441100a934398408b01b171c1b60e5bd73b6d[m
+Merge: e008a5d19 ab4f40a7c
+Author: chamwhy <chamwhy8@gmail.com>
+Date:   Fri Jun 14 02:16:26 2024 +0900
+
+    Merge branch 'develop2' into human/chamwhy
+
+[33mcommit e008a5d1942a9f651b85ed778063a72e4b132be8[m
+Author: chamwhy <chamwhy8@gmail.com>
+Date:   Fri Jun 14 02:11:57 2024 +0900
+
+    ㄷ
+
+[33mcommit cfa51206093906e60a9af94737d2d6b82ec36d97[m[33m ([m[1;32mplayercheck[m[33m)[m
+Author: chamwhy <chamwhy8@gmail.com>
+Date:   Fri Jun 14 02:07:03 2024 +0900
+
+    feat: default button arrow 적용
+
+[33mcommit 38bfa54f2cbce9d6aafcd3c225f746e0f5da989f[m
+Author: chamwhy <chamwhy8@gmail.com>
+Date:   Fri Jun 14 01:41:23 2024 +0900
+
+    feat: 오픈 탭 플레이어 공격 조건 변수에서 state로 변경
+
+[33mcommit e4073415d34ab577f83e4ef24ef7f2f25804dc99[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Fri Jun 14 01:05:09 2024 +0900
+
+    Refactor 투사체 설정 관련
+    
+    투사체 설정 에셋화(스크립터블)
+    무기 모션별 공격력 설정 추가
+
+[33mcommit ab4f40a7c1f77b2b5a46e6f8480b2f7e5e4e404b[m
+Author: gunul02 <bboglelee@naver.com>
+Date:   Thu Jun 13 22:56:54 2024 +0900
+
+    매직다이어리 폴더 변경, gunsword 스파인 추가
+
+[33mcommit 7adc21aad312b967a3c22090ad0b9c20aae82445[m
+Author: gunul02 <bboglelee@naver.com>
+Date:   Thu Jun 13 22:52:38 2024 +0900
+
+    로얄폭스 완성된 이미지로 교체
+
+[33mcommit cd1661c7efd1732bd4a1e4a490c0379c7eb34cce[m
+Author: chamwhy <chamwhy8@gmail.com>
+Date:   Thu Jun 13 22:33:35 2024 +0900
+
+    feat: ingame 컷씬 재생에 플레이어 모션 초기화 기능 추가
+
+[33mcommit 54be7ed73723a22bd910bbe3fdfeda80ff5d90e7[m
+Author: gunul02 <bboglelee@naver.com>
+Date:   Thu Jun 13 22:29:29 2024 +0900
+
+    보스 릴파 스파인 더미의 더미 업로드
+
+[33mcommit 7a9c68819cebce43b98ac53601300978c2b357d9[m
+Author: chamwhy <chamwhy8@gmail.com>
+Date:   Thu Jun 13 22:28:19 2024 +0900
+
+    fix: 탭메뉴 오픈 기준에 player 공격 여부 추가
+
+[33mcommit a13c066de9c953254cd03eebee0d0743a0704ce1[m
+Merge: b1fe0a411 d0c12dccc
+Author: chamwhy <chamwhy8@gmail.com>
+Date:   Thu Jun 13 22:20:45 2024 +0900
+
+    Merge branch 'develop2' into pr-reFact
+
+[33mcommit b1fe0a411c87551e69cabd5038f63e61be0e8c3f[m
+Author: chamwhy <chamwhy8@gmail.com>
+Date:   Thu Jun 13 22:20:39 2024 +0900
+
+    Update Intro.unity
+
+[33mcommit 739005aa65fc44e43b7c2a450c80f4b211b12873[m
+Author: ws05162 <ws05162@gmail.com>
+Date:   Thu Jun 13 13:52:15 2024 +0900
+
+    무기 추가 밸런싱
+
+[33mcommit 6935a408897a4cfedccf25669df6fa6b3fd519e4[m
+Author: ws05162 <ws05162@gmail.com>
+Date:   Thu Jun 13 05:19:35 2024 +0900
+
+    기본무기 밸런싱
+
+[33mcommit 2911ff3c4c862443f73a702b73df8fcbbef55c8e[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Thu Jun 13 04:35:36 2024 +0900
+
+    Feat 오브 구현
+
+[33mcommit b068f698e3a3be030e17a42218736b68bca79dc1[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Thu Jun 13 02:56:17 2024 +0900
+
+    Feat 스킬 수정
+
+[33mcommit 2766283ce551a353879549b95696b1c7b3a94eed[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Thu Jun 13 02:43:07 2024 +0900
+
+    Feat 다단히트 구현 (오브)
+
+[33mcommit 771db85bb0177a81f04cb6474984cb8160d71c92[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Thu Jun 13 00:43:48 2024 +0900
+
+    Feat 완드 구현
+
+[33mcommit b8d465192605656ea68d1817c1b551d71edea6aa[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Wed Jun 12 20:05:18 2024 +0900
+
+    Feat 창 스킬 구현
+
+[33mcommit be37b7c205d7a0a24e0871645084a11d0dfd92da[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Wed Jun 12 19:21:54 2024 +0900
+
+    Feat 낫 스킬 구현
+
+[33mcommit 8c7593eac34ebd0d6879c77f348d12c1741f66d5[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Wed Jun 12 03:19:17 2024 +0900
+
+    Feat 해머 스킬 구현
+
+[33mcommit 8affdc24a0ce2c7453a940e7e5a2140de4b3bc0e[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Wed Jun 12 01:42:12 2024 +0900
+
+    Fix 캐릭터 애니메이터 수정
+
+[33mcommit df59f73215dda826720ee8d3218305a26ffa4eb9[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Wed Jun 12 01:30:43 2024 +0900
+
+    Refactor 무기 공격력 적용방식
+    
+    타수별로 공격계수 정할 수 있도록 리팩토링
+
+[33mcommit f3a41098c459cc92b97017b0bd8f997418e136d0[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Wed Jun 12 01:02:55 2024 +0900
+
+    Feat 무기 공격별 데미지 설정변수 추가
+
+[33mcommit 61ad76ed519c3b66b9cc2c4aa10e070f94016073[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Tue Jun 11 23:31:58 2024 +0900
+
+    Feat 대검 스킬 구현
+
+[33mcommit a9ca60809ca3ee1d21fe920e087b96c15ffab259[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Tue Jun 11 19:10:41 2024 +0900
+
+    Feat 비챤 스킬 모션 적용
+
+[33mcommit a8062c437d7e1aab77a46bd19f9b63c5e1a503de[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Tue Jun 11 05:43:00 2024 +0900
+
+    Feat 대검 스킬 구현 (이동만)
+
+[33mcommit 36483ff1b8491929e68f3c88be89a295d7ebc643[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Tue Jun 11 01:32:53 2024 +0900
+
+    Update JururuTree.asset
+
+[33mcommit dd2d31863e310321f696ea0da49692ec7c194f48[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Tue Jun 11 01:32:35 2024 +0900
+
+    ㄹㄹ
+
+[33mcommit 17865cc1e5125ef819081f1845d40213cf376ca6[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Tue Jun 11 01:31:02 2024 +0900
+
+    Feat 피격 면역 구현
+
+[33mcommit e89fc3389dc6b7248a314d2d2a158ebe0a28d0ce[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Tue Jun 11 00:57:17 2024 +0900
+
+    Feat 단검 스킬 구현
+
+[33mcommit 49484fb9d98054bb280770254266982de8882525[m
+Merge: 783824af2 d0c12dccc
+Author: kg8812 <kg88124@gmail.com>
+Date:   Tue Jun 11 00:15:13 2024 +0900
+
+    Merge branch 'develop2' into Apis-Weapon
+
+[33mcommit 783824af24243e5080a7a2dc5d4904e48c42d949[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Tue Jun 11 00:13:53 2024 +0900
+
+    Fix 스킬 쿨타임 버그 수정
+    
+    스킬 지속시간중 Cancel시, 쿨타임이 표기되지 않는 버그 수정
+
+[33mcommit 37fefaf19dbd4013da99833a4e4528e0c86ed48f[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Mon Jun 10 23:49:30 2024 +0900
+
+    File 무기 스킬 정리
+
+[33mcommit d0c12dccc3ca8553eb609fc6c755d17613aa598b[m
+Author: ws05162 <ws05162@gmail.com>
+Date:   Mon Jun 10 23:28:18 2024 +0900
+
+    섹터 3202 조정
+    
+    포스트프로세싱 적용
+    몬스터 고침
+
+[33mcommit be764e8ee14350e2e45ea2b705528eb4fb237d6b[m[33m ([m[1;31morigin/Shader[m[33m)[m
+Author: aplapla <appkl40@naver.com>
+Date:   Mon Jun 10 20:23:11 2024 +0900
+
+    주르르 보스 변신 이펙트 최종픽스
+
+[33mcommit ceb4912e4f57bb1a2fd9b1580803e1561f9a059b[m
+Author: chamwhy <chamwhy8@gmail.com>
+Date:   Mon Jun 10 03:42:16 2024 +0900
+
+    refactor: ui fade const, fomular 클래스로 이전 / ui base 미리 존재 기능 추가
+
+[33mcommit 2275edc0d81b661d6ee1f538043a0cf5046c17ad[m
+Author: chamwhy <chamwhy8@gmail.com>
+Date:   Mon Jun 10 03:34:18 2024 +0900
+
+    feat: title -> intro, title로 씬 분기
+
+[33mcommit 6ac9c8c232e317381e6177b36438cd1cf1daaf62[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Sun Jun 9 22:45:36 2024 +0900
+
+    Update Jururu.prefab
+
+[33mcommit 957545c30f7dd9efe8d8cfc94267a839ce147f3a[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Sun Jun 9 22:42:14 2024 +0900
+
+    플레이어 ui 파일 추가
+
+[33mcommit a6752c9bb5ab67219483808ecc5f216f7646f08b[m
+Author: ws05162 <ws05162@gmail.com>
+Date:   Sun Jun 9 18:36:43 2024 +0900
+
+    주르르 텔레포트pos 조정
+
+[33mcommit bc13de16edfc7d08f64bd7818418eb7711a7d62d[m
+Author: aplapla <appkl40@naver.com>
+Date:   Sun Jun 9 15:48:45 2024 +0900
+
+    대쉬 경사 조정
+
+[33mcommit 6fdeed43ec7c0c95880e6bfbbe565afa41458bd6[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Sun Jun 9 00:38:13 2024 +0900
+
+    Update BossMonster.cs
+
+[33mcommit e31033dc93a2b7ed84fbf0b78c64cfbff0b7dcaa[m[33m ([m[1;31morigin/ApisBoss[m[33m)[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Sun Jun 9 00:33:20 2024 +0900
+
+    Feat 피격텍스트 폰트 및 색상 변경
+
+[33mcommit 85d9abdacc820beba9bd1d5ddb9034e2e63df3fd[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Sun Jun 9 00:16:33 2024 +0900
+
+    Fix 주르르 버그 수정
+
+[33mcommit 43d5dce2e1401de5abb10065df6975585d403ae2[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Sat Jun 8 18:41:07 2024 +0900
+
+    Fix 버프관련 버그 수정
+    
+    SubBuff StackDecrease (한번에 사라지는 기능) 적용 안되는 버그 수정
+
+[33mcommit d503b2e8e7670f3e1ac934713552526a58c28438[m
+Author: gunul02 <bboglelee@naver.com>
+Date:   Sat Jun 8 17:34:16 2024 +0900
+
+    플레이어블 캐릭터 애니메이션 길이 조정
+
+[33mcommit eb72e32e63a4b563624952d0f53091169c9913c2[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Sat Jun 8 17:24:46 2024 +0900
+
+    Fix 버그 수정
+
+[33mcommit b128969801b3a83c92d878cd246b2a4a5cd7382f[m
+Merge: 6ce22e86e 3a72d5c9a
+Author: ws05162 <ws05162@gmail.com>
+Date:   Sat Jun 8 16:59:14 2024 +0900
+
+    Merge branch 'develop2' of https://github.com/Studio-Haezo/WinterSpring into develop2
+
+[33mcommit 6ce22e86e30f1d0076bf6869b3d58fc43858a03d[m
+Author: ws05162 <ws05162@gmail.com>
+Date:   Sat Jun 8 16:58:35 2024 +0900
+
+    원거리 무기 조정
+    
+    원거리 무기 조정
+
+[33mcommit 3a72d5c9a2417b1410bfd494fc047143d0d10485[m
+Author: gunul02 <bboglelee@naver.com>
+Date:   Sat Jun 8 16:23:20 2024 +0900
+
+    무기 12종 스프라이트 업데이트
+    
+    3종 이미지 교체, 9종 신규추가
+
+[33mcommit e301ca7bc9c0173853592411de07fd2e85d82a23[m
+Author: gunul02 <bboglelee@naver.com>
+Date:   Sat Jun 8 16:14:40 2024 +0900
+
+    magicDiary 스파인 이미지 교체
+
+[33mcommit cbc2ec38f924fac00d4f5b7f33ccbdb8cc39bfce[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Sat Jun 8 16:13:23 2024 +0900
+
+    Fix 버프 관련 버그 수정
+
+[33mcommit edfd37c840a50836c56bf061645df6ba17375729[m
+Merge: 4ae000ec1 67ece1e42
+Author: ws05162 <ws05162@gmail.com>
+Date:   Sat Jun 8 14:36:59 2024 +0900
+
+    Merge branch 'develop2' of https://github.com/Studio-Haezo/WinterSpring into develop2
+
+[33mcommit 4ae000ec16d8a29072835e542894d339419525a6[m
+Author: ws05162 <ws05162@gmail.com>
+Date:   Sat Jun 8 14:36:26 2024 +0900
+
+    얼붙깃발 최대스택 추가
+
+[33mcommit 67ece1e4284cacafbaae9e411ee9bd380aa06ba8[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Sat Jun 8 14:35:43 2024 +0900
+
+    Fix 얼어붙은 깃발 버그 수정
+
+[33mcommit fa90a0070ce79639a35f38ef56e0cdf796846436[m
+Merge: a78888c67 a1a0b3526
+Author: kg8812 <kg88124@gmail.com>
+Date:   Sat Jun 8 14:23:24 2024 +0900
+
+    Merge branch 'ApisBoss' into develop2
+
+[33mcommit a1a0b3526aee9b5ec989806b28b3add7c08fa4de[m
+Author: kg8812 <kg88124@gmail.com>
+Date:   Sat Jun 8 14:23:10 2024 +0900
+
+    Fix 고세구 2스택 쌓이는 버그 수정
+
+[33mcommit a78888c673e742474624eb9f8e79d0e6f2e050a2[m
+Author: ws05162 <ws05162@gmail.com>
+Date:   Sat Jun 8 13:49:31 2024 +0900
+
+    원거리 사정거리 증가
+
+[33mcommit 06553bc60ad657c45dbb4bcb269441cd9d2e6346[m
+Author: ws05162 <ws05162@gmail.com>
+Date:   Sat Jun 8 13:21:59 2024 +0900
+
+    아이네 마법진 색 조정
+
+[33mcommit f8ee72770737ad42f1ca4e36a15a974429cada08[m
+Author: ws05162 <ws05162@gmail.com>
+Date:   Sat Jun 8 12:45:17 2024 +0900
+
+    플레이어 넉백값 조정

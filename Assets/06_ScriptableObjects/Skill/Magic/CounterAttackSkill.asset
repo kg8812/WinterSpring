@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0a133b24ad220244875dd8484425dcc, type: 3}
+  m_Name: CounterAttackSkill
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: user
+      Entry: 6
+      Data: 
+    - Name: animator
+      Entry: 6
+      Data: 
+    - Name: attacker
+      Entry: 6
+      Data: 
+    - Name: mover
+      Entry: 6
+      Data: 
+    - Name: hit
+      Entry: 6
+      Data: 
+    - Name: skeleton
+      Entry: 6
+      Data: 
+    - Name: eventUser
+      Entry: 6
+      Data: 
+    - Name: direction
+      Entry: 6
+      Data: 
+    - Name: statUser
+      Entry: 6
+      Data: 
+    - Name: dashUser
+      Entry: 6
+      Data: 
+    - Name: activeUser
+      Entry: 6
+      Data: 
+    - Name: passiveUser
+      Entry: 6
+      Data: 
+    - Name: weaponSkillUser
+      Entry: 6
+      Data: 
+  _cdStartType: 2
+  baseCd: 6
+  duration: 0.5
+  isMotion: 1
+  index: 137
+  skillMotionType: 0
+  maxStack: 0
+  minStackCd: 0
+  cdStart: 0
+  unEquipCd: 0
+  EnterSkillState: 1
+  baseDmg: 100
+  bodyFactor: 0
+  spiritFactor: 0
+  finesseFactor: 0
+  baseGroggy: 380
+  nameString: 6018
+  descString: 30370
+  itemId: 2018
+  CurCastTime: 0
+  CurChargeTime: 0
+  usableWhenAttack: 0
+  usePlayerCheck: 1
+  chargeDmgRatio: 0
+  chargeGroggyRatio: 0
+  CastTime: 0
+  CastType: 0
+  ChargeTime: 0
+  EndChargeAutomatic: 1
+  chargeMoveDebuff: 0
+  chargeInfos: []
+  chargeType: 0
+  skill2: {fileID: 0}
+  useFrame: 0
+  Skill2: {fileID: 0}
+  isCharging: 0
+  size: {x: 1, y: 1}
+  invincibilityDuration: 0.5
+  atkInfo: {fileID: 11400000, guid: b621ebf99d8374e489827d6ba66d07bf, type: 2}
+  radius: 2
+  projInfo: {fileID: 11400000, guid: 52918729828c5d641b6449375df36384, type: 2}
