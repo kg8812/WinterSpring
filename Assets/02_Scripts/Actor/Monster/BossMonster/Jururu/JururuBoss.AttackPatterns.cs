@@ -559,8 +559,7 @@ namespace Apis
                 Vector2 endPos = _boss.transform.position + new Vector3(_boss.pattern6BackDash1.x * -(int)_boss.Direction,
                     _boss.pattern6BackDash1.y,0);
                 (Tween x, Tween y) tweens = _boss.Rb.DOJumpUp(endPos, _boss.pattern6BackJumpPower1, _boss.pattern6DashTime1);
-                tweens.x.SetEase(_boss.pattern6BackDash1Ease).KillWhenBoxCast(_boss, 1,
-                    Vector2.left * _boss.DirectionScale, new Vector2(0.5f, 1.5f), LayerMasks.Wall);
+                tweens.x.SetEase(_boss.pattern6BackDash1Ease).KillWhenBoxCast(_boss.Rb, new Vector2(0.5f, 1.5f), LayerMasks.Wall);
                 yield return tweens.y.WaitForCompletion();
                 _boss.animator.SetTrigger("AttackStart");
             }
@@ -570,8 +569,7 @@ namespace Apis
                 Vector2 endPos = new Vector2(_boss.transform.position.x + -(int)_boss.Direction * _boss.pattern6BackDash2,
                     startPos.y);
                 (Tween x,Tween y) tweens = _boss.Rb.DOJumpDown(endPos, _boss.pattern6BackJumpPower2, _boss.pattern6DashTime2);
-                tweens.x.KillWhenBoxCast(_boss, 1,
-                    Vector2.left * _boss.DirectionScale, new Vector2(0.5f, 1.5f), LayerMasks.Wall);
+                tweens.x.KillWhenBoxCast(_boss.Rb,  new Vector2(0.5f, 1.5f), LayerMasks.Wall);
                 yield return tweens.y.WaitForCompletion();
                 _boss.animator.SetTrigger("AttackEnd");
             }
@@ -659,8 +657,7 @@ namespace Apis
                 Vector2 endPos = _boss.transform.position + new Vector3(_boss.pattern6_2BackDash1.x * -(int)_boss.Direction,
                     _boss.pattern6_2BackDash1.y);
                 tweens = _boss.Rb.DOJumpUp(endPos, _boss.pattern6_2BackJumpPower1, _boss.pattern6_2DashTime1);
-                tweens.x.SetEase(_boss.pattern6_2BackDash1Ease).KillWhenBoxCast(_boss, 1,
-                    Vector2.left * _boss.DirectionScale, new Vector2(0.5f, 1.5f), LayerMasks.Wall);
+                tweens.x.SetEase(_boss.pattern6_2BackDash1Ease).KillWhenBoxCast(_boss.Rb, new Vector2(0.5f, 1.5f), LayerMasks.Wall);
                 yield return tweens.y.WaitForCompletion();
                 _boss.animator.SetTrigger("AttackStart");
             }
@@ -671,8 +668,7 @@ namespace Apis
                 Vector2 endPos = new Vector2(_boss.transform.position.x + -(int)_boss.Direction * _boss.pattern6_2BackDash2,
                     startPos.y);
                 tweens = _boss.Rb.DOJumpDown(endPos, _boss.pattern6_2BackJumpPower2, _boss.pattern6_2DashTime2);
-                tweens.x.KillWhenBoxCast(_boss, 1,
-                    Vector2.left * _boss.DirectionScale, new Vector2(0.5f, 1.5f), LayerMasks.Wall);
+                tweens.x.KillWhenBoxCast(_boss.Rb, new Vector2(0.5f, 1.5f), LayerMasks.Wall);
                 yield return tweens.y.WaitForCompletion();
                 _boss.animator.SetTrigger("AttackEnd");
             }
@@ -1167,7 +1163,7 @@ namespace Apis
             {
                 tweens = _boss.Rb.DOJumpDown(new Vector2(_boss.Position.x + _boss.jumpDistance10_1 * -_boss.DirectionScale, startY),
                     _boss.jumpHeight10_1, _boss.jumpTime10_1);
-                tweens.x.KillWhenBoxCast(_boss, 1, Vector2.left * _boss.DirectionScale, new Vector2(0.5f, 1),
+                tweens.x.KillWhenBoxCast(_boss.Rb, new Vector2(0.5f, 1),
                     LayerMasks.Wall);
                 tweens.y.onComplete += () =>
                 {

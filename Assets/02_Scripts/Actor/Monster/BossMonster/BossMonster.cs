@@ -635,7 +635,7 @@ namespace Apis
         }
         public Tween MoveToPlayer(float meleeDistance,float minDistance,float maxDistance,float duration,Ease ease)
         {
-            Rb.DOKill();
+            ActorMovement.Stop();
             
             float playerX = GameManager.instance.ControllingEntity.Position.x;
             float x = Position.x;
@@ -652,8 +652,9 @@ namespace Apis
                 moveDist = minDistance * DirectionScale;
             }
 
-            Tween tween = Rb.DOMoveX(moveDist, duration).SetRelative().SetEase(ease);
-            tween.KillWhenBoxCast(this, 0.5f, Vector2.right * DirectionScale, new Vector2(0.2f, 1), LayerMasks.Wall);
+            var tween = Rb.DOMoveX(Rb.position.x + moveDist,duration)
+            .SetEase(ease).SetUpdate(UpdateType.Fixed);
+            tween.KillWhenBoxCast(Rb, new Vector2(0.2f, 1), LayerMasks.Wall);
            
             return tween;
         }
@@ -677,7 +678,7 @@ namespace Apis
             }
 
             (Tween x,Tween y) tween = ActorMovement.DoJumpTween(duration, jumpHeight, moveDist, false);
-            tween.x.KillWhenBoxCast(this,0.5f, Vector2.right * DirectionScale, new Vector2(0.2f, 1), LayerMasks.Wall);
+            tween.x.KillWhenBoxCast(Rb,new Vector2(0.2f, 1), LayerMasks.Wall);
 
             return tween;
         }
@@ -707,11 +708,11 @@ namespace Apis
 
             if (moveDist > 0)
             {
-                tween.x.KillWhenBoxCast(this,0.5f, Vector2.right * DirectionScale, new Vector2(0.2f, 1), LayerMasks.Wall);
+                tween.x.KillWhenBoxCast(Rb,new Vector2(0.2f, 1), LayerMasks.Wall);
             }
             else
             {
-                tween.x.KillWhenBoxCast(this,0.5f, Vector2.left * DirectionScale, new Vector2(0.2f, 1), LayerMasks.Wall);
+                tween.x.KillWhenBoxCast(Rb,new Vector2(0.2f, 1), LayerMasks.Wall);
             }
             return tween;
         }

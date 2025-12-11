@@ -214,14 +214,14 @@ public partial class Player
             player.Rb.DOKill();
             (Tween x, Tween y) tweens =
                 player.ActorMovement.DoJumpTween(dashInfo.jumpTime, dashInfo.height, dashInfo.distance, false);
-            tweens.x.KillWhenBoxCast(player, 0.4f, Vector2.right * (int)player.Direction, new Vector2(0.1f, 0.5f),
+            tweens.x.KillWhenBoxCast(player.Rb, new Vector2(0.1f, 0.5f),
                 LayerMasks.MapAndPlatform | LayerMasks.Wall | LayerMasks.Enemy).SetEase(Ease.Linear);
 
             tween = tweens.y;
 
             allTweens.Add(tweens.x);
             allTweens.Add(tweens.y);
-
+            
             return tween;
         }
 

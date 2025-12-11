@@ -38938,11 +38938,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5445709012068155091, guid: 07446c50a411b614896044b611700a35, type: 3}
       propertyPath: camRadius
-      value: 1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 5445709012068155091, guid: 07446c50a411b614896044b611700a35, type: 3}
       propertyPath: camWeight
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5445709012068155091, guid: 07446c50a411b614896044b611700a35, type: 3}
       propertyPath: moveEase7
@@ -45160,7 +45160,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &305896736380941111
 BoxCollider2D:
   m_ObjectHideFlags: 0

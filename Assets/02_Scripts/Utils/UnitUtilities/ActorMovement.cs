@@ -635,6 +635,7 @@ public class ActorMovement // 유닛 이동관련 기능 클래스 (이동, 점�
         Stop();
         var _dashTweener = _mover.Rb.DOMove(_dashDst, distance / time).SetUpdate(UpdateType.Fixed).SetSpeedBased();
         _dashTweener.SetEase(Ease.OutSine);
+        
         // _dashTweener.OnUpdate(() => DashOnUpdateCallback(_dashTweener, _dashDst));
 
         return _dashTweener;

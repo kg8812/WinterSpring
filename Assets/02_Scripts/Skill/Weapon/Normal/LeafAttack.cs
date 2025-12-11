@@ -62,7 +62,7 @@ namespace Apis
             {
                 mover.Rb.DOKill();
                 (Tween x, Tween y) tweens = mover.ActorMovement.DoJumpTween(jumpTime, height, distance, false);
-                tweens.x.KillWhenBoxCast(user, 0.4f, Vector2.right * (direction != null ?(int)direction.Direction : 1), new Vector2(0.1f, 0.5f),
+                tweens.x.KillWhenBoxCast(mover.Rb, new Vector2(0.1f, 0.5f),
                     LayerMasks.Wall | LayerMasks.Enemy).SetEase(Ease.Linear);
                 tweens.y.onComplete += GroundSkill;
                 
@@ -84,9 +84,10 @@ namespace Apis
                 tween = mover.Rb.DOMove(user.transform.position + dir * (speed * (maxDuration + 0.5f)), speed)
                     .SetUpdate(UpdateType.Fixed).SetSpeedBased()
                     .SetEase(ease).SetAutoKill(true);
-                tween.KillWhenBoxCast(user, 0.75f, Vector2.down, new Vector2(0.5f, 0.1f), LayerMasks.GroundAndPlatform, AirSkill);
+                tween.KillWhenBoxCast(mover.Rb, new Vector2(0.5f, 0.1f), LayerMasks.GroundAndPlatform);
                 tween.onKill += EndMotion;
                 tween.onKill += GameManager.instance.Player.StopJumping;
+                tween.onKill += AirSkill;
                 
                 tween.onUpdate += () =>
                 {

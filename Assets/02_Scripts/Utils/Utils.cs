@@ -7,6 +7,8 @@ using chamwhy;
 using chamwhy.UI.Focus;
 using chamwhy.Util;
 using DG.Tweening;
+using DG.Tweening.Core;
+using DG.Tweening.Plugins.Options;
 using EventData;
 using Managers;
 using UnityEngine;
@@ -405,39 +407,6 @@ namespace Default
             }
         }
 
-        // 박스캐스트 충돌시 트윈 종료
-        public static Tween KillWhenBoxCast(this Tween t, IMonoBehaviour obj, float distance, Vector2 dir, Vector2 size,
-            LayerMask layerMask, UnityAction OnEnd = null)
-        {
-            t.onUpdate += () =>
-            {
-                if (Physics2D.BoxCast(obj.Position, size, 0,
-                        dir, distance,
-                        layerMask))
-                {
-                    t.Kill();
-                    OnEnd?.Invoke();
-                }
-            };
-            return t;
-        }
-
-        public static Tween KillWhenBoxCast(this Tween t, Transform obj, float distance, Vector2 dir, Vector2 size,
-            LayerMask layerMask, UnityAction OnEnd = null)
-        {
-            t.onUpdate += () =>
-            {
-                if (Physics2D.BoxCast(obj.position, size, 0,
-                        dir, distance,
-                        layerMask))
-                {
-                    t.Kill();
-                    OnEnd?.Invoke();
-                }
-            };
-            return t;
-        }
-
         public static Vector2 GetFloorPos(this IMonoBehaviour obj)
         {
             if (Utils.GetLowestPointByRay(obj.Position, LayerMasks.GroundAndPlatform, out var value))
@@ -673,19 +642,62 @@ namespace Default
             go.transform.localScale = new Vector3((int)dir * radius * 2, radius * 2, 1);
         }
 
-        public static (Tween, Tween) DoJumpTween(this Rigidbody2D target, Vector2 endValue, float jumpPower,
+        public static TweenerCore<Vector2, Vector2, VectorOptions> KillWhenBoxCast(this TweenerCore<Vector2, Vector2, VectorOptions> t2,
+            Rigidbody2D rb,
+            Vector2 boxSize,
+            LayerMask mask)
+        {
+            bool killRequested = false;
+
+            
+            var originalSetter = t2.setter;   // 기존 setter 저장
+
+            t2.setter = newPos =>
+            {
+                if (killRequested)
+                    return;
+
+                Vector2 current = rb.position;
+                Vector2 delta = newPos - current;
+                float dist = delta.magnitude;
+
+                if (dist > 0)
+                {
+                    var hit = Physics2D.BoxCast(current, boxSize, 0, delta.normalized, dist, mask);
+                    if (hit)
+                    {
+                        killRequested = true;
+                        return;
+                    }
+                }
+
+                // 안전할 때만 기존 setter 호출
+                originalSetter(newPos);
+            };
+
+            t2.OnUpdate(() =>
+            {
+                if (killRequested)
+                    t2.Kill();
+            });
+
+            return t2;
+        }
+        public static (TweenerCore<Vector2, Vector2, VectorOptions>, TweenerCore<Vector2, Vector2, VectorOptions>) 
+            DoJumpTween(this Rigidbody2D target, Vector2 endValue, float jumpPower,
             float duration)
         {
             float startPosY = 0;
             float offsetY = -1;
             bool offsetYSet = false;
-            Tween xTween = DOTween.To(() => target.position, x => target.position = x, new Vector2(endValue.x, 0),
-                    duration)
-                .SetOptions(AxisConstraint.X).SetEase(Ease.Linear).SetUpdate(UpdateType.Fixed);
+            TweenerCore<Vector2, Vector2, VectorOptions> xTween = DOTween.To(() => target.position,
+                x => target.position = x, new Vector2(endValue.x, 0),
+                duration);
+            xTween.SetOptions(AxisConstraint.X).SetEase(Ease.Linear).SetUpdate(UpdateType.Fixed);
 
-            Tween yTween = DOTween.To(() => target.position, x => target.position = x, new Vector2(0, jumpPower),
-                    duration / 2)
-                .SetOptions(AxisConstraint.Y).SetEase(Ease.OutSine).SetRelative()
+            TweenerCore<Vector2, Vector2, VectorOptions> yTween = DOTween.To(() => target.position, x => target.position = x, new Vector2(0, jumpPower),
+                    duration / 2);
+                yTween.SetOptions(AxisConstraint.Y).SetEase(Ease.OutSine).SetRelative()
                 .SetLoops(2, LoopType.Yoyo)
                 .OnStart(() => startPosY = target.position.y).SetUpdate(UpdateType.Fixed);
 
@@ -704,7 +716,8 @@ namespace Default
             return (xTween, yTween);
         }
 
-        public static (Tween, Tween) DOJumpUp(this Rigidbody2D target, Vector2 endValue, float jumpPower,
+        public static (TweenerCore<Vector2, Vector2, VectorOptions>, TweenerCore<Vector2, Vector2, VectorOptions>)
+            DOJumpUp(this Rigidbody2D target, Vector2 endValue, float jumpPower,
             float duration, bool snapping = false)
         {
             Sequence s = DOTween.Sequence();
@@ -714,12 +727,12 @@ namespace Default
             float d2 = Mathf.Approximately(totalY, 0) || totalY < 0 ? 0.5f : Mathf.Abs(jumpPower / totalY);
             float d1 = 1 - d2;
 
-            Tween yTween1 = DOTween.To(() => target.position, x => target.position = x,
-                    new Vector2(0, endValue.y + jumpPower), duration * d1)
-                .SetOptions(AxisConstraint.Y, snapping).SetEase(Ease.OutQuad);
-            Tween yTween2 = DOTween
-                .To(() => target.position, x => target.position = x, new Vector2(0, endValue.y), duration * d2)
-                .SetOptions(AxisConstraint.Y, snapping).SetEase(Ease.InQuad);
+            TweenerCore<Vector2, Vector2, VectorOptions> yTween1 = DOTween.To(() => target.position, x => target.position = x,
+                    new Vector2(0, endValue.y + jumpPower), duration * d1);
+                yTween1.SetOptions(AxisConstraint.Y, snapping).SetEase(Ease.OutQuad);
+            TweenerCore<Vector2, Vector2, VectorOptions> yTween2 = DOTween
+                .To(() => target.position, x => target.position = x, new Vector2(0, endValue.y), duration * d2);
+                yTween2.SetOptions(AxisConstraint.Y, snapping).SetEase(Ease.InQuad);
 
             Sequence s2 = DOTween.Sequence();
             s2.Append(yTween1).Append(yTween2);

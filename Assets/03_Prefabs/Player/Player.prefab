@@ -422,7 +422,7 @@ MonoBehaviour:
   topPivot: {x: 0, y: 1, z: 0}
   maxVelocity: 0
   camWeight: 1
-  camRadius: 1
+  camRadius: 0.3
   effectParent: {fileID: 720237489}
   curHp: 0
   _statManager:
