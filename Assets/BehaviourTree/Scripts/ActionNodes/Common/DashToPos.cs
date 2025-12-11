@@ -66,7 +66,9 @@ namespace Apis.BehaviourTreeTool
 
         void Dash()
         {
-            _actor.Rb.DOKill();
+            blackBoard.tweener?.Kill();
+            tweener?.Kill();
+            
             if (pos != null)
             {
                 float posX = pos.TryGetComponent(out Actor act) ? act.Position.x : pos.transform.position.x;
@@ -74,21 +76,21 @@ namespace Apis.BehaviourTreeTool
                 mover?.ActorMovement?.SetGravityToZero();
 
                 Transform trans = _actor.transform;
-                
+
                 float d = posX - trans.position.x;
                 _actor.SetDirection(d < 0 ? EActorDirection.Left : EActorDirection.Right);
 
-                tweener = _actor.Rb.DOMoveX(_actor.Position.x + (int)_actor.Direction,1/speed).SetUpdate(UpdateType.Fixed);
-                blackBoard.tweener = tweener;
-                tweener.SetLoops(-1, LoopType.Incremental).SetEase(Ease.Linear).
-                    OnKill(() =>
+                tweener = _actor.Rb.DOMoveX(_actor.Position.x + (int)_actor.Direction, 1 / speed)
+                    .SetUpdate(UpdateType.Fixed)
+                    .SetLoops(-1, LoopType.Incremental).SetEase(Ease.Linear).OnKill(() =>
                     {
                         mover?.ActorMovement?.Stop();
-                        _actor.animator.SetTrigger("DashEnd");        
+                        _actor.animator.SetTrigger("DashEnd");
                         mover?.ActorMovement?.ResetGravity();
-                        
+
                         if (isSkip) isFinished = true;
-                    }).SetUpdate(UpdateType.Fixed);
+                    });
+                blackBoard.tweener = tweener;
 
                 tweener.onUpdate += () =>
                 {
