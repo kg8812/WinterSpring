@@ -25574,8 +25574,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MapBoxPermanentData: {fileID: 11400000, guid: f096d35d0dd11344291265257608db56, type: 2}
   sectorID: 20023
-  size: {x: 70, y: 13}
-  position: {x: 319, y: 90}
+  size: {x: 72.00781, y: 11.014938}
+  position: {x: 320, y: 90}
   clearObtainObjects: []
 --- !u!1 &1051431889
 GameObject:
@@ -45134,7 +45134,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 305896736380941110}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.049988, y: 2.0800018, z: 0}
+  m_LocalPosition: {x: -13.049988, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -45174,7 +45174,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 7.0736847, y: 13.395264}
+  m_Offset: {x: 7.0736847, y: 17.588348}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -45185,7 +45185,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 23.259796, y: 40.826508}
+  m_Size: {x: 23.259796, y: 45.176758}
   m_EdgeRadius: 0
 --- !u!114 &650981140957942178
 MonoBehaviour:

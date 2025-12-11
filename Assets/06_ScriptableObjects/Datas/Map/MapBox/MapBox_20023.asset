@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapBoxId: 20023
   mapBoxData:
-    size: {x: 70, y: 13}
-    position: {x: 319, y: 90}
+    size: {x: 72.00781, y: 11.014938}
+    position: {x: 320, y: 90}
     useOwnColor: 0
     colorType: 0
     color: {r: 0, g: 0, b: 0, a: 0}
