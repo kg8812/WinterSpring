@@ -17,12 +17,41 @@ namespace Apis.BehaviourTreeTool
         Tweener tweener;
 
         bool isFinished;
+        private IMovable mover;
 
+        private bool requestKill;      // ★ Kill 예약 플래그
+        private bool tweenKilled;      // ★ Kill 중복 방지
+        
+        /// <summary>
+        /// Kill은 여기서만 이뤄짐
+        /// Update에서는 Kill 예약만 한다.
+        /// </summary>
+        private void KillTween()
+        {
+            if (tweenKilled) return;           
+            tweenKilled = true;
+            requestKill = false;
+
+            if (tweener != null && tweener.IsActive())
+            {
+                tweener.Kill();
+            }
+            
+            mover?.ActorMovement?.Stop();
+            mover?.ActorMovement?.ResetGravity();
+            
+            tweener = null;
+            blackBoard.tweener = null;
+        }
+        
         public override void OnStart()
         {
             base.OnStart();
+            mover = _actor as IMovable;
             success = false;
             isFinished = false;
+            requestKill = false;
+            tweenKilled = false;
             OnAlert.AddListener(Alert);
            
             _actor.animator.SetBool("IsDashEnd",!isSkip);
@@ -33,10 +62,10 @@ namespace Apis.BehaviourTreeTool
 
         void Dash()
         {
-            if (_actor is not IMovable mover) return;
+            if (mover == null) return;
             
-            mover.Rb.DOKill();
-            mover.Rb.velocity = Vector3.zero;
+            Debug.Log("Dash");
+            mover.ActorMovement.Stop();
             
             tweener = mover.ActorMovement.DashTemp(time, distance, isBackDash).SetAutoKill(true).SetEase(Ease.Linear);
             _actor.ExecuteEvent(EventType.OnDash, new EventParameters(_actor));
@@ -47,16 +76,15 @@ namespace Apis.BehaviourTreeTool
             {
                 success = true;
                 _actor.animator.SetTrigger("DashEnd");
-                mover.ActorMovement.Stop();
+                
                 if (isSkip) isFinished = true;
-                mover.ActorMovement.ResetGravity();
             };
             tweener.onUpdate += () =>
             {
                 var direction = new Vector2((int)_actor.Direction * (isBackDash ? -1 : 1), 0);
                 if (Physics2D.Raycast(_actor.Position, direction, 0.75f, LayerMasks.Wall))
                 {
-                   tweener.Kill();
+                    requestKill = true;
                 }
             };
         }
@@ -65,18 +93,19 @@ namespace Apis.BehaviourTreeTool
         {
             base.OnStop();
 
-            if (blackBoard.tweener == tweener)
-            {
-                tweener.Kill();
-                blackBoard.tweener = null;
-                tweener = null;
-            }
+            KillTween();
 
             OnAlert.RemoveAllListeners();
         }
 
         public override State OnUpdate()
         {
+            if (requestKill)
+            {
+                KillTween();
+                isFinished = true;
+            }
+            
             if (!isFinished)
             {
                 return State.Running;

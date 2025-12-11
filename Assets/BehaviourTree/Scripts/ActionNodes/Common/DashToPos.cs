@@ -59,7 +59,10 @@ namespace Apis.BehaviourTreeTool
             {
                 tweener.Kill();
             }
-
+            
+            mover?.ActorMovement?.Stop();
+            mover?.ActorMovement?.ResetGravity();
+            
             tweener = null;
             blackBoard.tweener = null;
         }
@@ -84,10 +87,8 @@ namespace Apis.BehaviourTreeTool
                     .SetUpdate(UpdateType.Fixed)
                     .SetLoops(-1, LoopType.Incremental).SetEase(Ease.Linear).OnKill(() =>
                     {
-                        mover?.ActorMovement?.Stop();
                         _actor.animator.SetTrigger("DashEnd");
-                        mover?.ActorMovement?.ResetGravity();
-
+                        
                         if (isSkip) isFinished = true;
                     });
                 blackBoard.tweener = tweener;
@@ -107,7 +108,6 @@ namespace Apis.BehaviourTreeTool
             base.OnStop();
 
             KillTween();
-            _actor.animator.ResetTrigger("DashEnd");
             
             OnAlert.RemoveAllListeners();
         }
