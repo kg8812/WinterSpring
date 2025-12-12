@@ -677,8 +677,9 @@ namespace Apis
                 moveDist = minDistance;
             }
 
-            (Tween x,Tween y) tween = ActorMovement.DoJumpTween(duration, jumpHeight, moveDist, false);
-            tween.x.KillWhenBoxCast(Rb,new Vector2(0.2f, 1), LayerMasks.Wall);
+            Vector2 endPos = (Vector2)transform.position + Vector2.right * (moveDist * DirectionScale);
+            (Tween x,Tween y) tween = ActorMovement.DoJumpTween(duration, jumpHeight, 
+                endPos, LayerMasks.Wall);
 
             return tween;
         }
@@ -704,16 +705,12 @@ namespace Apis
                 moveDist = minDistance;
             }
 
-            (Tween x,Tween y) tween = ActorMovement.DoJumpTween(duration,jumpHeight,moveDist,y,false);
-
-            if (moveDist > 0)
-            {
-                tween.x.KillWhenBoxCast(Rb,new Vector2(0.2f, 1), LayerMasks.Wall);
-            }
-            else
-            {
-                tween.x.KillWhenBoxCast(Rb,new Vector2(0.2f, 1), LayerMasks.Wall);
-            }
+            Vector2 endPos = (Vector2)transform.position + Vector2.right * (moveDist * DirectionScale);
+            
+            (Tween x, Tween y) tween = ActorMovement.DoJumpTween(duration, jumpHeight,
+                endPos, LayerMasks.Wall);
+            
+            
             return tween;
         }
         [Button]

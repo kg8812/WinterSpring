@@ -683,91 +683,89 @@ namespace Default
 
             return t2;
         }
-        public static (TweenerCore<Vector2, Vector2, VectorOptions>, TweenerCore<Vector2, Vector2, VectorOptions>) 
-            DoJumpTween(this Rigidbody2D target, Vector2 endValue, float jumpPower,
-            float duration)
+        
+        static float CalcApexJumpY(float t, float startY, float endY, float jumpHeight)
         {
-            float startPosY = 0;
-            float offsetY = -1;
-            bool offsetYSet = false;
-            TweenerCore<Vector2, Vector2, VectorOptions> xTween = DOTween.To(() => target.position,
-                x => target.position = x, new Vector2(endValue.x, 0),
-                duration);
-            xTween.SetOptions(AxisConstraint.X).SetEase(Ease.Linear).SetUpdate(UpdateType.Fixed);
+            float apexY = Mathf.Max(startY, endY) + jumpHeight;
 
-            TweenerCore<Vector2, Vector2, VectorOptions> yTween = DOTween.To(() => target.position, x => target.position = x, new Vector2(0, jumpPower),
-                    duration / 2);
-                yTween.SetOptions(AxisConstraint.Y).SetEase(Ease.OutSine).SetRelative()
-                .SetLoops(2, LoopType.Yoyo)
-                .OnStart(() => startPosY = target.position.y).SetUpdate(UpdateType.Fixed);
-
-            yTween.OnUpdate(() =>
+            if (t < 0.5f)
             {
-                if (!offsetYSet)
+                float upT = t / 0.5f;
+                return Mathf.Lerp(startY, apexY, DOVirtual.EasedValue(0, 1, upT, Ease.OutQuad));
+            }
+            else
+            {
+                float downT = (t - 0.5f) / 0.5f;
+                return Mathf.Lerp(apexY, endY, DOVirtual.EasedValue(0, 1, downT, Ease.InQuad));
+            }
+        }
+        
+        public static (Tween xTween, Tween yTween) DoJumpApex(
+            this Rigidbody2D rb,
+            Vector2 endPos,
+            float jumpHeight,
+            float duration,
+            Vector2 boxSize,
+            LayerMask wallMask,Ease xEase = Ease.Linear)
+        {
+            Vector2 startPos = rb.position;
+
+            float xT = 0f;
+            float yT = 0f;
+
+            bool blockX = false;
+
+            // X 진행도 Tween
+            Tween xTween = DOTween.To(() => xT, v => xT = v, 1f, duration)
+                .SetEase(xEase)
+                .SetUpdate(UpdateType.Fixed);
+
+            // Y 진행도 Tween
+            Tween yTween = DOTween.To(() => yT, v => yT = v, 1f, duration)
+                .SetEase(Ease.Linear)
+                .SetUpdate(UpdateType.Fixed);
+
+            // === 최종 이동 Setter (KillWhenBoxCast 철학 유지) ===
+            xTween.OnUpdate(() =>
+            {
+                float easedX = DOVirtual.EasedValue(0, 1, xT, xEase);
+
+                float targetX = Mathf.Lerp(startPos.x, endPos.x, easedX);
+                float targetY = CalcApexJumpY(yT, startPos.y, endPos.y, jumpHeight);
+
+                Vector2 current = rb.position;
+
+                // X만 벽 체크
+                if (!blockX)
                 {
-                    offsetYSet = true;
-                    offsetY = endValue.y - startPosY;
+                    Vector2 xOnlyTarget = new Vector2(targetX, current.y);
+                    Vector2 delta = xOnlyTarget - current;
+
+                    if (delta.sqrMagnitude > 0.0002f)
+                    {
+                        if (Physics2D.BoxCast(
+                                current,
+                                boxSize,
+                                0,
+                                delta.normalized,
+                                delta.magnitude,
+                                wallMask))
+                        {
+                            blockX = true;
+                            targetX = current.x;
+                        }
+                    }
+                }
+                else
+                {
+                    targetX = current.x;
                 }
 
-                Vector3 pos = target.position;
-                pos.y += DOVirtual.EasedValue(0, offsetY, yTween.ElapsedPercentage(), Ease.OutQuad);
-                target.MovePosition(pos);
+                Vector2 nextPos = new Vector2(targetX, targetY);
+                rb.MovePosition(nextPos);
             });
+
             return (xTween, yTween);
-        }
-
-        public static (TweenerCore<Vector2, Vector2, VectorOptions>, TweenerCore<Vector2, Vector2, VectorOptions>)
-            DOJumpUp(this Rigidbody2D target, Vector2 endValue, float jumpPower,
-            float duration, bool snapping = false)
-        {
-            Sequence s = DOTween.Sequence();
-
-            float totalY = endValue.y + jumpPower - target.transform.position.y + jumpPower;
-
-            float d2 = Mathf.Approximately(totalY, 0) || totalY < 0 ? 0.5f : Mathf.Abs(jumpPower / totalY);
-            float d1 = 1 - d2;
-
-            TweenerCore<Vector2, Vector2, VectorOptions> yTween1 = DOTween.To(() => target.position, x => target.position = x,
-                    new Vector2(0, endValue.y + jumpPower), duration * d1);
-                yTween1.SetOptions(AxisConstraint.Y, snapping).SetEase(Ease.OutQuad);
-            TweenerCore<Vector2, Vector2, VectorOptions> yTween2 = DOTween
-                .To(() => target.position, x => target.position = x, new Vector2(0, endValue.y), duration * d2);
-                yTween2.SetOptions(AxisConstraint.Y, snapping).SetEase(Ease.InQuad);
-
-            Sequence s2 = DOTween.Sequence();
-            s2.Append(yTween1).Append(yTween2);
-
-            s.Append(DOTween.To(() => target.position, x => target.position = x, new Vector2(endValue.x, 0), duration)
-                .SetOptions(AxisConstraint.X, snapping).SetEase(Ease.Linear)
-            ).SetTarget(target).SetEase(DOTween.defaultEaseType);
-
-            return (s, s2);
-        }
-
-        public static (Tween, Tween) DOJumpDown(this Rigidbody2D target, Vector2 endValue, float jumpPower,
-            float duration, bool snapping = false)
-        {
-            Sequence s = DOTween.Sequence();
-
-            float totalY = jumpPower + target.position.y + jumpPower - endValue.y;
-            float d1 = Mathf.Approximately(totalY, 0) || totalY < 0 ? 0.5f : Mathf.Abs(jumpPower / totalY);
-            float d2 = 1 - d1;
-
-            Tween yTween1 = DOTween.To(() => target.position, x => target.position = x, new Vector2(0, jumpPower),
-                    duration * d1)
-                .SetOptions(AxisConstraint.Y, snapping).SetEase(Ease.OutQuad).SetRelative();
-            Tween yTween2 = DOTween
-                .To(() => target.position, x => target.position = x, new Vector2(0, endValue.y), duration * d2)
-                .SetOptions(AxisConstraint.Y, snapping).SetEase(Ease.InQuad);
-
-            Sequence s2 = DOTween.Sequence();
-            s2.Append(yTween1).Append(yTween2);
-
-            s.Append(DOTween.To(() => target.position, x => target.position = x, new Vector2(endValue.x, 0), duration)
-                .SetOptions(AxisConstraint.X, snapping).SetEase(Ease.Linear)
-            ).SetTarget(target).SetEase(DOTween.defaultEaseType);
-
-            return (s, s2);
         }
 
         public static Tween LaunchTileSprite(this SpriteRenderer render, Vector2 endPos, float fireTime,

@@ -184,7 +184,7 @@ namespace Apis
             animator.SetFloat("Atk2Speed",1 / patternData.moveTime2);
             
             var values = ActorMovement.DoJumpTween(patternData.moveTime2, patternData.jumpHeight2,
-                patternData.distance2, false);
+                (Vector2)transform.position + Vector2.right * patternData.distance2 * DirectionScale, LayerMasks.Wall);
             xTween = values.Item1;
             yTween = values.Item2;
             
@@ -219,19 +219,11 @@ namespace Apis
             float y = transform.position.y + patternData.jumpHeight4;
             Rb.DOKill();
             var values = ActorMovement.DoJumpTween(patternData.moveTime4, patternData.jumpHeight4,
-                patternData.distance4,false);
+                (Vector2)transform.position + Vector2.right * patternData.distance4 * DirectionScale,LayerMasks.Wall);
             xTween = values.Item1;
             yTween = values.Item2;
             
-            xTween.onUpdate += () =>
-            {
-                var dir = new Vector2((int)Direction, 0);
-                Debug.DrawRay(Position, dir, Color.red);
-                if (Physics2D.Raycast(Position, dir, 1f, LayerMasks.Wall))
-                {
-                    xTween.Kill();
-                }
-            };
+            
             yTween.onUpdate += () =>
             {
                 if (!isThrow && Math.Abs(transform.position.y - y) < 0.5f)

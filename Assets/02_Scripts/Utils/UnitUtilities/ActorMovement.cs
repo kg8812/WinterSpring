@@ -741,44 +741,11 @@ public class ActorMovement // 유닛 이동관련 기능 클래스 (이동, 점�
 
         _mover.Rb.position += Vector2.up * (diff + 0.05f);
     }
-
-    public (Tween, Tween) DoJumpTween(float time, float height, float xDistance, float yDistance, bool isBack)
+    
+    public (Tween, Tween) DoJumpTween(float time, float height, Vector2 endPos,LayerMask stopTargetLayer,Ease xMoveEase = Ease.Linear)
     {
-        float scale = _dirUser?.DirectionScale ?? 1;
-        float tempX = xDistance * scale;
-        float tempY = yDistance;
+        var values = _mover.Rb.DoJumpApex(endPos, height, time,new Vector2(Width/2,Height/2),stopTargetLayer,xMoveEase);
 
-        if (isBack) tempX *= -1;
-        Vector2 position = _user.transform.position;
-
-
-        float x = position.x + tempX;
-        float y = position.y + tempY;
-        Vector2 pos = new Vector2(x, y);
-
-        var values = yDistance > 0 ? _mover.Rb.DOJumpUp(pos, height, time) : _mover.Rb.DOJumpDown(pos, height, time);
-
-        values.Item1.SetUpdate(UpdateType.Fixed);
-        values.Item2.SetUpdate(UpdateType.Fixed);
-
-        return values;
-    }
-
-    public (Tween, Tween) DoJumpTween(float time, float height, float distance, bool isBack)
-    {
-        float scale = _dirUser?.DirectionScale ?? 1;
-        float temp = distance * scale;
-
-        if (isBack) temp *= -1;
-        Vector2 position = _user.transform.position;
-
-        float x = position.x + temp;
-        Vector2 pos = new Vector2(x, position.y);
-
-        var values = _mover.Rb.DoJumpTween(pos, height, time);
-
-        values.Item1.SetUpdate(UpdateType.Fixed);
-        values.Item2.SetUpdate(UpdateType.Fixed);
         return values;
     }
 

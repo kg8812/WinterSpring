@@ -213,9 +213,9 @@ public partial class Player
             skill.curPokdoStand.SetState("Dash");
             player.Rb.DOKill();
             (Tween x, Tween y) tweens =
-                player.ActorMovement.DoJumpTween(dashInfo.jumpTime, dashInfo.height, dashInfo.distance, false);
-            tweens.x.KillWhenBoxCast(player.Rb, new Vector2(0.1f, 0.5f),
-                LayerMasks.MapAndPlatform | LayerMasks.Wall | LayerMasks.Enemy).SetEase(Ease.Linear);
+                player.ActorMovement.DoJumpTween(dashInfo.jumpTime, dashInfo.height,
+                    (Vector2)player.transform.position + Vector2.right * (player.DirectionScale * dashInfo.distance),
+                    LayerMasks.MapAndPlatform | LayerMasks.Wall | LayerMasks.Enemy);
 
             tween = tweens.y;
 

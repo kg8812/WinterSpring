@@ -26,7 +26,8 @@ namespace Apis
 
             public void Attack(int index)
             {
-                Tween tween = _boss.Rb.DOMoveX(_boss.moveDistance1 * _boss.DirectionScale, _boss.moveSpeed1).SetRelative().SetEase(_boss.moveEase1);
+                var tween = _boss.Rb.DOMoveX(_boss.moveDistance1 * _boss.DirectionScale, _boss.moveSpeed1).SetRelative().SetEase(_boss.moveEase1);
+                
                 tween.KillWhenBoxCast(_boss.Rb, new Vector2(0.2f, 1), LayerMasks.Wall);
             }
 

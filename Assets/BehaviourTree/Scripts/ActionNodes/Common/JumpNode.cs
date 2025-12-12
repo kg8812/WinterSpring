@@ -39,20 +39,12 @@ namespace Apis.BehaviourTreeTool
         {
             _actor.Rb.DOKill();
             _actor.Rb.velocity = Vector2.zero;
-            var tweens = mover.ActorMovement.DoJumpTween(jumpTime, jumpPower, distance, isBackDash);
+            Vector2 endPos = (Vector2)_actor.transform.position + Vector2.right * (distance *  (isBackDash ? -1 : 1));
+            var tweens = mover.ActorMovement.DoJumpTween(jumpTime, jumpPower, endPos, LayerMasks.Wall);
 
             xTween = tweens.Item1;
             yTween = tweens.Item2;
             
-            xTween.onUpdate += () =>
-            {
-                var direction = new Vector2((int)_actor.Direction * (isBackDash ? -1 : 1), 0);
-                Debug.DrawRay(_actor.Position, new Vector2(direction.x * 1,direction.y), Color.red);
-                if (Physics2D.Raycast(_actor.Position, direction, 1, LayerMasks.Wall))
-                {
-                    xTween.Kill();
-                }
-            };
             yTween.SetAutoKill(true);
             yTween.onKill += () =>
             {
