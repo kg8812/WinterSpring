@@ -1294,7 +1294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4204254138385805998, guid: caf4f23e14085534abeb9c17e1339ef9, type: 3}
       propertyPath: maxDistance
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4204254138385805998, guid: caf4f23e14085534abeb9c17e1339ef9, type: 3}
       propertyPath: minDistance
@@ -1302,11 +1302,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4204254138385805998, guid: caf4f23e14085534abeb9c17e1339ef9, type: 3}
       propertyPath: groupFramingSize
-      value: 0.575
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4204254138385805998, guid: caf4f23e14085534abeb9c17e1339ef9, type: 3}
       propertyPath: lookAheadDistance
-      value: 3.47
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4204254138385805998, guid: caf4f23e14085534abeb9c17e1339ef9, type: 3}
       propertyPath: defaultCamDistance
