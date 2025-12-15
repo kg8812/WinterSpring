@@ -60,7 +60,7 @@ namespace chamwhy
         {
             // TODO: effect
             isInteractable = false;
-            audioSource.Play();
+            
             if (goldType == GoldType.Gold)
             {
                 sp.enabled = false;
@@ -74,7 +74,8 @@ namespace chamwhy
             }
 
             if (gameObject.activeInHierarchy)
-            {
+            { 
+                audioSource.Play();
                 StartCoroutine(DestroyGold());
             }
         }

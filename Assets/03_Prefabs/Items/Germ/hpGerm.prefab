@@ -9850,7 +9850,7 @@ MonoBehaviour:
   germForce: 3
   radius: 120
   col: {fileID: 9033890987817094375}
-  followPower: 5
+  followPower: 10
 --- !u!50 &9033890987817094376
 Rigidbody2D:
   serializedVersion: 4
