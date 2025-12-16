@@ -33,6 +33,11 @@ namespace Apis
         {
             if (skeleton == null) return null;
 
+            if (skeleton.skeleton.FindBone(boneName) == null)
+            {
+                Debug.LogError(boneName +" Bone을 찾을 수 없습니다.");
+                return null;
+            }
             CustomBoneFollower follower = target.GetOrAddComponent<CustomBoneFollower>();
 
             follower.skeletonRenderer = skeleton;

@@ -12,9 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e43b9a821bbd1e7419fc4277c4f4ea3f, type: 3}
   m_Name: 10113
   m_EditorClassIdentifier: 
-  monsterDatas:
-  - position: {x: 225.09999, y: 39.089996}
-    parentGuid: 7efeefe7-48d5-443b-a824-49f118871619
-    guid: 3dab5885-bb3c-4f47-b11d-5ec9a01ab602
-    monsterID: 1401
-    scale: {x: 1, y: 1, z: 1}
+  monsterDatas: []
+  showDelete: 1

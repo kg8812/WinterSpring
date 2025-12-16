@@ -313,7 +313,7 @@ GameObject:
   - component: {fileID: 4924128518277701772}
   m_Layer: 10
   m_Name: AttackObj
-  m_TagString: Untagged
+  m_TagString: EnemyEffect
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -458,7 +458,7 @@ Transform:
   m_GameObject: {fileID: 4924128518350759868}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.07, y: -3.64, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: -1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4924128517880553388}
@@ -564,6 +564,7 @@ MonoBehaviour:
     isFlying: 0
     patrolDuration: []
     dropIndex: 0
+    dropExp: 0
   phase: 0
   startDirection: 1
   MaxGroggyGauge: 400

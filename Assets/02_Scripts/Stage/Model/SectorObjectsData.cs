@@ -27,4 +27,12 @@ public class SectorObjectsData : ScriptableObject
         }
     }
     [ReadOnly] public List<MonsterData> monsterDatas;
+
+    public bool showDelete = false;
+    [ShowIf("showDelete")]
+    [Button("몬스터 데이터 삭제",50,ButtonStyle.FoldoutButton)]
+    void RemoveMonsterData()
+    {
+        monsterDatas?.Clear();
+    }
 }
