@@ -263,7 +263,7 @@ MonoBehaviour:
   multiLever: {fileID: 0}
   isInitialRight: 0
   canInteractOneSide: 1
-  interactInRight: 0
+  interactInRight: 1
   index: 104
 --- !u!1001 &2643568953348160356
 PrefabInstance:

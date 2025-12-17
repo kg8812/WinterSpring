@@ -201,7 +201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7868182115445060732, guid: dcc33991d8446dd498b7d7777b605181, type: 3}
       propertyPath: _patternGroupTriggers.Array.data[0].maxDist
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7868182115445060732, guid: dcc33991d8446dd498b7d7777b605181, type: 3}
       propertyPath: _patternGroupTriggers.Array.data[1].maxDist

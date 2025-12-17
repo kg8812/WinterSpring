@@ -78,6 +78,7 @@ namespace chamwhy.StageObj
         {
             _curRight = isRight;
             IsInteractable = !canInteractOneSide || (_curRight == interactInRight);
+            _animator.SetTrigger(_curRight ? AnimBooleanR : AnimBooleanL);
         }
 
         public Func<bool> InteractCheckEvent { get; set; }

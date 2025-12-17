@@ -22,7 +22,7 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   baseStat:
-    maxHp: 20000
+    maxHp: 200
     atk: 50
     moveSpeed: 400
     atkSpeed: 0
@@ -42,7 +42,7 @@ MonoBehaviour:
     finesse: 10
   playerStat:
     JumpPower: 7.1
-    JumpMax: 2
+    JumpMax: 1
     currentPotionCapacity: 3
     dashTime: 0.7
     dashSpeed: 5

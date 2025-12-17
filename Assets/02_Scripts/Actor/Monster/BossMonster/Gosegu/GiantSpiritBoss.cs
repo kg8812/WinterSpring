@@ -216,7 +216,7 @@ namespace Apis
                 RemoveBlackHole();
                 var exp = GameManager.Factory.Get<AttackObject>(FactoryManager.FactoryType.Effect,
                     Define.DummyEffects.Explosion, _boss.Position);
-                exp.Init(_boss, new AtkBase(_boss, _boss.dmg4), 1);
+                exp.Init(_boss, new AtkBase(_boss, _boss.dmg4), 0.5f);
                 exp.Init(AtkInfo);
                 exp.SetRadius(_boss.radius4);
             }
