@@ -2767,6 +2767,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 557de82a42158394e8407657c5ff91e2
+    m_Address: Prefabs/UI/Scene/UI_TabMenu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0c5d0722fdd54554ebb8537b4fdda237
     m_Address: Prefabs/AttackObjects/FXP_Lilpa_Bullet_Crit
     m_ReadOnly: 0
