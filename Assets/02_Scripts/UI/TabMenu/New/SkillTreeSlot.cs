@@ -1,16 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using Apis.SkillTree;
 using chamwhy.UI;
 using Save.Schema;
+using Sirenix.OdinInspector;
+using Sirenix.Utilities;
 using TMPro;
 using UI;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-public class SkillTreeSlot : UIEffector
+public class SkillTreeSlot : UIAsset_Toggle
 {
     public enum SlotType
     {
@@ -21,13 +20,25 @@ public class SkillTreeSlot : UIEffector
     public static UI_DragItem DragImg;
     public static SkillTreeSlot ToChangeSlot;
     private SkillTree _skillTree;
+    public SkillTree CurSkillTree => _skillTree;
     public SlotType slotType;
     private TextMeshProUGUI _text;
+    public Image skillIcon;
     public int index;
+    public bool useDrag;
     
-    public TextMeshProUGUI Text => _text ??= GetComponentInChildren<TextMeshProUGUI>();
-    Image _image;
-    public Image Image => _image ??= GetComponent<Image>();
+    public GameObject lockImage;
+    [ShowIf("slotType",SlotType.Inven)]
+    public GameObject levelTwo;
+    [ShowIf("slotType",SlotType.Inven)]
+    public GameObject lowLevel;
+    [ShowIf("slotType",SlotType.Inven)]
+    public Image[] highLevel;
+    [ShowIf("slotType",SlotType.Inven)]
+    public GameObject levelOne;
+    [ShowIf("slotType",SlotType.Inven)]
+    public Sprite[] playerHighIcons;
+    public bool isLocked;
     
     private static bool TryDrag(SkillTree item)
     {
@@ -39,7 +50,10 @@ public class SkillTreeSlot : UIEffector
 
     public override void OnBeginDrag(PointerEventData eventData)
     {
+        if (!useDrag) return;
+
         base.OnBeginDrag(eventData);
+        
         if (TryDrag(_skillTree))
         {
             IsDragging = true;
@@ -49,6 +63,8 @@ public class SkillTreeSlot : UIEffector
 
     public override void OnEndDrag(PointerEventData eventData)
     {
+        if (!useDrag) return;
+
         base.OnEndDrag(eventData);
         IsDragging = false;
         DragImg.TryDeactivated();
@@ -74,24 +90,48 @@ public class SkillTreeSlot : UIEffector
         }
     }
 
+    void Lock()
+    {
+        lockImage.SetActive(true);
+        skillIcon.gameObject.SetActive(false);
+    }
     public void OnSlotChanged(SkillTree skillTree)
     {
+        skillIcon.gameObject.SetActive(true);
+        lockImage.SetActive(false);
+
+        if (!isLocked)
+        {
+            switch (slotType)
+            {
+                case SlotType.High:
+                    SkillTreeDatas.highSlotOpened.Add(index);
+                    break;
+                case SlotType.Low:
+                    SkillTreeDatas.lowSlotOpened.Add(index);
+                    break;
+            }
+        }
         _skillTree = skillTree;
         if (skillTree == null)
         {
+            skillIcon.gameObject.SetActive(false);
             if (slotType == SlotType.Inven)
             {
-                Image.color = Color.white;
+                Lock();
             }
-            Text.text = "없음";
             return;
         }
         
-        Text.text = skillTree.Name;
         var trees = GameManager.Save.currentSlotData.TempSaveData.SkillTreeData.equippedSkillTrees;
         switch (slotType)
         {
             case SlotType.Low:
+                if (!SkillTreeDatas.lowSlotOpened.Contains(index))
+                {
+                    Lock();
+                    return;
+                }
                 SkillTreeDatas.ApplySkillTree(skillTree.Index,1);
                 trees.TryAdd(skillTree.Index, new SkillTreeSaveData.SkillTreeSlotData());
                 trees[skillTree.Index] = new SkillTreeSaveData.SkillTreeSlotData()
@@ -101,6 +141,11 @@ public class SkillTreeSlot : UIEffector
                 };
                 break;
             case SlotType.High:
+                if (!SkillTreeDatas.highSlotOpened.Contains(index))
+                {
+                    Lock();
+                    return;
+                }
                 SkillTreeDatas.ApplySkillTree(skillTree.Index, 2);
                 trees.TryAdd(skillTree.Index, new SkillTreeSaveData.SkillTreeSlotData());
                 trees[skillTree.Index] = new SkillTreeSaveData.SkillTreeSlotData()
@@ -112,30 +157,40 @@ public class SkillTreeSlot : UIEffector
             case SlotType.Inven:
                 SkillTreeDatas.DeApplySkillTree(skillTree.Index);
                 trees.Remove(skillTree.Index);
+                SetLevelIcon(skillTree);
                 break;
         }
-        SetColor(skillTree);
     }
 
-    void SetColor(SkillTree skillTree)
+    void SetLevelIcon(SkillTree tree)
     {
-        if (slotType != SlotType.Inven) return;
-        switch (skillTree.SlotType)
+        switch (tree.SlotType)
         {
             case SkillTree.SlotTypeEnum.Low:
-                Image.color = Color.blue;
+                levelTwo.SetActive(false);
+                levelOne.SetActive(true);
+                lowLevel.SetActive(true);
+                highLevel.ForEach(x => x.gameObject.SetActive(false));
                 break;
             case SkillTree.SlotTypeEnum.High:
-                Image.color = Color.red;
+                levelTwo.SetActive(false);
+                levelOne.SetActive(true);
+                lowLevel.SetActive(true);
+                highLevel.ForEach(x => x.gameObject.SetActive(true));
                 break;
             case SkillTree.SlotTypeEnum.Medium:
-                Image.color = Color.yellow;
+                levelTwo.SetActive(true);
+                levelOne.SetActive(false);
+                highLevel.ForEach(x => x.gameObject.SetActive(true));
                 break;
         }
+        highLevel.ForEach( x => x.sprite = playerHighIcons[(int)GameManager.instance.Player.playerType]);
     }
     public override void OnPointerEnter(PointerEventData eventData)
     {
         base.OnPointerEnter(eventData);
+        if (!useDrag) return;
+
         if (IsDragging)
         {
             ToChangeSlot = this;
@@ -144,6 +199,8 @@ public class SkillTreeSlot : UIEffector
     public override void OnPointerExit(PointerEventData eventData)
     {
         base.OnPointerExit(eventData);
+        if (!useDrag) return;
+
         if (IsDragging && ReferenceEquals(this, ToChangeSlot))
         {
             ToChangeSlot = null;

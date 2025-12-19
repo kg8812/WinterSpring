@@ -9,8 +9,10 @@ namespace Apis.SkillTree
     public abstract class SkillTree : SerializedScriptableObject,ISkillVisitor
     {
         [SerializeField] [LabelText("인덱스")] int index;
+        public Sprite icon;
         private string _name;
-        private string description;
+        private string lowDesc;
+        private string highDesc;
         private PlayerType _playerType;
         private TreeTypeEnum treeType;
         private TagManager.SkillTreeTag[] tags;
@@ -31,7 +33,8 @@ namespace Apis.SkillTree
         public SlotTypeEnum SlotType => _slotType;
         
         public string Name => _name;
-        public string Description => description;
+        public string HighDescription => highDesc;
+        public string LowDescription => lowDesc;
         public int Index => index;
         public PlayerType PlayerType => _playerType;
         public TreeTypeEnum TreeType => treeType;
@@ -58,8 +61,9 @@ namespace Apis.SkillTree
         {
             if (SkillTreeDatas.TryGetSkillTreeData(index, out var data))
             {
-                // _name = LanguageManager.Str(data.name);
-                // description = LanguageManager.Str(data.description);
+                _name = LanguageManager.Str(data.name);
+                lowDesc = LanguageManager.Str(data.lowDescription);
+                highDesc = LanguageManager.Str(data.highDescription);
                 _playerType = data.playerType;
                 treeType = data.treeType;
                 tags = data.tags;

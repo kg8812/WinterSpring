@@ -11,6 +11,9 @@ namespace Apis
         [LabelText("달빛수정 투사체정보")] public ProjectileInfo info;
         [LabelText("발사 개수")] public int projCount;
         [LabelText("달빛수정 반경")] public float radius;
+
+        public override AttackCategory Category => AttackCategory.Sword;
+
         protected override void OnEquip(IMonoBehaviour user)
         {
             base.OnEquip(user);

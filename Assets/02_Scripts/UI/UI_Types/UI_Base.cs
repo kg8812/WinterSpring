@@ -116,7 +116,7 @@ namespace Default
             OnDeactivated.Invoke();
         }
 
-        public void InitCheck()
+        public virtual void InitCheck()
         {
             if (isInit) return;
             Init();

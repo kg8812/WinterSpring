@@ -583,6 +583,8 @@ public enum ItemType // 아이템 타입
     Accessory,
     Weapon,
     HpPotion,
+    AtkItem,
+    Magic,
     StatBonus,
 }
 

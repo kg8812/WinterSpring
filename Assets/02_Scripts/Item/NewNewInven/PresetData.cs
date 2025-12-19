@@ -44,7 +44,11 @@ namespace NewNewInvenSpace
             this.invenGroupType = invenGroupType;
         }
     }
-    
+
+    public interface IPresetOwner
+    {
+        public int PresetId { get; }
+    }
     [InfoBox(
         @"프리셋 인덱스 목록
 0 ~ 5 : 캐릭터별 프리셋 (아징릴주고비)

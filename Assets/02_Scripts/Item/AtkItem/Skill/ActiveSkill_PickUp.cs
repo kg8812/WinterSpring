@@ -9,7 +9,7 @@ using UnityEngine.Events;
 
 namespace Apis
 {
-    public class ActiveSkill_PickUp : chamwhy.DropItem
+    public class ActiveSkill_PickUp : DropItem
     {
 
         ActiveSkillItem item; // 획득할 아이템

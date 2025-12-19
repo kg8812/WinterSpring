@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using chamwhy;
 using GameStateSpace;
+using NewNewInvenSpace;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.Events;
@@ -10,7 +11,7 @@ using UnityEngine.Serialization;
 namespace Apis
 {
     [CreateAssetMenu(fileName = "GoseguActive", menuName = "Scriptable/Skill/GoseguActive")]
-    public class GoseguActiveSkill : PlayerActiveSkill
+    public class GoseguActiveSkill : PlayerActiveSkill , IPresetOwner
     {
         protected override bool UseGroggyRatio => false;
 
@@ -200,5 +201,7 @@ namespace Apis
         {
             return gauge - maxGauge;
         }
+
+        public int PresetId => 8;
     }
 }

@@ -10,10 +10,10 @@ public class StatBonusItem : EtcItem
     [SerializeField] private int itemId = 8401;
 
     public override int ItemId => itemId;
-    // public override string Name => _name;
-    // public override string FlavourText => flavourText;
-    //
-    // public override string Description => description;
+    public override string Name => _name;
+    public override string FlavourText => flavourText;
+    
+    public override string Description => description;
     
     public ActorStatType statType;
     public int amount;

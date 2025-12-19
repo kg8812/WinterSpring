@@ -8,5 +8,7 @@ namespace Apis
 {
     public class ViichanSword : Weapon
     {
+        public override AttackCategory Category => AttackCategory.GreatSword;
+
     }
 }

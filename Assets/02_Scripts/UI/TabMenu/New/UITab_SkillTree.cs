@@ -1,9 +1,7 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using Apis.SkillTree;
-using chamwhy.Managers;
 using chamwhy.UI.Focus;
-using Default;
-using Managers;
 using Sirenix.Utilities;
 using TMPro;
 using UnityEngine;
@@ -14,85 +12,147 @@ namespace chamwhy
     public class UITab_SkillTree: UI_FocusContent
     {
         public TextMeshProUGUI[] categoryNames;
-        public TextMeshProUGUI[] categoryDescs;
+        public SkillTreeSlot[] lowerSlots;
+        public SkillTreeSlot[] higherSlots;
+        public List<SkillTreeSlot> inven = new();
+        public UI_SkillTreeInfo skillTreeInfo;
+        public Image playerIcon;
+        public TextMeshProUGUI playerName;
 
-        public GameObject descriptionWindow;
-        public TextMeshProUGUI treeName;
-        public TextMeshProUGUI treeDesc;
-        public TextMeshProUGUI treeTag;
-    
-        public Image[] trees;
-
-    
-        private Dictionary<int, SkillTree> _treeDict = new();
-        private Dictionary<int, SkillTree> treeDict => _treeDict ??= new();
-
+        public Sprite[] playerIconSprites;
+        UI_NavigationController navigation;
+        
         public override void Init()
         {
             base.Init();
-            for (int i = 0; i < trees.Length; i++)
-            {
-                treeDict.TryAdd(i,null);
-            }
 
-            for (int i = 0; i < trees.Length; i ++)
+            navigation = GetComponent<UI_NavigationController>();
+            lowerSlots.ForEach(x =>
             {
-                int temp = i;
-                UI_Base.AddUIEvent(trees[i].gameObject, x =>
+                x.OnValueChanged.AddListener(selected =>
                 {
-                    SetDescription(treeDict[temp]);
-                },Define.UIEvent.PointEnter);
-                UI_Base.AddUIEvent(trees[i].gameObject, x =>
+                    if (selected)
+                    {
+                        skillTreeInfo.Set(x.CurSkillTree, x);
+                    }
+                });
+            });
+            higherSlots.ForEach(x =>
+            {
+                x.OnValueChanged.AddListener(selected =>
                 {
-                    Vector3 screenPoint = Input.mousePosition;
-                    screenPoint.z = 10;
-                    screenPoint = CameraManager.instance.UICam.ScreenToWorldPoint(screenPoint);
-                    descriptionWindow.transform.position = screenPoint;
-                },Define.UIEvent.PointStay);
-                UI_Base.AddUIEvent(trees[i].gameObject, x =>
+                    if (selected)
+                    {
+                        skillTreeInfo.Set(x.CurSkillTree, x);
+                    }
+                });
+            });
+            inven.ForEach(x =>
+            {
+                x.OnValueChanged.AddListener(selected =>
                 {
-                    descriptionWindow.SetActive(false);
-                },Define.UIEvent.PointExit);
-            }
+                    if (selected)
+                    {
+                        skillTreeInfo.Set(x.CurSkillTree, x);
+                    }
+                });
+            });
         }
 
         public override void OnOpen()
         {
             base.OnOpen();
+            
             Player player = GameManager.instance.Player;
-
-            descriptionWindow.SetActive(false);
         
             categoryNames[0].text = StrUtil.GetTagName(101 + 3 * (int)player.playerType);
             categoryNames[1].text = StrUtil.GetTagName(102 + 3 * (int)player.playerType);
             categoryNames[2].text = StrUtil.GetTagName(103 + 3 * (int)player.playerType);
             
-            categoryDescs[0].text = StrUtil.GetTagDesc(101 + 3 * (int)player.playerType);
-            categoryDescs[1].text = StrUtil.GetTagDesc(102 + 3 * (int)player.playerType);
-            categoryDescs[2].text = StrUtil.GetTagDesc(103 + 3 * (int)player.playerType);
+            ResetEquipSlots();
+            SetSlots();
+            playerIcon.sprite = playerIconSprites[(int)player.playerType];
+            navigation.Activate();
+        }
 
-            var list = SkillTreeDatas.GetSkillTreeList(player.playerType);
-            var activated = SkillTreeDatas.GetActivatedSkillTrees();
-        
-            for (int i = 0; i < trees.Length; i++)
+        public override void OnClose()
+        {
+            base.OnClose();
+            skillTreeInfo.gameObject.SetActive(false);
+            navigation.Deactivate();
+        }
+
+        void ResetEquipSlots()
+        {
+            foreach (var x in lowerSlots)
             {
-                treeDict[i] = list[i];
-                trees[i].color = activated.Contains(list[i]) ? Color.white : Color.black;
+                x.OnSlotChanged(null);
+            }
+
+            foreach (var x in higherSlots)
+            {
+                x.OnSlotChanged(null);
             }
         }
         
-        public void SetDescription(SkillTree tree)
+        public void SetSlots()
         {
-            descriptionWindow.SetActive(true);
-            treeName.text = tree.Name;
-            treeDesc.text = tree.Description;
-            treeTag.text = "";
-            tree.TagNames.ForEach(x =>
+            var equippedSkillTrees = GameManager.Save.currentSlotData.TempSaveData.SkillTreeData.equippedSkillTrees;
+
+            var keys = equippedSkillTrees.Keys.ToList();
+            
+            foreach (var key in keys)
             {
-                treeTag.text += x + ",";
-            });
-            treeTag.text = treeTag.text.Remove(treeTag.text.Length - 1, 1);
-        
+                var slotData = equippedSkillTrees[key];
+                var tree = SkillTreeDatas.GetSkillTree(key);
+                
+                if (slotData.slotType == SkillTreeSlot.SlotType.High)
+                {
+                    foreach (var slot in higherSlots)
+                    {
+                        if (slot.index == slotData.slotIndex &&
+                            tree.PlayerType == GameManager.instance.Player.playerType)
+                        {
+                            slot.OnSlotChanged(tree);
+                            break;
+                        }
+                    }
+                }
+                else if (slotData.slotType == SkillTreeSlot.SlotType.Low)
+                {
+                    foreach (var slot in lowerSlots)
+                    {
+                        if (slot.index == slotData.slotIndex &&
+                            tree.PlayerType == GameManager.instance.Player.playerType)
+                        {
+                            slot.OnSlotChanged(tree);
+                            break;
+                        }
+                    }
+                }
+            }
+            
+            var skillTrees = SkillTreeDatas.GetAvailableSkillTrees();
+            Player player = GameManager.instance.Player;
+            
+            for (int i = 0; i < inven.Count; i++)
+            {
+                int skillTreeIndex = ((int)player.playerType + 1) * 100 + i + 1;
+                    
+                inven[i].OnSlotChanged(skillTrees.Find(x => x.Index == skillTreeIndex) ? skillTrees[i] : null);
+            }
+        }
+
+        public override void KeyControl()
+        {
+            base.KeyControl();
+            navigation.KeyControl();
+        }
+
+        public override void GamePadControl()
+        {
+            base.GamePadControl();
+            navigation.GamePadControl();
         }
     }
 }

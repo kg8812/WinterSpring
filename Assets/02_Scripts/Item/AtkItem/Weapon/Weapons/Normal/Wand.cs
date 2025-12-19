@@ -7,5 +7,7 @@ namespace Apis
     {
         private MagicAtk magic;
         public override IWeaponAttack IAttack => magic ??= new(this);
+        public override AttackCategory Category => AttackCategory.Staff;
+
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Apis;
 using chamwhy.DataType;
+using chamwhy.Managers;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
@@ -7,18 +8,18 @@ namespace chamwhy
 {
     public class ActiveSkillItem: Item, IAttackItem
     {
-        // protected new string name;
-        // protected string flavourText;
-        // protected string description;
+        protected string _name;
+        protected string flavourText;
+        protected string description;
 
         public int itemId { get; set; }
 
         public override int ItemId => itemId;
-        // public override string Name => name;
-        //
-        // public override string FlavourText => flavourText;
-        //
-        // public override string Description => description;
+        public override string Name => _name;
+        
+        public override string FlavourText => flavourText;
+        
+        public override string Description => description;
         
         [ReadOnly][ShowInInspector]public ActiveSkill ActiveSkill { get; set; }
 
@@ -33,6 +34,8 @@ namespace chamwhy
                 Image = Default.ResourceUtil.Load<Sprite>(_data.iconPath);
             }
             ActiveSkill.Init();
+            _name = LanguageManager.Str(ActiveSkill.SkillName);
+            description = LanguageManager.Str(ActiveSkill.Desc);
         }
 
         public override void Activate()
@@ -53,6 +56,9 @@ namespace chamwhy
         {
             return ActiveSkill.TryUse();
         }
+
+        public AttackCategory Category => AttackCategory.Magic;
+
         public void WhenIconIsSet(UI_AtkItemIcon icon)
         {
             if (icon == null) return;
@@ -83,9 +89,10 @@ namespace chamwhy
             GameManager.Item.ActiveSkillItem.Return(this);
         }
 
-        public AttackCategory Category => AttackCategory.One;
         
         public UI_AtkItemIcon Icon { get; set; }
         public int AtkSlotIndex { get; set; }
+
+        public int InvenSlotIndex => ActiveSkill.InvenIndex;
     }
 }

@@ -11,7 +11,8 @@ namespace Apis
         public override IWeaponAttack IAttack => iattack??=new GravityWellAtk(this);
 
         [LabelText("산탄 크기")] public Vector2 size;
-        
+        public override AttackCategory Category => AttackCategory.Gun;
+
         class GravityWellAtk : Weapon_BasicAttack
         {
             private new GravityWell weapon; 

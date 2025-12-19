@@ -18,6 +18,8 @@ namespace Apis
         [TabGroup("공격설정/설정","공중")]
         [ShowIf("attackType",AttackType.Projectile)]
         public List<WaveInfo> airWaveInfo;
+        public override AttackCategory Category => AttackCategory.Gun;
+
         public class LeadVocalAtk : ProjectileAttack
         {
             private LeadVocal leadVocal;

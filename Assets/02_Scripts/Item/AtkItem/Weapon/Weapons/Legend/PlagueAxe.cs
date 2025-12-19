@@ -9,6 +9,7 @@ namespace Apis
         [LabelText("독성 폭발 데미지")] public float dmg;
         [LabelText("독성 폭발 그로기 계수")] public float poisonGroggy;
         
+        public override AttackCategory Category => AttackCategory.GreatSword;
         private IWeaponAttack iAttack;
         public override IWeaponAttack IAttack => iAttack ??= new PlageAxeAtk(this);
 

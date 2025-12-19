@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Apis
 {
-    public class BlackRoseGlove : Orb
+    public class BlackRoseGlove : Weapon
     {
         private BlackRoseAtk iatk;
 
@@ -13,6 +13,8 @@ namespace Apis
 
         //[LabelText("풍압 정보")] public List<BlackRoseAtk.WindInfo> WindInfos;
         
+        public override AttackCategory Category => AttackCategory.Fist;
+
         bool ValidateSize(List<BlackRoseAtk.WindInfo> _sizes)
         {
             return _sizes.Count == groundAtkDmgs.Count;

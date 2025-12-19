@@ -201,6 +201,7 @@ namespace chamwhy.UI
         public void HoverOff(bool force = false)
         {
             if (isFrozen) return;
+
             if (!IsDisable && (isFocusSelect || !focusOffByParent || force) && (ElState & (UIElementState.Hover | UIElementState.Pressed)) != 0)
             {
                 ElState = UIElementState.Default;

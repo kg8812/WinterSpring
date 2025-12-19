@@ -9,7 +9,7 @@ namespace NewNewInvenSpace
     {
         Growth, Etc
     }
-    public class GuitarInventoryGroup
+    public class GuitarInventoryGroup 
     {
         public Dictionary<GuitarInvenType, InventoryList> Invens;
         

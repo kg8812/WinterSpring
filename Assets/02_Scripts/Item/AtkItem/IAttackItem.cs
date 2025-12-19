@@ -7,7 +7,7 @@ using UnityEngine;
 
 public enum AttackCategory
 {
-    One,Two,Three,Four,Five
+    Sword,GreatSword,Orb,Fist,Staff,Spear,Gun,Magic
 }
 
 public interface IAttackItem
@@ -24,7 +24,7 @@ public interface IAttackItem
     
     public UI_AtkItemIcon Icon { get; set; }
     public int AtkSlotIndex { get; set; }
-    
+    public int InvenSlotIndex { get; }
     public void SetIcon(UI_AtkItemIcon icon)
     {
         Icon = icon;

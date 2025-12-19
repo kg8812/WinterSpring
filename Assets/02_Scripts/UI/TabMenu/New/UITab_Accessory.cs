@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace chamwhy
 {
-    public class UITab_Accesary : UITab_Inventory
+    public class UITab_Accessory : UITab_Inventory
     {
         protected override InventoryGroup invenGroupManager => InvenManager.instance.Acc;
     }

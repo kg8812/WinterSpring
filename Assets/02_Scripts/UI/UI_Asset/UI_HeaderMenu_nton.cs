@@ -6,14 +6,18 @@ namespace chamwhy.UI
 {
     public class UI_HeaderMenu_nton: MonoBehaviour, IController
     {
+        [Tooltip("UI의 탭 버튼 그룹을 제어하는 FocusParent입니다.")]
         public FocusParent headerController;
 
+        [Tooltip("헤더의 각 탭 버튼에 연결된 실제 컨텐츠 UI들의 배열입니다.")]
         public UI_FocusContent[] contentControllers;
 
         public int curInd;
         public IController _curContentController;
 
+        [Tooltip("탭(포커스)이 변경되기 직전에 호출되는 이벤트입니다.")]
         public UnityEvent<int> WillFocusChanged;
+        [Tooltip("탭(포커스)이 변경된 직후에 호출되는 이벤트입니다.")]
         public UnityEvent<int> FocusChanged;
 
         public void Init()
@@ -29,8 +33,13 @@ namespace chamwhy.UI
         protected virtual void FocusChange(int id)
         {
             WillFocusChanged.Invoke(curInd);
-            contentControllers[curInd].gameObject.SetActive(false);
-            contentControllers[curInd].OnClose();
+
+            if (contentControllers[curInd].gameObject.activeSelf && curInd != id)
+            {
+                contentControllers[curInd].gameObject.SetActive(false);
+                contentControllers[curInd].OnClose();
+            }
+
             curInd = id;
             contentControllers[curInd].OnOpen();
             contentControllers[curInd].gameObject.SetActive(true);
@@ -52,6 +61,7 @@ namespace chamwhy.UI
 
         public void Reset()
         {
+            FocusChange(0);
             headerController.MoveTo(0);
         }
     }

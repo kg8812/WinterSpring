@@ -21,6 +21,8 @@ namespace chamwhy
         private Dictionary<GuitarInvenType, int> slotCnt;
         private Dictionary<GuitarInvenType, ItemSlot[]> itemSlots;
 
+        public UI_ItemInfo info;
+        
         public override void Init()
         {
             base.Init();
@@ -84,10 +86,12 @@ namespace chamwhy
                         if (isOn)
                         {
                             CurFocusedSlot = slot;
-                            // TODO: description setting
+                            info.gameObject.SetActive(true);
+                            info.SetInfo(slot.curItem);
                         }else if (CurFocusedSlot == slot)
                         {
                             CurFocusedSlot = null;
+                            info.gameObject.SetActive(false);
                         }
                     });
                     GuitarInven.Invens[type].OnSlotChanged += slot.OnSlotChanged;
@@ -114,7 +118,7 @@ namespace chamwhy
                 ItemSlot[] newSlots = new ItemSlot[cnt-prevCnt];
                 for (int i = 0; i < cnt-prevCnt; i++)
                 {
-                    newSlots[i] = GameManager.UI.MakeSubItem("ItemSlot", parent.transform) as ItemSlot;
+                    newSlots[i] = GameManager.UI.MakeSubItem("ETCSlot", parent.transform) as ItemSlot;
                     // new slot position setting
                     parent.RegisterElement(newSlots[i]);
                 }

@@ -240,35 +240,35 @@ namespace UISpaces
         {
             return true;
             // TODO: 상점 해금 체크 로직.
-            switch (listData.itemType)
-            {
-                // 재화
-                case 0:
-                    return true;
-                
-                // acc
-                case 1:
-                    break;
-                
-                // 마법
-                case 2:
-                    break;
-                
-                // 무기
-                case 3:
-                    break;
-                
-                // 스킬트리
-                case 4:
-                    break;
-                
-                // 강화?
-                case 5:
-                    return true;
-                    break;
-            }
-
-            return true;
+            // switch (listData.itemType)
+            // {
+            //     // 재화
+            //     case 0:
+            //         return true;
+            //     
+            //     // acc
+            //     case 1:
+            //         break;
+            //     
+            //     // 마법
+            //     case 2:
+            //         break;
+            //     
+            //     // 무기
+            //     case 3:
+            //         break;
+            //     
+            //     // 스킬트리
+            //     case 4:
+            //         break;
+            //     
+            //     // 강화?
+            //     case 5:
+            //         return true;
+            //         break;
+            // }
+            //
+            // return true;
         }
 
         

@@ -13,6 +13,8 @@ namespace Apis
         [LabelText("넉백 파워")] public float knockBackPower;
         [LabelText("넉백 시간")] public float knockBackTime;
         [LabelText("넉백 각도")] public float knockBackAngle;
+        public override AttackCategory Category => AttackCategory.GreatSword;
+
         public override void SetGroundCollider(int idx, AttackObject[] attackObjs)
         {
             base.SetGroundCollider(idx, attackObjs);

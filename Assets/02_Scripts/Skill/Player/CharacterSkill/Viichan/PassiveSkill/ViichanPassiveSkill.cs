@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using chamwhy;
 using DG.Tweening;
+using NewNewInvenSpace;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using Sequence = DG.Tweening.Sequence;
@@ -9,7 +10,7 @@ using Sequence = DG.Tweening.Sequence;
 namespace Apis
 {
     [CreateAssetMenu(fileName = "ViichanPassive", menuName = "Scriptable/Skill/ViichanPassive")]
-    public class ViichanPassiveSkill : PlayerPassiveSkill
+    public class ViichanPassiveSkill : PlayerPassiveSkill , IPresetOwner
     {
 
         protected override bool UseGroggyRatio => false;
@@ -128,7 +129,7 @@ namespace Apis
             animator?.animator.SetBool("IsBeast",true);
             
             GameManager.instance.Player.SetAttack(new Player.ViichanBeastAttack(GameManager.instance.Player,this));
-            AttackItemManager.ApplyPreset(9);
+            AttackItemManager.ApplyPreset(PresetId);
             Player.ChangeActiveSkill(shieldSkill);
 
             if (statUser != null)
@@ -264,9 +265,11 @@ namespace Apis
         {
             if (IsBeast)
             {
-                AttackItemManager.ApplyPreset(9);
+                AttackItemManager.ApplyPreset(PresetId);
                 Player.ChangeActiveSkill(shieldSkill);
             }
         }
+
+        public int PresetId => 9;
     }
 }

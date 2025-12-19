@@ -38,7 +38,6 @@ namespace chamwhy.UI
         private const float ColorChangeTime = 0.2f;
         public UIElStateEffector[] Effectors;
         
-
         public override void Init()
         {
             base.Init();

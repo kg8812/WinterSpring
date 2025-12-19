@@ -185,7 +185,8 @@ namespace Apis
         protected virtual CDEnums _cdType => CDEnums.Normal;
         public int SkillName => baseConfig.SkillName;
         public int Desc => baseConfig.Desc;
-        
+        [SerializeField] private Sprite _skillImage;
+        public Sprite SkillImage => _skillImage;
         private List<ISkill> _attachments;
 
         protected List<ISkill> attachments => _attachments ??= new();

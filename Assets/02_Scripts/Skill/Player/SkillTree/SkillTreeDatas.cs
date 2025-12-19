@@ -21,6 +21,9 @@ namespace Apis.SkillTree
         private static HashSet<int> _activatedIndex = new();
         public static HashSet<int> activatedIndex => _activatedIndex ??= new();
         
+        public static HashSet<int> highSlotOpened = new();
+        public static HashSet<int> lowSlotOpened = new();
+        
         public static void ApplySkillTree(int index,int level)
         {
             if (skillTrees.TryGetValue(index, out var tree))

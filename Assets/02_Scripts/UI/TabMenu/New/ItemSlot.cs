@@ -20,6 +20,7 @@ namespace chamwhy
         [SerializeField] private Image changeImg;
         [SerializeField] private Image backgroundImg;
         [SerializeField] private Color frozenColor;
+        [SerializeField] private Image equippedImg;
 
         [HideInInspector] public int index;
         // [HideInInspector] public InventoryGroup inventoryGroup;
@@ -28,7 +29,6 @@ namespace chamwhy
         // tab 메뉴에만 해당.(예외처리)
         // [HideInInspector] public UI_InventoryContent tabInventory;
 
-        [SerializeField] private bool hasEquipView = true;
         public InvenType invenType;
         [HideInInspector] public Item curItem;
 
@@ -55,6 +55,11 @@ namespace chamwhy
                 itemImg.enabled = true;
                 item.slot = this;
                 item.SaveData.slotIndex = ind;
+
+                if (equippedImg != null)
+                {
+                    equippedImg.enabled = item.IsEquip;
+                }
             }
             else
             {
@@ -64,80 +69,10 @@ namespace chamwhy
 
         public override void KeyControl()
         {
-            /*
-            if (isFrozen) return;
-            if (hasEquipView && InputManager.GetKeyDown(KeySettingManager.GetUIKeyCode(Define.UIKey.Equip)))
-            {
-                if (ReferenceEquals(curItem, null)) return;
-                if (tabInventory.IsChanging)
-                {
-                    tabInventory.SelectedForChange(this);
-                }
-                else
-                {
-                    if (!(invenType == InvenType.Equipment
-                            ? inventoryGroup.MoveInvenType(index, InvenType.Equipment, InvenType.Storage)
-                            : inventoryGroup.MoveInvenType(index, InvenType.Storage, InvenType.Equipment)))
-                    {
-                        Debug.Log("f키 안되서 try change");
-                        ChangedToggle(true);
-                        tabInventory.TryChangeDiffInvenType(this);
-                    }
-                }
-            }else if (InputManager.GetKeyDown(KeySettingManager.GetUIKeyCode(Define.UIKey.Select)))
-            {
-                if (tabInventory.IsChanging)
-                {
-                    tabInventory.SelectedForChange(this);
-                }
-                else
-                {
-                    if (ReferenceEquals(curItem, null)) return;
-                    ChangedToggle(true);
-                    tabInventory.TryChange(this);
-                }
-                
-            }
-            */
         }
 
         public override void GamePadControl()
         {
-            /*
-            if (isFrozen) return;
-            if (hasEquipView && InputManager.GetButtonDown(KeySettingManager.GetUIButton(Define.UIKey.Equip)))
-            {
-                if (ReferenceEquals(curItem, null)) return;
-                if (tabInventory.IsChanging)
-                {
-                    tabInventory.SelectedForChange(this);
-                }
-                else
-                {
-                    if (!(invenType == InvenType.Equipment
-                            ? inventoryGroup.MoveInvenType(index, InvenType.Equipment, InvenType.Storage)
-                            : inventoryGroup.MoveInvenType(index, InvenType.Storage, InvenType.Equipment)))
-                    {
-                        Debug.Log("f키 안되서 try change");
-                        ChangedToggle(true);
-                        tabInventory.TryChangeDiffInvenType(this);
-                    }
-                }
-            }else if (InputManager.GetButtonDown(KeySettingManager.GetUIButton(Define.UIKey.Select)))
-            {
-                if (tabInventory.IsChanging)
-                {
-                    tabInventory.SelectedForChange(this);
-                }
-                else
-                {
-                    if (ReferenceEquals(curItem, null)) return;
-                    ChangedToggle(true);
-                    tabInventory.TryChange(this);
-                }
-                
-            }
-            */
         }
         public override void FrozenToggle(bool isOn)
         {
@@ -147,6 +82,8 @@ namespace chamwhy
 
         public void ChangedToggle(bool isOn)
         {
+            if (changeImg == null) return;
+            
             changeImg.enabled = isOn;
         }
 

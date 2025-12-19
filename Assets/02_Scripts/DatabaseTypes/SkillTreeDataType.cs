@@ -13,7 +13,8 @@ namespace chamwhy.DataType
         public SkillTree.TreeTypeEnum treeType;
         public SkillTree.SlotTypeEnum slotType;
         public int name;
-        public int description;
+        public int lowDescription;
+        public int highDescription;
         public int[] tagNames;
         
     }

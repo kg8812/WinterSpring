@@ -35,8 +35,6 @@ namespace chamwhy
 
         public override void GamePadControl()
         {
-            base.GamePadControl();
-            
             if (InputManager.GetButtonDown(KeySettingManager.GetUIButton(Define.UIKey.Cancel)))
             {
                 ChooseNo();

@@ -16,6 +16,7 @@ namespace Apis
         public override IWeaponAttack IAttack => iAttack ??= new HarpoonAtk(this);
 
         public CustomQueue<Harpoon> harpoons => iAttack.queue;
+        public override AttackCategory Category => AttackCategory.Spear;
 
         protected override void OnEquip(IMonoBehaviour user)
         {

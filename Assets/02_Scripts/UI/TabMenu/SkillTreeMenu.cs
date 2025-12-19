@@ -84,7 +84,6 @@ public class SkillTreeMenu : SerializedMonoBehaviour
     {
         descriptionWindow.SetActive(true);
         treeName.text = tree.Name;
-        treeDesc.text = tree.Description;
         treeTag.text = "";
         tree.TagNames.ForEach(x =>
         {

@@ -6,6 +6,8 @@ namespace Apis
 {
     public class Orb : MagicWeapon
     {
+        public override AttackCategory Category => AttackCategory.Orb;
+
         private IWeaponAttack iAttack;
         [TitleGroup("공격설정")]
         [TabGroup("공격설정/설정","지상")][LabelText("오브설정")] public List<OrbAtk.OrbAtkInfo> groundOrbInfos;

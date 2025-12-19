@@ -14,16 +14,16 @@ namespace Apis
     public class Accessory : Item
     {
         // 악세사리 클래스                         
-        // protected new string name;
-        // protected string flavourText;
-        // protected string description;
+        protected string _name;
+        protected string flavourText;
+        protected string description;
 
         public override int ItemId => dataId;
-        // public override string Name => name;
-        //
-        // public override string FlavourText => flavourText;
-        //
-        // public override string Description => description;
+        public override string Name => _name;
+        
+        public override string FlavourText => flavourText;
+        
+        public override string Description => description;
         
         protected BonusStat _bonusStat;
 
@@ -50,9 +50,9 @@ namespace Apis
             base.Init();
             AccessoryData.DataLoad.TryGetData(Index, out data);
 
-            // name = LanguageManager.Str(data.accName);
-            // flavourText = LanguageManager.Str(data.accFlavorText);
-            // description = LanguageManager.Str(data.accDesc);
+            _name = StrUtil.GetEquipmentName(ItemId);
+            flavourText = StrUtil.GetFlavorText(ItemId);
+            description = StrUtil.GetEquipmentDesc(ItemId);
             
             if (Image == null)
             {

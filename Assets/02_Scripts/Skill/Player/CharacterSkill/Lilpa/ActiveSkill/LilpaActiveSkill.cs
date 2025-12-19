@@ -3,6 +3,7 @@ using System.Linq;
 using chamwhy;
 using Command;
 using Default;
+using NewNewInvenSpace;
 using Sirenix.Utilities;
 using UnityEngine;
 using UnityEngine.Events;
@@ -11,7 +12,7 @@ namespace Apis
 {
     [CreateAssetMenu(fileName = "LilpaActive1", menuName = "Scriptable/Skill/LilpaActive1")]
 
-    public class LilpaActiveSkill : PlayerActiveSkill
+    public class LilpaActiveSkill : PlayerActiveSkill , IPresetOwner
     {
         protected override ActiveEnums _activeType => ActiveEnums.Toggle;
 
@@ -90,7 +91,7 @@ namespace Apis
                 GameManager.instance.Player.CancelAttack();
             }
 
-            AttackItemManager.ApplyPreset(6);
+            AttackItemManager.ApplyPreset(PresetId);
             GameManager.instance.Player.Controller.Executors[Define.GameKey.ActiveSkill].keyDownCommand.Commands = activeSkillCommand;
             OnWeaponEquip.Invoke();
             Icon.showCDImage = false;
@@ -118,5 +119,7 @@ namespace Apis
                 Use();
             }
         }
+
+        public int PresetId => 6;
     }
 }

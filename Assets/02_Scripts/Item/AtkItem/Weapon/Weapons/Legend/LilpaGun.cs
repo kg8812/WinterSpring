@@ -9,6 +9,7 @@ namespace Apis
         private LilpaGunAttack _attack;
 
         public override IWeaponAttack IAttack => _attack ??= new(this);
+        public override AttackCategory Category => AttackCategory.Gun;
 
         public class LilpaGunAttack : ProjectileAttack
         {

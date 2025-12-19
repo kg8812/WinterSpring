@@ -245,7 +245,6 @@ namespace Apis
         protected override void OnEquip(IMonoBehaviour owner) //착용시
         {
             base.OnEquip(owner);
-            // Debug.Log($"is item null? {Item == null}");
             CDActive.SetIconCdType(Icon);
         }
 
@@ -257,6 +256,8 @@ namespace Apis
 
         private List<UnityAction> _actionList;
         public List<UnityAction> actionList => _actionList ??= new();
+
+        public int InvenIndex;
 
         public virtual void StartCharge()
         {

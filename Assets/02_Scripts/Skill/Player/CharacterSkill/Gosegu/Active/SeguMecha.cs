@@ -498,7 +498,7 @@ public partial class SeguMecha : Summon, IDashUser, IMovable , IPlayer , IPhysic
         if (IsDead || !gameObject.activeSelf) return;
 
         skill.cannonSkill?.Init(this);
-        AttackItemManager.ApplyPreset(8);
+        AttackItemManager.ApplyPreset(skill.PresetId);
     }
 
     public void DoCannon()

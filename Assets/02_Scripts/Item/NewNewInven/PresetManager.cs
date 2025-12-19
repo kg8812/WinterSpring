@@ -105,8 +105,6 @@ namespace NewNewInvenSpace
         {
             if (PresetData.Presets.TryGetValue(index, out var preset))
             {
-                // TODO: 999칸이 모두 안채워진다는 가정하에 unequip하는거라 나중에 temp 처리해줘야 함.
-                // 말이 999칸이지 무한으로 만들어달라는뜻이라 다 찰일 없게 해야합니다.
 
                 for (int i = 0; i < preset.Blocks.Length; i++)
                 {

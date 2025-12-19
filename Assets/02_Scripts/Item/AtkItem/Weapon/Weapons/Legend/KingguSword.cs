@@ -14,7 +14,7 @@ namespace Apis
         [LabelText("지속시간")]public float duration;
         
         private Buff _buff;
-
+        public override AttackCategory Category => AttackCategory.Sword;
         Buff buff
         {
             get

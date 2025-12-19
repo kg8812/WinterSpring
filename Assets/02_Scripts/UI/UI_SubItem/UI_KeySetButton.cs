@@ -6,6 +6,7 @@ using Default;
 using DG.Tweening;
 using Save.Schema;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class UI_KeySetButton : UIAsset_Button
@@ -29,7 +30,13 @@ public class UI_KeySetButton : UIAsset_Button
             changingImg.DOFade(1, changingImgDuration).SetUpdate(true);
         });
     }
-    
+
+    public override void OnPointerClick(PointerEventData eventData)
+    {
+        base.OnPointerClick(eventData);
+        SelectOn();
+    }
+
     public override void KeyControl()
     {
         if (!_isChanging)

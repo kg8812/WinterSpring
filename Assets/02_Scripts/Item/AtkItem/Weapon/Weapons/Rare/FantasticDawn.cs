@@ -22,7 +22,7 @@ namespace Apis
         //[LabelText("냉기 확률")] public float chillProb;
 
         //private bool isStop;
-        
+        public override AttackCategory Category => AttackCategory.Sword;
         enum BladeType
         {
             Fire,Night,Dawn

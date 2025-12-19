@@ -82,7 +82,7 @@ namespace UI
         {
             _itemCnt = menuItems.Count;
             
-            focusParent.Reset(true);
+            focusParent.Reset();
             // _actions.Clear();
             for (int i = 0; i < FullMenuCnt; i++)
             {

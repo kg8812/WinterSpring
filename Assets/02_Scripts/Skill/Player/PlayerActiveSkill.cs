@@ -15,6 +15,7 @@ namespace Apis
         private PlayerSkillAttachment _attachment;
 
         public override UI_AtkItemIcon Icon => UI_MainHud.Instance.mainSkillIcon;
+        
 
         public override bool TryUse()
         {

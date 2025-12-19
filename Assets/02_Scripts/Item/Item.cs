@@ -6,10 +6,10 @@ using UnityEngine;
 public abstract class Item : SerializedMonoBehaviour
 {
     public abstract int ItemId { get; } // 아이템 id
-    // public abstract string Name { get; } // 아이템 이름
+    public abstract string Name { get; } // 아이템 이름
     public Sprite Image { get; protected set; } // 아이템 이미지 
-    // public abstract string FlavourText { get; } // 아이템 플레이버 텍스트 
-    // public abstract string Description { get; } // 아이템 효과 설명
+    public abstract string FlavourText { get; } // 아이템 플레이버 텍스트 
+    public abstract string Description { get; } // 아이템 효과 설명
     private chamwhy.ItemSlot _slot;
 
     private ItemSaveData _saveData;

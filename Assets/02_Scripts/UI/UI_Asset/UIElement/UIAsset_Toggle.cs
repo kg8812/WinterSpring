@@ -11,8 +11,11 @@ namespace chamwhy.UI
         // 자기 자신을 클릭해서 off 할 수 있는 지 여부.
         // focus parent의 can none focus가 false라면 꺼지면 안됨.
         public bool canOffOwn;
+        [Tooltip("선택 혹은 해제될 때 호출 (true or false)")]
         public UnityEvent<bool> OnValueChanged;
 
+        public UnityEvent OnClicked;
+        
         public override void Init()
         {
             base.Init();
@@ -37,7 +40,13 @@ namespace chamwhy.UI
                     OnPointerClick(null);
                 }
             }
-            
+            else if (IsSelected)
+            {
+                if (InputManager.GetKeyDown(KeySettingManager.GetUIKeyCode(Define.UIKey.Select)))
+                {
+                    OnClicked?.Invoke();
+                }
+            }
         }
         
         public override void GamePadControl()
@@ -48,6 +57,13 @@ namespace chamwhy.UI
                 if (InputManager.GetButtonDown(KeySettingManager.GetUIButton(Define.UIKey.Select)))
                 {
                     OnPointerClick(null);
+                }
+            }
+            else if (IsSelected)
+            {
+                if (InputManager.GetButtonDown(KeySettingManager.GetUIButton(Define.UIKey.Select)))
+                {
+                    OnClicked?.Invoke();
                 }
             }
         }
@@ -73,6 +89,7 @@ namespace chamwhy.UI
 
         public override void OnPointerClick(PointerEventData eventData)
         {
+            OnClicked?.Invoke();
             ChangeSelected();
         }
 
@@ -92,12 +109,12 @@ namespace chamwhy.UI
             }
         }
 
-        protected virtual void ToggleOn()
+        protected virtual void ToggleOn() //선택될 때 호출
         {
             OnValueChanged.Invoke(true);
         }
 
-        protected virtual void ToggleOff()
+        protected virtual void ToggleOff() // 선택해제될 때 호출
         {
             OnValueChanged.Invoke(false);
         }

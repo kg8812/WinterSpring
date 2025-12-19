@@ -80,7 +80,7 @@ namespace UI
             });
         }
 
-        new void Close()
+        void Close()
         {
             GameManager.UI.CloseUI(this);
             GameManager.instance.Player.ResetPlayerStatus();

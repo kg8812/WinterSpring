@@ -10,6 +10,8 @@ namespace Apis
         private IWeaponAttack _iattack;
         public override IWeaponAttack IAttack => _iattack ??= new ChiselKnifeAttack(this);
 
+        public override AttackCategory Category => AttackCategory.Sword;
+
         [Serializable]
         public struct AtkInfo
         {

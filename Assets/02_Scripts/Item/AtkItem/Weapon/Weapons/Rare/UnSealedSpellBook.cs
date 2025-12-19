@@ -13,6 +13,7 @@ namespace Apis
         [LabelText("마법줄기 지속시간")] public float duration;
         protected virtual MagicStemAtk.StemType stemType => MagicStemAtk.StemType.Magic;
         public override IWeaponAttack IAttack => iatk ??= new WhipAtk(this, size, duration, stemType);
+        public override AttackCategory Category => AttackCategory.Orb;
 
         public class WhipAtk : MagicStemAtk
         {

@@ -11,6 +11,7 @@ namespace Apis
         [LabelText("폭발 크기")]public Vector2 expSize;
         
         private IWeaponAttack iattack;
+        public override AttackCategory Category => AttackCategory.Orb;
 
         public override IWeaponAttack IAttack => iattack??= new GoatSeguAtk(this,size,expSize);
     }

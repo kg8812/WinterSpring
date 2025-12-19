@@ -2,6 +2,7 @@ using System;
 using chamwhy.DataType;
 using System.Collections.Generic;
 using System.Linq;
+using chamwhy;
 using chamwhy.Managers;
 using Default;
 using EventData;
@@ -17,16 +18,16 @@ namespace Apis
 {
     public abstract class Weapon : Item , IAttackItem , IAttackItemStat
     {
-        // protected new string name;
-        // protected string flavourText;
-        // protected string description;
+        protected string _name;
+        protected string flavourText;
+        protected string description;
 
         public override int ItemId => _data.weaponId;
-        // public override string Name => name;
-        //
-        // public override string FlavourText => flavourText;
-        //
-        // public override string Description => description;
+        public override string Name => _name;
+        
+        public override string FlavourText => flavourText;
+        
+        public override string Description => description;
 
         #region Enums
         public enum WeaponGrade
@@ -83,6 +84,10 @@ namespace Apis
         [LabelText("아이콘에 스킬 적용여부")] [SerializeField]
         private bool isSkillIcon;
 
+        [LabelText("인벤 슬롯 인덱스")] [SerializeField]
+        private int invenSlotIndex;
+
+        public int InvenSlotIndex => invenSlotIndex;
         private SFXPlayer sfxPlayer;
         public SFXPlayer SFXPlayer => sfxPlayer ??= GetComponent<SFXPlayer>();
         #endregion
@@ -241,11 +246,11 @@ namespace Apis
             base.Init();
 
             WeaponData.DataLoad.TryGetWeaponData(Index, out _data);
-            // name = LanguageManager.Str(_data.weaponNameString);
-            // flavourText = LanguageManager.Str(_data.description);
-            
-            // name ??= gameObject.name;
-            // flavourText ??= "";
+            _name = StrUtil.GetEquipmentName(dataId);
+            flavourText = StrUtil.GetFlavorText(dataId);
+            description = StrUtil.GetEquipmentDesc(dataId);
+            _name ??= gameObject.name;
+            flavourText ??= "";
            
             _config = new Weapon_Config();
             _config.BonusStat.AddValue(ActorStatType.Atk, _data.attackPower);
@@ -396,7 +401,7 @@ namespace Apis
         {
             Skill?.DeActive();
         }
-        protected AttackCategory category;
-        public AttackCategory Category => category;
+
+        public virtual AttackCategory Category => AttackCategory.Sword;
     }
 }

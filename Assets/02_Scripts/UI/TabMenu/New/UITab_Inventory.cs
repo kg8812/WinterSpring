@@ -17,6 +17,9 @@ namespace chamwhy
 
         [SerializeField] protected ItemDescription description;
 
+        protected virtual string itemSlotAddress => "ItemSlot";
+        
+
         public static bool UsePrevent { get; set; } = true;
         public static bool PreventMovingOrigin { get; set; } = true;
 
@@ -43,16 +46,6 @@ namespace chamwhy
             // slot들 slot changed에 등록.
             SlotInit(equipSlots, InvenType.Equipment, _equipCnt);
             SlotInit(invenSlots, InvenType.Storage, _storageCnt);
-
-            int nextEqCnt = invenGroupManager.Invens[InvenType.Equipment].Count;
-            int nextStCnt = invenGroupManager.Invens[InvenType.Storage].Count;
-
-            
-
-            if (nextEqCnt != _equipCnt)
-                SlotCntChanged(nextEqCnt, InvenType.Equipment);
-            if (nextStCnt != _storageCnt)
-                SlotCntChanged(nextStCnt, InvenType.Storage);
             
             invenGroupManager.Invens[InvenType.Equipment].OnCountChanged +=
                 (cnt) => SlotCntChanged(cnt, InvenType.Equipment);
@@ -85,7 +78,7 @@ namespace chamwhy
                 ItemSlot[] newSlots = new ItemSlot[cnt-prevCnt];
                 for (int i = 0; i < cnt-prevCnt; i++)
                 {
-                    newSlots[i] = GameManager.UI.MakeSubItem("ItemSlot", parent.transform) as ItemSlot;
+                    newSlots[i] = GameManager.UI.MakeSubItem(itemSlotAddress, parent.transform) as ItemSlot;
                     // new slot position setting
                     parent.RegisterElement(newSlots[i]);
                 }
@@ -110,8 +103,6 @@ namespace chamwhy
                 }
                 Array.Resize(ref slots, cnt);
             }
-
-            
         }
         
         protected virtual void SlotInit(ItemSlot[] slotList, InvenType invenType, int slotCnt, int startInd = 0)
@@ -429,11 +420,9 @@ namespace chamwhy
 
         protected virtual void ChangeOn()
         {
-            Equipment.tableData.moveUp = MoveUpOnEquipment;
-            Equipment.tableData.moveDown = MoveDownOnEquipment;
+            Equipment.tableData.moveRight = MoveDownOnEquipment;
             
-            Inven.tableData.moveUp = MoveUpOnInven;
-            Inven.tableData.moveDown = MoveDownOnInven;
+            Inven.tableData.moveLeft = MoveDownOnInven;
         }
         protected virtual void ChangeOff()
         {

@@ -7,7 +7,7 @@ using UnityEngine;
 namespace Apis
 {
     [CreateAssetMenu(fileName = "JururuActive", menuName = "Scriptable/Skill/JururuActive")]
-    public class JururuActiveSkill : PlayerActiveSkill
+    public class JururuActiveSkill : PlayerActiveSkill , IPresetOwner
     {
 
         [HideInInspector] public PokdoStand curPokdoStand;
@@ -73,7 +73,7 @@ namespace Apis
             
             curPokdoStand.transform.localScale = Vector3.one * size;
             curPokdoStand.effectParent.localScale = Vector3.one * size;
-            AttackItemManager.ApplyPreset(7);
+            AttackItemManager.ApplyPreset(PresetId);
             if (grabSkill != null)
             {
                 grabSkill.pokdo = curPokdoStand;
@@ -112,7 +112,7 @@ namespace Apis
             curPokdoStand = GameManager.Factory.Get<PokdoStand>(FactoryManager.FactoryType.Normal, "PokdoStand");
             InitPokdoStand();
             OnPokdoSpawn?.Invoke(curPokdoStand);
-            AttackItemManager.ApplyPreset(7);
+            AttackItemManager.ApplyPreset(PresetId);
             
             GameManager.instance.Player.BlockSkillChange = true;
             if (AttackItemManager.CurrentItem is ActiveSkillItem skill)
@@ -120,5 +120,7 @@ namespace Apis
                 skill.ActiveSkill.Cancel();
             }
         }
+
+        public int PresetId => 7;
     }
 }

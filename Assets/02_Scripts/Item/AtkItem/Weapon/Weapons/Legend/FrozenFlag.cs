@@ -31,6 +31,7 @@ namespace Apis
         public List<ThornInfo> list2 = new();
 
         private FrozenFlagAtk iatk;
+        public override AttackCategory Category => AttackCategory.GreatSword;
 
         public override IWeaponAttack IAttack => iatk ??= new(this, list1, list2);
 
