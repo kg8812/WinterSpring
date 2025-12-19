@@ -555,6 +555,9 @@ MonoBehaviour:
   OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+  OnClicked:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1581393879913897334
 GameObject:
   m_ObjectHideFlags: 0
@@ -2518,6 +2521,9 @@ MonoBehaviour:
   OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+  OnClicked:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4094688336473347453
 GameObject:
   m_ObjectHideFlags: 0
@@ -3429,6 +3435,9 @@ MonoBehaviour:
   OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+  OnClicked:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5524289510588003870
 GameObject:
   m_ObjectHideFlags: 0
@@ -3966,6 +3975,9 @@ MonoBehaviour:
     looopPropInt: 0
   canOffOwn: 0
   OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnClicked:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &5987005463534551681

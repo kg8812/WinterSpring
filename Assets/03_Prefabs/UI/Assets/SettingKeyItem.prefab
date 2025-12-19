@@ -409,7 +409,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
-  isFocusSelect: 0
+  isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}
   isFrozen: 0

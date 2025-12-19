@@ -932,8 +932,8 @@ MonoBehaviour:
     m_SerializedLabels:
     - EtcItems
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d83cc6a097cf19d4e9f5a039f67b7835
-    m_Address: Prefabs/UI/Scene/UI_Shop
+  - m_GUID: 264d703bf6c3cfd4cb554acb11e24a76
+    m_Address: Prefabs/UI/SubItem/CollectionButton
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -2764,11 +2764,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ec975256653cf2d458dc3120f5c3b146
     m_Address: Sounds/BGM/TutorialFieldLoop
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3caea8ab5aefb18478ac17eaf0c87b5e
-    m_Address: Prefabs/UI/Scene/UI_TabMenu
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

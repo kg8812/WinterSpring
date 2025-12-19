@@ -6,7 +6,8 @@
     ],
     "treeType": "Passive",
     "name": 10101,
-    "description": 10151,
+    "lowDescription": 10151,
+    "highDescription": 10151,
     "tagNames": [
       11001
     ],
@@ -19,7 +20,8 @@
     ],
     "treeType": "Passive",
     "name": 10102,
-    "description": 10152,
+    "lowDescription": 10152,
+    "highDescription": 10152,
     "tagNames": [
       11001
     ],
@@ -32,7 +34,8 @@
     ],
     "treeType": "Passive",
     "name": 10103,
-    "description": 10153,
+    "lowDescription": 10153,
+    "highDescription": 10153,
     "tagNames": [
       11001
     ],
@@ -45,7 +48,8 @@
     ],
     "treeType": "Passive",
     "name": 10104,
-    "description": 10154,
+    "lowDescription": 10154,
+    "highDescription": 10154,
     "tagNames": [
       11001
     ],
@@ -58,7 +62,8 @@
     ],
     "treeType": "Passive",
     "name": 10105,
-    "description": 10155,
+    "lowDescription": 10155,
+    "highDescription": 10155,
     "tagNames": [
       11001
     ],
@@ -71,7 +76,8 @@
     ],
     "treeType": "Active",
     "name": 10106,
-    "description": 10156,
+    "lowDescription": 10156,
+    "highDescription": 10156,
     "tagNames": [
       11002
     ],
@@ -84,7 +90,8 @@
     ],
     "treeType": "Active",
     "name": 10107,
-    "description": 10157,
+    "lowDescription": 10157,
+    "highDescription": 10157,
     "tagNames": [
       11002
     ],
@@ -97,7 +104,8 @@
     ],
     "treeType": "Active",
     "name": 10108,
-    "description": 10158,
+    "lowDescription": 10158,
+    "highDescription": 10158,
     "tagNames": [
       11002
     ],
@@ -110,7 +118,8 @@
     ],
     "treeType": "Active",
     "name": 10109,
-    "description": 10159,
+    "lowDescription": 10159,
+    "highDescription": 10159,
     "tagNames": [
       11002
     ],
@@ -123,7 +132,8 @@
     ],
     "treeType": "Active",
     "name": 10110,
-    "description": 10160,
+    "lowDescription": 10160,
+    "highDescription": 10160,
     "tagNames": [
       11002
     ],
@@ -136,7 +146,8 @@
     ],
     "treeType": "Support",
     "name": 10111,
-    "description": 10161,
+    "lowDescription": 10161,
+    "highDescription": 10161,
     "tagNames": [
       11001
     ],
@@ -149,7 +160,8 @@
     ],
     "treeType": "Support",
     "name": 10112,
-    "description": 10162,
+    "lowDescription": 10162,
+    "highDescription": 10162,
     "tagNames": [
       11001
     ],
@@ -162,7 +174,8 @@
     ],
     "treeType": "Support",
     "name": 10113,
-    "description": 10163,
+    "lowDescription": 10163,
+    "highDescription": 10163,
     "tagNames": [
       11002
     ],
@@ -175,7 +188,8 @@
     ],
     "treeType": "Support",
     "name": 10114,
-    "description": 10164,
+    "lowDescription": 10164,
+    "highDescription": 10164,
     "tagNames": [
       11002
     ],
@@ -189,7 +203,8 @@
     ],
     "treeType": "Support",
     "name": 10115,
-    "description": 10165,
+    "lowDescription": 10165,
+    "highDescription": 10165,
     "tagNames": [
       11001,
       11002
@@ -203,7 +218,8 @@
     ],
     "treeType": "Passive",
     "name": 10201,
-    "description": 10251,
+    "lowDescription": 10251,
+    "highDescription": 10251,
     "tagNames": [
       11004
     ],
@@ -216,7 +232,8 @@
     ],
     "treeType": "Passive",
     "name": 10202,
-    "description": 10252,
+    "lowDescription": 10252,
+    "highDescription": 10252,
     "tagNames": [
       11004
     ],
@@ -229,7 +246,8 @@
     ],
     "treeType": "Passive",
     "name": 10203,
-    "description": 10253,
+    "lowDescription": 10253,
+    "highDescription": 10253,
     "tagNames": [
       11004
     ],
@@ -242,7 +260,8 @@
     ],
     "treeType": "Passive",
     "name": 10204,
-    "description": 10254,
+    "lowDescription": 10254,
+    "highDescription": 10254,
     "tagNames": [
       11004
     ],
@@ -255,7 +274,8 @@
     ],
     "treeType": "Passive",
     "name": 10205,
-    "description": 10255,
+    "lowDescription": 10255,
+    "highDescription": 10255,
     "tagNames": [
       11004
     ],
@@ -268,7 +288,8 @@
     ],
     "treeType": "Active",
     "name": 10206,
-    "description": 10256,
+    "lowDescription": 10256,
+    "highDescription": 10256,
     "tagNames": [
       11005
     ],
@@ -281,7 +302,8 @@
     ],
     "treeType": "Active",
     "name": 10207,
-    "description": 10257,
+    "lowDescription": 10257,
+    "highDescription": 10257,
     "tagNames": [
       11005
     ],
@@ -294,7 +316,8 @@
     ],
     "treeType": "Active",
     "name": 10208,
-    "description": 10258,
+    "lowDescription": 10258,
+    "highDescription": 10258,
     "tagNames": [
       11005
     ],
@@ -307,7 +330,8 @@
     ],
     "treeType": "Active",
     "name": 10209,
-    "description": 10259,
+    "lowDescription": 10259,
+    "highDescription": 10259,
     "tagNames": [
       11005
     ],
@@ -320,7 +344,8 @@
     ],
     "treeType": "Active",
     "name": 10210,
-    "description": 10260,
+    "lowDescription": 10260,
+    "highDescription": 10260,
     "tagNames": [
       11005
     ],
@@ -333,7 +358,8 @@
     ],
     "treeType": "Support",
     "name": 10211,
-    "description": 10261,
+    "lowDescription": 10261,
+    "highDescription": 10261,
     "tagNames": [
       11004
     ],
@@ -346,7 +372,8 @@
     ],
     "treeType": "Support",
     "name": 10212,
-    "description": 10262,
+    "lowDescription": 10262,
+    "highDescription": 10262,
     "tagNames": [
       11004
     ],
@@ -359,7 +386,8 @@
     ],
     "treeType": "Support",
     "name": 10213,
-    "description": 10263,
+    "lowDescription": 10263,
+    "highDescription": 10263,
     "tagNames": [
       11005
     ],
@@ -372,7 +400,8 @@
     ],
     "treeType": "Support",
     "name": 10214,
-    "description": 10264,
+    "lowDescription": 10264,
+    "highDescription": 10264,
     "tagNames": [
       11005
     ],
@@ -386,7 +415,8 @@
     ],
     "treeType": "Support",
     "name": 10215,
-    "description": 10265,
+    "lowDescription": 10265,
+    "highDescription": 10265,
     "tagNames": [
       11004,
       11005
@@ -400,7 +430,8 @@
     ],
     "treeType": "Passive",
     "name": 10301,
-    "description": 10351,
+    "lowDescription": 10351,
+    "highDescription": 10351,
     "tagNames": [
       11007
     ],
@@ -413,7 +444,8 @@
     ],
     "treeType": "Passive",
     "name": 10302,
-    "description": 10352,
+    "lowDescription": 10352,
+    "highDescription": 10352,
     "tagNames": [
       11007
     ],
@@ -426,11 +458,12 @@
     ],
     "treeType": "Passive",
     "name": 10303,
-    "description": 10353,
+    "lowDescription": 10353,
+    "highDescription": 10353,
     "tagNames": [
       11007
     ],
-    "slotType": "Medium"
+    "slotType": "High"
   },
   "304": {
     "playerType": "Lilpa",
@@ -439,7 +472,8 @@
     ],
     "treeType": "Passive",
     "name": 10304,
-    "description": 10354,
+    "lowDescription": 10354,
+    "highDescription": 10354,
     "tagNames": [
       11007
     ],
@@ -452,7 +486,8 @@
     ],
     "treeType": "Passive",
     "name": 10305,
-    "description": 10355,
+    "lowDescription": 10355,
+    "highDescription": 10355,
     "tagNames": [
       11007
     ],
@@ -465,7 +500,8 @@
     ],
     "treeType": "Active",
     "name": 10306,
-    "description": 10356,
+    "lowDescription": 10356,
+    "highDescription": 10356,
     "tagNames": [
       11008
     ],
@@ -478,7 +514,8 @@
     ],
     "treeType": "Active",
     "name": 10307,
-    "description": 10357,
+    "lowDescription": 10357,
+    "highDescription": 10357,
     "tagNames": [
       11008
     ],
@@ -491,7 +528,8 @@
     ],
     "treeType": "Active",
     "name": 10308,
-    "description": 10358,
+    "lowDescription": 10358,
+    "highDescription": 10358,
     "tagNames": [
       11008
     ],
@@ -504,7 +542,8 @@
     ],
     "treeType": "Active",
     "name": 10309,
-    "description": 10359,
+    "lowDescription": 10359,
+    "highDescription": 10359,
     "tagNames": [
       11008
     ],
@@ -517,7 +556,8 @@
     ],
     "treeType": "Active",
     "name": 10310,
-    "description": 10360,
+    "lowDescription": 10360,
+    "highDescription": 10360,
     "tagNames": [
       11008
     ],
@@ -530,7 +570,8 @@
     ],
     "treeType": "Support",
     "name": 10311,
-    "description": 10361,
+    "lowDescription": 10361,
+    "highDescription": 10361,
     "tagNames": [
       11007
     ],
@@ -543,7 +584,8 @@
     ],
     "treeType": "Support",
     "name": 10312,
-    "description": 10362,
+    "lowDescription": 10362,
+    "highDescription": 10362,
     "tagNames": [
       11007
     ],
@@ -556,7 +598,8 @@
     ],
     "treeType": "Support",
     "name": 10313,
-    "description": 10363,
+    "lowDescription": 10363,
+    "highDescription": 10363,
     "tagNames": [
       11008
     ],
@@ -569,7 +612,8 @@
     ],
     "treeType": "Support",
     "name": 10314,
-    "description": 10364,
+    "lowDescription": 10364,
+    "highDescription": 10364,
     "tagNames": [
       11008
     ],
@@ -583,7 +627,8 @@
     ],
     "treeType": "Support",
     "name": 10315,
-    "description": 10365,
+    "lowDescription": 10365,
+    "highDescription": 10365,
     "tagNames": [
       11007,
       11008
@@ -597,7 +642,8 @@
     ],
     "treeType": "Passive",
     "name": 10401,
-    "description": 10451,
+    "lowDescription": 10451,
+    "highDescription": 10451,
     "tagNames": [
       11010
     ],
@@ -610,7 +656,8 @@
     ],
     "treeType": "Passive",
     "name": 10402,
-    "description": 10452,
+    "lowDescription": 10452,
+    "highDescription": 10452,
     "tagNames": [
       11010
     ],
@@ -623,7 +670,8 @@
     ],
     "treeType": "Passive",
     "name": 10403,
-    "description": 10453,
+    "lowDescription": 10453,
+    "highDescription": 10453,
     "tagNames": [
       11010
     ],
@@ -636,7 +684,8 @@
     ],
     "treeType": "Passive",
     "name": 10404,
-    "description": 10454,
+    "lowDescription": 10454,
+    "highDescription": 10454,
     "tagNames": [
       11010
     ],
@@ -649,7 +698,8 @@
     ],
     "treeType": "Passive",
     "name": 10405,
-    "description": 10455,
+    "lowDescription": 10455,
+    "highDescription": 10455,
     "tagNames": [
       11010
     ],
@@ -662,7 +712,8 @@
     ],
     "treeType": "Active",
     "name": 10406,
-    "description": 10456,
+    "lowDescription": 10456,
+    "highDescription": 10456,
     "tagNames": [
       11011
     ],
@@ -675,7 +726,8 @@
     ],
     "treeType": "Active",
     "name": 10407,
-    "description": 10457,
+    "lowDescription": 10457,
+    "highDescription": 10457,
     "tagNames": [
       11011
     ],
@@ -688,7 +740,8 @@
     ],
     "treeType": "Active",
     "name": 10408,
-    "description": 10458,
+    "lowDescription": 10458,
+    "highDescription": 10458,
     "tagNames": [
       11011
     ],
@@ -701,7 +754,8 @@
     ],
     "treeType": "Active",
     "name": 10409,
-    "description": 10459,
+    "lowDescription": 10459,
+    "highDescription": 10459,
     "tagNames": [
       11011
     ],
@@ -714,7 +768,8 @@
     ],
     "treeType": "Active",
     "name": 10410,
-    "description": 10460,
+    "lowDescription": 10460,
+    "highDescription": 10460,
     "tagNames": [
       11011
     ],
@@ -727,7 +782,8 @@
     ],
     "treeType": "Support",
     "name": 10411,
-    "description": 10461,
+    "lowDescription": 10461,
+    "highDescription": 10461,
     "tagNames": [
       11010
     ],
@@ -740,7 +796,8 @@
     ],
     "treeType": "Support",
     "name": 10412,
-    "description": 10462,
+    "lowDescription": 10462,
+    "highDescription": 10462,
     "tagNames": [
       11010
     ],
@@ -753,7 +810,8 @@
     ],
     "treeType": "Support",
     "name": 10413,
-    "description": 10463,
+    "lowDescription": 10463,
+    "highDescription": 10463,
     "tagNames": [
       11011
     ],
@@ -766,7 +824,8 @@
     ],
     "treeType": "Support",
     "name": 10414,
-    "description": 10464,
+    "lowDescription": 10464,
+    "highDescription": 10464,
     "tagNames": [
       11011
     ],
@@ -780,7 +839,8 @@
     ],
     "treeType": "Support",
     "name": 10415,
-    "description": 10465,
+    "lowDescription": 10465,
+    "highDescription": 10465,
     "tagNames": [
       11010,
       11011
@@ -794,7 +854,8 @@
     ],
     "treeType": "Passive",
     "name": 10501,
-    "description": 10551,
+    "lowDescription": 10551,
+    "highDescription": 10551,
     "tagNames": [
       11013
     ],
@@ -807,7 +868,8 @@
     ],
     "treeType": "Passive",
     "name": 10502,
-    "description": 10552,
+    "lowDescription": 10552,
+    "highDescription": 10552,
     "tagNames": [
       11013
     ],
@@ -820,7 +882,8 @@
     ],
     "treeType": "Passive",
     "name": 10503,
-    "description": 10553,
+    "lowDescription": 10553,
+    "highDescription": 10553,
     "tagNames": [
       11013
     ],
@@ -833,7 +896,8 @@
     ],
     "treeType": "Passive",
     "name": 10504,
-    "description": 10554,
+    "lowDescription": 10554,
+    "highDescription": 10554,
     "tagNames": [
       11013
     ],
@@ -846,7 +910,8 @@
     ],
     "treeType": "Passive",
     "name": 10505,
-    "description": 10555,
+    "lowDescription": 10555,
+    "highDescription": 10555,
     "tagNames": [
       11013
     ],
@@ -859,7 +924,8 @@
     ],
     "treeType": "Active",
     "name": 10506,
-    "description": 10556,
+    "lowDescription": 10556,
+    "highDescription": 10556,
     "tagNames": [
       11014
     ],
@@ -872,7 +938,8 @@
     ],
     "treeType": "Active",
     "name": 10507,
-    "description": 10557,
+    "lowDescription": 10557,
+    "highDescription": 10557,
     "tagNames": [
       11014
     ],
@@ -885,7 +952,8 @@
     ],
     "treeType": "Active",
     "name": 10508,
-    "description": 10558,
+    "lowDescription": 10558,
+    "highDescription": 10558,
     "tagNames": [
       11014
     ],
@@ -898,7 +966,8 @@
     ],
     "treeType": "Active",
     "name": 10509,
-    "description": 10559,
+    "lowDescription": 10559,
+    "highDescription": 10559,
     "tagNames": [
       11014
     ],
@@ -911,7 +980,8 @@
     ],
     "treeType": "Active",
     "name": 10510,
-    "description": 10560,
+    "lowDescription": 10560,
+    "highDescription": 10560,
     "tagNames": [
       11014
     ],
@@ -924,7 +994,8 @@
     ],
     "treeType": "Support",
     "name": 10511,
-    "description": 10561,
+    "lowDescription": 10561,
+    "highDescription": 10561,
     "tagNames": [
       11013
     ],
@@ -937,7 +1008,8 @@
     ],
     "treeType": "Support",
     "name": 10512,
-    "description": 10562,
+    "lowDescription": 10562,
+    "highDescription": 10562,
     "tagNames": [
       11013
     ],
@@ -950,7 +1022,8 @@
     ],
     "treeType": "Support",
     "name": 10513,
-    "description": 10563,
+    "lowDescription": 10563,
+    "highDescription": 10563,
     "tagNames": [
       11014
     ],
@@ -963,7 +1036,8 @@
     ],
     "treeType": "Support",
     "name": 10514,
-    "description": 10564,
+    "lowDescription": 10564,
+    "highDescription": 10564,
     "tagNames": [
       11014
     ],
@@ -977,7 +1051,8 @@
     ],
     "treeType": "Support",
     "name": 10515,
-    "description": 10565,
+    "lowDescription": 10565,
+    "highDescription": 10565,
     "tagNames": [
       11013,
       11014
@@ -991,7 +1066,8 @@
     ],
     "treeType": "Passive",
     "name": 10601,
-    "description": 10651,
+    "lowDescription": 10651,
+    "highDescription": 10651,
     "tagNames": [
       11016
     ],
@@ -1004,7 +1080,8 @@
     ],
     "treeType": "Passive",
     "name": 10602,
-    "description": 10652,
+    "lowDescription": 10652,
+    "highDescription": 10652,
     "tagNames": [
       11016
     ],
@@ -1017,7 +1094,8 @@
     ],
     "treeType": "Passive",
     "name": 10603,
-    "description": 10653,
+    "lowDescription": 10653,
+    "highDescription": 10653,
     "tagNames": [
       11016
     ],
@@ -1030,7 +1108,8 @@
     ],
     "treeType": "Passive",
     "name": 10604,
-    "description": 10654,
+    "lowDescription": 10654,
+    "highDescription": 10654,
     "tagNames": [
       11016
     ],
@@ -1043,7 +1122,8 @@
     ],
     "treeType": "Passive",
     "name": 10605,
-    "description": 10655,
+    "lowDescription": 10655,
+    "highDescription": 10655,
     "tagNames": [
       11016
     ],
@@ -1056,7 +1136,8 @@
     ],
     "treeType": "Active",
     "name": 10606,
-    "description": 10656,
+    "lowDescription": 10656,
+    "highDescription": 10656,
     "tagNames": [
       11017
     ],
@@ -1069,7 +1150,8 @@
     ],
     "treeType": "Active",
     "name": 10607,
-    "description": 10657,
+    "lowDescription": 10657,
+    "highDescription": 10657,
     "tagNames": [
       11017
     ],
@@ -1082,7 +1164,8 @@
     ],
     "treeType": "Active",
     "name": 10608,
-    "description": 10658,
+    "lowDescription": 10658,
+    "highDescription": 10658,
     "tagNames": [
       11017
     ],
@@ -1095,7 +1178,8 @@
     ],
     "treeType": "Active",
     "name": 10609,
-    "description": 10659,
+    "lowDescription": 10659,
+    "highDescription": 10659,
     "tagNames": [
       11017
     ],
@@ -1108,7 +1192,8 @@
     ],
     "treeType": "Active",
     "name": 10610,
-    "description": 10660,
+    "lowDescription": 10660,
+    "highDescription": 10660,
     "tagNames": [
       11017
     ],
@@ -1121,7 +1206,8 @@
     ],
     "treeType": "Support",
     "name": 10611,
-    "description": 10661,
+    "lowDescription": 10661,
+    "highDescription": 10661,
     "tagNames": [
       11016
     ],
@@ -1134,7 +1220,8 @@
     ],
     "treeType": "Support",
     "name": 10612,
-    "description": 10662,
+    "lowDescription": 10662,
+    "highDescription": 10662,
     "tagNames": [
       11016
     ],
@@ -1147,7 +1234,8 @@
     ],
     "treeType": "Support",
     "name": 10613,
-    "description": 10663,
+    "lowDescription": 10663,
+    "highDescription": 10663,
     "tagNames": [
       11017
     ],
@@ -1160,7 +1248,8 @@
     ],
     "treeType": "Support",
     "name": 10614,
-    "description": 10664,
+    "lowDescription": 10664,
+    "highDescription": 10664,
     "tagNames": [
       11017
     ],
@@ -1174,7 +1263,8 @@
     ],
     "treeType": "Support",
     "name": 10615,
-    "description": 10665,
+    "lowDescription": 10665,
+    "highDescription": 10665,
     "tagNames": [
       11016,
       11017
