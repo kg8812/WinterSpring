@@ -330,7 +330,7 @@ namespace chamwhy.Components
             if (_triggerStrategy?.CheckAvailable(col) ?? false)
             {
                 _triggerStrategy?.OnTriggerEnter2D(col);
-                if (col.transform.parent.TryGetComponent(out IPhysicsTransition actorCollisionHandler))
+                if (col.transform.parent != null && col.transform.parent.TryGetComponent(out IPhysicsTransition actorCollisionHandler))
                 {
                     actorCollisionHandler.PhysicsTransitionHandler.ActivatingList.Add(this);
                 }

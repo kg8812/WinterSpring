@@ -1,3 +1,4 @@
+using System;
 using Apis;
 using DG.Tweening;
 using System.Collections;
@@ -79,7 +80,7 @@ public class JururuAttack2 : BossAttackCollider
                 _renderer.size = x;
                 col.transform.localPosition = new Vector3(-x.x, col.transform.localPosition.y);
             }, new Vector2(distance, _renderer.size.y),
-            moveTime1).SetEase(ease1).SetAutoKill(true);
+            moveTime1).SetEase(ease1).SetAutoKill(true).SetUpdate(UpdateType.Fixed);
         tweener.onKill += () =>
         {
             CancelInvoke();
@@ -137,14 +138,20 @@ public class JururuAttack2 : BossAttackCollider
     }
 
     private bool isAtked;
+
+    private void FixedUpdate()
+    {
+        if (isAtked)
+        {
+            target.Rb.transform.position = hitPos.position;
+            target.Rb.velocity = Vector2.zero;
+        }
+    }
+
     void Update()
     {
         
-        if (isAtked)
-        {
-            target.transform.position = hitPos.position;
-            target.Rb.velocity = Vector2.zero;
-        }
+        
     }
 
     void AddStun()

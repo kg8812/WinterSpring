@@ -64,7 +64,6 @@ namespace Apis.BehaviourTreeTool
         {
             if (mover == null) return;
             
-            Debug.Log("Dash");
             mover.ActorMovement.Stop();
             
             tweener = mover.ActorMovement.DashTemp(time, distance, isBackDash).SetAutoKill(true).SetEase(Ease.Linear);

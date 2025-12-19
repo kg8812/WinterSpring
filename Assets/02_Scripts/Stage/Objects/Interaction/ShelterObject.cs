@@ -89,11 +89,18 @@ public class ShelterObject : MonoBehaviour , IOnInteract
         if (isActivated) return;
         isActivated = true;
         onResources.SetActive(true);
-        Map.instance.OpenedShelters.Add(sectorId, new SectorSaveData.ShelterData()
+        if(!Map.instance.OpenedShelters.TryAdd(sectorId, new SectorSaveData.ShelterData()
         {
             savedPosition = transform.position,
             sceneName = SceneManager.GetActiveScene().name,
-        });
+        }))
+        {
+            Map.instance.OpenedShelters[sectorId] = new SectorSaveData.ShelterData()
+            {
+                savedPosition = transform.position,
+                sceneName = SceneManager.GetActiveScene().name,
+            };
+        }
         _renderers.ForEach(x =>
         {
             x.GetPropertyBlock(propBlock);

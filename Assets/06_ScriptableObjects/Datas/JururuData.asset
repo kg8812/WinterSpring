@@ -42,7 +42,7 @@ MonoBehaviour:
     finesse: 10
   playerStat:
     JumpPower: 7.1
-    JumpMax: 1
+    JumpMax: 2
     currentPotionCapacity: 3
     dashTime: 0.7
     dashSpeed: 5
