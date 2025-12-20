@@ -41,6 +41,7 @@ namespace chamwhy
 
         public void UpdateItem()
         {
+            Debug.Log(index);
             OnSlotChanged(index, InventoryList[index]);
         }
 
