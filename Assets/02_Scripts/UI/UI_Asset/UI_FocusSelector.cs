@@ -51,7 +51,7 @@ public class UI_FocusSelector : UI_Base, IUI_Navigatable ,IUI_NavigationManager
         }
 
         // 이전에 활성화된 FocusParent가 있다면 비활성화 및 정리
-        if (_currentActiveFocusParent != null)
+        if (_currentActiveFocusParent != null && index != _currentActiveIndex)
         {
             _currentActiveFocusParent.FocusReset();
             _currentActiveFocusParent.gameObject.SetActive(false);
@@ -67,7 +67,7 @@ public class UI_FocusSelector : UI_Base, IUI_Navigatable ,IUI_NavigationManager
 
             if (focus)
             {
-                _currentActiveFocusParent.MoveTo(0);
+                _currentActiveFocusParent.MoveTo(_currentActiveFocusParent.curId);
             }
         }
     }

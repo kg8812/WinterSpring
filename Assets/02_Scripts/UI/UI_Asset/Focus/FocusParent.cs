@@ -70,6 +70,10 @@ namespace chamwhy.UI.Focus
         private bool inited = false;
 
         public IUI_NavigationManager NavigationManager { get; set; }
+
+        private UnityEvent _whenDisable;
+        public UnityEvent WhenDisable => _whenDisable ??= new();
+        
         public bool IsAtBoundary(NavigationDirection direction)
         {
             // focusList가 없거나 비어있으면 경계 판단 불가 (혹은 항상 경계라고 볼 수도 있음)
@@ -94,8 +98,8 @@ namespace chamwhy.UI.Focus
 
         public void OnNavigatedTo()
         {
-            // 이 그룹으로 포커스가 넘어오면, 0번 요소에 포커스를 줌
-            MoveTo(0,true);
+            // 이 그룹으로 포커스가 넘어오면, 기존에 선택중이던 요소에 포커스를 줌
+            MoveTo(curId,true);
         }
 
         public void OnNavigatedFrom()
@@ -737,6 +741,13 @@ namespace chamwhy.UI.Focus
                 // Debug.Log("hover off");
                 focusList[id].HoverOff(true);
             }
+        }
+
+        private void OnDisable()
+        {
+            FocusOff(curId);
+            curId = 0;
+            WhenDisable.Invoke();
         }
     }
 }
