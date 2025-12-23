@@ -62,6 +62,7 @@ namespace chamwhy
 
         public override void OnOpen()
         {
+            base.OnOpen();
             navigation.Activate();
             childs.ForEach(x => x.OnOpen());
         }

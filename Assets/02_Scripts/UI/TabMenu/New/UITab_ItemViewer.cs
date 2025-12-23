@@ -230,7 +230,7 @@ public class UITab_ItemViewer : UI_InventoryContent
                 ? CurFocusedSlot.index
                 : 0;
             if (targetIndex >= _currentSlotCount) targetIndex = 0;
-            ItemDisplayParent.MoveTo(targetIndex);
+            ItemDisplayParent.SetIndex(targetIndex);
             _curFocus = ItemDisplayParent;
         }
     }

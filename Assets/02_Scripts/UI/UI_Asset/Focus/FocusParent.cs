@@ -743,6 +743,17 @@ namespace chamwhy.UI.Focus
             }
         }
 
+        public void SetIndex(int targetIndex)
+        {
+            if (_isFocused)
+            {
+                MoveTo(targetIndex);
+            }
+            else
+            {
+                curId = targetIndex;
+            }
+        }
         private void OnDisable()
         {
             FocusOff(curId);

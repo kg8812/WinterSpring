@@ -223,7 +223,7 @@ public class UI_NavigationController : MonoBehaviour, IController , IUI_Navigati
     }
     private void ChangeFocus(IUI_Navigatable next)
     {
-        if (_currentNavigatable == next || next == null) return;
+        if (next == null) return;
             
         _currentNavigatable?.OnNavigatedFrom();
         _currentNavigatable = next;
