@@ -71,6 +71,7 @@ namespace chamwhy.UI
         public override void SelectOn()
         {
             base.SelectOn();
+            
             if (IsSelected)
             {
                 ToggleOn();

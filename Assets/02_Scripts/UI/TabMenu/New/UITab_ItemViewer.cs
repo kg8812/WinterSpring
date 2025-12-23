@@ -83,7 +83,7 @@ public class UITab_ItemViewer : UI_InventoryContent
         // 초기 포커스 설정
         if (itemSlots != null && itemSlots.Length > 0)
         {
-            ItemDisplayParent.MoveTo(0); // 첫 번째 슬롯으로 포커스
+            ItemDisplayParent.SetIndex(0); // 첫 번째 슬롯으로 포커스
         }
 
         _curFocus = ItemDisplayParent; // 현재 활성화된 포커스 그룹
