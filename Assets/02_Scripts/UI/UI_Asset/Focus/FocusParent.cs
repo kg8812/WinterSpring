@@ -98,8 +98,8 @@ namespace chamwhy.UI.Focus
 
         public void OnNavigatedTo()
         {
-            // 이 그룹으로 포커스가 넘어오면, 기존에 선택중이던 요소에 포커스를 줌
-            MoveTo(curId,true);
+            // 이 그룹으로 포커스가 넘어오면, 0번으로 포커스 초기화
+            MoveTo(0,true);
         }
 
         public void OnNavigatedFrom()
@@ -756,7 +756,11 @@ namespace chamwhy.UI.Focus
         }
         private void OnDisable()
         {
-            FocusOff(curId);
+            if (curId >= 0 && curId < focusList.Count)
+            {
+                FocusOff(curId);
+            }
+
             curId = 0;
             WhenDisable.Invoke();
         }

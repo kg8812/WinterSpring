@@ -1,5 +1,6 @@
 ﻿using chamwhy.Managers;
 using Default;
+using Save.Schema;
 
 namespace chamwhy
 {
@@ -44,5 +45,21 @@ namespace chamwhy
         
         public static string GetTagDesc(int tagId) => 
             LanguageManager.Str(Calc.ConcatInts(TagDescCategory, tagId));
+
+        public static string GetPlayerName(PlayerType playerType)
+        {
+            int nameId =playerType switch
+            {
+                PlayerType.Ine => 1010011,
+                PlayerType.Jingburger => 1010012,
+                PlayerType.Lilpa => 1010013,
+                PlayerType.Jururu => 1010014,
+                PlayerType.Gosegu => 1010015,
+                PlayerType.Viichan => 1010016,
+                _ => 1010815
+            };
+
+            return LanguageManager.Str(nameId);
+        }
     }
 }

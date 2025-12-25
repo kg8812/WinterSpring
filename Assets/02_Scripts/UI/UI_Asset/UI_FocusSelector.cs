@@ -67,7 +67,7 @@ public class UI_FocusSelector : UI_Base, IUI_Navigatable ,IUI_NavigationManager
 
             if (focus)
             {
-                _currentActiveFocusParent.MoveTo(_currentActiveFocusParent.curId);
+                _currentActiveFocusParent.MoveTo(0);
             }
         }
     }

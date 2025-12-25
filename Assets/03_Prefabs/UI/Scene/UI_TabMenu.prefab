@@ -34507,7 +34507,7 @@ MonoBehaviour:
   isFadeOut: 0
   minZoom: 30
   maxZoom: 600
-  parentCanvas: {fileID: 0}
+  parentCanvas: {fileID: 8094855276660451928}
   color: {r: 1, g: 1, b: 1, a: 1}
   sprite: {fileID: 0}
   playerTrans: {fileID: 0}
@@ -34668,7 +34668,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6030035799377868667
 RectTransform:
   m_ObjectHideFlags: 0

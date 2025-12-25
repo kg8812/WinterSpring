@@ -89,7 +89,6 @@ namespace chamwhy
         public override void Init()
         {
             base.Init();
-            return;
             _mapDataType = new();
             preZoom = zoom;
 

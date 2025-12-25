@@ -73,6 +73,7 @@ namespace chamwhy
             SetSlots();
             playerIcon.sprite = playerIconSprites[(int)player.playerType];
             navigation.Activate();
+            playerName.text = StrUtil.GetPlayerName(player.playerType);
         }
 
         public override void OnClose()

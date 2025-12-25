@@ -2882,6 +2882,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fdbcca0f0856e824e87936276d45bd18
+    m_Address: Prefabs/UI/Popup/UI_SkillInfo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 4b42412136e3f6d4c86ac87a87b843a7, type: 2}
   m_SchemaSet:
