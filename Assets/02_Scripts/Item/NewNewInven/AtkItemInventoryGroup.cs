@@ -79,7 +79,21 @@ namespace NewNewInvenSpace
                 _presetType = value;
             }
         }
-        
+
+        public override bool Add(Item item, InvenType type)
+        {
+            if(!Invens.TryGetValue(type, out var inven)) return false;
+            int ind;
+
+            if (item is IAttackItem atkItem)
+            {
+                ind = atkItem.InvenSlotIndex;
+            }
+            else return false;
+            
+            return inven.AddItem(ind, item);
+        }
+
         /// <summary>
         /// 플레이어 스킬인 경우에는 작동 x 그냥 equip inven만 바뀌고 실직적 착용과 item equipped호출 x
         /// </summary>

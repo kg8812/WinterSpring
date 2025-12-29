@@ -116,6 +116,7 @@ MonoBehaviour:
   airAtkDmgs: []
   isFollow: 0
   isSkillIcon: 1
+  invenSlotIndex: 90
   Skill: {fileID: 0}
   groundProjectileInfos:
   - info: {fileID: 11400000, guid: 5afd2bc29422a064483f7c8b872fde52, type: 2}

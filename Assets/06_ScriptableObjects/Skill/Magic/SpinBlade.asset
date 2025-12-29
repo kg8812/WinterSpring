@@ -79,6 +79,7 @@ MonoBehaviour:
   nameString: 6025
   descString: 0
   itemId: 2025
+  _skillImage: {fileID: 0}
   CurCastTime: 0
   CurChargeTime: 0
   usableWhenAttack: 0
@@ -96,5 +97,6 @@ MonoBehaviour:
   useFrame: 0
   Skill2: {fileID: 0}
   isCharging: 0
+  InvenIndex: 59
   atkInfo: {fileID: 11400000, guid: aea48094e66759045967b24ee5390fcc, type: 2}
   radius: 1

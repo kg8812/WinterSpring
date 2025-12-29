@@ -5,6 +5,7 @@ using Apis;
 using chamwhy;
 using chamwhy.UI.Focus;
 using NewNewInvenSpace;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 public class UITab_ItemViewer : UI_InventoryContent
@@ -21,6 +22,9 @@ public class UITab_ItemViewer : UI_InventoryContent
 
     private int _currentSlotCount;
 
+    [LabelText("시작 인덱스")] [SerializeField] private int _startIndex;
+
+    [LabelText("인벤에 맞춰서 슬롯 수 조절")][SerializeField] private bool adjustSlotCount = true;
     protected override InventoryGroup invenGroupManager
     {
         get
@@ -67,13 +71,13 @@ public class UITab_ItemViewer : UI_InventoryContent
         // 지정된 타입의 인벤토리 개수 변경 감지
         if (invenGroupManager.Invens.TryGetValue(inventoryTypeToShow, out var targetInventory))
         {
-            int currentItemCountInInventory = targetInventory.Count;
+            int currentItemCountInInventory = targetInventory.Count - _startIndex;
             if (currentItemCountInInventory != _currentSlotCount)
             {
                 SlotCntChanged(currentItemCountInInventory, inventoryTypeToShow);
             }
 
-            targetInventory.OnCountChanged += (cnt) => SlotCntChanged(cnt, inventoryTypeToShow);
+            targetInventory.OnCountChanged += (cnt) => SlotCntChanged(cnt - _startIndex, inventoryTypeToShow);
         }
         else
         {
@@ -93,7 +97,8 @@ public class UITab_ItemViewer : UI_InventoryContent
     private void SlotCntChanged(int newCount, InvenType type)
     {
         if (type != inventoryTypeToShow) return; // 설정된 타입의 인벤토리만 처리
-
+        if (!adjustSlotCount) return;
+        
         FocusParent parent = ItemDisplayParent;
         int prevCnt = _currentSlotCount;
         _currentSlotCount = newCount;
@@ -157,11 +162,12 @@ public class UITab_ItemViewer : UI_InventoryContent
                 slot.InitCheck();
                 slot.invenType = type;
                 slot.InventoryList = invenGroupManager.Invens[type];
-                slot.index = currentIndex;
+                slot.index = currentIndex + _startIndex;
 
                 slot.OnValueChanged.RemoveAllListeners();
                 slot.OnValueChanged.AddListener(isSlotFocused =>
                 {
+                    Debug.Log(slot.curItem);
                     if (isSlotFocused)
                     {
                         description.gameObject.SetActive(true);

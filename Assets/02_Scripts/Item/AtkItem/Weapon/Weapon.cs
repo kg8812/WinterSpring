@@ -29,6 +29,8 @@ namespace Apis
         
         public override string Description => description;
 
+       
+
         #region Enums
         public enum WeaponGrade
         {
@@ -38,7 +40,10 @@ namespace Apis
         {
             Collider,Projectile
         }
-
+        public enum WEAPONTYPE
+        {
+            Sword,GreatSword,Orb,Fist,Staff,Spear,Gun
+        }
         #endregion
         
         #region Inspector
@@ -88,8 +93,7 @@ namespace Apis
         private int invenSlotIndex;
 
         public int InvenSlotIndex => invenSlotIndex;
-        private SFXPlayer sfxPlayer;
-        public SFXPlayer SFXPlayer => sfxPlayer ??= GetComponent<SFXPlayer>();
+        
         #endregion
         
         #region  Variables, Property
@@ -129,7 +133,8 @@ namespace Apis
         
         public bool IsFollow => isFollow;
 
-
+        private SFXPlayer sfxPlayer;
+        public SFXPlayer SFXPlayer => sfxPlayer ??= GetComponent<SFXPlayer>();
         #endregion
 
         #region Events

@@ -79,6 +79,7 @@ MonoBehaviour:
   nameString: 6016
   descString: 0
   itemId: 2016
+  _skillImage: {fileID: 0}
   CurCastTime: 0
   CurChargeTime: 0
   usableWhenAttack: 0
@@ -96,6 +97,7 @@ MonoBehaviour:
   useFrame: 0
   Skill2: {fileID: 0}
   isCharging: 0
+  InvenIndex: 50
   projInfo: {fileID: 11400000, guid: b115b0fa2a4bb5e4aa7c9d95dcc232bb, type: 2}
   beamInfo:
     fireTime: 1

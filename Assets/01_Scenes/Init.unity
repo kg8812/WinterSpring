@@ -650,7 +650,7 @@ GameObject:
   - component: {fileID: 661611105}
   - component: {fileID: 661611104}
   m_Layer: 0
-  m_Name: InvenTory
+  m_Name: Inventory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -670,7 +670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wpEquipCnt: 4
   wpEquipMaxCnt: 4
-  wpInvenCnt: 18
+  wpInvenCnt: 100
   accEquipCnt: 12
   accEquipMaxCnt: 12
   accInvenCnt: 18

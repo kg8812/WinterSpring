@@ -148,6 +148,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: OnBeforeAttack
+      Entry: 6
+      Data: 
     - Name: groundOrbInfos
       Entry: 7
       Data: 2|System.Collections.Generic.List`1[[Apis.OrbAtk+OrbAtkInfo, Assembly-CSharp]],
@@ -447,6 +450,8 @@ MonoBehaviour:
       directionType: 0
   isFollow: 0
   isSkillIcon: 0
+  invenSlotIndex: 10
+  _weaponType: 0
   Skill: {fileID: 0}
 --- !u!114 &-1267421708091769473
 MonoBehaviour:

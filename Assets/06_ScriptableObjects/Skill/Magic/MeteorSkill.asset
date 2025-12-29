@@ -79,6 +79,7 @@ MonoBehaviour:
   nameString: 6021
   descString: 0
   itemId: 2021
+  _skillImage: {fileID: 0}
   CurCastTime: 0
   CurChargeTime: 0
   usableWhenAttack: 0
@@ -105,6 +106,7 @@ MonoBehaviour:
   useFrame: 0
   Skill2: {fileID: 0}
   isCharging: 0
+  InvenIndex: 54
   meteorInfos:
   - radius: 0.5
     expRadius: 1

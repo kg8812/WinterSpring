@@ -147,6 +147,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: OnBeforeAttack
+      Entry: 6
+      Data: 
   dataId: 3009
   _skill: {fileID: 0}
   firePos: {fileID: 5868069111073720631}
@@ -273,6 +276,8 @@ MonoBehaviour:
       directionType: 0
   isFollow: 0
   isSkillIcon: 0
+  invenSlotIndex: 30
+  _weaponType: 0
   Skill: {fileID: 0}
   groundProjectileInfos:
   - info: {fileID: 11400000, guid: 9c70697d7c3889f458b7ca43f03324d9, type: 2}

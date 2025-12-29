@@ -79,6 +79,7 @@ MonoBehaviour:
   nameString: 6030
   descString: 0
   itemId: 2030
+  _skillImage: {fileID: 0}
   CurCastTime: 0
   CurChargeTime: 0
   usableWhenAttack: 0
@@ -96,6 +97,7 @@ MonoBehaviour:
   useFrame: 0
   Skill2: {fileID: 0}
   isCharging: 0
+  InvenIndex: 64
   groundInfo: {fileID: 11400000, guid: 1189425b20cc63e43a13a69bddbd5f4a, type: 2}
   groundGroggy: 100
   groundStun: 5

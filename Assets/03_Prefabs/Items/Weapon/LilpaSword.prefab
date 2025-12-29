@@ -158,6 +158,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: OnBeforeAttack
+      Entry: 6
+      Data: 
   dataId: 3053
   _skill: {fileID: 11400000, guid: 23121cfe589fa714ca11b6b06c954a0c, type: 2}
   firePos: {fileID: 0}
@@ -213,6 +216,7 @@ MonoBehaviour:
       directionType: 0
   isFollow: 0
   isSkillIcon: 1
+  invenSlotIndex: 91
   Skill: {fileID: 0}
   activeSkill: {fileID: 0}
 --- !u!212 &-2681886520365166905
