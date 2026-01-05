@@ -10,7 +10,6 @@ public class UITab_Equipment : UI_FocusContent
     UI_NavigationController navigation;
 
     public UIAsset_Toggle wpCategory;
-    public UIAsset_Toggle magicCategory;
     public UIAsset_Toggle accCategory;
     public UI_FocusSelector categorySelect;
         
@@ -26,7 +25,8 @@ public class UITab_Equipment : UI_FocusContent
             {
                 categorySelect.SelectFocusByIndex(0,false);
             }
-        });
+        }); 
+        
         accCategory.OnValueChanged.AddListener(x =>
         {
             if (x)

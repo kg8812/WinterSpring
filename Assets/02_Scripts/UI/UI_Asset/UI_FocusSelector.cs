@@ -7,13 +7,13 @@ using UnityEngine.Serialization;
 
 public class UI_FocusSelector : UI_Base, IUI_Navigatable ,IUI_NavigationManager
 {
-    public List<FocusParent> focusParents;
+    public List<ISelectableNavTarget> focusParents;
 
     [Tooltip("이 Selector가 활성화될 때 기본적으로 선택될 FocusParent의 인덱스")]
     public int initialFocusIndex = 0;
 
     private int _currentActiveIndex = -1; // 현재 활성화된 인덱스 추적
-    private FocusParent _currentActiveFocusParent;
+    private ISelectableNavTarget _currentActiveFocusParent;
 
     private bool _isInited;
 
@@ -41,8 +41,7 @@ public class UI_FocusSelector : UI_Base, IUI_Navigatable ,IUI_NavigationManager
             // 유효하지 않은 인덱스면 현재 활성화된 것을 비활성화 (선택적 로직)
             if (_currentActiveFocusParent != null)
             {
-                _currentActiveFocusParent.FocusReset(); // 기존 것 정리
-                _currentActiveFocusParent.gameObject.SetActive(false);
+                _currentActiveFocusParent.OnDeselected();
                 _currentActiveFocusParent = null;
             }
 
@@ -53,8 +52,7 @@ public class UI_FocusSelector : UI_Base, IUI_Navigatable ,IUI_NavigationManager
         // 이전에 활성화된 FocusParent가 있다면 비활성화 및 정리
         if (_currentActiveFocusParent != null && index != _currentActiveIndex)
         {
-            _currentActiveFocusParent.FocusReset();
-            _currentActiveFocusParent.gameObject.SetActive(false);
+            _currentActiveFocusParent.OnDeselected();
         }
 
         // 새로운 FocusParent 활성화
@@ -63,12 +61,7 @@ public class UI_FocusSelector : UI_Base, IUI_Navigatable ,IUI_NavigationManager
 
         if (_currentActiveFocusParent != null)
         {
-            _currentActiveFocusParent.gameObject.SetActive(true);
-
-            if (focus)
-            {
-                _currentActiveFocusParent.MoveTo(0);
-            }
+            _currentActiveFocusParent.OnSelected(focus);
         }
     }
 
@@ -90,7 +83,7 @@ public class UI_FocusSelector : UI_Base, IUI_Navigatable ,IUI_NavigationManager
         // 이 UI_FocusSelector 자체가 비활성화될 때의 로직
         if (_currentActiveFocusParent != null)
         {
-            _currentActiveFocusParent.FocusReset(); // 현재 활성화된 자식도 정리
+            _currentActiveFocusParent.OnNavigatedFrom(); // 현재 활성화된 자식도 정리
         }
     }
 
@@ -127,13 +120,13 @@ public class UI_FocusSelector : UI_Base, IUI_Navigatable ,IUI_NavigationManager
         {
             focusParent.InitCheck(); // 각 자식 FocusParent도 초기화 보장
             focusParent.NavigationManager = this; // 자식의 NavigationManager를 UI_FocusSelector 자신으로 설정
-            focusParent.gameObject.SetActive(false);
+            focusParent.OnDeselected();
         }
     }
 
     public void SetCurrentNavigatable(IUI_Navigatable childNavigatable)
     {
-        if (childNavigatable is FocusParent clickedChildFp && focusParents.Contains(clickedChildFp))
+        if (childNavigatable is ISelectableNavTarget clickedChildFp && focusParents.Contains(clickedChildFp))
         {
             int clickedIndex = focusParents.IndexOf(clickedChildFp);
 

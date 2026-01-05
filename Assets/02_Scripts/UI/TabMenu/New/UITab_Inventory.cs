@@ -15,7 +15,7 @@ namespace chamwhy
         [SerializeField] private ItemSlot[] equipSlots;
         [SerializeField] private ItemSlot[] invenSlots;
 
-        [SerializeField] protected ItemDescription description;
+        [SerializeField] protected UI_EquipInfo description;
 
         protected virtual string itemSlotAddress => "ItemSlot";
         
@@ -123,7 +123,7 @@ namespace chamwhy
                     {
                         if (isOn)
                         {
-                            description.ChangeInfo(slot.curItem);
+                            description.Set(slot.curItem);
                             CurInvenType = slot.invenType;
                         }
                         else if(CurFocusedSlot == slot)
@@ -236,7 +236,6 @@ namespace chamwhy
                             InvenType.Equipment);
                     if (!success)
                     {
-                        // Debug.Log("f키 안되서 try change");
                         CurFocusedSlot.ChangedToggle(true);
                         TryChangeDiffInvenType(CurFocusedSlot);
                     }
