@@ -167,7 +167,6 @@ public class UITab_ItemViewer : UI_InventoryContent
                 slot.OnValueChanged.RemoveAllListeners();
                 slot.OnValueChanged.AddListener(isSlotFocused =>
                 {
-                    Debug.Log(slot.curItem);
                     if (isSlotFocused)
                     {
                         description.gameObject.SetActive(true);
