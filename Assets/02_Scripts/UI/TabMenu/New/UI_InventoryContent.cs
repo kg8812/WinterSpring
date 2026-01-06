@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace chamwhy
 {
-    public class UI_InventoryContent: UI_FocusContent, IFocusGroup
+    public class UI_InventoryContent: UI_FocusContent, IFocusGroup , IUI_Navigatable
     {
         protected FocusParent _curFocus;
 
@@ -81,6 +81,30 @@ namespace chamwhy
             IsChanging = false;
             ChangeSlot?.ChangedToggle(false);
             return true;
+        }
+
+        public void OnNavigatedTo()
+        {
+            _curFocus?.OnNavigatedTo();
+        }
+
+        public void OnNavigatedFrom()
+        {
+            _curFocus?.OnNavigatedFrom();
+        }
+
+        public IUI_NavigationManager NavigationManager { get; set; }
+
+        public virtual bool IsAtBoundary(NavigationDirection direction)
+        {
+            if (_curFocus == null) return true;
+            
+            return _curFocus.IsAtBoundary(direction);
+        }
+
+        public void ResetFocus()
+        {
+            _curFocus?.MoveTo(0);
         }
     }
 }

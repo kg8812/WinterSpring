@@ -1,0 +1,64 @@
+using System.Collections;
+using System.Collections.Generic;
+using chamwhy;
+using UnityEngine;
+using UnityEngine.Events;
+
+public class EquipmentNavTarget : MonoBehaviour , ISelectableNavTarget
+{
+
+    public UnityEvent OnSelectedEvent;
+    public UnityEvent OnDeselectedEvent;
+    
+    public UITab_Inventory inven;
+    
+    public void KeyControl()
+    {
+        inven.KeyControl();
+    }
+
+    public void GamePadControl()
+    {
+        inven.GamePadControl();
+    }
+
+    public void OnNavigatedTo()
+    {
+        inven.OnNavigatedTo();
+    }
+
+    public void OnNavigatedFrom()
+    {
+        inven.OnNavigatedFrom();
+    }
+
+    public IUI_NavigationManager NavigationManager
+    {
+        get => inven.NavigationManager;
+        set => inven.NavigationManager = value;
+    }
+
+    public bool IsAtBoundary(NavigationDirection direction)
+    {
+        return inven.IsAtBoundary(direction);
+    }
+
+    public void InitCheck()
+    {
+        inven.InitCheck();
+    }
+
+    public void OnSelected(bool focus)
+    {
+        OnSelectedEvent.Invoke();
+        if (focus)
+        {
+            inven.ResetFocus();
+        }
+    }
+
+    public void OnDeselected()
+    {
+        OnDeselectedEvent.Invoke();
+    }
+}

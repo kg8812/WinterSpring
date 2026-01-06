@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace chamwhy
 {
-    public class UITab_Inventory: UI_InventoryContent
+    public class UITab_Inventory: UI_InventoryContent 
     {
         public FocusParent Equipment;
         public FocusParent Inven;
@@ -35,6 +35,7 @@ namespace chamwhy
         public override void Init()
         {
             base.Init();
+            
             Equipment.FocusGroup = this;
             Inven.FocusGroup = this;
             Equipment.InitCheck();
@@ -165,7 +166,7 @@ namespace chamwhy
             invenGroupManager.Invens[type].OnSlotChanged -= itemSlot.OnSlotChanged;
             itemSlot.CloseOwn();
         }
-
+        
         #endregion
         
         
@@ -431,8 +432,18 @@ namespace chamwhy
             Inven.tableData.moveUp = null;
             Inven.tableData.moveDown = null;
         }
-        
-        
+
+        public override bool IsAtBoundary(NavigationDirection direction)
+        {
+            if(_curFocus == null) return true;
+            if (!_curFocus.IsAtBoundary(direction)) return false;
+
+            if (_curFocus == Equipment && direction == NavigationDirection.Right) return false;
+            if(_curFocus == Inven && direction == NavigationDirection.Left) return false;
+
+            return true;
+        }
+
         #region KeyBoardMoveSection
 
         protected virtual void MoveUpOnEquipment(int x)

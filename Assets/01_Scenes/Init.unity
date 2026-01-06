@@ -673,7 +673,7 @@ MonoBehaviour:
   wpInvenCnt: 100
   accEquipCnt: 12
   accEquipMaxCnt: 12
-  accInvenCnt: 18
+  accInvenCnt: 30
   guitarInvenCnt: 0
   guitarInvenMaxCnt: 999
 --- !u!4 &661611105
