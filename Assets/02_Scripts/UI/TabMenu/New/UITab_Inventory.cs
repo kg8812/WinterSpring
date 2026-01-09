@@ -1,9 +1,11 @@
 ﻿using System;
 using Apis;
 using chamwhy.UI.Focus;
+using Default;
 using NewNewInvenSpace;
 using UI;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace chamwhy
 {
@@ -16,7 +18,9 @@ namespace chamwhy
         [SerializeField] private ItemSlot[] invenSlots;
 
         [SerializeField] protected UI_EquipInfo description;
+        [SerializeField] private ScrollRect _scrollRect;
 
+        
         protected virtual string itemSlotAddress => "ItemSlot";
         
 
@@ -59,6 +63,8 @@ namespace chamwhy
             
             Equipment.MoveTo(0);
             _curFocus = Equipment;
+
+            _scrollRect.UpdateFocusParentToScrollView(Inven);
         }
 
         private void SlotCntChanged(int cnt, InvenType type)
@@ -86,6 +92,10 @@ namespace chamwhy
                 
                 ItemSlot[] slots = type == InvenType.Equipment ? equipSlots : invenSlots;
                 Array.Resize(ref slots, cnt);
+                
+                if (type == InvenType.Equipment) equipSlots = slots;
+                else invenSlots = slots;
+                
                 for (int i = 0; i < cnt-prevCnt; i++)
                 {
                     slots[i + prevCnt] = newSlots[i];
@@ -189,6 +199,8 @@ namespace chamwhy
         public override void OnOpen()
         {
             base.OnOpen();
+
+            _scrollRect.verticalScrollbar.value = 1;
             foreach (var eq in equipSlots)
             {
                 eq.UpdateItem();

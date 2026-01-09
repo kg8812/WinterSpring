@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using Default;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 namespace chamwhy.UI.Focus
 {
@@ -198,12 +200,15 @@ namespace chamwhy.UI.Focus
             }
 
             RegisterMouseEvent(el, label);
+            tableData.x = Mathf.Max(1, tableData.x);
+            tableData.y = Mathf.Max(1, tableData.y);
             if (navigation == NavigationMode.Inventory)
             {
                 if (focusList.Count > tableData.x * tableData.y)
                 {
                     if (tableData.fixedY)
                     {
+                            
                         tableData.x += 1;
                     }
                     else
@@ -349,6 +354,9 @@ namespace chamwhy.UI.Focus
         
         public void KeyControl()
         {
+            int xDim = Mathf.Max(1, tableData.x);
+            int yDim = Mathf.Max(1, tableData.y);
+            
             // Debug.LogError("www");
             if (_isFocused)
             {
@@ -405,63 +413,53 @@ namespace chamwhy.UI.Focus
                     if (InputManager.GetKeyDown(KeySettingManager.GetUIKeyCode(Define.UIKey.Up)))
                     {
                         // 가장 상단에 위치
-                        if (curId < tableData.x)
+                        if (curId < xDim)
                         {
                             if (tableData.isUpLoop)
                             {
-                                MoveTo(curId + ((focusList.Count - curId + 1) / tableData.x) * tableData.x );
+                                MoveTo(curId + ((focusList.Count - curId + 1) / xDim) * xDim );
                             }else if (tableData.moveUp != null)
                             {
-                                if (canNoneFocus)
-                                {
-                                    FocusReset();
-                                    tableData.moveUp.Invoke(curId % tableData.x);
-                                }
+                                FocusReset();
+                                tableData.moveUp.Invoke(curId % xDim);
                             }
                         }
                         else
                         {
-                            MoveTo(curId - tableData.x);
+                            MoveTo(curId - xDim);
                         }
                     }
                     if (InputManager.GetKeyDown(KeySettingManager.GetUIKeyCode(Define.UIKey.Down)))
                     {
                         // 가장 하단에 위치
-                        if (curId >= focusList.Count - tableData.x)
+                        if (curId >= focusList.Count - xDim)
                         {
                             if (tableData.isDownLoop)
                             {
-                                MoveTo(curId % tableData.x);
+                                MoveTo(curId % xDim);
                             }else if (tableData.moveDown != null)
                             {
-                                if (canNoneFocus)
-                                {
-                                    FocusReset();
-                                    tableData.moveDown.Invoke(curId % tableData.x);
-                                }
+                                FocusReset();
+                                tableData.moveDown.Invoke(curId % xDim);
                             }
                         }
                         else
                         {
-                            MoveTo(curId + tableData.x);
+                            MoveTo(curId + xDim);
                         }
                     }
                     if (InputManager.GetKeyDown(KeySettingManager.GetUIKeyCode(Define.UIKey.Left)))
                     {
                         // 테이블에 가장 왼쪽 열에 분포함.
-                        if (curId % tableData.x == 0)
+                        if (curId % xDim == 0)
                         {
                             if (tableData.isLeftLoop)
                             {
-                                MoveTo(Mathf.Max(curId + tableData.x - 1, focusList.Count - 1));
+                                MoveTo(Mathf.Max(curId + xDim - 1, focusList.Count - 1));
                             }else if (tableData.moveLeft != null)
                             {
-                                if (canNoneFocus)
-                                {
-                                    FocusReset();
-                                    tableData.moveLeft.Invoke(curId / tableData.x);
-                                }
-                                // 만약에 can None Focus가 false라면 focus된 개체가 무조건 존재해야 한다는 의미이니 이벤트 발생 x.
+                                FocusReset();
+                                tableData.moveLeft.Invoke(curId / xDim);
                             }
                         }
                         else
@@ -473,18 +471,15 @@ namespace chamwhy.UI.Focus
                     if (InputManager.GetKeyDown(KeySettingManager.GetUIKeyCode(Define.UIKey.Right)))
                     {
                         // 테이블에 가장 오른쪽 열에 분포함 (가장 하단은 마지막 요소도 포함)
-                        if (curId == focusList.Count - 1 || (curId + 1) % tableData.x == 0)
+                        if (curId == focusList.Count - 1 || (curId + 1) % xDim == 0)
                         {
                             if (tableData.isRightLoop)
                             {
-                                MoveTo((curId / tableData.x) * tableData.x);
+                                MoveTo((curId / xDim) * xDim);
                             }else if (tableData.moveRight != null)
                             {
-                                if (canNoneFocus)
-                                {
-                                    FocusReset();
-                                    tableData.moveRight.Invoke(curId / tableData.x);
-                                }
+                                FocusReset();
+                                tableData.moveRight.Invoke(curId / xDim);
                             }
                         }
                         else
@@ -498,6 +493,8 @@ namespace chamwhy.UI.Focus
 
         public void GamePadControl()
         {
+            int xDim = Mathf.Max(1, tableData.x);
+            int yDim = Mathf.Max(1, tableData.y);
             if (_isFocused)
             {
                 // Debug.LogError($"cur id : {curId}");
@@ -542,62 +539,52 @@ namespace chamwhy.UI.Focus
                     if (InputManager.GetButtonDown(KeySettingManager.GetUIButton(Define.UIKey.Up)))
                     {
                         // 가장 상단에 위치
-                        if (curId < tableData.x)
+                        if (curId < xDim)
                         {
                             if (tableData.isUpLoop)
                             {
-                                MoveTo(curId + ((focusList.Count - curId + 1) / tableData.x) * tableData.x );
+                                MoveTo(curId + ((focusList.Count - curId + 1) / xDim) * xDim );
                             }else if (tableData.moveUp != null)
                             {
-                                if (canNoneFocus)
-                                {
-                                    FocusReset();
-                                    tableData.moveUp.Invoke(curId % tableData.x);
-                                }
+                                FocusReset();
+                                tableData.moveUp.Invoke(curId % xDim);
                             }
                         }
                         else
                         {
-                            MoveTo(curId - tableData.x);
+                            MoveTo(curId - xDim);
                         }
                     }
                     if (InputManager.GetButtonDown(KeySettingManager.GetUIButton(Define.UIKey.Down)))
                     {
                         // 가장 하단에 위치
-                        if (curId >= focusList.Count - tableData.x)
+                        if (curId >= focusList.Count - xDim)
                         {
                             if (tableData.isDownLoop)
                             {
-                                MoveTo(curId % tableData.x);
+                                MoveTo(curId % xDim);
                             }else if (tableData.moveDown != null)
                             {
-                                if (canNoneFocus)
-                                {
-                                    FocusReset();
-                                    tableData.moveDown.Invoke(curId % tableData.x);
-                                }
+                                FocusReset();
+                                tableData.moveDown.Invoke(curId % xDim);
                             }
                         }
                         else
                         {
-                            MoveTo(curId + tableData.x);
+                            MoveTo(curId + xDim);
                         }
                     }
                     if (InputManager.GetButtonDown(KeySettingManager.GetUIButton(Define.UIKey.Left)))
                     {
-                        if (curId % tableData.x == 0)
+                        if (curId % xDim == 0)
                         {
                             if (tableData.isLeftLoop)
                             {
-                                MoveTo(Mathf.Max(curId + tableData.x - 1, focusList.Count - 1));
+                                MoveTo(Mathf.Max(curId + xDim - 1, focusList.Count - 1));
                             }else if (tableData.moveLeft != null)
                             {
-                                if (canNoneFocus)
-                                {
-                                    FocusReset();
-                                    tableData.moveLeft.Invoke(curId / tableData.x);
-                                }
-                                // 만약에 can None Focus가 false라면 focus된 개체가 무조건 존재해야 한다는 의미이니 이벤트 발생 x.
+                                FocusReset();
+                                tableData.moveLeft.Invoke(curId / xDim);
                             }
                         }
                         else
@@ -609,18 +596,15 @@ namespace chamwhy.UI.Focus
                     if (InputManager.GetButtonDown(KeySettingManager.GetUIButton(Define.UIKey.Right)))
                     {
                         // 테이블에 가장 오른쪽 열에 분포함 (가장 하단은 마지막 요소도 포함)
-                        if (curId == focusList.Count - 1 || (curId + 1) % tableData.x == 0)
+                        if (curId == focusList.Count - 1 || (curId + 1) % xDim == 0)
                         {
                             if (tableData.isRightLoop)
                             {
-                                MoveTo((curId / tableData.x) * tableData.x);
+                                MoveTo((curId / xDim) * xDim);
                             }else if (tableData.moveRight != null)
                             {
-                                if (canNoneFocus)
-                                {
-                                    FocusReset();
-                                    tableData.moveRight.Invoke(curId / tableData.x);
-                                }
+                                FocusReset();
+                                tableData.moveRight.Invoke(curId / xDim);
                             }
                         }
                         else

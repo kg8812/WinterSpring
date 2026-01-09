@@ -295,6 +295,7 @@ MonoBehaviour:
   backgroundImg: {fileID: 2489207012373486926}
   frozenColor: {r: 0, g: 0, b: 0, a: 0}
   equippedImg: {fileID: 2842393192138609100}
+  lockedImg: {fileID: 5650222599603216521}
   index: 0
   invenType: 1
   curItem: {fileID: 0}

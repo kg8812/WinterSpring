@@ -14,7 +14,7 @@ public class UITab_Equipment : UI_FocusContent
     public UI_FocusSelector categorySelect;
         
     public List<UI_FocusContent> childs = new List<UI_FocusContent>();
-        
+    
     public override void Init()
     {
         base.Init();

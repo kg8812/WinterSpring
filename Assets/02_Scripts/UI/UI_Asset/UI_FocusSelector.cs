@@ -25,7 +25,7 @@ public class UI_FocusSelector : UI_Base, IUI_Navigatable ,IUI_NavigationManager
         {
             if (fp != null)
             {
-                fp.gameObject.SetActive(false);
+                fp.OnDeselected();
             }
         }
     }

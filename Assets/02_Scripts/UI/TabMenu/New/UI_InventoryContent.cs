@@ -1,6 +1,7 @@
 ﻿using chamwhy.UI.Focus;
 using NewNewInvenSpace;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace chamwhy
 {
@@ -17,7 +18,7 @@ namespace chamwhy
         // 외부 스크립트에서 설정 event 달아줘야 함
         protected ItemSlot CurFocusedSlot;
 
-
+        
         public override void KeyControl()
         {
             if (IsChanging)

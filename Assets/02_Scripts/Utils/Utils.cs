@@ -489,96 +489,78 @@ namespace Default
                 Debug.LogError("ScrollRect, ContentPanel, 또는 TargetItem이 할당되지 않았습니다!");
                 return;
             }
-    
+            
             // 해당 ScrollRect 인스턴스를 ID로 사용하여 기존 트윈을 중지시킵니다.
             DOTween.Kill(instance); // 이 ScrollRect 인스턴스와 연결된 모든 트윈을 중지
     
             Canvas.ForceUpdateCanvases(); // UI 요소들의 현재 상태를 정확히 반영
     
-            RectTransform contentPanel = instance.content;
+            RectTransform content = instance.content;
             RectTransform viewport = instance.viewport; // viewport RectTransform 가져오기
     
             if (viewport == null) viewport = instance.GetComponent<RectTransform>(); // viewport가 명시적으로 설정 안된 경우 ScrollRect 자신의 RectTransform 사용
-    
-            float contentHeight = contentPanel.rect.height;
-            float viewportHeight = viewport.rect.height;
-    
-            // 스크롤이 불가능한 경우 (content가 viewport보다 작거나 같은 경우)
-            if (contentHeight <= viewportHeight)
+            
+            // 1. Target의 월드 좌표 상의 4개 코너를 가져옵니다.
+            Vector3[] targetCorners = new Vector3[4];
+            child.GetWorldCorners(targetCorners);
+            
+            // 2. Viewport 입장에서 Target의 상대적인 위치(y값)를 계산합니다.
+            float minY = float.MaxValue;
+            float maxY = float.MinValue;
+
+            foreach (Vector3 worldCorner in targetCorners)
             {
-                // 선택 사항: 이 경우에도 특정 위치로 부드럽게 이동 가능 (예: 맨 위)
-                // DOTween.To(() => instance.verticalNormalizedPosition, y => instance.verticalNormalizedPosition = y, 1f, duration)
-                //        .SetId(instance)
-                //        .SetEase(Ease.OutQuad);
+                // 월드 좌표를 Viewport의 로컬 좌표로 변환
+                float localY = viewport.InverseTransformPoint(worldCorner).y;
+                if (localY < minY) minY = localY;
+                if (localY > maxY) maxY = localY;
+            }
+            
+            // 3. Viewport의 경계선 정의 (로컬 좌표계 기준)
+            // Viewport의 Pivot이 중앙(0.5, 0.5)인 경우와 상단(0.5, 1)인 경우를 모두 대응
+            float viewTop = viewport.rect.yMax;     // 뷰포트의 상단 끝 y
+            float viewBottom = viewport.rect.yMin;  // 뷰포트의 하단 끝 y
+
+            // 4. 스크롤 이동량 계산 (픽셀 단위)
+            float scrollOffset = 0;
+
+            if (maxY > viewTop)
+            {
+                // Target이 뷰포트 상단 위로 벗어남 -> 아래로 밀어내기
+                scrollOffset = maxY - viewTop;
+            }
+            else if (minY < viewBottom)
+            {
+                // Target이 뷰포트 하단 아래로 벗어남 -> 위로 끌어올리기
+                scrollOffset = minY - viewBottom;
+            }
+            else
+            {
+                // 이미 뷰포트 안에 다 들어와 있음 -> 아무것도 안 함
                 return;
             }
-    
-            // 아이템의 높이
-            float itemHeight = child.rect.height;
-    
-            // Content 내에서 아이템의 최상단 Y 위치 (Content 최상단 Y=0, 아래로 갈수록 증가)
-            // anchoredPosition.y는 부모(Content)의 앵커를 기준으로 한 피벗의 Y위치.
-            // Content의 상단에 앵커가 맞춰져 있고 아이템이 아래로 배치되면 anchoredPosition.y는 음수.
-            // itemTopYInContent = (Content 상단에서 아이템 피벗까지의 Y거리) - (아이템 피벗에서 아이템 최상단까지의 Y거리)
-            float itemTopYInContent = -child.anchoredPosition.y - (itemHeight * (1 - child.pivot.y));
             
-            // Content 내에서 아이템의 최하단 Y 위치
-            float itemBottomYInContent = itemTopYInContent + itemHeight;
+            // 5. 픽셀 단위를 Normalized Position(0~1)으로 변환하여 적용
+            float contentHeight = content.rect.height;
+            float viewportHeight = viewport.rect.height;
+            float scrollableHeight = contentHeight - viewportHeight;
 
-            // margin 추가
-            itemTopYInContent = Mathf.Max(0, itemTopYInContent - margin);
-            itemBottomYInContent = Mathf.Min(contentHeight, itemBottomYInContent + margin);
-    
-            // Content 내에서 현재 보이는 뷰포트의 최상단 Y 위치
-            float viewportTopYInContent = (1 - instance.verticalNormalizedPosition) * (contentHeight - viewportHeight);
-            // Content 내에서 현재 보이는 뷰포트의 최하단 Y 위치
-            float viewportBottomYInContent = viewportTopYInContent + viewportHeight;
-    
-            float targetNormalizedY = instance.verticalNormalizedPosition; // 기본값은 현재 위치
-    
-            // 아이템의 하단이 뷰포트 하단보다 아래에 있는 경우 (아이템 일부가 아래로 잘림 -> 위로 스크롤 필요)
-            if (itemBottomYInContent > viewportBottomYInContent)
+            float endValue = instance.verticalNormalizedPosition;
+            
+            if (scrollableHeight > 0)
             {
-                // 아이템의 하단이 뷰포트 하단에 오도록 스크롤 위치 계산
-                if (contentHeight - viewportHeight > Mathf.Epsilon) // 스크롤 가능 범위가 충분한지 확인
-                {
-                    // 목표: viewportTopYInContent_new = itemBottomYInContent - viewportHeight
-                    // targetNormalizedY = 1 - (viewportTopYInContent_new / (contentHeight - viewportHeight))
-                    targetNormalizedY = 1 - ((itemBottomYInContent - viewportHeight) / (contentHeight - viewportHeight));
-                }
-                else
-                {
-                    targetNormalizedY = 0f; // 스크롤 범위가 거의 없으면 맨 아래로 (모든 아이템이 다 보이도록)
-                }
+                // VerticalNormalizedPosition은 1(상단) ~ 0(하단)
+                // scrollOffset이 양수면 위로 초과된 것이므로 값을 더해서 컨텐츠를 내림
+                float normalizedDelta = scrollOffset / scrollableHeight;
+                endValue = instance.verticalNormalizedPosition + normalizedDelta;
+                endValue = Mathf.Clamp01(endValue);
             }
-            // 아이템의 상단이 뷰포트 상단보다 위에 있는 경우 (아이템 일부가 위로 잘림 -> 아래로 스크롤 필요)
-            else if (itemTopYInContent < viewportTopYInContent)
-            {
-                // 아이템의 상단이 뷰포트 상단에 오도록 스크롤 위치 계산
-                if (contentHeight - viewportHeight > Mathf.Epsilon) // 스크롤 가능 범위가 충분한지 확인
-                {
-                    // 목표: viewportTopYInContent_new = itemTopYInContent
-                    // targetNormalizedY = 1 - (viewportTopYInContent_new / (contentHeight - viewportHeight))
-                    targetNormalizedY = 1 - (itemTopYInContent / (contentHeight - viewportHeight));
-                }
-                else
-                {
-                    targetNormalizedY = 1f; // 스크롤 범위가 거의 없으면 맨 위로
-                }
-            }
-    
-            targetNormalizedY = Mathf.Clamp01(targetNormalizedY); // 계산된 값이 0~1 범위를 벗어나지 않도록 함
-    
-            // DOTween을 사용하여 verticalNormalizedPosition 값을 부드럽게 변경
-            DOTween.To(
-                () => instance.verticalNormalizedPosition,    // 현재 값을 가져오는 람다
-                yPos => instance.verticalNormalizedPosition = yPos, // 값을 설정하는 람다
-                targetNormalizedY,                            // 목표 값
-                duration                                      // 애니메이션 시간
-            )
-            .SetUpdate(true)
-            .SetEase(Ease.OutQuad) // 애니메이션의 Ease 타입 설정 (선택 사항)
-            .SetId(instance);      // 생성된 트윈에 ScrollRect 인스턴스를 ID로 할당
+            
+
+            DOTween.To(() => instance.verticalNormalizedPosition, v => instance.verticalNormalizedPosition = v, endValue, duration)
+                .SetUpdate(true)
+                .SetEase(Ease.OutQuad)
+                .SetId(instance);
         }
 
         public static void UpdateFocusParentToScrollView(this ScrollRect instance, FocusParent focusParent, float margin = 30, float duration = 0.5f)

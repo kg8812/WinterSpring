@@ -21,6 +21,7 @@ namespace chamwhy
         [SerializeField] private Image backgroundImg;
         [SerializeField] private Color frozenColor;
         [SerializeField] private Image equippedImg;
+        [SerializeField] private Image lockedImg;
 
         [HideInInspector] public int index;
         // [HideInInspector] public InventoryGroup inventoryGroup;
@@ -56,6 +57,11 @@ namespace chamwhy
                 item.slot = this;
                 item.SaveData.slotIndex = ind;
 
+                if (lockedImg != null)
+                {
+                    lockedImg.enabled = false;
+                }
+
                 if (equippedImg != null)
                 {
                     equippedImg.enabled = item.IsEquip;
@@ -64,6 +70,10 @@ namespace chamwhy
             else
             {
                 itemImg.enabled = false;
+                if (lockedImg != null)
+                {
+                    lockedImg.enabled = true;
+                }
             }
         }
 
