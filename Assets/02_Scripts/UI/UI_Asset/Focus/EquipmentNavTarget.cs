@@ -32,11 +32,7 @@ public class EquipmentNavTarget : MonoBehaviour , ISelectableNavTarget
         inven.OnNavigatedFrom();
     }
 
-    public IUI_NavigationManager NavigationManager
-    {
-        get => inven.NavigationManager;
-        set => inven.NavigationManager = value;
-    }
+    public IUI_NavigationManager NavigationManager { get; set; }
 
     public bool IsAtBoundary(NavigationDirection direction)
     {
@@ -46,6 +42,7 @@ public class EquipmentNavTarget : MonoBehaviour , ISelectableNavTarget
     public void InitCheck()
     {
         inven.InitCheck();
+        inven.NavigationManager = this;
     }
 
     public void OnSelected(bool focus)
@@ -60,5 +57,13 @@ public class EquipmentNavTarget : MonoBehaviour , ISelectableNavTarget
     public void OnDeselected()
     {
         OnDeselectedEvent.Invoke();
+    }
+
+    public void SetCurrentNavigatable(IUI_Navigatable newCurrent)
+    {
+        if (newCurrent != null && (UITab_Inventory)newCurrent == inven)
+        {
+            NavigationManager.SetCurrentNavigatable(this);
+        }
     }
 }

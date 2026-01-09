@@ -16,7 +16,7 @@ public class FocusParentNavTarget : MonoBehaviour ,ISelectableNavTarget
         focusParent.OnNavigatedFrom();
     }
 
-    public IUI_NavigationManager NavigationManager { get; set; }  // IUI_Navigatable 요구사항에 맞춰
+    public IUI_NavigationManager NavigationManager { get; set; } 
 
     GameObject TargetObject => focusParent.gameObject;
 
@@ -38,5 +38,14 @@ public class FocusParentNavTarget : MonoBehaviour ,ISelectableNavTarget
     public void InitCheck()
     {
         focusParent.InitCheck();
+        focusParent.NavigationManager = this;
+    }
+
+    public void SetCurrentNavigatable(IUI_Navigatable newCurrent)
+    {
+        if (newCurrent != null && (FocusParent)newCurrent == focusParent)
+        {
+            NavigationManager.SetCurrentNavigatable(this);
+        }
     }
 }

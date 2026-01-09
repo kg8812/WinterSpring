@@ -25,7 +25,9 @@ public class UI_FocusSelector : UI_Base, IUI_Navigatable ,IUI_NavigationManager
         {
             if (fp != null)
             {
+                fp.NavigationManager = this;
                 fp.OnDeselected();
+                fp.OnNavigatedFrom();
             }
         }
     }
@@ -42,6 +44,7 @@ public class UI_FocusSelector : UI_Base, IUI_Navigatable ,IUI_NavigationManager
             if (_currentActiveFocusParent != null)
             {
                 _currentActiveFocusParent.OnDeselected();
+                _currentActiveFocusParent.OnNavigatedFrom();
                 _currentActiveFocusParent = null;
             }
 
@@ -53,6 +56,7 @@ public class UI_FocusSelector : UI_Base, IUI_Navigatable ,IUI_NavigationManager
         if (_currentActiveFocusParent != null && index != _currentActiveIndex)
         {
             _currentActiveFocusParent.OnDeselected();
+            _currentActiveFocusParent.OnNavigatedFrom();
         }
 
         // 새로운 FocusParent 활성화
@@ -62,6 +66,10 @@ public class UI_FocusSelector : UI_Base, IUI_Navigatable ,IUI_NavigationManager
         if (_currentActiveFocusParent != null)
         {
             _currentActiveFocusParent.OnSelected(focus);
+            if (focus)
+            {
+                _currentActiveFocusParent.OnNavigatedTo();
+            }
         }
     }
 
@@ -121,6 +129,7 @@ public class UI_FocusSelector : UI_Base, IUI_Navigatable ,IUI_NavigationManager
             focusParent.InitCheck(); // 각 자식 FocusParent도 초기화 보장
             focusParent.NavigationManager = this; // 자식의 NavigationManager를 UI_FocusSelector 자신으로 설정
             focusParent.OnDeselected();
+            focusParent.OnNavigatedFrom();
         }
     }
 

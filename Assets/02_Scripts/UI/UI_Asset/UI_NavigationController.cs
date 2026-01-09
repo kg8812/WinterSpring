@@ -55,7 +55,7 @@ public class UI_NavigationController : MonoBehaviour, IController , IUI_Navigati
 
     public void SetCurrentNavigatable(IUI_Navigatable newCurrent)
     {
-        _currentNavigatable = newCurrent;
+        ChangeFocus(newCurrent);
     }
     /// <summary>
     /// 외부에서 이 컨트롤러를 초기화할 때 호출합니다.
@@ -223,7 +223,7 @@ public class UI_NavigationController : MonoBehaviour, IController , IUI_Navigati
     }
     private void ChangeFocus(IUI_Navigatable next)
     {
-        if (next == null) return;
+        if (next == null || _currentNavigatable == next) return;
             
         _currentNavigatable?.OnNavigatedFrom();
         _currentNavigatable = next;
