@@ -109,21 +109,25 @@ namespace chamwhy
 
         public override void OnBeginDrag(PointerEventData eventData)
         {
+            base.OnBeginDrag(eventData);
             OnDragChanged?.Invoke(this, true);
         }
 
         public override void OnEndDrag(PointerEventData eventData)
         {
+            base.OnBeginDrag(eventData);
             OnDragChanged?.Invoke(this, false);
         }
 
         public override void OnPointerEnter(PointerEventData eventData)
         {
+            base.OnPointerEnter(eventData);
             OnPointerChanged?.Invoke(this, true);
         }
 
         public override void OnPointerExit(PointerEventData eventData)
         {
+            base.OnPointerExit(eventData);
             OnPointerChanged?.Invoke(this, false);
         }
         
