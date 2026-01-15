@@ -177,9 +177,18 @@ namespace chamwhy.UI
             if (isFrozen) return;
             if (!IsDisable && EqualSt(ElState, UIElementState.Pressed))
             {
-                ElState = IsHovered ? UIElementState.Hover : UIElementState.Default;
-                if (!IsHovered)
-                    IsFocused = false;
+                // 핵심: 선택 중이면 Select로 복귀
+                if (IsSelected)
+                {
+                    ElState = UIElementState.Select;
+                    IsFocused = true; // isFocusSelect 환경이면 보통 포커스 유지가 자연스러움
+                }
+                else
+                {
+                    ElState = IsHovered ? UIElementState.Hover : UIElementState.Default;
+                    if (!IsHovered)
+                        IsFocused = false;
+                }
             }
         }
         

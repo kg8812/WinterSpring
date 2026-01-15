@@ -8269,7 +8269,13 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects: []
+    ReferencedUnityObjects:
+    - {fileID: 21300000, guid: 128a6a3b0b03943438e0b503388edbff, type: 3}
+    - {fileID: 21300000, guid: 46199137ed1768841b28ecb5de3087ff, type: 3}
+    - {fileID: 21300000, guid: ddb9f427feb9c404e87e1d72c5582308, type: 3}
+    - {fileID: 21300000, guid: cf0e676b7d237a843846b777564a4a7b, type: 3}
+    - {fileID: 21300000, guid: d03e2fb8258a1424e8a7d6a4382333f8, type: 3}
+    - {fileID: 21300000, guid: 4f01d0c911eeab94f98972d7e713373d, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -8282,6 +8288,104 @@ MonoBehaviour:
     - Name: 
       Entry: 12
       Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: icons
+      Entry: 7
+      Data: 1|System.Collections.Generic.Dictionary`2[[Save.Schema.PlayerType, Assembly-CSharp],[UnityEngine.Sprite,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 2|System.Collections.Generic.EnumEqualityComparer`1[[Save.Schema.PlayerType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -8304,6 +8408,8 @@ MonoBehaviour:
   isFadeOut: 1
   activeList: {fileID: 1599733826962476821}
   passiveList: {fileID: 8682309409616556667}
+  playerIcon: {fileID: 652049282899193498}
+  playerText: {fileID: 8872396467885488989}
 --- !u!114 &412585250409832388
 MonoBehaviour:
   m_ObjectHideFlags: 0

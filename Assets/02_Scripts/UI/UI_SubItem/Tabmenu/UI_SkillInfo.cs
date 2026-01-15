@@ -1,8 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using Apis;
+using chamwhy.Managers;
 using chamwhy.UI.Focus;
 using Default;
+using Save.Schema;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem.Controls;
 using UnityEngine.UI;
@@ -12,7 +15,11 @@ public class UI_SkillInfo : UI_Popup
     public UI_SkillList activeList;
     public UI_SkillList passiveList;
     UI_NavigationController navigation;
-
+    
+    public Dictionary<PlayerType, Sprite> icons = new();
+    public Image playerIcon;
+    public TextMeshProUGUI playerText;
+    
     public override void Init()
     {
         base.Init();
@@ -28,6 +35,21 @@ public class UI_SkillInfo : UI_Popup
         activeList.Set(activeSkill);
         passiveList.Set(passiveSkill);
         navigation.Activate();
+        Player player = GameManager.instance.Player;
+        
+        playerIcon.sprite = icons[player.playerType];
+        int _nameId = player.playerType switch
+        {
+            PlayerType.Ine => 1010011,
+            PlayerType.Jingburger => 1010012,
+            PlayerType.Lilpa => 1010013,
+            PlayerType.Jururu => 1010014,
+            PlayerType.Gosegu => 1010015,
+            PlayerType.Viichan => 1010016,
+            _ => 1010815
+        };
+
+        playerText.text = LanguageManager.Str(_nameId);
     }
     
     public override void TryDeactivated(bool force = false)

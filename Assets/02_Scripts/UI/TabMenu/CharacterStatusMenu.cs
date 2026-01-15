@@ -28,13 +28,14 @@ public class CharacterStatusMenu : SerializedMonoBehaviour
     public Image activeIcon;
     public Image passiveIcon;
 
+    private int _nameId;
     private void OnEnable()
     {
         Player player = GameManager.instance.Player;
 
         if (player == null) return;
 
-        int nameId = player.playerType switch
+        _nameId = player.playerType switch
         {
             PlayerType.Ine => 1010011,
             PlayerType.Jingburger => 1010012,
@@ -45,7 +46,7 @@ public class CharacterStatusMenu : SerializedMonoBehaviour
             _ => 1010815
         };
 
-        nameText.text = LanguageManager.Str(nameId);
+        nameText.text = LanguageManager.Str(_nameId);
         foreach (var keyValuePair in portraits)
         {
             keyValuePair.Value.SetActive(keyValuePair.Key == player.playerType);
