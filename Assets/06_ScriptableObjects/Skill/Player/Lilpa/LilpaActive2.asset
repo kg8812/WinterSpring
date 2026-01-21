@@ -76,9 +76,10 @@ MonoBehaviour:
   spiritFactor: 0
   finesseFactor: 0
   baseGroggy: 0
-  nameString: 9302
+  nameString: 0
   descString: 0
   itemId: 0
+  _skillImage: {fileID: 0}
   CurCastTime: 0
   CurChargeTime: 0
   usableWhenAttack: 1
@@ -96,4 +97,5 @@ MonoBehaviour:
   useFrame: 0
   Skill2: {fileID: 0}
   isCharging: 0
+  InvenIndex: 0
   active: {fileID: 0}

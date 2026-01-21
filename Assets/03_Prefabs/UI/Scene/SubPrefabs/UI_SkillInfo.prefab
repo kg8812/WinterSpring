@@ -8410,6 +8410,8 @@ MonoBehaviour:
   passiveList: {fileID: 8682309409616556667}
   playerIcon: {fileID: 652049282899193498}
   playerText: {fileID: 8872396467885488989}
+  activeSlot: {fileID: 7470120443091885447}
+  passiveSlot: {fileID: 2367393048236448368}
 --- !u!114 &412585250409832388
 MonoBehaviour:
   m_ObjectHideFlags: 0

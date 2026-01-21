@@ -79,9 +79,10 @@ MonoBehaviour:
   spiritFactor: 0
   finesseFactor: 0
   baseGroggy: 0
-  nameString: 9401
-  descString: 0
+  nameString: 114401
+  descString: 214401
   itemId: 4401
+  _skillImage: {fileID: 21300000, guid: 5abda92742d9c5244be54c92cd29710e, type: 3}
   CurCastTime: 0
   CurChargeTime: 0
   useType: 0

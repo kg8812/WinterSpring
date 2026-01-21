@@ -76,9 +76,10 @@ MonoBehaviour:
   spiritFactor: 0
   finesseFactor: 0
   baseGroggy: 10
-  nameString: 9202
-  descString: 0
+  nameString: 114202
+  descString: 214202
   itemId: 4202
+  _skillImage: {fileID: 21300000, guid: af7ba7afd238620468cca8e1f3a5b758, type: 3}
   CurCastTime: 0
   CurChargeTime: 0
   usableWhenAttack: 0
@@ -102,6 +103,7 @@ MonoBehaviour:
   useFrame: 0
   Skill2: {fileID: 0}
   isCharging: 0
+  InvenIndex: 0
   radius1: 0.3
   info1: {fileID: 11400000, guid: b6b62ba2bd448f74ca4327a1990046d8, type: 2}
   radius2: 3

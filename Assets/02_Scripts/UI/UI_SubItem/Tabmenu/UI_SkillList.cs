@@ -68,7 +68,13 @@ public class UI_SkillList : FocusParent
         
         for (int i = 0; i < subCount; i++)
         {
+            subSlots[i].enabled = true;
             RegisterElement(subSlots[i]);
+        }
+
+        for (int i = subCount; i < subSlots.Count; i++)
+        {
+            subSlots[i].enabled = false;
         }
 
         tableData.y = focusList.Count;

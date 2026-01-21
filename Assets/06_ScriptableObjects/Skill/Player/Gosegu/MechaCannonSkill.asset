@@ -76,9 +76,10 @@ MonoBehaviour:
   spiritFactor: 0
   finesseFactor: 0
   baseGroggy: 0
-  nameString: 9505
-  descString: 0
+  nameString: 114505
+  descString: 214505
   itemId: 4505
+  _skillImage: {fileID: 21300000, guid: d629e3b748566384fb817d34b2beac90, type: 3}
   CurCastTime: 0
   CurChargeTime: 0
   usableWhenAttack: 1
@@ -96,6 +97,7 @@ MonoBehaviour:
   useFrame: 0
   Skill2: {fileID: 0}
   isCharging: 0
+  InvenIndex: 0
   cannonInfo: {fileID: 11400000, guid: 81ec7428aa2476b44bb2406430a6a8f0, type: 2}
   cannonRadius: 0.5
   groggy: 30

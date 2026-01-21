@@ -1,8 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
 using Apis;
 using chamwhy.Managers;
-using chamwhy.UI.Focus;
 using Default;
 using Save.Schema;
 using TMPro;
@@ -19,6 +17,8 @@ public class UI_SkillInfo : UI_Popup
     public Dictionary<PlayerType, Sprite> icons = new();
     public Image playerIcon;
     public TextMeshProUGUI playerText;
+    public SkillSlot activeSlot;
+    public SkillSlot passiveSlot;
     
     public override void Init()
     {
@@ -31,7 +31,12 @@ public class UI_SkillInfo : UI_Popup
         base.TryActivated(force);
         ActiveSkill activeSkill = GameManager.instance.Player.ActiveSkill;
         PassiveSkill passiveSkill = GameManager.instance.Player.PassiveSkill;
+
+        activeSlot.CurSkill = activeSkill;
+        passiveSlot.CurSkill = passiveSkill;
         
+        activeSlot.UpdateSkill();
+        passiveSlot.UpdateSkill();
         activeList.Set(activeSkill);
         passiveList.Set(passiveSkill);
         navigation.Activate();

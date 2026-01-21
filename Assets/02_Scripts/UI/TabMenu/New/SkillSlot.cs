@@ -17,5 +17,6 @@ using UnityEngine.UI;
             }
             
             itemImg.gameObject.SetActive(true);
+            itemImg.sprite = CurSkill.SkillImage;
         }
     }
