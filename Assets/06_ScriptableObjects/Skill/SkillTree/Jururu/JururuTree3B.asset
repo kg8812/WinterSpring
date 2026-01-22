@@ -15,65 +15,22 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects:
-    - {fileID: 11400000, guid: f71faffd0879df04d9aadb3e4f93435d, type: 2}
+    ReferencedUnityObjects: []
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
-    SerializationNodes:
-    - Name: datas
-      Entry: 7
-      Data: 0|Apis.SkillTree.JururuTree3B+DataStruct[], Assembly-CSharp
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: Apis.SkillTree.JururuTree3B+DataStruct, Assembly-CSharp
-    - Name: atkInfo
-      Entry: 10
-      Data: 0
-    - Name: groggy
-      Entry: 3
-      Data: 5
-    - Name: count
-      Entry: 3
-      Data: 3
-    - Name: radius
-      Entry: 4
-      Data: 0.2
-    - Name: angle
-      Entry: 4
-      Data: 15
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: Apis.SkillTree.JururuTree3B+DataStruct, Assembly-CSharp
-    - Name: atkInfo
-      Entry: 10
-      Data: 0
-    - Name: groggy
-      Entry: 3
-      Data: 5
-    - Name: count
-      Entry: 3
-      Data: 5
-    - Name: radius
-      Entry: 4
-      Data: 0.2
-    - Name: angle
-      Entry: 4
-      Data: 15
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
+    SerializationNodes: []
   index: 412
+  icon: {fileID: 21300000, guid: 6b1f0f3c33e6fd547ad0f7c66cc9fd64, type: 3}
+  datas:
+  - atkInfo: {fileID: 11400000, guid: f71faffd0879df04d9aadb3e4f93435d, type: 2}
+    groggy: 5
+    count: 3
+    radius: 0.2
+    angle: 15
+  - atkInfo: {fileID: 11400000, guid: f71faffd0879df04d9aadb3e4f93435d, type: 2}
+    groggy: 5
+    count: 5
+    radius: 0.2
+    angle: 15

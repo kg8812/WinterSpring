@@ -20,47 +20,13 @@ MonoBehaviour:
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
-    SerializationNodes:
-    - Name: datas
-      Entry: 7
-      Data: 0|Apis.SkillTree.GoseguTree3E+Data[], Assembly-CSharp
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: Apis.SkillTree.GoseguTree3E+Data, Assembly-CSharp
-    - Name: cdReduction
-      Entry: 4
-      Data: 50
-    - Name: needGauge
-      Entry: 3
-      Data: 100
-    - Name: gauge
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: Apis.SkillTree.GoseguTree3E+Data, Assembly-CSharp
-    - Name: cdReduction
-      Entry: 4
-      Data: 100
-    - Name: needGauge
-      Entry: 3
-      Data: 100
-    - Name: gauge
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
+    SerializationNodes: []
   index: 515
+  icon: {fileID: 21300000, guid: 2a59b5faeb8bd63498a1cd06d780bc57, type: 3}
+  datas:
+  - cdReduction: 50
+    needGauge: 100
+    gauge: 2
+  - cdReduction: 100
+    needGauge: 100
+    gauge: 5

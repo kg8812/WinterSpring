@@ -122,7 +122,8 @@ public class SkillTreeSlot : UIAsset_Toggle
             }
             return;
         }
-        
+
+        skillIcon.sprite = skillTree.icon;
         var trees = GameManager.Save.currentSlotData.TempSaveData.SkillTreeData.equippedSkillTrees;
         switch (slotType)
         {

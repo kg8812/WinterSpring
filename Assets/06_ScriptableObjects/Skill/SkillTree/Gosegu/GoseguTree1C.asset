@@ -22,4 +22,5 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   index: 503
+  icon: {fileID: 21300000, guid: 5f08e829b3fc35f4e96e003746d1d666, type: 3}
   dronePrefab: {fileID: -3689818192312838593, guid: a8e3962a8219ecf4c831c3c74af88e8e, type: 3}

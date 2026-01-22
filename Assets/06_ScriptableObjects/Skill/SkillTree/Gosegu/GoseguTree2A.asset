@@ -22,4 +22,5 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   index: 506
+  icon: {fileID: 21300000, guid: d629e3b748566384fb817d34b2beac90, type: 3}
   _cannonSkill: {fileID: 11400000, guid: 33559a3488261284eb20b5938092c0cf, type: 2}

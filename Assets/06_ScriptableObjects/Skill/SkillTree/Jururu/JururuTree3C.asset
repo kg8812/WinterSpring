@@ -22,6 +22,7 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   index: 413
+  icon: {fileID: 21300000, guid: 98919ec743cecf44387b70c342443cc9, type: 3}
   datas:
   - count: 1
   - count: 2

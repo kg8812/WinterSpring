@@ -22,6 +22,7 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   index: 309
+  icon: {fileID: 21300000, guid: 8db9c18c8c081cf47aadceca1faf6d94, type: 3}
   maxStack: 5
   angle: 30
   info: {fileID: 11400000, guid: f2afcd56330abb5498ba36b1e7b75e8f, type: 2}

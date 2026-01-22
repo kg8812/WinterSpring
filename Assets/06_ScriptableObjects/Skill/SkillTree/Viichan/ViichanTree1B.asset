@@ -22,4 +22,5 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   index: 602
+  icon: {fileID: 21300000, guid: e621322482e918e43a17fc62dfc1d741, type: 3}
   _beastShieldSkill: {fileID: 11400000, guid: ebb222181dd0a6e48a012e90c1606f46, type: 2}

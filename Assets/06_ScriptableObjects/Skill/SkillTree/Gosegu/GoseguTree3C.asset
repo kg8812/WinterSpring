@@ -20,35 +20,9 @@ MonoBehaviour:
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
-    SerializationNodes:
-    - Name: datas
-      Entry: 7
-      Data: 0|Apis.SkillTree.GoseguTree3C+Data[], Assembly-CSharp
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: Apis.SkillTree.GoseguTree3C+Data, Assembly-CSharp
-    - Name: gaugeGainRatio
-      Entry: 4
-      Data: 50
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: Apis.SkillTree.GoseguTree3C+Data, Assembly-CSharp
-    - Name: gaugeGainRatio
-      Entry: 4
-      Data: 100
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
+    SerializationNodes: []
   index: 513
+  icon: {fileID: 21300000, guid: def572ae8704ade478447f74d344fffa, type: 3}
+  datas:
+  - gaugeGainRatio: 50
+  - gaugeGainRatio: 100

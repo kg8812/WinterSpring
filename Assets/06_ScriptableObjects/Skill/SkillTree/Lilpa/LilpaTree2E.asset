@@ -22,6 +22,7 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   index: 310
+  icon: {fileID: 21300000, guid: 30a222b9105200543a1c37f921d8e1e0, type: 3}
   groggyInfos:
   - groggy: 0
     cdReduce: 0.2

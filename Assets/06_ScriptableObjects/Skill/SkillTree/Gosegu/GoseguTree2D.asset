@@ -22,4 +22,5 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   index: 509
+  icon: {fileID: 21300000, guid: 69d95e2871effa24cac5476f9c63104b, type: 3}
   _pulseGunSkill: {fileID: 11400000, guid: 40266181367f3ec4985a6b8acf6c063a, type: 2}

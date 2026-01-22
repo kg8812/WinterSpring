@@ -22,6 +22,7 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   index: 208
+  icon: {fileID: 21300000, guid: 07bf1d06d9808d345876ee0372a8a30b, type: 3}
   distance: 7
   speed: 10
   knockBackPower: 10

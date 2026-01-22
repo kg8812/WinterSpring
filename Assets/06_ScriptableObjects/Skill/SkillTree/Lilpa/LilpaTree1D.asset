@@ -22,6 +22,7 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   index: 304
+  icon: {fileID: 21300000, guid: 4c4b91ded8824ef43b0b8c68fcfbdcae, type: 3}
   necessaryStack: 5
   duration: 10
   auraRadius: 1

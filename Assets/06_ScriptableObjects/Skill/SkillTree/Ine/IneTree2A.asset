@@ -20,35 +20,9 @@ MonoBehaviour:
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
-    SerializationNodes:
-    - Name: datas
-      Entry: 7
-      Data: 0|Apis.SkillTree.IneTree2A+Data[], Assembly-CSharp
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: Apis.SkillTree.IneTree2A+Data, Assembly-CSharp
-    - Name: manaGain
-      Entry: 4
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: Apis.SkillTree.IneTree2A+Data, Assembly-CSharp
-    - Name: manaGain
-      Entry: 4
-      Data: 30
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
+    SerializationNodes: []
   index: 106
+  icon: {fileID: 21300000, guid: 314f756cc14af224c98e3c27068d441f, type: 3}
+  datas:
+  - manaGain: 5
+  - manaGain: 30
