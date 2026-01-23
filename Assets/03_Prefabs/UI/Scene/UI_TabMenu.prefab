@@ -28839,6 +28839,15 @@ MonoBehaviour:
   isOverlay: 0
   dragImg: {fileID: 4844861373407009733}
   tabHeaderMenuNtoN: {fileID: 6030035798085909158}
+  icons:
+  - {fileID: 21300000, guid: cf3354eac2846c2439834e8128493528, type: 3}
+  - {fileID: 21300000, guid: 3f53a51f14cb30c459b9463d6719f12c, type: 3}
+  - {fileID: 21300000, guid: d3a4263b17bc31a449ecaec9995c3114, type: 3}
+  - {fileID: 21300000, guid: 380fd748bd944954284dbb0d4760cc93, type: 3}
+  - {fileID: 21300000, guid: 3a50315b6593d2846b277fb0e32dc2d5, type: 3}
+  menuTextIndexes: 813f9a00823f9a00833f9a00843f9a00853f9a00
+  iconImage: {fileID: 2764303362493547755}
+  menuText: {fileID: 7699086371902833753}
 --- !u!1 &8096754733739846845
 GameObject:
   m_ObjectHideFlags: 0
@@ -33257,10 +33266,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIPrefabs_Tabmenu_EquipSlot_5
       objectReference: {fileID: 0}
-    - target: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
-      propertyPath: serializationData.Prefab
-      value: 
-      objectReference: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
     - target: {fileID: 4445005881984111481, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -36148,10 +36153,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIPrefabs_Tabmenu_EquipSlot_11
       objectReference: {fileID: 0}
-    - target: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
-      propertyPath: serializationData.Prefab
-      value: 
-      objectReference: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
     - target: {fileID: 2747142354425214637, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -37522,10 +37523,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIPrefabs_Tabmenu_EquipSlot_2
       objectReference: {fileID: 0}
-    - target: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
-      propertyPath: serializationData.Prefab
-      value: 
-      objectReference: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
     - target: {fileID: 2747142354425214637, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -41766,10 +41763,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIPrefabs_Tabmenu_EquipSlot_8
       objectReference: {fileID: 0}
-    - target: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
-      propertyPath: serializationData.Prefab
-      value: 
-      objectReference: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
     - target: {fileID: 2747142354425214637, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -47316,10 +47309,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIPrefabs_Tabmenu_EquipSlot_6
       objectReference: {fileID: 0}
-    - target: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
-      propertyPath: serializationData.Prefab
-      value: 
-      objectReference: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
     - target: {fileID: 2747142354425214637, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -49475,10 +49464,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIPrefabs_Tabmenu_EquipSlot_10
       objectReference: {fileID: 0}
-    - target: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
-      propertyPath: serializationData.Prefab
-      value: 
-      objectReference: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
     - target: {fileID: 2747142354425214637, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -53551,10 +53536,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIPrefabs_Tabmenu_EquipSlot_7
       objectReference: {fileID: 0}
-    - target: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
-      propertyPath: serializationData.Prefab
-      value: 
-      objectReference: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
     - target: {fileID: 2747142354425214637, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -54191,10 +54172,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIPrefabs_Tabmenu_EquipSlot
       objectReference: {fileID: 0}
-    - target: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
-      propertyPath: serializationData.Prefab
-      value: 
-      objectReference: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
     - target: {fileID: 2747142354425214637, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -56011,10 +55988,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIPrefabs_Tabmenu_EquipSlot_1
       objectReference: {fileID: 0}
-    - target: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
-      propertyPath: serializationData.Prefab
-      value: 
-      objectReference: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
     - target: {fileID: 2747142354425214637, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -56300,10 +56273,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIPrefabs_Tabmenu_EquipSlot_9
       objectReference: {fileID: 0}
-    - target: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
-      propertyPath: serializationData.Prefab
-      value: 
-      objectReference: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
     - target: {fileID: 2747142354425214637, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -67468,10 +67437,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIPrefabs_Tabmenu_EquipSlot_3
       objectReference: {fileID: 0}
-    - target: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
-      propertyPath: serializationData.Prefab
-      value: 
-      objectReference: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
     - target: {fileID: 2747142354425214637, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -67874,10 +67839,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIPrefabs_Tabmenu_EquipSlot_4
       objectReference: {fileID: 0}
-    - target: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
-      propertyPath: serializationData.Prefab
-      value: 
-      objectReference: {fileID: 2685622650862748399, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
     - target: {fileID: 2747142354425214637, guid: 05ca42b5ddf72d743beec935c2949a32, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1

@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using chamwhy.Managers;
 using chamwhy.UI;
 using Default;
+using TMPro;
 using UI;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace chamwhy
 {
@@ -13,6 +17,11 @@ namespace chamwhy
         [SerializeField] private UI_DragItem dragImg;
         public UI_HeaderMenu_nton tabHeaderMenuNtoN;
 
+        [SerializeField] Sprite[] icons;
+        [SerializeField] List<int> menuTextIndexes;
+        [SerializeField] private Image iconImage;
+        [SerializeField] private TextMeshProUGUI menuText;
+        
         public override void Init()
         {
             base.Init();
@@ -22,8 +31,15 @@ namespace chamwhy
             {
                 AddSubItem(value);
             }
+            tabHeaderMenuNtoN.FocusChanged.RemoveListener(ChangeMenuIcon);
+            tabHeaderMenuNtoN.FocusChanged.AddListener(ChangeMenuIcon);
         }
 
+        public void ChangeMenuIcon(int index)
+        {
+            iconImage.sprite = icons[index];
+            menuText.text = LanguageManager.Str(menuTextIndexes[index]);
+        }
         public void MoveHeader(int index)
         {
             tabHeaderMenuNtoN.headerController.MoveTo(index);
@@ -33,6 +49,11 @@ namespace chamwhy
         {
             UITab_Inventory.DragUI = dragImg;
             // ItemSlot.DragImg = dragImg;
+            if (!tabHeaderMenuNtoN.gameObject.activeSelf)
+            {
+                tabHeaderMenuNtoN.gameObject.SetActive(true);
+            }
+
             tabHeaderMenuNtoN.Reset();
             OnUiToggle?.Invoke(true);
             base.TryActivated(force);

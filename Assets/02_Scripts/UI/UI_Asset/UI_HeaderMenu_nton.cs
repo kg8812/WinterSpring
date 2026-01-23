@@ -12,7 +12,7 @@ namespace chamwhy.UI
         [Tooltip("헤더의 각 탭 버튼에 연결된 실제 컨텐츠 UI들의 배열입니다.")]
         public UI_FocusContent[] contentControllers;
 
-        public int curInd;
+        [HideInInspector]public int curInd;
         public IController _curContentController;
 
         [Tooltip("탭(포커스)이 변경되기 직전에 호출되는 이벤트입니다.")]
