@@ -42,7 +42,8 @@ public class SkillTreeSlot : UIAsset_Toggle
     
     private static bool TryDrag(SkillTree item)
     {
-        if (IsDragging) return false;
+        if (IsDragging || item == null) return false;
+        DragImg.DragImg.sprite = item.icon;
         IsDragging = true;
         DragImg.TryActivated();
         return true;

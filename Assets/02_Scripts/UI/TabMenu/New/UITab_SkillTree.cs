@@ -4,6 +4,7 @@ using Apis.SkillTree;
 using chamwhy.UI.Focus;
 using Sirenix.Utilities;
 using TMPro;
+using UI;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -21,12 +22,15 @@ namespace chamwhy
 
         public Sprite[] playerIconSprites;
         UI_NavigationController navigation;
+        public UI_DragItem dragItem;
         
         public override void Init()
         {
             base.Init();
 
             navigation = GetComponent<UI_NavigationController>();
+            SkillTreeSlot.DragImg = dragItem;
+            
             lowerSlots.ForEach(x =>
             {
                 x.OnValueChanged.AddListener(selected =>
@@ -57,6 +61,7 @@ namespace chamwhy
                     }
                 });
             });
+            
         }
 
         public override void OnOpen()

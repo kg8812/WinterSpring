@@ -4166,7 +4166,7 @@ MonoBehaviour:
   slotType: 2
   skillIcon: {fileID: 6570039310916680033}
   index: 0
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 1150830615609565430}
   levelTwo: {fileID: 7108458740223866137}
   lowLevel: {fileID: 1918523828318308525}
@@ -9868,7 +9868,7 @@ MonoBehaviour:
   slotType: 0
   skillIcon: {fileID: 9149978627263445776}
   index: 0
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 338094998077159361}
   levelTwo: {fileID: 0}
   lowLevel: {fileID: 0}
@@ -10088,7 +10088,7 @@ MonoBehaviour:
   slotType: 2
   skillIcon: {fileID: 5891504677603745940}
   index: 9
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 366816746798627075}
   levelTwo: {fileID: 7514803760091475180}
   lowLevel: {fileID: 1184540136505659736}
@@ -15374,7 +15374,7 @@ MonoBehaviour:
   slotType: 1
   skillIcon: {fileID: 426892990715305453}
   index: 1
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 7130300818223163496}
   levelTwo: {fileID: 0}
   lowLevel: {fileID: 0}
@@ -22941,7 +22941,7 @@ GameObject:
   - component: {fileID: 1598916626426812509}
   - component: {fileID: 1598916626426812508}
   - component: {fileID: 1294578004806177475}
-  - component: {fileID: 1294578004806177472}
+  - component: {fileID: 2718256550847186100}
   m_Layer: 5
   m_Name: UI_Shelter
   m_TagString: Untagged
@@ -23045,7 +23045,7 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &1294578004806177472
+--- !u!114 &2718256550847186100
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23054,7 +23054,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1598916626426812483}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8071aeaeb2954ff8b4294aee91964a3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e5b3530a39504b4a8b16db82d1ef418, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   serializationData:
@@ -30038,7 +30038,7 @@ MonoBehaviour:
   slotType: 2
   skillIcon: {fileID: 5041842463044603847}
   index: 10
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 1237888089675142736}
   levelTwo: {fileID: 8967545915885421503}
   lowLevel: {fileID: 309263696851533323}
@@ -53743,7 +53743,7 @@ MonoBehaviour:
   slotType: 2
   skillIcon: {fileID: 7804740207052767175}
   index: 6
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 4072912627478668880}
   levelTwo: {fileID: 6186582097336775615}
   lowLevel: {fileID: 3306347384582557195}
@@ -53896,7 +53896,7 @@ MonoBehaviour:
   slotType: 1
   skillIcon: {fileID: 4544101367998886536}
   index: 2
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 6345763359263966989}
   levelTwo: {fileID: 0}
   lowLevel: {fileID: 0}
@@ -55282,6 +55282,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 8636c4abeec4dd14f9e804123944b18c, type: 3}
   - {fileID: 21300000, guid: f7c2ea07b6d10f047b3503cf239fe0ee, type: 3}
   - {fileID: 21300000, guid: 322909ed14c45ef429991b9c3cf9c19f, type: 3}
+  dragItem: {fileID: 2691651129175419330}
 --- !u!114 &7714152883827444111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60962,7 +60963,7 @@ MonoBehaviour:
   slotType: 2
   skillIcon: {fileID: 7115888378730545532}
   index: 4
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 3897112784673413355}
   levelTwo: {fileID: 6578510805678591236}
   lowLevel: {fileID: 2554163824006787248}
@@ -61266,7 +61267,7 @@ MonoBehaviour:
   slotType: 2
   skillIcon: {fileID: 7078776768603419606}
   index: 2
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 3956755725063285313}
   levelTwo: {fileID: 6609027544437948334}
   lowLevel: {fileID: 2562087797937111578}
@@ -65980,7 +65981,7 @@ MonoBehaviour:
   slotType: 2
   skillIcon: {fileID: 7374797980079580219}
   index: 14
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 3642688731215723948}
   levelTwo: {fileID: 6905053757402474563}
   lowLevel: {fileID: 2876123409935898103}
@@ -73814,7 +73815,7 @@ MonoBehaviour:
   slotType: 0
   skillIcon: {fileID: 3526612291915368670}
   index: 2
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 5385018420400604175}
   levelTwo: {fileID: 0}
   lowLevel: {fileID: 0}
@@ -81112,7 +81113,7 @@ MonoBehaviour:
   slotType: 2
   skillIcon: {fileID: 1521112414931250235}
   index: 8
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 4740590596147574188}
   levelTwo: {fileID: 3213096030571847747}
   lowLevel: {fileID: 6101976306032483831}
@@ -87921,7 +87922,7 @@ MonoBehaviour:
   slotType: 2
   skillIcon: {fileID: 827700681358825206}
   index: 7
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 6893164722036330337}
   levelTwo: {fileID: 3672600954733582990}
   lowLevel: {fileID: 5390269796287686458}
@@ -92366,7 +92367,7 @@ MonoBehaviour:
   slotType: 1
   skillIcon: {fileID: 6646407176834671268}
   index: 0
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 4261392771215562529}
   levelTwo: {fileID: 0}
   lowLevel: {fileID: 0}
@@ -96457,7 +96458,7 @@ MonoBehaviour:
   slotType: 0
   skillIcon: {fileID: 3178769993737818056}
   index: 4
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 6221482086187156249}
   levelTwo: {fileID: 0}
   lowLevel: {fileID: 0}
@@ -97779,7 +97780,7 @@ MonoBehaviour:
   slotType: 2
   skillIcon: {fileID: 429405584545257286}
   index: 11
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 5845790736307752657}
   levelTwo: {fileID: 4359106640742030142}
   lowLevel: {fileID: 4919917245072729738}
@@ -101461,7 +101462,7 @@ MonoBehaviour:
   slotType: 2
   skillIcon: {fileID: 4096904554053748707}
   index: 1
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 7786377775179030132}
   levelTwo: {fileID: 94582747709295515}
   lowLevel: {fileID: 8748699999565428271}
@@ -103625,7 +103626,7 @@ MonoBehaviour:
   slotType: 2
   skillIcon: {fileID: 4234787595540885823}
   index: 12
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 7931148219914315944}
   levelTwo: {fileID: 238649685255650631}
   lowLevel: {fileID: 8896434804958068979}
@@ -103988,7 +103989,7 @@ MonoBehaviour:
   slotType: 2
   skillIcon: {fileID: 4186993316143535576}
   index: 5
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 7984554028156357711}
   levelTwo: {fileID: 256729653860997536}
   lowLevel: {fileID: 8910847455254864916}
@@ -117375,7 +117376,7 @@ MonoBehaviour:
   slotType: 0
   skillIcon: {fileID: 478198841174393929}
   index: 3
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 9000586546142349464}
   levelTwo: {fileID: 0}
   lowLevel: {fileID: 0}
@@ -121078,7 +121079,7 @@ MonoBehaviour:
   slotType: 2
   skillIcon: {fileID: 3191533768146186702}
   index: 3
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 8691805049032239193}
   levelTwo: {fileID: 1567742447778168246}
   lowLevel: {fileID: 7924114043936636930}
@@ -124660,7 +124661,7 @@ MonoBehaviour:
   slotType: 2
   skillIcon: {fileID: 3408741059360276112}
   index: 13
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 8906891116196013831}
   levelTwo: {fileID: 1640824913276121832}
   lowLevel: {fileID: 7997486247561285468}
@@ -132329,7 +132330,7 @@ MonoBehaviour:
   slotType: 0
   skillIcon: {fileID: 646213568049413204}
   index: 1
-  useDrag: 0
+  useDrag: 1
   lockImage: {fileID: 8267950694067269765}
   levelTwo: {fileID: 0}
   lowLevel: {fileID: 0}
