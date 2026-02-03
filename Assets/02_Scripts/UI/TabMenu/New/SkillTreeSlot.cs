@@ -1,5 +1,7 @@
 using Apis.SkillTree;
+using chamwhy;
 using chamwhy.UI;
+using Managers;
 using Save.Schema;
 using Sirenix.OdinInspector;
 using Sirenix.Utilities;
@@ -39,7 +41,7 @@ public class SkillTreeSlot : UIAsset_Toggle
     [ShowIf("slotType",SlotType.Inven)]
     public Sprite[] playerHighIcons;
     public bool isLocked;
-    
+
     private static bool TryDrag(SkillTree item)
     {
         if (IsDragging || item == null) return false;
@@ -71,15 +73,23 @@ public class SkillTreeSlot : UIAsset_Toggle
         DragImg.TryDeactivated();
         if (ToChangeSlot != null)
         {
+            if (_skillTree == null) return;
+            
             if (ToChangeSlot._skillTree != null)
             {
-                Debug.Log("이미 장착중임");
+                SystemManager.SystemAlert("이미 장착중인 슬롯입니다",null);
                 return;
             }
 
-            if (_skillTree == null || !_skillTree.CheckEquipable(ToChangeSlot))
+            if (!_skillTree.CheckEquipable(ToChangeSlot))
             {
-                Debug.Log("슬롯이 맞지않음");
+                SystemManager.SystemAlert("등급이 맞지 않습니다",null);
+                return;
+            }
+
+            if (!_skillTree.CheckSlotIndex(ToChangeSlot))
+            {
+                SystemManager.SystemAlert("원래 위치에 넣어주세요",null);
                 return;
             }
             ToChangeSlot.OnSlotChanged(_skillTree);
@@ -95,6 +105,12 @@ public class SkillTreeSlot : UIAsset_Toggle
     {
         lockImage.SetActive(true);
         skillIcon.gameObject.SetActive(false);
+    }
+
+    bool IsSkillTreeOpened()
+    {
+        return SkillTreeDatas.activatedIndex.Contains(((int)GameManager.instance.Player.playerType + 1) * 100 + index + 1);
+        
     }
     public void OnSlotChanged(SkillTree skillTree)
     {
@@ -113,18 +129,30 @@ public class SkillTreeSlot : UIAsset_Toggle
                     break;
             }
         }
+       
         _skillTree = skillTree;
+        skillIcon.color = Color.white;
+        
         if (skillTree == null)
         {
-            skillIcon.gameObject.SetActive(false);
             if (slotType == SlotType.Inven)
             {
-                Lock();
+                if (IsSkillTreeOpened())
+                { 
+                    skillIcon.color = Color.grey;
+                }
+                else
+                {
+                    Lock();
+                }
+            }
+            else
+            {
+                skillIcon.gameObject.SetActive(false);
             }
             return;
         }
 
-        skillIcon.sprite = skillTree.icon;
         var trees = GameManager.Save.currentSlotData.TempSaveData.SkillTreeData.equippedSkillTrees;
         switch (slotType)
         {
@@ -162,6 +190,8 @@ public class SkillTreeSlot : UIAsset_Toggle
                 SetLevelIcon(skillTree);
                 break;
         }
+        
+        skillIcon.sprite = skillTree.icon;
     }
 
     void SetLevelIcon(SkillTree tree)

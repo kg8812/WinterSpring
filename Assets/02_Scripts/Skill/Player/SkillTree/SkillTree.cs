@@ -79,14 +79,19 @@ namespace Apis.SkillTree
             switch (slot.slotType)
             {
                 case SkillTreeSlot.SlotType.Low:
-                    return SlotType != SlotTypeEnum.High;
+                    return SlotType == SlotTypeEnum.Low;
                 case SkillTreeSlot.SlotType.High:
-                    return SlotType != SlotTypeEnum.Low;
+                    return SlotType == SlotTypeEnum.High;
                 case SkillTreeSlot.SlotType.Inven:
                     return true;
             }
 
             return false;
+        }
+
+        public bool CheckSlotIndex(SkillTreeSlot slot)
+        {
+            return slot.slotType != SkillTreeSlot.SlotType.Inven || slot.index == (Index % 100 - 1);
         }
     }
 }

@@ -10,7 +10,6 @@ public class SkillActivator : MonoBehaviour
     {
         if(DataAccess.TaskData.IsDone(102))
         {
-        
             return;
         }
         DataAccess.TaskData.ActivateTask(102);

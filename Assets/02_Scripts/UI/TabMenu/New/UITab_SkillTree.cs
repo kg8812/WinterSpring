@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Apis;
 using Apis.SkillTree;
 using chamwhy.UI.Focus;
 using Sirenix.Utilities;
@@ -12,6 +13,9 @@ namespace chamwhy
 {
     public class UITab_SkillTree: UI_FocusContent
     {
+        [SerializeField] GameObject[] _onObjects;
+        [SerializeField] private GameObject[] _OffObjects;
+        
         public TextMeshProUGUI[] categoryNames;
         public SkillTreeSlot[] lowerSlots;
         public SkillTreeSlot[] higherSlots;
@@ -67,9 +71,21 @@ namespace chamwhy
         public override void OnOpen()
         {
             base.OnOpen();
-            
+
+
             Player player = GameManager.instance.Player;
-        
+
+            foreach (var onObject in _onObjects)
+            {
+                onObject.SetActive(PlayerActiveSkill.IsActivated() && PlayerPassiveSkill.IsActivated());
+            }
+
+            foreach (var offObj in _OffObjects)
+            {
+                offObj.SetActive(!(PlayerActiveSkill.IsActivated() && PlayerPassiveSkill.IsActivated()));
+            }
+            
+            
             categoryNames[0].text = StrUtil.GetTagName(101 + 3 * (int)player.playerType);
             categoryNames[1].text = StrUtil.GetTagName(102 + 3 * (int)player.playerType);
             categoryNames[2].text = StrUtil.GetTagName(103 + 3 * (int)player.playerType);

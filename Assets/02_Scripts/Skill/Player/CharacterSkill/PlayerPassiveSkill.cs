@@ -16,6 +16,11 @@ namespace Apis
         {
             return base.TryUse();
         }
+        
+        public static bool IsActivated()
+        {
+            return DataAccess.TaskData.IsDone(103);
+        }
         public override void Init()
         {
             base.Init();
