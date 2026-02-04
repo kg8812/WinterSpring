@@ -6149,11 +6149,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Prefabs/Items/ActiveSkill
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2b55bea635bc9ff47ad25f30876c6d72
-    m_Address: Prefabs/UI/SubItem/SkillTreeSlot
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 01c257b2e37cfff4bb073a23da922924
     m_Address: Prefabs/AttackObjects/3104_germ_brush
     m_ReadOnly: 0

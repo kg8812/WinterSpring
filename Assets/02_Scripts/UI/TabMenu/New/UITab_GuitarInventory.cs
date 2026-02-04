@@ -55,7 +55,7 @@ namespace chamwhy
             ChangeOn();
             
             dataset[0].MoveTo(0);
-            _curFocus = dataset[0];
+            ChangeFocusParent(dataset[0]);
         }
 
         private int CalcLastIndex(InventoryList invenList)
@@ -177,7 +177,7 @@ namespace chamwhy
             
                     // 해당하는 가장 밑의 개체로 이동.
                     prevFocus.MoveTo(realX + ((prevFocus.focusList.Count - realX - 1) / prevFocus.tableData.x) * prevFocus.tableData.x );
-                    _curFocus = prevFocus;
+                    ChangeFocusParent(prevFocus);
                 };
                 
                 data.Value.tableData.moveDown = x =>
@@ -186,7 +186,7 @@ namespace chamwhy
             
                     // 해당하는 가장 밑의 개체로 이동.
                     nextFocus.MoveTo(realX);
-                    _curFocus = nextFocus;
+                    ChangeFocusParent(nextFocus);
                 };
             }
         }

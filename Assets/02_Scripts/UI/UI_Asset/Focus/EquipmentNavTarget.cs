@@ -42,7 +42,7 @@ public class EquipmentNavTarget : MonoBehaviour , ISelectableNavTarget
     public void InitCheck()
     {
         inven.InitCheck();
-        inven.NavigationManager = this;
+        inven.SetNavigationManager(this);
     }
 
     public void OnSelected(bool focus)
@@ -61,7 +61,7 @@ public class EquipmentNavTarget : MonoBehaviour , ISelectableNavTarget
 
     public void SetCurrentNavigatable(IUI_Navigatable newCurrent)
     {
-        if (newCurrent != null && (UITab_Inventory)newCurrent == inven)
+        if (newCurrent != null && (EquipmentNavTarget)newCurrent.NavigationManager == this)
         {
             NavigationManager.SetCurrentNavigatable(this);
         }

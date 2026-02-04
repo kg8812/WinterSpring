@@ -90,7 +90,7 @@ public class UITab_ItemViewer : UI_InventoryContent
             ItemDisplayParent.SetIndex(0); // 첫 번째 슬롯으로 포커스
         }
 
-        _curFocus = ItemDisplayParent; // 현재 활성화된 포커스 그룹
+        ChangeFocusParent(ItemDisplayParent); // 현재 활성화된 포커스 그룹
         IsChanging = false; // 아이템 교환 상태는 사용하지 않지만, 베이스 클래스 호환을 위해 초기화
     }
 
@@ -236,7 +236,7 @@ public class UITab_ItemViewer : UI_InventoryContent
                 : 0;
             if (targetIndex >= _currentSlotCount) targetIndex = 0;
             ItemDisplayParent.SetIndex(targetIndex);
-            _curFocus = ItemDisplayParent;
+            ChangeFocusParent(ItemDisplayParent);
         }
     }
 

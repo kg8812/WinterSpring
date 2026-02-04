@@ -33,6 +33,7 @@ namespace chamwhy.UI
 
         public override void KeyControl()
         {
+            base.KeyControl();
             if (canOffOwn || !IsSelected)
             {
                 if (InputManager.GetKeyDown(KeySettingManager.GetUIKeyCode(Define.UIKey.Select)))
@@ -90,6 +91,7 @@ namespace chamwhy.UI
 
         public override void OnPointerClick(PointerEventData eventData)
         {
+            base.OnPointerClick(eventData);
             OnClicked?.Invoke();
             ChangeSelected();
         }

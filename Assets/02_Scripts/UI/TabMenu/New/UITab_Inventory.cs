@@ -62,7 +62,7 @@ namespace chamwhy
             
             
             Equipment.MoveTo(0);
-            _curFocus = Equipment;
+            ChangeFocusParent(Equipment);
 
             _scrollRect.UpdateFocusParentToScrollView(Inven);
         }
@@ -176,7 +176,13 @@ namespace chamwhy
             invenGroupManager.Invens[type].OnSlotChanged -= itemSlot.OnSlotChanged;
             itemSlot.CloseOwn();
         }
-        
+
+        public void SetNavigationManager(IUI_NavigationManager manager)
+        {
+            NavigationManager = manager;
+            Inven.NavigationManager = manager;
+            Equipment.NavigationManager = manager;
+        }
         #endregion
         
         
@@ -412,7 +418,7 @@ namespace chamwhy
             (ChangeSlot.invenType == InvenType.Storage ? Equipment : Inven).ChangeCanNoneFocus(false);
             (ChangeSlot.invenType == InvenType.Storage ? Equipment : Inven).ChangeFocusType(false);
             (ChangeSlot.invenType == InvenType.Storage ? Equipment : Inven).MoveTo(0);
-            _curFocus = (ChangeSlot.invenType == InvenType.Storage ? Equipment : Inven);
+            ChangeFocusParent(ChangeSlot.invenType == InvenType.Storage ? Equipment : Inven);
         }
 
 
@@ -464,14 +470,14 @@ namespace chamwhy
             
             // 해당하는 가장 밑의 개체로 이동.
             Inven.MoveTo(realX + ((Inven.focusList.Count - realX - 1) / Inven.tableData.x) * Inven.tableData.x );
-            _curFocus = Inven;
+            ChangeFocusParent(Inven);
         }
 
         protected virtual void MoveDownOnEquipment(int x)
         {
             int realX = Default.FormatUtils.GetRatioIntByInt(x, Equipment.tableData.x, Inven.tableData.x);
             Inven.MoveTo(realX);
-            _curFocus = Inven;
+            ChangeFocusParent(Inven);
         }
 
         protected virtual void MoveUpOnInven(int x)
@@ -479,14 +485,14 @@ namespace chamwhy
             int realX = Default.FormatUtils.GetRatioIntByInt(x, Inven.tableData.x, Equipment.tableData.x);
             // 해당하는 가장 밑의 개체로 이동.
             Equipment.MoveTo(realX + ((Equipment.focusList.Count - realX - 1) / Equipment.tableData.x) * Equipment.tableData.x );
-            _curFocus = Equipment;
+            ChangeFocusParent(Equipment);
         }
 
         protected virtual void MoveDownOnInven(int x)
         {
             int realX = Default.FormatUtils.GetRatioIntByInt(x, Inven.tableData.x, Equipment.tableData.x);
             Equipment.MoveTo(realX);
-            _curFocus = Equipment;
+            ChangeFocusParent(Equipment);
         }
 
         #endregion

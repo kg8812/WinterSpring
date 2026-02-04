@@ -20,19 +20,18 @@ namespace UI
             _contentTrans = Get<RectTransform>((int)Rects.ItemImg);
         }
 
-        // public override void TryActivated(bool force = false)
-        // {
-        //     // GameManager.UI.RegisterUI(this);
-        //     // DragImg.enabled = true;
-        //     // _activated = true;
-        //     // base.TryActivated(force);
-        // }
-        //
-        // public override void TryDeactivated(bool force = false)
-        // {
-        //     // base.TryDeactivated(force);
-        //     _activated = false;
-        //     DragImg.enabled = false;
-        // }
+        public override void TryActivated(bool force = false)
+        {
+            DragImg.enabled = true;
+            _activated = true;
+            base.TryActivated(force);
+        }
+        
+        public override void TryDeactivated(bool force = false)
+        {
+            base.TryDeactivated(force);
+            _activated = false;
+            DragImg.enabled = false;
+        }
     }
 }

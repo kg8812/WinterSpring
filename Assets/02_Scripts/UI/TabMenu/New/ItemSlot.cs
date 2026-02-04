@@ -76,14 +76,7 @@ namespace chamwhy
                 }
             }
         }
-
-        public override void KeyControl()
-        {
-        }
-
-        public override void GamePadControl()
-        {
-        }
+        
         public override void FrozenToggle(bool isOn)
         {
             base.FrozenToggle(isOn);
