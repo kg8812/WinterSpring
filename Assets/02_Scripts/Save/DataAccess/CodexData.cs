@@ -14,6 +14,10 @@ namespace Save.Schema
         public CollectionOpenSaveData CollectionOpenSaveData => GameManager.Save.GetData(PersistentDataKeys.DataTypes.CollectionOpened) as CollectionOpenSaveData;
         public CutSceneSaveData CutSceneSaveData => GameManager.Save.GetData(PersistentDataKeys.DataTypes.CutSceneOpened) as CutSceneSaveData;
         public TipSaveData TipSaveData => GameManager.Save.GetData(PersistentDataKeys.DataTypes.TipOpened) as TipSaveData;
+
+        public ItemOpenedSaveData ItemOpenedSaveData =>
+            GameManager.Save.GetData(SlotDataKeys.DataTypes.ItemOpened, GameManager.Save.currentSlotData.slotId) as
+                ItemOpenedSaveData;
         
         public bool IsOpen(CodexType cType, int id)
         {
@@ -29,6 +33,8 @@ namespace Save.Schema
             switch (cType)
             {
                 case CodexType.Item:
+                    SaveItemData();
+                    break;
                 case CodexType.Monster:
                 case CodexType.Memory:
                 case CodexType.BackGround:
@@ -48,7 +54,7 @@ namespace Save.Schema
             CodexType.Monster => CollectionOpenSaveData.MonsterList,
             CodexType.Memory => CollectionOpenSaveData.MemoryList,
             CodexType.BackGround => CollectionOpenSaveData.BackgroundList,
-            CodexType.Item => CollectionOpenSaveData.ItemList,
+            CodexType.Item => ItemOpenedSaveData.OpenedItemList,
             CodexType.CutScene => CutSceneSaveData.OpenedCutSceneList,
             CodexType.Tip => TipSaveData.OpenedTips,
             _ => null,
@@ -77,6 +83,16 @@ namespace Save.Schema
             if (TipSaveData != null)
             {
                 GameManager.Save.SaveData(PersistentDataKeys.GetKey(PersistentDataKeys.DataTypes.TipOpened), TipSaveData);
+            }
+        }
+
+        public void SaveItemData()
+        {
+            if (ItemOpenedSaveData != null)
+            {
+                GameManager.Save.SaveData(
+                    SlotDataKeys.GetKey(SlotDataKeys.DataTypes.ItemOpened, GameManager.Save.currentSlotData.slotId),
+                    ItemOpenedSaveData);
             }
         }
     }

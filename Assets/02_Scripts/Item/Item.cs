@@ -10,11 +10,10 @@ public abstract class Item : SerializedMonoBehaviour
     public Sprite Image { get; protected set; } // 아이템 이미지 
     public abstract string FlavourText { get; } // 아이템 플레이버 텍스트 
     public abstract string Description { get; } // 아이템 효과 설명
-    private chamwhy.ItemSlot _slot;
 
-    private ItemSaveData _saveData;
+    private EquipmentSaveData _saveData;
 
-    public virtual ItemSaveData SaveData
+    public virtual EquipmentSaveData SaveData
     {
         get => _saveData ??= new()
         {
@@ -24,12 +23,6 @@ public abstract class Item : SerializedMonoBehaviour
     }
 
     protected Actor user;
-
-    public chamwhy.ItemSlot slot
-    {
-        get => _slot;
-        set { _slot = value; }
-    }
 
     public bool IsEquip { get; set; }
 

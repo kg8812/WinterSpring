@@ -6,7 +6,7 @@ namespace Apis
 {
     public class DesireSword : Weapon
     {
-        public class DesireSwordData : ItemSaveData
+        public class DesireSwordData : EquipmentSaveData
         {
             public Evolution _curEvolution;
             public float curStack;
@@ -35,7 +35,7 @@ namespace Apis
         DesireSwordData _desireSwordData;
         private DesireSwordData data => _desireSwordData ??= new(this);
 
-        public override ItemSaveData SaveData => data;
+        public override EquipmentSaveData SaveData => data;
 
         [Title("욕망의 검")] [LabelText("2단계 필요원념")]
         public float gold2;

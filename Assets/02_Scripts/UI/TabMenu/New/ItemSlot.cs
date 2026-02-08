@@ -16,12 +16,11 @@ namespace chamwhy
         // public static UI_DragItem DragImg;
         // public static ItemSlot ToChangeSlot;
         
-        [SerializeField] private Image itemImg;
+        [SerializeField] protected Image itemImg;
         [SerializeField] private Image changeImg;
         [SerializeField] private Image backgroundImg;
         [SerializeField] private Color frozenColor;
         [SerializeField] private Image equippedImg;
-        [SerializeField] private Image lockedImg;
 
         [HideInInspector] public int index;
         // [HideInInspector] public InventoryGroup inventoryGroup;
@@ -38,14 +37,13 @@ namespace chamwhy
         // true = start / false = end
         public Action<ItemSlot, bool> OnDragChanged;
         public Action<ItemSlot, bool> OnPointerChanged;
-
-
+        
         public void UpdateItem()
         {
             OnSlotChanged(index, InventoryList[index]);
         }
 
-        public void OnSlotChanged(int ind, Item item)
+        public virtual void OnSlotChanged(int ind, Item item)
         {
             if (ind != index) return;
             curItem = item;
@@ -54,13 +52,7 @@ namespace chamwhy
             {
                 itemImg.sprite = item.Image;
                 itemImg.enabled = true;
-                item.slot = this;
                 item.SaveData.slotIndex = ind;
-
-                if (lockedImg != null)
-                {
-                    lockedImg.enabled = false;
-                }
 
                 if (equippedImg != null)
                 {
@@ -70,10 +62,6 @@ namespace chamwhy
             else
             {
                 itemImg.enabled = false;
-                if (lockedImg != null)
-                {
-                    lockedImg.enabled = true;
-                }
             }
         }
         
@@ -95,6 +83,15 @@ namespace chamwhy
             itemImg.enabled = isOn;
         }
 
+        public bool CheckItemIndex(Item item)
+        {
+            if (item is IAttackItem atkItem)
+            {
+                return invenType != InvenType.Storage || index == atkItem.InvenSlotIndex;
+            }
+
+            return true;
+        }
 
         #region DragSection
 
@@ -108,7 +105,7 @@ namespace chamwhy
 
         public override void OnEndDrag(PointerEventData eventData)
         {
-            base.OnBeginDrag(eventData);
+            base.OnEndDrag(eventData);
             OnDragChanged?.Invoke(this, false);
         }
 

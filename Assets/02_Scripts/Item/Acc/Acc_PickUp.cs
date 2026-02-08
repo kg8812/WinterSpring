@@ -38,7 +38,6 @@ namespace Apis
             }
             
             InvenManager.instance.Acc.Add(item, InvenType.Storage);
-            DataAccess.Codex.UnLock(CodexData.CodexType.Item,item.ItemId);
             OnCollect.Invoke(this);
             GameManager.Item.AccPickUp.Return(this);
             GameManager.UI.CreateUI("UI_ItemPopup", chamwhy.UIType.Main).GetComponent<UI_ItemPopUp>().Init(item);

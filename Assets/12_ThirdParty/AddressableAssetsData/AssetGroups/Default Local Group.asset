@@ -6120,11 +6120,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a6a27a215b8892940a5043773fef96d5
-    m_Address: Prefabs/UI/SubItem/ItemSlot
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 141e70376a0f8a04c9a34f09e15e2d39
     m_Address: IneCircle1
     m_ReadOnly: 0

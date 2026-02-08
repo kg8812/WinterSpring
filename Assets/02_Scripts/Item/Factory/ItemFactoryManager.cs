@@ -67,10 +67,6 @@ namespace Apis
             foreach (var x in weapons)
             {
                 x.Init();
-                if (x.Data.unlock)
-                {
-                    DataAccess.Codex.UnLock(CodexData.CodexType.Item, x.ItemId);
-                }
             }
             Acc = new Factory_Acc(accs);
             Weapon = new Factory_Weapon(weapons);

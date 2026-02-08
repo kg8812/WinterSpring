@@ -40,7 +40,6 @@ namespace Apis
                 weapon = GameManager.Item.GetWeapon(weaponId);
             }
             InvenManager.instance.AttackItem.Add(addInd, weapon, InvenType.Storage);
-            DataAccess.Codex.UnLock(CodexData.CodexType.Item,weapon.Index);
             OnCollect.Invoke(this);
             GameManager.Item.WeaponPickUp.Return(this);
             GameManager.UI.CreateUI("UI_ItemPopup", UIType.Main).GetComponent<UI_ItemPopUp>().Init(weapon);

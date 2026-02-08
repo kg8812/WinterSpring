@@ -226,7 +226,7 @@ namespace chamwhy
             GameObject go = Pool.Get($"Prefabs/UI/SubItem/{prefabName}");
             
             UI_Base subItem = GUtil.GetOrAddComponent<UI_Base>(go);
-            subItem.isChild = true;
+            subItem.isSubItem = true;
             
             if (!ReferenceEquals(parent, null))
             {

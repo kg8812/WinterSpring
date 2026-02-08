@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class ItemSaveData
+public class EquipmentSaveData
 {
     public int ItemId;
     public int slotIndex;

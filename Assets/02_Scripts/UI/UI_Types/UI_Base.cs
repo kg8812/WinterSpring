@@ -8,13 +8,14 @@ using Sirenix.OdinInspector;
 using UnityEngine.EventSystems;
 using TMPro;
 using UnityEngine.Events;
+using UnityEngine.Serialization;
 
 namespace Default
 { 
     public class UI_Base : SerializedMonoBehaviour
     {
         // alreadyCreated section
-        public bool isChild;
+        [FormerlySerializedAs("isChild")] public bool isSubItem;
         public bool isAlreadyCreated;
         [ShowIf("isAlreadyCreated", true)] [SerializeField]
         private UIType showType;
@@ -44,7 +45,7 @@ namespace Default
 
         private void Start()
         {
-            if (isAlreadyCreated && !isChild)
+            if (isAlreadyCreated && !isSubItem)
             {
                 GameManager.UI.UIInitSetting(this, showType, true);
                 if (activatedWhenInit)
@@ -74,6 +75,7 @@ namespace Default
         protected virtual void Activated()
         {
             if (_activated) return;
+            
             _activated = true;
             
             if(_isParent)
@@ -89,7 +91,7 @@ namespace Default
         
         public virtual void TryDeactivated(bool force = false)
         {
-            if (_isParent || !isAlreadyCreated || !isChild)
+            if (_isParent || !isAlreadyCreated || !isSubItem)
             {
                 if (isFadeOut && !force && _hasCanvas)
                 {
@@ -109,7 +111,7 @@ namespace Default
             if(_hasCanvas)
                 _canv.enabled = false;
             subItems.ForEach(sub => sub.Deactivated());
-            if (!isAlreadyCreated || !isChild)
+            if (!isAlreadyCreated || !isSubItem)
             {
                 GameManager.UI.ReturnUI(this);
             }
@@ -223,7 +225,7 @@ namespace Default
             {
                 subItem.Init();
             }
-            subItem.isChild = true;
+            subItem.isSubItem = true;
         }
         protected void RemoveSubItem(UI_Base subitem)
         {

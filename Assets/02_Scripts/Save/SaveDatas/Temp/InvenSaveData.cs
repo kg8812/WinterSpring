@@ -10,10 +10,10 @@ namespace Save.Schema
     [Serializable]
     public class InvenSaveData : ISaveData
     {
-        public Queue<ItemSaveData> WeaponsEquip = new();
-        public Queue<ItemSaveData> WeaponsInven = new();
-        public Queue<ItemSaveData> AccEquip = new();
-        public Queue<ItemSaveData> AccInven = new();
+        public Queue<EquipmentSaveData> WeaponsEquip = new();
+        public Queue<EquipmentSaveData> WeaponsInven = new();
+        public Queue<EquipmentSaveData> AccEquip = new();
+        public Queue<EquipmentSaveData> AccInven = new();
         public void BeforeSave()
         {
             WeaponsEquip.Clear();
@@ -57,7 +57,7 @@ namespace Save.Schema
 
             while (WeaponsEquip.Count > 0)
             {
-                ItemSaveData data = WeaponsEquip.Dequeue();
+                EquipmentSaveData data = WeaponsEquip.Dequeue();
                 Weapon item = GameManager.Item.Weapon.CreateNew(data.ItemId);
                 if (item == null)
                 {
@@ -70,7 +70,7 @@ namespace Save.Schema
             
             while (WeaponsInven.Count > 0)
             {
-                ItemSaveData data = WeaponsInven.Dequeue();
+                EquipmentSaveData data = WeaponsInven.Dequeue();
                 Weapon item = GameManager.Item.Weapon.CreateNew(data.ItemId);
                 if (item == null)
                 {
@@ -83,7 +83,7 @@ namespace Save.Schema
 
             while (AccEquip.Count > 0)
             {
-                ItemSaveData data = AccEquip.Dequeue();
+                EquipmentSaveData data = AccEquip.Dequeue();
                 Accessory item = GameManager.Item.Acc.CreateNew(data.ItemId);
                 if (item == null)
                 {
@@ -96,7 +96,7 @@ namespace Save.Schema
            
             while (AccInven.Count > 0)
             {
-                ItemSaveData data = AccInven.Dequeue();
+                EquipmentSaveData data = AccInven.Dequeue();
                 Accessory item = GameManager.Item.Acc.CreateNew(data.ItemId);
                 if (item == null)
                 {

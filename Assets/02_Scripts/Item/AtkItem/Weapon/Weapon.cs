@@ -6,6 +6,7 @@ using chamwhy;
 using chamwhy.Managers;
 using Default;
 using EventData;
+using Save.Schema;
 using Sirenix.OdinInspector;
 using Sirenix.Utilities;
 using Spine.Unity;
@@ -405,6 +406,12 @@ namespace Apis
         public virtual void EndAttack()
         {
             Skill?.DeActive();
+        }
+
+        protected override void OnCollect()
+        {
+            base.OnCollect();
+            DataAccess.Codex.UnLock(CodexData.CodexType.Item,ItemId);
         }
 
         public virtual AttackCategory Category => AttackCategory.Sword;

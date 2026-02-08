@@ -39,7 +39,8 @@ namespace Save.Schema
             Lobby,
             Sector,
             Task,
-            Map
+            Map,
+            ItemOpened,
         }
         
         const string SlotInfoKey ="SlotInfoKey";
@@ -50,6 +51,7 @@ namespace Save.Schema
         const string Task = "TaskKey";
         const string Map = "MapKey";
         private const string Sector = "SectorKey";
+        const string ItemOpened = "ItemOpenedKey";
         
         public static string GetKey(DataTypes type,string slotIndex)
         {
@@ -65,6 +67,7 @@ namespace Save.Schema
                 DataTypes.Task => Task,
                 DataTypes.Sector => Sector,
                 DataTypes.Map => Map,
+                DataTypes.ItemOpened => ItemOpened,
                 _ => ""
             };
         }

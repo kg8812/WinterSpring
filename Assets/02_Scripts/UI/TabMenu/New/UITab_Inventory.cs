@@ -2,6 +2,7 @@
 using Apis;
 using chamwhy.UI.Focus;
 using Default;
+using Managers;
 using NewNewInvenSpace;
 using UI;
 using UnityEngine;
@@ -360,16 +361,20 @@ namespace chamwhy
             {
                 if (!ReferenceEquals(ToChangeSlot, slot))
                 {
-                    if (invenGroupManager.Change(slot.index, slot.invenType, ToChangeSlot.index, ToChangeSlot.invenType))
+                    if (ToChangeSlot.curItem != null)
+                    {
+                        SystemManager.SystemAlert("이미 장착중인 슬롯입니다",null);
+                    }
+                    else if (!ToChangeSlot.CheckItemIndex(slot.curItem))
+                    {
+                        SystemManager.SystemAlert("원래 위치에 넣어주세요",null);
+                    }
+                    else if (invenGroupManager.Change(slot.index, slot.invenType, ToChangeSlot.index, ToChangeSlot.invenType))
                     {
                         slot.SelectOff(true);
                         ToChangeSlot.SelectOn();
                         return;
                     }
-                }
-                else if (slot.curItem != null)
-                {
-                    Debug.Log("failed: change slot by drag - its me");
                 }
             }
             else

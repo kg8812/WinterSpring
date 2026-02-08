@@ -110,7 +110,6 @@ public class SkillTreeSlot : UIAsset_Toggle
     bool IsSkillTreeOpened()
     {
         return SkillTreeDatas.activatedIndex.Contains(((int)GameManager.instance.Player.playerType + 1) * 100 + index + 1);
-        
     }
     public void OnSlotChanged(SkillTree skillTree)
     {

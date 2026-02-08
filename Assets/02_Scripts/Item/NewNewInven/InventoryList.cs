@@ -33,6 +33,8 @@ namespace NewNewInvenSpace
             // list에 들어오면 itemStorage 하위로 parent 설정.(inven storage하고는 다름)
             ItemAddedTo += (_, item) => item.SetParent(null);
             ItemRemovedFrom += (_, item) => item.SetParent(null);
+            
+            
         }
 
         public Item this[int index]

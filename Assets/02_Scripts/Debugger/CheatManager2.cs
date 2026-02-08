@@ -201,7 +201,7 @@ public class CheatManager2 : UI_Scene
     {
         weaponInput.text = "";
         if (!WeaponData.DataLoad.TryGetWeaponData(index, out var data)) return;
-        // string n = LanguageManager.Str(data.weaponNameString);
+        
         if (InvenManager.instance.AttackItem.IsFull(InvenType.Storage))
         {
             var pickUp = GameManager.Item.WeaponPickUp.CreateNew(data.weaponId);
