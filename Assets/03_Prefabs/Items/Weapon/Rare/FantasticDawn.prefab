@@ -1054,6 +1054,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: OnBeforeAttack
+      Entry: 6
+      Data: 
     - Name: blades
       Entry: 7
       Data: 2|System.Collections.Generic.Dictionary`2[[Apis.FantasticDawn+BladeType,
@@ -1419,6 +1422,7 @@ MonoBehaviour:
       directionType: 0
   isFollow: 0
   isSkillIcon: 0
+  invenSlotIndex: 4
   Skill: {fileID: 0}
 --- !u!1 &6838717025164428354
 GameObject:

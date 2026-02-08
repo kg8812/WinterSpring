@@ -169,47 +169,73 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: OnEquipped
+      Entry: 6
+      Data: 
+    - Name: OnUnEquipped
+      Entry: 6
+      Data: 
     - Name: followers
       Entry: 6
       Data: 
+    - Name: OnBeforeAttack
+      Entry: 6
+      Data: 
   dataId: 3045
-  Skill: {fileID: 0}
   _skill: {fileID: 11400000, guid: 6a6aedec6be71f34c9dc9b646ea2ecf1, type: 2}
   firePos: {fileID: 6084395639713855516, guid: 5ffdbd84e24e517458c3b9386ada5837, type: 3}
   atkSpeed: 1.8
   appearUse: 1
+  isSpine: 1
   sprites: []
   materials: []
   slots: []
+  atlasRegion: []
+  atlasAsset: {fileID: 0}
   groundAtkDmgs: []
   airAtkDmgs: []
-  isSpine: 1
+  isFollow: 0
+  isSkillIcon: 0
+  invenSlotIndex: 14
+  Skill: {fileID: 0}
   groundProjectileInfos:
   - info: {fileID: 11400000, guid: 9c70697d7c3889f458b7ca43f03324d9, type: 2}
     projCount: 3
+    fireTerm: 0
     groggy: 35
     cancelTime: 100
+    projType: 0
   - info: {fileID: 11400000, guid: 9c70697d7c3889f458b7ca43f03324d9, type: 2}
     projCount: 3
+    fireTerm: 0
     groggy: 35
     cancelTime: 100
+    projType: 0
   - info: {fileID: 11400000, guid: 9c70697d7c3889f458b7ca43f03324d9, type: 2}
     projCount: 2
+    fireTerm: 0
     groggy: 60
     cancelTime: 100
+    projType: 0
   airProjectileInfos:
   - info: {fileID: 11400000, guid: 9c70697d7c3889f458b7ca43f03324d9, type: 2}
     projCount: 3
+    fireTerm: 0
     groggy: 35
     cancelTime: 100
+    projType: 0
   - info: {fileID: 11400000, guid: 9c70697d7c3889f458b7ca43f03324d9, type: 2}
     projCount: 3
+    fireTerm: 0
     groggy: 35
     cancelTime: 100
+    projType: 0
   - info: {fileID: 11400000, guid: 9c70697d7c3889f458b7ca43f03324d9, type: 2}
     projCount: 2
+    fireTerm: 0
     groggy: 60
     cancelTime: 100
+    projType: 0
 --- !u!114 &9114707402997672458
 MonoBehaviour:
   m_ObjectHideFlags: 0

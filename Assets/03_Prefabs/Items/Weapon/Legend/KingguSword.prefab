@@ -55,6 +55,12 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: OnEquipped
+      Entry: 6
+      Data: 
+    - Name: OnUnEquipped
+      Entry: 6
+      Data: 
     - Name: followers
       Entry: 7
       Data: 0|System.Collections.Generic.Dictionary`2[[UnityEngine.GameObject, UnityEngine.CoreModule],[System.String,
@@ -87,6 +93,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: OnBeforeAttack
+      Entry: 6
+      Data: 
   dataId: 3041
   _skill: {fileID: 11400000, guid: 03766f03e1814484082954a4cc393afb, type: 2}
   firePos: {fileID: 0}
@@ -106,28 +115,114 @@ MonoBehaviour:
     groggy: 50
     cancelTime: 100
     atkCount: 1
+    knockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
+    groggyKnockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
   - dmg: 35
     groggy: 50
     cancelTime: 100
     atkCount: 1
+    knockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
+    groggyKnockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
   - dmg: 45
     groggy: 30
     cancelTime: 100
     atkCount: 5
+    knockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
+    groggyKnockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
   airAtkDmgs:
   - dmg: 25
     groggy: 50
     cancelTime: 100
     atkCount: 1
+    knockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
+    groggyKnockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
   - dmg: 35
     groggy: 50
     cancelTime: 100
     atkCount: 1
+    knockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
+    groggyKnockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
   - dmg: 45
     groggy: 30
     cancelTime: 100
     atkCount: 5
+    knockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
+    groggyKnockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
   isFollow: 0
+  isSkillIcon: 0
+  invenSlotIndex: 5
   Skill: {fileID: 0}
   stack: 5
   basicAtk: 5

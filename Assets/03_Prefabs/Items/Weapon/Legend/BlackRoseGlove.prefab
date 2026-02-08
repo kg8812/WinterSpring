@@ -57,6 +57,12 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: OnEquipped
+      Entry: 6
+      Data: 
+    - Name: OnUnEquipped
+      Entry: 6
+      Data: 
     - Name: followers
       Entry: 7
       Data: 0|System.Collections.Generic.Dictionary`2[[UnityEngine.GameObject, UnityEngine.CoreModule],[System.String,
@@ -101,13 +107,15 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  slot: {fileID: 0}
+    - Name: OnBeforeAttack
+      Entry: 6
+      Data: 
   dataId: 3040
-  Skill: {fileID: 0}
   _skill: {fileID: 11400000, guid: 9f541349753341d4c852ee80ce388a77, type: 2}
   firePos: {fileID: 0}
   atkSpeed: 1.5
   appearUse: 1
+  isSpine: 0
   sprites:
   - {fileID: 21300000, guid: 78d19755eeaf7dc42bf1e69e6b46418f, type: 3}
   - {fileID: 21300000, guid: c6c6b8cd770c23b44abcedc847af4e44, type: 3}
@@ -117,42 +125,122 @@ MonoBehaviour:
   slots:
   - weaponL
   - weaponR
+  atlasRegion: []
+  atlasAsset: {fileID: 0}
   groundAtkDmgs:
   - dmg: 100
     groggy: 100
     cancelTime: 100
     atkCount: 1
+    knockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
+    groggyKnockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
   - dmg: 120
     groggy: 100
     cancelTime: 100
     atkCount: 1
+    knockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
+    groggyKnockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
   - dmg: 140
     groggy: 100
     cancelTime: 100
     atkCount: 1
+    knockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
+    groggyKnockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
   airAtkDmgs:
   - dmg: 100
     groggy: 100
     cancelTime: 100
     atkCount: 1
+    knockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
+    groggyKnockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
   - dmg: 120
     groggy: 100
     cancelTime: 100
     atkCount: 1
+    knockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
+    groggyKnockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
   - dmg: 140
     groggy: 100
     cancelTime: 100
     atkCount: 1
-  WindInfos:
-  - size: {x: 2, y: 1}
-    dmg: 50
-    groggy: 0
-  - size: {x: 2, y: 1}
-    dmg: 50
-    groggy: 0
-  - size: {x: 2, y: 1}
-    dmg: 50
-    groggy: 0
+    knockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
+    groggyKnockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
+  isFollow: 0
+  isSkillIcon: 0
+  invenSlotIndex: 17
+  Skill: {fileID: 0}
 --- !u!1 &1534572027091916577
 GameObject:
   m_ObjectHideFlags: 0
@@ -225,7 +313,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2093907805
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 78d19755eeaf7dc42bf1e69e6b46418f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -373,7 +461,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2093907805
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c6c6b8cd770c23b44abcedc847af4e44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

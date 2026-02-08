@@ -171,6 +171,12 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: OnEquipped
+      Entry: 6
+      Data: 
+    - Name: OnUnEquipped
+      Entry: 6
+      Data: 
     - Name: followers
       Entry: 7
       Data: 0|System.Collections.Generic.Dictionary`2[[UnityEngine.GameObject, UnityEngine.CoreModule],[System.String,
@@ -202,6 +208,9 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 8
+      Data: 
+    - Name: OnBeforeAttack
+      Entry: 6
       Data: 
   dataId: 3051
   _skill: {fileID: 11400000, guid: 34c25a305fe0f724cac8cf7992e993fc, type: 2}
@@ -329,4 +338,5 @@ MonoBehaviour:
       directionType: 0
   isFollow: 0
   isSkillIcon: 1
+  invenSlotIndex: 9
   Skill: {fileID: 0}

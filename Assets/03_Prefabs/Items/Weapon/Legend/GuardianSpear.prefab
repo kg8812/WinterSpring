@@ -73,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2093907805
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2e732aba9391d814685d9b81f51a5264, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -108,6 +108,12 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: OnEquipped
+      Entry: 6
+      Data: 
+    - Name: OnUnEquipped
+      Entry: 6
+      Data: 
     - Name: followers
       Entry: 7
       Data: 0|System.Collections.Generic.Dictionary`2[[UnityEngine.GameObject, UnityEngine.CoreModule],[System.String,
@@ -140,46 +146,137 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  slot: {fileID: 0}
+    - Name: OnBeforeAttack
+      Entry: 6
+      Data: 
   dataId: 3042
-  Skill: {fileID: 0}
   _skill: {fileID: 11400000, guid: 25cf277d6e6831845a24106df0a8b8ef, type: 2}
   firePos: {fileID: 0}
   atkSpeed: 2.2
   appearUse: 1
+  isSpine: 0
   sprites:
   - {fileID: 21300000, guid: 2e732aba9391d814685d9b81f51a5264, type: 3}
   materials:
   - {fileID: 2100000, guid: a5d6e50c7a9c7f14b98c05ae2a2fc33b, type: 2}
   slots:
   - weaponL
+  atlasRegion: []
+  atlasAsset: {fileID: 0}
   groundAtkDmgs:
   - dmg: 100
     groggy: 100
     cancelTime: 100
     atkCount: 1
+    knockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
+    groggyKnockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
   - dmg: 120
     groggy: 100
     cancelTime: 100
     atkCount: 1
+    knockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
+    groggyKnockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
   - dmg: 150
     groggy: 150
     cancelTime: 100
     atkCount: 1
+    knockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
+    groggyKnockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
   airAtkDmgs:
   - dmg: 100
     groggy: 100
     cancelTime: 100
     atkCount: 1
+    knockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
+    groggyKnockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
   - dmg: 120
     groggy: 100
     cancelTime: 100
     atkCount: 1
+    knockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
+    groggyKnockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
   - dmg: 150
     groggy: 150
     cancelTime: 100
     atkCount: 1
-  dmgReduce: 50
+    knockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
+    groggyKnockBackData:
+      knockBackType: 0
+      knockBackForce: 0
+      knockBackTime: 0
+      knockBackAngle: 0
+      symmetryType: 0
+      directionType: 0
+  isFollow: 0
+  isSkillIcon: 0
+  invenSlotIndex: 27
+  Skill: {fileID: 0}
 --- !u!114 &-2046596182703783140
 MonoBehaviour:
   m_ObjectHideFlags: 0

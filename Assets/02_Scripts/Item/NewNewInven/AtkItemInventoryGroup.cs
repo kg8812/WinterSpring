@@ -87,7 +87,7 @@ namespace NewNewInvenSpace
 
             if (item is IAttackItem atkItem)
             {
-                ind = atkItem.InvenSlotIndex;
+                ind = atkItem.InvenSlotIndex - 1;
             }
             else return false;
             

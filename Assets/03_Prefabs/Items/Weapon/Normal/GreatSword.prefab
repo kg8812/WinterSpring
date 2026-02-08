@@ -275,8 +275,7 @@ MonoBehaviour:
       directionType: 0
   isFollow: 0
   isSkillIcon: 0
-  invenSlotIndex: 5
-  _weaponType: 0
+  invenSlotIndex: 6
   Skill: {fileID: 0}
 --- !u!114 &-5685954846859270689
 MonoBehaviour:

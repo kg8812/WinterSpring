@@ -87,7 +87,7 @@ namespace chamwhy
         {
             if (item is IAttackItem atkItem)
             {
-                return invenType != InvenType.Storage || index == atkItem.InvenSlotIndex;
+                return invenType != InvenType.Storage || index == atkItem.InvenSlotIndex - 1;
             }
 
             return true;

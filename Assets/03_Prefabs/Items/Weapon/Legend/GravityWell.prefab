@@ -74,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2093907805
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6da7a20d5301bbd40b459a4e5f94a884, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -109,6 +109,12 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: OnEquipped
+      Entry: 6
+      Data: 
+    - Name: OnUnEquipped
+      Entry: 6
+      Data: 
     - Name: followers
       Entry: 7
       Data: 0|System.Collections.Generic.Dictionary`2[[UnityEngine.GameObject, UnityEngine.CoreModule],[System.String,
@@ -141,47 +147,67 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  slot: {fileID: 0}
+    - Name: OnBeforeAttack
+      Entry: 6
+      Data: 
   dataId: 3043
-  Skill: {fileID: 0}
   _skill: {fileID: 11400000, guid: dc42db6fe11737c47ac6752b0ce87b53, type: 2}
   firePos: {fileID: 8893940492983748983}
   atkSpeed: 1.5
   appearUse: 1
+  isSpine: 0
   sprites:
   - {fileID: 21300000, guid: 6da7a20d5301bbd40b459a4e5f94a884, type: 3}
   materials:
   - {fileID: 2100000, guid: 8241030fdef84fe40b22841fbb422458, type: 2}
   slots:
   - weaponL
+  atlasRegion: []
+  atlasAsset: {fileID: 0}
   groundAtkDmgs: []
   airAtkDmgs: []
+  isFollow: 0
+  isSkillIcon: 0
+  invenSlotIndex: 31
+  Skill: {fileID: 0}
   groundProjectileInfos:
   - info: {fileID: 11400000, guid: e3e61d51d89fccb4683bbcbc2294a4cc, type: 2}
     projCount: 1
+    fireTerm: 0
     groggy: 30
     cancelTime: 100
+    projType: 0
   - info: {fileID: 11400000, guid: 6479b6479a85c2742a6b680716044b66, type: 2}
     projCount: 1
+    fireTerm: 0
     groggy: 30
     cancelTime: 100
+    projType: 0
   - info: {fileID: 11400000, guid: 64140f8f78af3ce4f9b9c534e7ffdc8e, type: 2}
     projCount: 1
+    fireTerm: 0
     groggy: 40
     cancelTime: 100
+    projType: 0
   airProjectileInfos:
   - info: {fileID: 11400000, guid: e3e61d51d89fccb4683bbcbc2294a4cc, type: 2}
     projCount: 1
+    fireTerm: 0
     groggy: 30
     cancelTime: 100
+    projType: 0
   - info: {fileID: 11400000, guid: 6479b6479a85c2742a6b680716044b66, type: 2}
     projCount: 1
+    fireTerm: 0
     groggy: 30
     cancelTime: 100
+    projType: 0
   - info: {fileID: 11400000, guid: 64140f8f78af3ce4f9b9c534e7ffdc8e, type: 2}
     projCount: 1
+    fireTerm: 0
     groggy: 40
     cancelTime: 100
+    projType: 0
   size: {x: 2, y: 2}
 --- !u!114 &-5812139591429430628
 MonoBehaviour:
