@@ -31654,6 +31654,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 6958117871174435980}
     m_Modifications:
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 532bea98d94139c4a84b817b6b459d22, type: 2}
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
@@ -31770,6 +31774,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6958117871174435980}
     m_Modifications:
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 0663370b2651bdd4b9632e909379ff4f, type: 2}
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -32760,6 +32768,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2747097881187820671}
     m_Modifications:
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 3d86885c4fd5d3448a3eda62d5eaa766, type: 2}
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -36251,6 +36263,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 4386231844651738737}
     m_Modifications:
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: c5e4ad21af4e92f4fa3ff92f6e1344ef, type: 2}
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
@@ -36484,6 +36500,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7021974890049681294}
     m_Modifications:
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 25a9e0533744fed4ea5c371b38e43866, type: 2}
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -37012,6 +37032,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 6958117871174435980}
     m_Modifications:
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 8fb16ed9daee14a42812603e3d79f018, type: 2}
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
@@ -37128,6 +37152,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3724340498514306041}
     m_Modifications:
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: d50686144ffc9c548bfcb923db8ab722, type: 2}
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -39943,6 +39971,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1631832747108816896}
     m_Modifications:
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 20152e480c1c90845ab8408ec6e3b813, type: 2}
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
@@ -40059,6 +40091,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1631832747108816896}
     m_Modifications:
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: a14a44dd43083cd4987bc80a82cb0088, type: 2}
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -40293,6 +40329,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8788491918432857218}
     m_Modifications:
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4b5e3d2e54c87d1449e42c1eb77b38ca, type: 2}
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -41747,6 +41787,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6958117871174435980}
     m_Modifications:
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: a77cb0c61ced8d34882d123c9284b275, type: 2}
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -43277,6 +43321,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2747097881187820671}
     m_Modifications:
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: f98fbc2684aeef84886515311b90582e, type: 2}
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
@@ -44614,6 +44662,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 3724340498514306041}
     m_Modifications:
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: e30dd017569702d418ba80a55b1a1cee, type: 2}
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
@@ -44968,6 +45020,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7021974890049681294}
     m_Modifications:
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 7d04df465e3f05d4e9c3073321c5425f, type: 2}
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -45569,6 +45625,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7021974890049681294}
     m_Modifications:
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 6481358707fd1f6489d3cb072ffd5ec0, type: 2}
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -47060,6 +47120,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 3724340498514306041}
     m_Modifications:
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: e53c50ed582663543aa3f06f310982a8, type: 2}
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
@@ -47461,6 +47525,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8788491918432857218}
     m_Modifications:
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 9e4f6f07ac4596c4fb837f83c21ae346, type: 2}
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -48614,6 +48682,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2747097881187820671}
     m_Modifications:
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 7357b427683a08042be3278ea0042c4b, type: 2}
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
@@ -49101,6 +49173,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4386231844651738737}
     m_Modifications:
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 43ff933682ff7df43a77048523916fc4, type: 2}
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -52327,6 +52403,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 4386231844651738737}
     m_Modifications:
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 811c9752913c34346889b617e8b38072, type: 2}
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
@@ -53224,6 +53304,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1631832747108816896}
     m_Modifications:
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 5ee95ff9b8c53f742b77a27744505bb6, type: 2}
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -54212,6 +54296,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 8788491918432857218}
     m_Modifications:
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 20c2cf0cc08a0b849bb0fb54dc97aa85, type: 2}
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
@@ -54594,6 +54682,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4386231844651738737}
     m_Modifications:
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 7f740ef891f6585439daab3415226d96, type: 2}
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -55629,6 +55721,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2747097881187820671}
     m_Modifications:
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: c15c42d15cce46e41b8e2df5b18cd818, type: 2}
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -60411,6 +60507,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 6958117871174435980}
     m_Modifications:
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2a8b54dfad66c114495e370f70a2faa2, type: 2}
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
@@ -60527,6 +60627,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7021974890049681294}
     m_Modifications:
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 9e4c25534737b7a4ea25d7e1aa4c5342, type: 2}
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -61514,6 +61618,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 8788491918432857218}
     m_Modifications:
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 8cc78c31d6c08e44abff51048bb527ff, type: 2}
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
@@ -61981,6 +62089,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3724340498514306041}
     m_Modifications:
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 39aae8fea22ce5c42a73af6529b1bd85, type: 2}
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -62841,6 +62953,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 8788491918432857218}
     m_Modifications:
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 416465132318e0c40bd7c6082b1a9103, type: 2}
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
@@ -63106,6 +63222,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3724340498514306041}
     m_Modifications:
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 8731905a078c87c41913bf763c1b4fc5, type: 2}
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -65196,6 +65316,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 7021974890049681294}
     m_Modifications:
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 07e1176f17bb0844599d64dfe35e3b6b, type: 2}
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
@@ -65312,6 +65436,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4386231844651738737}
     m_Modifications:
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: 6810565d1ccda234c9642305eca8713a, type: 2}
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -65546,6 +65674,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2747097881187820671}
     m_Modifications:
+    - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
+      propertyPath: _weaponSlotData
+      value: 
+      objectReference: {fileID: 11400000, guid: e1a47bc1e720eb64c95cd8bac8a34033, type: 2}
     - target: {fileID: -7846459045465840170, guid: 5d7f0d69a03ff8940ba7e32ab37dee96, type: 3}
       propertyPath: serializationData.Prefab
       value: 
