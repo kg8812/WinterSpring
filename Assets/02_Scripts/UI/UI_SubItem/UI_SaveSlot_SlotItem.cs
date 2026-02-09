@@ -51,7 +51,7 @@ namespace UI.UI_SubItem
             OnClick.AddListener((() =>
             {
                 if (_uiSaveSlot.choosed) return;
-                int confirmMsgId = string.IsNullOrEmpty(mySlotId) ? 101053 : 101052;
+                int confirmMsgId = string.IsNullOrEmpty(mySlotId) ? 10131106 : 10131107;
                 SystemManager.SystemCheck(LanguageManager.Str(confirmMsgId), todo =>
                 {
                     if (todo)

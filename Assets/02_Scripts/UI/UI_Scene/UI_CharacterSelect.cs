@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using chamwhy;
 using chamwhy.Managers;
@@ -187,17 +188,44 @@ namespace Apis
 
             int id = type switch
             {
-                SelectType.Ine => 1010221,
-                SelectType.Jingburger => 1010222,
-                SelectType.Lilpa => 1010223,
-                SelectType.Jururu => 1010224,
-                SelectType.Gosegu => 1010225,
-                SelectType.Viichan => 1010226,
-                SelectType.Random => 1010227,
-                _ => 1010227
+                SelectType.Ine => 10131108,
+                SelectType.Jingburger => 10131108,
+                SelectType.Lilpa => 10131108,
+                SelectType.Jururu => 10131108,
+                SelectType.Gosegu => 10131108,
+                SelectType.Viichan => 10131108,
+                SelectType.Random => 10131109,
+                _ => 10131108
             };
 
-            SystemManager.SystemCheck(LanguageManager.Str(id), (isOn) =>
+            string msg;
+            int playerName = type switch
+            {
+                SelectType.Ine => 1010011,
+                SelectType.Jingburger => 1010012,
+                SelectType.Lilpa => 1010013,
+                SelectType.Jururu => 1010014,
+                SelectType.Gosegu => 1010015,
+                SelectType.Viichan => 1010016,
+                SelectType.Random => 10131109,
+                _ => 1010227
+            };
+            
+            switch (type)
+            {
+                case SelectType.Ine:
+                case SelectType.Jingburger:
+                case SelectType.Lilpa:
+                case SelectType.Jururu:
+                case SelectType.Gosegu:
+                case SelectType.Viichan:
+                    msg = LanguageManager.Str(playerName) + LanguageManager.Str(id);
+                    break;
+                default:
+                    msg =  LanguageManager.Str(id);
+                    break;
+            }
+            SystemManager.SystemCheck(msg, (isOn) =>
             {
                 if (isOn)
                     ChangeCharacter(type);

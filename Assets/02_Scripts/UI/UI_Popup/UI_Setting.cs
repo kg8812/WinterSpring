@@ -48,14 +48,9 @@ namespace chamwhy
         {
             if (IsDirty)
             {
-                SystemManager.SystemCheck(LanguageManager.Str(10118801), isOn =>
-                {
-                    if (isOn)
-                    {
-                        DataAccess.Settings.Save();
-                    }
-                    base.CloseOwn();
-                });
+                DataAccess.Settings.Save();
+                
+                base.CloseOwn();
             }
             else
             {

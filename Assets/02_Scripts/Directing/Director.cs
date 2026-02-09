@@ -212,7 +212,7 @@ namespace Directing
             if (InputManager.GetKeyDown(KeySettingManager.GetGameKeyCode(Define.GameKey.Escape)))
             {
                 _playableDirector.Pause();
-                SystemManager.SystemCheck(LanguageManager.Str(109990), isYes =>
+                SystemManager.SystemCheck(LanguageManager.Str(10131105), isYes =>
                 {
                     if (isYes)
                     {
@@ -236,7 +236,7 @@ namespace Directing
             if (InputManager.GetButtonDown(KeySettingManager.GetGameButton(Define.GameKey.Escape)))
             {
                 _playableDirector.Pause();
-                SystemManager.SystemCheck(LanguageManager.Str(109990), isYes =>
+                SystemManager.SystemCheck(LanguageManager.Str(10131105), isYes =>
                 {
                     if (isYes)
                     {

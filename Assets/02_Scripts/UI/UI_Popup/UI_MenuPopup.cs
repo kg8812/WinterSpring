@@ -36,7 +36,7 @@ namespace UI
             });
             Get<UIAsset_Button>((int)Buttons.TitleBtn).OnClick.AddListener(() =>
             {
-                string str = LanguageManager.Str(SceneManager.GetActiveScene().name != Define.SceneNames.LobbySceneName ? 1010422 : 1010421);
+                string str = LanguageManager.Str(10131110);
                 SystemManager.SystemCheck(str, (isYes) =>
                 {
                     if (isYes)
