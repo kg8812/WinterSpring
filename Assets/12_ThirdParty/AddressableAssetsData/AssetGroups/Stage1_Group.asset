@@ -2812,11 +2812,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 80b7c16e25f18e848b0b7979c6445948
-    m_Address: Prefabs/UI/Scene/UI_Collection
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7756e33d1a89ab44b947893efbbf9978
     m_Address: Prefabs/UI/Scene/UI_Convenience
     m_ReadOnly: 0

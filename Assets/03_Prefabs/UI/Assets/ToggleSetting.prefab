@@ -175,7 +175,7 @@ MonoBehaviour:
     - Name: FocusOff
       Entry: 6
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0
@@ -230,6 +230,9 @@ MonoBehaviour:
     looopPropInt: 0
   canOffOwn: 0
   OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnClicked:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &4332461259452830111
@@ -456,7 +459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13d308f985e142738396db0ca00d06a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textId: 182
+  textId: 0
 --- !u!1 &8560589522163326761
 GameObject:
   m_ObjectHideFlags: 0

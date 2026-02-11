@@ -652,7 +652,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0
@@ -1902,6 +1902,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1750632690977367682, guid: 1c747085ea8320745b7a0ed1b998b604, type: 3}
+      propertyPath: isSubItem
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1750632690977367682, guid: 1c747085ea8320745b7a0ed1b998b604, type: 3}
       propertyPath: isAlreadyCreated
       value: 1
       objectReference: {fileID: 0}
@@ -2061,6 +2065,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1750632690977367682, guid: 1c747085ea8320745b7a0ed1b998b604, type: 3}
+      propertyPath: isSubItem
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1750632690977367682, guid: 1c747085ea8320745b7a0ed1b998b604, type: 3}
       propertyPath: isAlreadyCreated
       value: 1
       objectReference: {fileID: 0}
@@ -2217,6 +2225,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1750632690977367682, guid: 1c747085ea8320745b7a0ed1b998b604, type: 3}
       propertyPath: isChild
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1750632690977367682, guid: 1c747085ea8320745b7a0ed1b998b604, type: 3}
+      propertyPath: isSubItem
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1750632690977367682, guid: 1c747085ea8320745b7a0ed1b998b604, type: 3}
@@ -2493,6 +2505,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1750632690977367682, guid: 1c747085ea8320745b7a0ed1b998b604, type: 3}
+      propertyPath: isSubItem
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1750632690977367682, guid: 1c747085ea8320745b7a0ed1b998b604, type: 3}
       propertyPath: isAlreadyCreated
       value: 1
       objectReference: {fileID: 0}
@@ -2652,6 +2668,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1750632690977367682, guid: 1c747085ea8320745b7a0ed1b998b604, type: 3}
+      propertyPath: isSubItem
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1750632690977367682, guid: 1c747085ea8320745b7a0ed1b998b604, type: 3}
       propertyPath: isAlreadyCreated
       value: 1
       objectReference: {fileID: 0}
@@ -2798,6 +2818,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1680511565575273}
     m_Modifications:
+    - target: {fileID: 2959205134596431445, guid: 726e7621715f4cb46b0d16bc212090a4, type: 3}
+      propertyPath: textId
+      value: 1010119
+      objectReference: {fileID: 0}
     - target: {fileID: 4893276766588757597, guid: 726e7621715f4cb46b0d16bc212090a4, type: 3}
       propertyPath: m_Name
       value: CloseButton
@@ -2933,6 +2957,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1750632690977367682, guid: 1c747085ea8320745b7a0ed1b998b604, type: 3}
       propertyPath: isChild
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1750632690977367682, guid: 1c747085ea8320745b7a0ed1b998b604, type: 3}
+      propertyPath: isSubItem
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1750632690977367682, guid: 1c747085ea8320745b7a0ed1b998b604, type: 3}
@@ -3084,6 +3112,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1750632690977367682, guid: 1c747085ea8320745b7a0ed1b998b604, type: 3}
       propertyPath: isChild
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1750632690977367682, guid: 1c747085ea8320745b7a0ed1b998b604, type: 3}
+      propertyPath: isSubItem
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1750632690977367682, guid: 1c747085ea8320745b7a0ed1b998b604, type: 3}

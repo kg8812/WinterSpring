@@ -29,17 +29,11 @@ namespace Apis
 
         public override void InvokeInteraction()
         {
-            int addInd = InvenManager.instance.AttackItem.Invens[InvenType.Storage].GetEmptySlot();
-            if (addInd < 0)
-            {
-                return;
-            }
-
             if (weapon == null)
             {
                 weapon = GameManager.Item.GetWeapon(weaponId);
             }
-            InvenManager.instance.AttackItem.Add(addInd, weapon, InvenType.Storage);
+            InvenManager.instance.AttackItem.Add(weapon, InvenType.Storage);
             OnCollect.Invoke(this);
             GameManager.Item.WeaponPickUp.Return(this);
             GameManager.UI.CreateUI("UI_ItemPopup", UIType.Main).GetComponent<UI_ItemPopUp>().Init(weapon);
