@@ -1,3 +1,5 @@
+using UnityEngine;
+
 namespace GameStateSpace
 {
     public class NonBattleState: GameState
@@ -14,7 +16,7 @@ namespace GameStateSpace
         public override void KeyBoardControlling()
         {
             base.KeyBoardControlling();
-            // Debug.Log("non battle state controlling");
+            //Debug.Log("non battle state controlling");
             GameManager.PlayerController?.KeyControl();
             GameManager.DefaultController?.KeyControl();
         }

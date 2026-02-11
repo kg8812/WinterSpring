@@ -67,7 +67,6 @@ public class ShelterObject : MonoBehaviour , IOnInteract
         GameManager.instance._onRest?.Invoke();
         Player player = GameManager.instance.Player;
         player.ResetPlayerStatus();
-        player.ControlOff();
         GameManager.SectorMag.SetLastShelter();
         FadeManager.instance.Fading(() =>
         {

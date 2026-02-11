@@ -215,10 +215,13 @@ public class ActorController : SerializedMonoBehaviour, IController
 
     public void EnableControl()
     {
+        Debug.Log("Enable");
+        
         isEnabled = true;
     }
     public void DisableControl()
     {
+        Debug.Log("Disable");
         isEnabled = false;
         buffer.ClearBuffer();
     }
