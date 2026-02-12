@@ -17,7 +17,6 @@ namespace chamwhy.UI
         Pressed = 1 << 4
     }
 
-    public delegate void FocusToggle();
 
     public abstract class UIElement : UI_Base, IController, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler, IBeginDragHandler, IDragHandler, IEndDragHandler
     {
@@ -76,8 +75,8 @@ namespace chamwhy.UI
         [HideInInspector] public Action<UIElementState> WillStateChange;
         [HideInInspector] public Action<UIElementState> StateChanged;
         
-        public FocusToggle FocusOn;
-        public FocusToggle FocusOff;
+        public Action FocusOn;
+        public Action FocusOff;
 
 
         public override void Init()

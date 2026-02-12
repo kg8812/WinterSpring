@@ -349,7 +349,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0
@@ -468,7 +468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7317eaa29f64e1dbc8c2a869e9819a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFocusSelect: 0
+  isFocusSelect: 1
   canNoneFocus: 0
   canLoop: 1
   useNumberKey: 0
@@ -510,6 +510,14 @@ PrefabInstance:
     - target: {fileID: 5949068638284038204, guid: 5f9046067c8d23d489db044d52bf7d4d, type: 3}
       propertyPath: showType
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949068638284038204, guid: 5f9046067c8d23d489db044d52bf7d4d, type: 3}
+      propertyPath: isSubItem
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949068638284038204, guid: 5f9046067c8d23d489db044d52bf7d4d, type: 3}
+      propertyPath: isFocusSelect
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5949068638284038204, guid: 5f9046067c8d23d489db044d52bf7d4d, type: 3}
       propertyPath: isAlreadyCreated
@@ -651,6 +659,14 @@ PrefabInstance:
     - target: {fileID: 5949068638284038204, guid: 5f9046067c8d23d489db044d52bf7d4d, type: 3}
       propertyPath: showType
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949068638284038204, guid: 5f9046067c8d23d489db044d52bf7d4d, type: 3}
+      propertyPath: isSubItem
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949068638284038204, guid: 5f9046067c8d23d489db044d52bf7d4d, type: 3}
+      propertyPath: isFocusSelect
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5949068638284038204, guid: 5f9046067c8d23d489db044d52bf7d4d, type: 3}
       propertyPath: isAlreadyCreated

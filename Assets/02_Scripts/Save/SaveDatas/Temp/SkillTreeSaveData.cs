@@ -29,9 +29,6 @@ namespace Save.Schema
 
         public void OnLoaded()
         {
-            UI_SkillTree skillTreeUI = GameManager.UI.CreateUI("UI_SkillTree", UIType.Scene) as UI_SkillTree;
-            skillTreeUI?.SetSlots();
-            skillTreeUI?.CloseOwn();
             activatedSkillTrees.ForEach(x =>
             {
                 SkillTreeDatas.activatedIndex.Add(x);

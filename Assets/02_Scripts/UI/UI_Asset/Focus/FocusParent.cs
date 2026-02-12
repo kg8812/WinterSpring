@@ -69,7 +69,20 @@ namespace chamwhy.UI.Focus
 
         private bool inited = false;
 
-        public IUI_NavigationManager NavigationManager { get; set; }
+        private IUI_NavigationManager _navigationManager;
+        
+        public IUI_NavigationManager NavigationManager
+        {
+            get => _navigationManager;
+            set
+            {
+                if (value != null && !canNoneFocus)
+                {
+                    ChangeCanNoneFocus(true);
+                }
+                _navigationManager = value;
+            }
+        }
 
         private UnityEvent _whenDisable;
         public UnityEvent WhenDisable => _whenDisable ??= new();
@@ -104,6 +117,12 @@ namespace chamwhy.UI.Focus
 
         public void OnNavigatedFrom()
         {
+            // 네비게이션에 들어가있을 시, 다른 focus와 선택을 옮겨다녀야 하므로 canNoneFocus가 false인 경우 작동이 될수가 없음. True로 변경.
+            if (!canNoneFocus)
+            {
+                ChangeCanNoneFocus(true);
+            }
+
             // 이 그룹에서 포커스가 떠나가면, 모든 포커스를 리셋
             FocusReset();
         }
@@ -148,6 +167,12 @@ namespace chamwhy.UI.Focus
         public void FocusReset()
         {
             // if (!_isFocused) return;
+
+            if (!canNoneFocus)
+            {
+                SetFocusInternal(0);
+                return;
+            }
             _isFocused = false;
             foreach (var focus in focusList)
             {
@@ -262,10 +287,11 @@ namespace chamwhy.UI.Focus
         /// <param name="isSelect"></param>
         public void ChangeFocusType(bool isSelect)
         {
-            if (isFocusSelect == isSelect) return;
             isFocusSelect = isSelect;
             foreach (var el in focusList)
             {
+                if (el.isFocusSelect == isSelect) continue;
+                
                 el.isFocusSelect = isSelect;
                 el.UpdateFocusType();
             }
@@ -273,7 +299,6 @@ namespace chamwhy.UI.Focus
 
         public void ChangeCanNoneFocus(bool canNone)
         {
-            if (canNoneFocus == canNone) return;
             canNoneFocus = canNone;
             foreach (var focusItem in focusList)
             {
@@ -311,11 +336,15 @@ namespace chamwhy.UI.Focus
         
         private Dictionary<UIElement, Action<UIElementState>> eventHandlers = new();
 
+        private Dictionary<UIElement, Action> focusHandlers = new();
         private void RegisterMouseEvent(UIElement el, int label)
         {
             Action<UIElementState> callback = st => UIElementStateChanged(st, label);
             eventHandlers[el] = callback;
             el.StateChanged += callback;
+            Action callback2 = () => MoveToLabel(label);
+            focusHandlers[el] = callback2;
+            el.FocusOn += callback2;
         }
         private void RemoveMouseEvent(UIElement el)
         {
@@ -324,8 +353,14 @@ namespace chamwhy.UI.Focus
                 el.StateChanged -= callback;
                 eventHandlers.Remove(el);
             }
-        }
 
+            if (focusHandlers.TryGetValue(el, out var callback2))
+            {
+                el.FocusOn -= callback2;
+                focusHandlers.Remove(el);
+            }
+        }
+        
         private void UIElementStateChanged(UIElementState elState, int label)
         {
             // Debug.LogError($"state changed to {elState} {label}");
@@ -682,16 +717,22 @@ namespace chamwhy.UI.Focus
             if (curId < 0 || focusList.Count <= curId) return;
             FocusGroup?.ChangeFocusParent(this);
             NavigationManager?.SetCurrentNavigatable(this);
-            if (_isFocused && this.curId < focusList.Count)
-            {
-                FocusOff(this.curId);
-            }
-            _isFocused = true;
-            this.curId = curId;
-            FocusChanged.Invoke(this.curId);
-            FocusOn(this.curId);
+            SetFocusInternal(curId);
         }
 
+        private void SetFocusInternal(int id)
+        {
+            if (id < 0 || id >= focusList.Count) return;
+
+            if (_isFocused && curId < focusList.Count)
+                FocusOff(curId);
+
+            _isFocused = true;
+            curId = id;
+
+            FocusChanged?.Invoke(curId);
+            FocusOn(curId);
+        }
         /// <summary>
         /// 특정 요소의 포커스를 활성화합니다.
         /// </summary>
