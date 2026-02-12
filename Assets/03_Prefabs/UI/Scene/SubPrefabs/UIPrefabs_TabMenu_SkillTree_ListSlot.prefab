@@ -279,7 +279,7 @@ MonoBehaviour:
     - Name: FocusOff
       Entry: 6
       Data: 
-  isChild: 1
+  isSubItem: 1
   isAlreadyCreated: 1
   showType: 6
   activatedWhenInit: 0

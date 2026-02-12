@@ -76,6 +76,8 @@ namespace Apis.SkillTree
 
         public bool CheckEquipable(SkillTreeSlot slot)
         {
+            if (SlotType == SlotTypeEnum.Medium) return true;
+            
             switch (slot.slotType)
             {
                 case SkillTreeSlot.SlotType.Low:
