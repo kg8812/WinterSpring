@@ -2678,7 +2678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFocusSelect: 1
-  canNoneFocus: 0
+  canNoneFocus: 1
   canLoop: 0
   useNumberKey: 0
   navigation: 2
@@ -6565,7 +6565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFocusSelect: 1
-  canNoneFocus: 0
+  canNoneFocus: 1
   canLoop: 0
   useNumberKey: 0
   navigation: 2
@@ -8087,7 +8087,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFocusSelect: 1
-  canNoneFocus: 0
+  canNoneFocus: 1
   canLoop: 0
   useNumberKey: 0
   navigation: 2
@@ -30910,7 +30910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFocusSelect: 1
-  canNoneFocus: 0
+  canNoneFocus: 1
   canLoop: 0
   useNumberKey: 0
   navigation: 2

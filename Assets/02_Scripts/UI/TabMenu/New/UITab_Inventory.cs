@@ -62,7 +62,6 @@ namespace chamwhy
             ChangeOn();
             
             
-            Equipment.MoveTo(0);
             ChangeFocusParent(Equipment);
 
             _scrollRect.UpdateFocusParentToScrollView(Inven);
@@ -465,6 +464,12 @@ namespace chamwhy
             if(_curFocus == Inven && direction == NavigationDirection.Left) return false;
 
             return true;
+        }
+
+        public override void ResetFocus()
+        {
+            base.ResetFocus();
+            ChangeFocusParent(Equipment);
         }
 
         #region KeyBoardMoveSection

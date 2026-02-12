@@ -45,7 +45,18 @@ namespace chamwhy
             }
             _curFocus?.GamePadControl();
         }
-        
+
+        public override void OnOpen()
+        {
+            base.OnOpen();
+            ResetFocus();
+        }
+
+        public override void OnClose()
+        {
+            base.OnClose();
+            ResetFocus();
+        }
         
 
         public virtual void ChangeFocusParent(FocusParent fp)
@@ -103,9 +114,9 @@ namespace chamwhy
             return _curFocus.IsAtBoundary(direction);
         }
 
-        public void ResetFocus()
+        public virtual void ResetFocus()
         {
-            _curFocus?.MoveTo(0);
+            _curFocus?.FocusReset();
         }
     }
 }
