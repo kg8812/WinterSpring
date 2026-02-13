@@ -63,8 +63,15 @@ namespace UI.UI_SubItem
             
             GetButton((int)Buttons.DeleteButton).onClick.AddListener(() =>
             {
-                RemoveSlotData();
-                _uiSaveSlot.SetSlotList();
+                SystemManager.SystemCheck("데이터를 삭제하시겠습니까?", x =>
+                {
+                    if (x)
+                    {
+                        RemoveSlotData();
+                        _uiSaveSlot.SetSlotList();
+                    }
+                });
+                
             });
         }
 
