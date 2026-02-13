@@ -168,17 +168,19 @@ namespace chamwhy.UI.Focus
         {
             // if (!_isFocused) return;
 
+            foreach (var focus in focusList)
+            {
+                focus.SelectOff(true);
+                focus.HoverOff(true);
+            }
+            
             if (!canNoneFocus)
             {
                 SetFocusInternal(0);
                 return;
             }
             _isFocused = false;
-            foreach (var focus in focusList)
-            {
-                focus.SelectOff(true);
-                focus.HoverOff(true);
-            }
+            
         }
 
         public void Reset(bool isHard = false)

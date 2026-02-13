@@ -2820,7 +2820,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2959205134596431445, guid: 726e7621715f4cb46b0d16bc212090a4, type: 3}
       propertyPath: textId
-      value: 1010119
+      value: 1010116
       objectReference: {fileID: 0}
     - target: {fileID: 4893276766588757597, guid: 726e7621715f4cb46b0d16bc212090a4, type: 3}
       propertyPath: m_Name

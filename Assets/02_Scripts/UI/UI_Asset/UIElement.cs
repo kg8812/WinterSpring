@@ -92,6 +92,7 @@ namespace chamwhy.UI
             WillStateChange += WillElStateChange;
             StateChanged += ElStateChanged;
         }
+        
 
         public static bool EqualSt(UIElementState from, UIElementState to)
         {

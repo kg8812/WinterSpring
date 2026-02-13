@@ -66,7 +66,7 @@ public class SkillTreeSlot : UIAsset_Toggle
 
     public override void OnEndDrag(PointerEventData eventData)
     {
-        if (!useDrag) return;
+        if (!useDrag || !IsDragging) return;
 
         base.OnEndDrag(eventData);
         IsDragging = false;

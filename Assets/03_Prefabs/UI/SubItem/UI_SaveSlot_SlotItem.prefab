@@ -186,6 +186,7 @@ RectTransform:
   - {fileID: 8322557756895125272}
   - {fileID: 4955050212741900791}
   - {fileID: 2541188619469005880}
+  - {fileID: 1210481448005806158}
   m_Father: {fileID: 1672174283643906614}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -497,7 +498,6 @@ RectTransform:
   - {fileID: 5586271399396204662}
   - {fileID: 1672174283643906614}
   - {fileID: 4383564637736386014}
-  - {fileID: 1210481448005806158}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -560,7 +560,7 @@ MonoBehaviour:
     - Name: FocusOff
       Entry: 6
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0
@@ -998,18 +998,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4650129132106590838}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8566447903843034987}
-  m_Father: {fileID: 2357405643251069274}
-  m_RootOrder: 3
+  m_Father: {fileID: 107296246000068024}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 53, y: -71}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!222 &3388052797380127901
