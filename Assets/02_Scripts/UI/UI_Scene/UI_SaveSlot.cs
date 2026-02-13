@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using chamwhy.UI.Focus;
 using Default;
 using Save.Schema;
 using UI;
@@ -23,6 +24,8 @@ namespace chamwhy
 
         private float minSpace = 50;
         private float slotHeight = 250;
+
+        private FocusParent focusParent;
         
         public override void Init()
         {
@@ -42,8 +45,10 @@ namespace chamwhy
         public void SetSlotList()
         {
             foreach (Transform child in contentPanel.transform)
-                Destroy(child.gameObject);
-            
+            {
+                GameManager.UI.ReturnUI(child.gameObject);
+            }
+
             var slotDatas = DataAccess.GameData.Data.SlotDatas;
             RectTransform rt = contentPanel.GetComponent<RectTransform>();
             rt.sizeDelta = new Vector3(rt.sizeDelta.x, (minSpace * slotDatas.Count) + (slotHeight* (slotDatas.Count+1)));

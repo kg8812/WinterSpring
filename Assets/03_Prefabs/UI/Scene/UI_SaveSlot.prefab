@@ -273,8 +273,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8180609252930367562}
   m_HandleRect: {fileID: 8180609252930367563}
   m_Direction: 3
-  m_Value: -0.00000028579194
-  m_Size: 0.6629143
+  m_Value: 0
+  m_Size: 0.6625737
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -516,7 +516,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 427.1301}
+  m_AnchoredPosition: {x: 0, y: 427.13004}
   m_SizeDelta: {x: 0, y: 1267.13}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &8180609252930367560
@@ -609,6 +609,7 @@ GameObject:
   - component: {fileID: 8180609253148930751}
   - component: {fileID: 5570534204728240115}
   - component: {fileID: 8737658689253104986}
+  - component: {fileID: 6144818381640371781}
   m_Layer: 5
   m_Name: UI_SaveSlot
   m_TagString: Untagged
@@ -735,7 +736,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0
@@ -763,6 +764,36 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &6144818381640371781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8180609253148930748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7317eaa29f64e1dbc8c2a869e9819a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFocusSelect: 0
+  canNoneFocus: 0
+  canLoop: 1
+  useNumberKey: 0
+  navigation: 1
+  tableData:
+    x: 0
+    y: 0
+    isLeftLoop: 0
+    isRightLoop: 0
+    isUpLoop: 0
+    isDownLoop: 0
+    fixedY: 0
+  isQE: 0
+  focusList: []
+  FocusChanged:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8180609253328734566
 GameObject:
   m_ObjectHideFlags: 0
