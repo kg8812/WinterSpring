@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
+using chamwhy.UI;
 using chamwhy.UI.Focus;
 using NewNewInvenSpace;
 using UnityEngine;
@@ -171,22 +172,56 @@ namespace chamwhy
                 FocusParent curFocus = data.Value;
                 FocusParent nextFocus = datasetList[nextInd].Value;
 
-                data.Value.tableData.moveUp = x =>
+                data.Value.tableData.moveUp = current =>
                 {
-                    int realX = Default.FormatUtils.GetRatioIntByInt(x, curFocus.tableData.x, prevFocus.tableData.x);
-            
-                    // 해당하는 가장 밑의 개체로 이동.
-                    prevFocus.MoveTo(realX + ((prevFocus.focusList.Count - realX - 1) / prevFocus.tableData.x) * prevFocus.tableData.x );
-                    ChangeFocusParent(prevFocus);
+                    Vector2 curPos = current.rectTransform.TransformPoint(current.rectTransform.rect.center);
+
+                    UIElement best = null;
+                    float bestDist = float.MaxValue;
+
+                    foreach (var el in prevFocus.focusList)
+                    {
+                        RectTransform rect = el.rectTransform;
+                        float dx = Vector2.Distance(rect.TransformPoint(rect.rect.center), curPos);
+
+                        if (dx < bestDist)
+                        {
+                            bestDist = dx;
+                            best = el as ItemSlot;
+                        }
+                    }
+                    
+                    if (best != null)
+                    {
+                        prevFocus.MoveTo(prevFocus.focusList.IndexOf(best));
+                        ChangeFocusParent(prevFocus);
+                    }
                 };
                 
-                data.Value.tableData.moveDown = x =>
+                data.Value.tableData.moveDown = current =>
                 {
-                    int realX = Default.FormatUtils.GetRatioIntByInt(x, curFocus.tableData.x, nextFocus.tableData.x);
-            
-                    // 해당하는 가장 밑의 개체로 이동.
-                    nextFocus.MoveTo(realX);
-                    ChangeFocusParent(nextFocus);
+                    Vector2 curPos = current.rectTransform.TransformPoint(current.rectTransform.rect.center);
+
+                    UIElement best = null;
+                    float bestDist = float.MaxValue;
+
+                    foreach (var el in nextFocus.focusList)
+                    {
+                        RectTransform rect = el.rectTransform;
+                        float dx = Vector2.Distance(rect.TransformPoint(rect.rect.center), curPos);
+
+                        if (dx < bestDist)
+                        {
+                            bestDist = dx;
+                            best = el as ItemSlot;
+                        }
+                    }
+                    
+                    if (best != null)
+                    {
+                        nextFocus.MoveTo(nextFocus.focusList.IndexOf(best));
+                        ChangeFocusParent(nextFocus);
+                    }
                 };
             }
         }

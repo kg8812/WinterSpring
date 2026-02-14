@@ -25572,7 +25572,7 @@ MonoBehaviour:
   canNoneFocus: 0
   canLoop: 1
   useNumberKey: 0
-  navigation: 2
+  navigation: 1
   tableData:
     x: 1
     y: 4
@@ -26522,7 +26522,7 @@ MonoBehaviour:
   canNoneFocus: 0
   canLoop: 1
   useNumberKey: 0
-  navigation: 2
+  navigation: 1
   tableData:
     x: 1
     y: 2

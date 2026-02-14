@@ -1,5 +1,6 @@
 ﻿using System;
 using Apis;
+using chamwhy.UI;
 using chamwhy.UI.Focus;
 using Default;
 using Managers;
@@ -442,9 +443,9 @@ namespace chamwhy
 
         protected virtual void ChangeOn()
         {
-            Equipment.tableData.moveRight = MoveDownOnEquipment;
+            Equipment.tableData.moveRight = MoveToInven;
             
-            Inven.tableData.moveLeft = MoveDownOnInven;
+            Inven.tableData.moveLeft = MoveToEquipment;
         }
         protected virtual void ChangeOff()
         {
@@ -474,35 +475,57 @@ namespace chamwhy
 
         #region KeyBoardMoveSection
 
-        protected virtual void MoveUpOnEquipment(int x)
+        protected virtual void MoveToInven(UIElement current)
         {
-            int realX = Default.FormatUtils.GetRatioIntByInt(x, Equipment.tableData.x, Inven.tableData.x);
+            Vector2 curPos = current.rectTransform.TransformPoint(current.rectTransform.rect.center);
+
+            ItemSlot best = null;
+            float bestDist = float.MaxValue;
+
+            foreach (var el in Inven.focusList)
+            {
+                RectTransform rect = el.rectTransform;
+                float dx = Vector2.Distance(rect.TransformPoint(rect.rect.center), curPos);
+
+                if (dx < bestDist)
+                {
+                    bestDist = dx;
+                    best = el as ItemSlot;
+                }
+            }
+
+            if (best != null)
+            {
+                Inven.MoveTo(Inven.focusList.IndexOf(best));
+                ChangeFocusParent(Inven);
+            }
+        }
+
+        protected virtual void MoveToEquipment(UIElement current)
+        {
             
-            // 해당하는 가장 밑의 개체로 이동.
-            Inven.MoveTo(realX + ((Inven.focusList.Count - realX - 1) / Inven.tableData.x) * Inven.tableData.x );
-            ChangeFocusParent(Inven);
-        }
+            Vector2 curPos = current.rectTransform.TransformPoint(current.rectTransform.rect.center);
 
-        protected virtual void MoveDownOnEquipment(int x)
-        {
-            int realX = Default.FormatUtils.GetRatioIntByInt(x, Equipment.tableData.x, Inven.tableData.x);
-            Inven.MoveTo(realX);
-            ChangeFocusParent(Inven);
-        }
+            ItemSlot best = null;
+            float bestDist = float.MaxValue;
 
-        protected virtual void MoveUpOnInven(int x)
-        {
-            int realX = Default.FormatUtils.GetRatioIntByInt(x, Inven.tableData.x, Equipment.tableData.x);
-            // 해당하는 가장 밑의 개체로 이동.
-            Equipment.MoveTo(realX + ((Equipment.focusList.Count - realX - 1) / Equipment.tableData.x) * Equipment.tableData.x );
-            ChangeFocusParent(Equipment);
-        }
+            foreach (var el in Equipment.focusList)
+            {
+                RectTransform rect = el.rectTransform;
+                float dx = Vector2.Distance(rect.TransformPoint(rect.rect.center), curPos);
 
-        protected virtual void MoveDownOnInven(int x)
-        {
-            int realX = Default.FormatUtils.GetRatioIntByInt(x, Inven.tableData.x, Equipment.tableData.x);
-            Equipment.MoveTo(realX);
-            ChangeFocusParent(Equipment);
+                if (dx < bestDist)
+                {
+                    bestDist = dx;
+                    best = el as ItemSlot;
+                }
+            }
+
+            if (best != null)
+            {
+                Equipment.MoveTo(Equipment.focusList.IndexOf(best));
+                ChangeFocusParent(Equipment);
+            }
         }
 
         #endregion

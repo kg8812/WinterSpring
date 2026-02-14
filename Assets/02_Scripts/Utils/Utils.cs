@@ -854,7 +854,7 @@ namespace Default
 
         public static int GetRatioIntByInt(int value, int from, int to)
         {
-            int realInt = Mathf.RoundToInt((float)value / (float)(from - 1) * (to - 1));
+            int realInt = Mathf.RoundToInt((float)value / (from - 1) * (to - 1));
             return Mathf.Clamp(realInt, 0, to - 1);
         }
     }
