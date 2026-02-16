@@ -437,11 +437,11 @@ namespace chamwhy.UI.Focus
             RectTransform currentRect = current.rectTransform;
             
             Vector2 currentWorldPos = currentRect.TransformPoint(currentRect.rect.center);
-            
-            UIElement best = null;
-            float bestScore = float.MaxValue;
 
             float tolerance = CalculateTolerance();
+            
+            List<UIElement> strictCandidates = new(); // 같은 줄에 있는 요소들
+            List<UIElement> looseCandidates = new(); // 같은줄이 아닌 요소들
             
             // 전체적으로 순회하며 입력한 방향에 가장 가까운 요소를 탐색.
 
@@ -460,51 +460,55 @@ namespace chamwhy.UI.Focus
                 switch (dir)
                 {
                     case NavigationDirection.Up:
-                        valid = delta.y > 0f;
+                        valid = delta.y > tolerance;
                         break;
                     case NavigationDirection.Down:
-                        valid = delta.y < 0f;
+                        valid = delta.y < -tolerance;
                         break;
                     case NavigationDirection.Left:
-                        valid = delta.x < 0f;
+                        valid = delta.x < -tolerance;
                         break;
                     case NavigationDirection.Right:
-                        valid = delta.x > 0f;
+                        valid = delta.x > tolerance;
                         break;
                 }
 
                 if (!valid) continue;
 
-                // 현재 위치와의 거리 계산
-                float primary; // 최우선 수치
-                float secondary; // 보조 수치
-
-                if (dir is NavigationDirection.Up or NavigationDirection.Down)
+                // Tolerance (슬롯의 줄 판별 허용오차) 안에 있을 시 같은줄로 등록, 아닐 시 다른줄로 등록
+                if (dir is NavigationDirection.Left or NavigationDirection.Right)
                 {
-                    // 위나 아래일시에 Y 거리를 최우선, X를 보조 수치로
-                    primary = Mathf.Abs(delta.y);
-                    secondary = Mathf.Abs(delta.x);
+                    if (Mathf.Abs(delta.y) <= tolerance)
+                        strictCandidates.Add(el);
+                    else
+                        looseCandidates.Add(el);
                 }
                 else
                 {
-                    // 좌우일시에 X 거리를 최우선, Y를 보조 수치로
-                    primary = Mathf.Abs(delta.x);
-                    secondary = Mathf.Abs(delta.y);
-                }
-
-                // 최우선 거리의 보정치를 높이기 위해 10의 가중치를 줌
-                // 단순 거리 계산으로하면 원치않는곳으로 이동할수도 있음
-                float score = primary * 10f + secondary;
-
-                Debug.Log($"{currentWorldPos} , {el.transform.parent.name},{el.name},{pos}"  );
-                // 거리가 더 가까우면 저장
-                if (score < bestScore)
-                {
-                    bestScore = score;
-                    best = el;
+                    if (Mathf.Abs(delta.x) <= tolerance)
+                        strictCandidates.Add(el);
+                    else
+                        looseCandidates.Add(el);
                 }
             }
 
+            UIElement best = null;
+            float bestScore = float.MaxValue;
+
+            // strictCandidates를 우선으로, 없으면 looseCandidates에서 가장 가까운 요소 탐색
+            foreach (var el in strictCandidates.Count > 0 ? strictCandidates : looseCandidates)
+            {
+                RectTransform rect = el.rectTransform;
+                Vector2 pos = rect.TransformPoint(rect.rect.center);
+                float dist = Vector2.Distance(currentWorldPos, pos);
+
+                if (dist < bestScore)
+                {
+                    bestScore = dist;
+                    best = el;
+                }
+            }
+            
             // 가장 가까운걸 반환해줌
             return best;
         }
@@ -687,7 +691,7 @@ namespace chamwhy.UI.Focus
                 {
                     void TryMove(NavigationDirection dir, bool loop, MoveEvent external)
                     {
-                        Debug.Log("TryMove" + dir);
+                        Debug.Log(loop);
                         UIElement next = FindElementByDirection(dir);
 
                         if (next != null)
@@ -705,7 +709,6 @@ namespace chamwhy.UI.Focus
                             else if (external != null)
                             {
                                 UIElement current = focusList[curId];
-                                FocusReset();
                                 external.Invoke(current);
                             }
                         }
