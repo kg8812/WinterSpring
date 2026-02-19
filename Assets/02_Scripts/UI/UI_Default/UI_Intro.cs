@@ -88,13 +88,13 @@ namespace chamwhy
         public override void TryActivated(bool force = false)
         {
             
-            if (DataAccess.GameData.Data.IsFirstGame)
-            {
-                choosed = false;
-                focusParent.MoveTo((int)LanguageManager.LanguageType);
-                GameManager.UI.RegisterUIController(this);
-            }
-            else
+            //if (DataAccess.GameData.Data.IsFirstGame)
+            // {
+            //     choosed = false;
+            //     focusParent.MoveTo((int)LanguageManager.LanguageType);
+            //     GameManager.UI.RegisterUIController(this);
+            // }
+            // else
             {
                 choosed = true;
                 ShowLogo();

@@ -691,7 +691,6 @@ namespace chamwhy.UI.Focus
                 {
                     void TryMove(NavigationDirection dir, bool loop, MoveEvent external)
                     {
-                        Debug.Log(loop);
                         UIElement next = FindElementByDirection(dir);
 
                         if (next != null)

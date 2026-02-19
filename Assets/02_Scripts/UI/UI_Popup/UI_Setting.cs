@@ -3,6 +3,7 @@ using Default;
 using chamwhy.UI;
 using Managers;
 using Save.Schema;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace chamwhy
@@ -17,7 +18,7 @@ namespace chamwhy
         {
             base.Init();
             settingHeaderMenuNton.Init();
-            _contents = transform.GetComponentsInChildren<UISetting_Content>();
+            _contents = transform.GetComponentsInChildren<UISetting_Content>(true);
         }
 
         public override void TryActivated(bool force = false)
@@ -26,7 +27,7 @@ namespace chamwhy
             // TODO: 저장된 데이터 기반으로 setting 값들 초기화
             foreach (var content in _contents)
             {
-                content.ResetBySaveData(DataAccess.Settings.Data);
+                content.ResetBySaveData();
             }
             IsDirty = false;
             base.TryActivated(force);

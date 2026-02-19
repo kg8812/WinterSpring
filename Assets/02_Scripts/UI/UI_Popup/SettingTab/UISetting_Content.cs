@@ -14,7 +14,7 @@ namespace chamwhy
             focusParent?.InitCheck();
         }
 
-        public virtual void ResetBySaveData(SettingData data)
+        public virtual void ResetBySaveData()
         {
             
         }

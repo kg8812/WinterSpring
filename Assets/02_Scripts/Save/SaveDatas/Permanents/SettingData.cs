@@ -99,7 +99,7 @@ namespace Save.Schema
 
             for (int i = 0; i < Volumes.Length; i++)
             {
-                Volumes[i] = 0.5f;
+                Volumes[i] = GameManager.Sound.volume[i];
             }
 
             languageType = LanguageType.Korean;
@@ -274,7 +274,7 @@ namespace Save.Schema
             
             for (int i = 0; i < Volumes.Length; i++)
             {
-                Volumes[i] = 0.5f;
+                Volumes[i] = GameManager.Sound.volume[i];
             }
             
             foreach (Define.Sound sound in Enum.GetValues(typeof(Define.Sound)))

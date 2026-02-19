@@ -22,7 +22,7 @@ namespace chamwhy
             Get<UIAsset_Carousel>((int)Carousels.Frame).ValueChanged.AddListener(OnFrameChanged);
         }
 
-        public override void ResetBySaveData(SettingData data)
+        public override void ResetBySaveData()
         {
             // TODO: 그래픽 관련 세팅 목록 완료되면 하기
         }

@@ -8824,6 +8824,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6041595458383761263, guid: 30b470ddd93d8534ea7d26fe2112d710, type: 3}
+      propertyPath: movePower
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6041595458383761263, guid: 30b470ddd93d8534ea7d26fe2112d710, type: 3}
       propertyPath: isAlreadyCreated
       value: 1
       objectReference: {fileID: 0}

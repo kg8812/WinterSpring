@@ -14,15 +14,15 @@ namespace chamwhy
         private void Start()
         {
             IntroUI.introManager = this;
-            if (DataAccess.GameData.Data.IsFirstGame)
-            {
-                IntroUI.TryActivated();
-                IntroUI.OnDeactivated.AddListener(() =>
-                {
-                    StartCoroutine(ProgressAfterTime());
-                });
-            }
-            else
+            // if (DataAccess.GameData.Data.IsFirstGame)
+            // {
+            //     IntroUI.TryActivated();
+            //     IntroUI.OnDeactivated.AddListener(() =>
+            //     {
+            //         StartCoroutine(ProgressAfterTime());
+            //     });
+            // }
+            // else
             {
                 StartCoroutine(ProgressAfterTime());
             }

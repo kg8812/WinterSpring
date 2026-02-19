@@ -73,13 +73,33 @@ namespace chamwhy
                     GameManager.Sound.ChangeVolume(value, Define.Sound.Master); 
                     UI_Setting.IsDirty = true;
                 });
+            sliders[(int)Define.Sound.Ambience].onValueChanged
+                .AddListener(value => {
+                    texts[(int)Define.Sound.Ambience].text = GetStringByValue(value);
+                    GameManager.Sound.ChangeVolume(value, Define.Sound.Ambience); 
+                    UI_Setting.IsDirty = true;
+                });
+            sliders[(int)Define.Sound.UI].onValueChanged
+                .AddListener(value => {
+                    texts[(int)Define.Sound.UI].text = GetStringByValue(value);
+                    GameManager.Sound.ChangeVolume(value, Define.Sound.UI); 
+                    UI_Setting.IsDirty = true;
+                });
         }
 
-        public override void ResetBySaveData(SettingData data)
+        protected override void Activated()
         {
-            sliders[(int)Define.Sound.BGM].value = data.Volumes[(int)Define.Sound.BGM];
-            sliders[(int)Define.Sound.SFX].value = data.Volumes[(int)Define.Sound.SFX];
-            sliders[(int)Define.Sound.Master].value = data.Volumes[(int)Define.Sound.Master];
+            base.Activated();
+            
+        }
+
+        public override void ResetBySaveData()
+        {
+            for (int i = 0; i < (int)Define.Sound.MaxCOUNT; i++)
+            {
+                sliders[i].value = DataAccess.Settings.Data.Volumes[i];
+                texts[i].text = GetStringByValue(sliders[i].value);
+            }
         }
 
         private string GetStringByValue(float value)

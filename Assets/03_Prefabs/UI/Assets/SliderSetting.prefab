@@ -579,10 +579,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 5842678865692070678}
   m_HandleRect: {fileID: 3548046639537298690}
   m_Direction: 0
-  m_MinValue: 0.001
+  m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.58
+  m_Value: 0.5
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1016,7 +1016,7 @@ MonoBehaviour:
     - Name: FocusOff
       Entry: 6
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0
@@ -1073,8 +1073,10 @@ MonoBehaviour:
     looopPropInt: 0
   slider: {fileID: 2932011736488892270}
   mode: 0
-  moveDir: 0.1
-  value: {fileID: 6280807104320541909}
+  movePower: 0.01
+  _keyController:
+    initialDelay: 0.3
+    repeatRate: 0.1
 --- !u!1 &7669733421952998034
 GameObject:
   m_ObjectHideFlags: 0
@@ -1221,7 +1223,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0.5795796
+  m_FillAmount: 0.5
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0

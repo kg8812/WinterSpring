@@ -25,9 +25,9 @@ namespace chamwhy
             Get<UIAsset_Toggle>((int)Toggles.CameraShaking).OnValueChanged.AddListener(OnCamShakeChanged);
         }
 
-        public override void ResetBySaveData(SettingData data)
+        public override void ResetBySaveData()
         {
-            Get<UIAsset_Carousel>((int)Carousels.Language).MoveTo((int)data.languageType);
+            Get<UIAsset_Carousel>((int)Carousels.Language).MoveTo((int)DataAccess.Settings.Data.languageType);
             // TODO: 추후 카메라 쉐이킹 setting 목록에 추가되면 설정.
             // if (data.CamShake)
             // {

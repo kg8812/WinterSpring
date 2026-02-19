@@ -87,7 +87,7 @@ public class KeySettingController : UISetting_Content
     
 
 
-    public override void ResetBySaveData(SettingData data)
+    public override void ResetBySaveData()
     {
         foreach (var btn in _buttons)
         {
