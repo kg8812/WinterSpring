@@ -15,6 +15,11 @@ public class WeaponSlot : ItemSlot
     {
         base.OnSlotChanged(ind, item);
         if (ind != index) return;
+        if (GameManager.Item.Weapon.WpDict.TryGetValue(_weaponSlotData.WeaponId, out var weapon))
+        {
+            itemImg.sprite = weapon.Image;
+        }
+        
         lockedImg.enabled = false;
         itemImg.color = Color.white;
         if (item == null && invenType == InvenType.Storage)

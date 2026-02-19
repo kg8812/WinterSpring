@@ -52,15 +52,15 @@ public class ShelterObject : MonoBehaviour , IOnInteract
     public void OnInteract()
     {
         // check
-        //if (prerequisiteTipVideoId != 0 && !DataAccess.Codex.IsOpen(CodexData.CodexType.Tip, prerequisiteTipVideoId))
+        if (prerequisiteTipVideoId != 0 && !DataAccess.Codex.IsOpen(CodexData.CodexType.Tip, prerequisiteTipVideoId))
         {
             UI_Tip tipUi = GameManager.UI.CreateUI("UI_Tip", UIType.Scene, withoutActivation:true) as UI_Tip;
-            //if (tipUi != null && TipDatabase.TryGetTipData(prerequisiteTipVideoId, out var data))
+            if (tipUi != null && TipDatabase.TryGetTipData(prerequisiteTipVideoId, out var data))
             {
-                //tipUi.InitData(data);
+                tipUi.InitData(data);
                 tipUi.TryActivated();
             }
-            //DataAccess.Codex.UnLock(CodexData.CodexType.Tip, prerequisiteTipVideoId);
+            DataAccess.Codex.UnLock(CodexData.CodexType.Tip, prerequisiteTipVideoId);
             return;
         }
         
