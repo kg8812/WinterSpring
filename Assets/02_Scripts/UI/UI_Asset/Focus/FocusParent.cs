@@ -629,9 +629,6 @@ namespace chamwhy.UI.Focus
 
         public void KeyControl()
         {
-            int xDim = Mathf.Max(1, tableData.x);
-            int yDim = Mathf.Max(1, tableData.y);
-
             if (_isFocused)
             {
                 // Debug.LogError($"cur id : {curId}");
@@ -729,8 +726,6 @@ namespace chamwhy.UI.Focus
 
         public void GamePadControl()
         {
-            int xDim = Mathf.Max(1, tableData.x);
-            int yDim = Mathf.Max(1, tableData.y);
             if (_isFocused)
             {
                 // Debug.LogError($"cur id : {curId}");

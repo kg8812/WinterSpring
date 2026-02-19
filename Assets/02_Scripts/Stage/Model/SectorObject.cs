@@ -53,7 +53,6 @@ public class SectorObject : SerializedMonoBehaviour
             Map.instance.ObtainedObject(guid.ToString());
             GameManager.Save.currentSlotData.SectorSaveData.objectObtained.Add(guid.ToString());
             OnActive?.Invoke();
-            // GameManager.Save.currentSlotData.SectorSaveData.saveSectorObjects.Remove(guid.ToString());
         }
     }
 }

@@ -21,10 +21,13 @@ namespace Apis
 
         // public string weaponName;
         public int weaponId;
+        private SectorObject _sectorObj;
+        
         private void Awake()
         {
             isInteractable = true;
             render = GetComponent<SpriteRenderer>();
+            _sectorObj = GetComponent<SectorObject>();
         }
 
         public override void InvokeInteraction()
@@ -37,7 +40,11 @@ namespace Apis
             OnCollect.Invoke(this);
             GameManager.Item.WeaponPickUp.Return(this);
             GameManager.UI.CreateUI("UI_ItemPopup", UIType.Main).GetComponent<UI_ItemPopUp>().Init(weapon);
-
+        
+            if (_sectorObj != null)
+            {
+                _sectorObj.Activate();
+            }
         }
 
         // 획득할 무기 넣기
