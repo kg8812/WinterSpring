@@ -1143,6 +1143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Debugger
       objectReference: {fileID: 0}
+    - target: {fileID: 3481725880623722145, guid: 3fc53e14a4d505047b1a5e5009454deb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3481725880623722156, guid: 3fc53e14a4d505047b1a5e5009454deb, type: 3}
       propertyPath: m_Pivot.x
       value: 0

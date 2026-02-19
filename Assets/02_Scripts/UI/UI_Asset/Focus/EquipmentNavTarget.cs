@@ -48,10 +48,6 @@ public class EquipmentNavTarget : MonoBehaviour , ISelectableNavTarget
     public void OnSelected(bool focus)
     {
         OnSelectedEvent.Invoke();
-        if (focus)
-        {
-            inven.ResetFocus();
-        }
     }
 
     public void OnDeselected()

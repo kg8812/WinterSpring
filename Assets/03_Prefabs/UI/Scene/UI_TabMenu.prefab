@@ -29771,7 +29771,7 @@ GameObject:
   - component: {fileID: 6593913450460358168}
   - component: {fileID: 7329558761280289200}
   - component: {fileID: 6915271383998299055}
-  - component: {fileID: 4313995811865682343}
+  - component: {fileID: 27457770245061073}
   m_Layer: 5
   m_Name: Viewport
   m_TagString: Untagged
@@ -29838,7 +29838,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &4313995811865682343
+--- !u!114 &27457770245061073
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -29847,10 +29847,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8514546783515229599}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShowMaskGraphic: 0
+  m_Padding: {x: 0, y: 0, z: 0, w: 0}
+  m_Softness: {x: 0, y: 0}
 --- !u!1 &8574131367779364156
 GameObject:
   m_ObjectHideFlags: 0
@@ -31057,7 +31058,7 @@ GameObject:
   - component: {fileID: 8150630763859076515}
   - component: {fileID: 37880803810547824}
   - component: {fileID: 1546736279038442309}
-  - component: {fileID: 3536145978390285572}
+  - component: {fileID: 5237321617247523956}
   m_Layer: 5
   m_Name: Viewport
   m_TagString: Untagged
@@ -31124,7 +31125,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &3536145978390285572
+--- !u!114 &5237321617247523956
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -31133,10 +31134,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 9088172004732875590}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShowMaskGraphic: 0
+  m_Padding: {x: 0, y: 0, z: 0, w: 0}
+  m_Softness: {x: 0, y: 0}
 --- !u!1 &9109070698600635666
 GameObject:
   m_ObjectHideFlags: 0

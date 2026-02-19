@@ -16,8 +16,8 @@ namespace chamwhy
         protected ItemSlot ChangeSlot;
         // 등록하는 event 자체는 여기서 관리 x
         // 외부 스크립트에서 설정 event 달아줘야 함
-        protected ItemSlot CurFocusedSlot;
-
+        protected ItemSlot curFocusedSlot;
+        public ItemSlot CurFocusedSlot => curFocusedSlot;
         
         public override void KeyControl()
         {

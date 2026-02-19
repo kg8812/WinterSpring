@@ -138,15 +138,15 @@ namespace chamwhy
                             description.Set(slot.curItem);
                             CurInvenType = slot.invenType;
                         }
-                        else if(CurFocusedSlot == slot)
+                        else if(curFocusedSlot == slot)
                         {
-                            CurFocusedSlot = null;
+                            curFocusedSlot = null;
                         }
                     });
                     slot.FocusOn += () =>
                     {
                         // Debug.Log($"curselected slot을 {slot.index}로 변경");
-                        CurFocusedSlot = slot;
+                        curFocusedSlot = slot;
                     };
                     invenGroupManager.Invens[invenType].OnSlotChanged += slot.OnSlotChanged;
                     
@@ -232,32 +232,32 @@ namespace chamwhy
         public override void KeyControl()
         {
             base.KeyControl();
-            if (CurFocusedSlot == null || PreventMoving) return;
+            if (curFocusedSlot == null || PreventMoving) return;
             // if (InputManager.GetKeyDown(KeyCode.J))
             // {
             //     Debug.Log($"test: selected:{CurFocusedSlot?.index} change:{ChangeSlot?.index} Tochange:{ToChangeSlot?.index}");
             // }
             if (InputManager.GetKeyDown(KeySettingManager.GetUIKeyCode(Define.UIKey.Equip)))
             {
-                if (ReferenceEquals(CurFocusedSlot.curItem, null)) return;
+                if (ReferenceEquals(curFocusedSlot.curItem, null)) return;
                 if (IsChanging)
                 {
                     // Debug.Log("equip");
-                    SelectedForChange(CurFocusedSlot);
+                    SelectedForChange(curFocusedSlot);
                 }
                 else
                 {
                     bool success;
                     if (CurInvenType == InvenType.Equipment)
-                        success = invenGroupManager.MoveInvenType(CurFocusedSlot.index, InvenType.Equipment,
+                        success = invenGroupManager.MoveInvenType(curFocusedSlot.index, InvenType.Equipment,
                             InvenType.Storage);
                     else
-                        success = invenGroupManager.MoveInvenType(CurFocusedSlot.index, InvenType.Storage,
+                        success = invenGroupManager.MoveInvenType(curFocusedSlot.index, InvenType.Storage,
                             InvenType.Equipment);
                     if (!success)
                     {
-                        CurFocusedSlot.ChangedToggle(true);
-                        TryChangeDiffInvenType(CurFocusedSlot);
+                        curFocusedSlot.ChangedToggle(true);
+                        TryChangeDiffInvenType(curFocusedSlot);
                     }
                 }
             }else if (InputManager.GetKeyDown(KeySettingManager.GetUIKeyCode(Define.UIKey.Select)))
@@ -265,13 +265,13 @@ namespace chamwhy
                 if (IsChanging)
                 {
                     // Debug.Log("select");
-                    SelectedForChange(CurFocusedSlot);
+                    SelectedForChange(curFocusedSlot);
                 }
                 else
                 {
-                    if (ReferenceEquals(CurFocusedSlot.curItem, null)) return;
-                    CurFocusedSlot.ChangedToggle(true);
-                    TryChange(CurFocusedSlot);
+                    if (ReferenceEquals(curFocusedSlot.curItem, null)) return;
+                    curFocusedSlot.ChangedToggle(true);
+                    TryChange(curFocusedSlot);
                 }
             }
         }
@@ -279,42 +279,42 @@ namespace chamwhy
         public override void GamePadControl()
         {
             base.GamePadControl();
-            if (CurFocusedSlot == null || PreventMoving) return;
+            if (curFocusedSlot == null || PreventMoving) return;
             if (InputManager.GetKeyDown(KeySettingManager.GetUIKeyCode(Define.UIKey.Equip)))
             {
-                if (ReferenceEquals(CurFocusedSlot.curItem, null)) return;
+                if (ReferenceEquals(curFocusedSlot.curItem, null)) return;
                 if (IsChanging)
                 {
                     
-                    SelectedForChange(CurFocusedSlot);
+                    SelectedForChange(curFocusedSlot);
                 }
                 else
                 {
                     bool success;
                     if (CurInvenType == InvenType.Equipment)
-                        success = invenGroupManager.MoveInvenType(CurFocusedSlot.index, InvenType.Equipment,
+                        success = invenGroupManager.MoveInvenType(curFocusedSlot.index, InvenType.Equipment,
                             InvenType.Storage);
                     else
-                        success = invenGroupManager.MoveInvenType(CurFocusedSlot.index, InvenType.Storage,
+                        success = invenGroupManager.MoveInvenType(curFocusedSlot.index, InvenType.Storage,
                             InvenType.Equipment);
                     if (!success)
                     {
                         // Debug.Log("f키 안되서 try change");
-                        CurFocusedSlot.ChangedToggle(true);
-                        TryChangeDiffInvenType(CurFocusedSlot);
+                        curFocusedSlot.ChangedToggle(true);
+                        TryChangeDiffInvenType(curFocusedSlot);
                     }
                 }
             }else if (InputManager.GetKeyDown(KeySettingManager.GetUIKeyCode(Define.UIKey.Select)))
             {
                 if (IsChanging)
                 {
-                    SelectedForChange(CurFocusedSlot);
+                    SelectedForChange(curFocusedSlot);
                 }
                 else
                 {
-                    if (ReferenceEquals(CurFocusedSlot.curItem, null)) return;
-                    CurFocusedSlot.ChangedToggle(true);
-                    TryChange(CurFocusedSlot);
+                    if (ReferenceEquals(curFocusedSlot.curItem, null)) return;
+                    curFocusedSlot.ChangedToggle(true);
+                    TryChange(curFocusedSlot);
                 }
             }
         }

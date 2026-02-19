@@ -99,7 +99,7 @@ namespace Save.Schema
 
             for (int i = 0; i < Volumes.Length; i++)
             {
-                Volumes[i] = GameManager.Sound.volume[i];
+                Volumes[i] = 0.5f;
             }
 
             languageType = LanguageType.Korean;

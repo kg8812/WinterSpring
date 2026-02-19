@@ -61,7 +61,6 @@ public class ForceActorMovement : ActorMovement
 
     private const float MoveCastDist = 0.2f;
     private const float SlopeChangeThreshold = 0.01f;
-    private float onChangeVel = 0;
     /// <summary>
     /// Force 기반 이동 함수. Fixed Update 내에서 호출. 마찰 0일 때 상정 
     /// </summary>

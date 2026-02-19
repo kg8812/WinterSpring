@@ -86,12 +86,12 @@ namespace chamwhy
                     {
                         if (isOn)
                         {
-                            CurFocusedSlot = slot;
+                            curFocusedSlot = slot;
                             info.gameObject.SetActive(true);
                             info.SetInfo(slot.curItem);
-                        }else if (CurFocusedSlot == slot)
+                        }else if (curFocusedSlot == slot)
                         {
-                            CurFocusedSlot = null;
+                            curFocusedSlot = null;
                             info.gameObject.SetActive(false);
                         }
                     });

@@ -171,11 +171,11 @@ public class UITab_ItemViewer : UI_InventoryContent
                     {
                         description.gameObject.SetActive(true);
                         description?.Set(slot.curItem); // 설명 UI 업데이트
-                        CurFocusedSlot = slot;
+                        curFocusedSlot = slot;
                     }
-                    else if (CurFocusedSlot == slot)
+                    else if (curFocusedSlot == slot)
                     {
-                        CurFocusedSlot = null;
+                        curFocusedSlot = null;
                     }
 
                     if (!isSlotFocused)
@@ -231,8 +231,8 @@ public class UITab_ItemViewer : UI_InventoryContent
         // 초기 포커스 다시 설정
         if (ItemDisplayParent != null && itemSlots != null && itemSlots.Length > 0)
         {
-            int targetIndex = (CurFocusedSlot != null && CurFocusedSlot.invenType == inventoryTypeToShow)
-                ? CurFocusedSlot.index
+            int targetIndex = (curFocusedSlot != null && curFocusedSlot.invenType == inventoryTypeToShow)
+                ? curFocusedSlot.index
                 : 0;
             if (targetIndex >= _currentSlotCount) targetIndex = 0;
             ItemDisplayParent.SetIndex(targetIndex);
