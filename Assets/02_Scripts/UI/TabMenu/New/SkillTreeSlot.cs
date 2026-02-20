@@ -42,6 +42,7 @@ public class SkillTreeSlot : UIAsset_Toggle
     public Sprite[] playerHighIcons;
     public bool isLocked;
 
+    public int skillTreeIndex => ((int)GameManager.instance.Player.playerType + 1) * 100 + index + 1;
     private static bool TryDrag(SkillTree item)
     {
         if (IsDragging || item == null) return false;
@@ -51,6 +52,21 @@ public class SkillTreeSlot : UIAsset_Toggle
         return true;
     }
 
+    public override void Init()
+    {
+        base.Init();
+
+        if (slotType == SlotType.Inven)
+        {
+            var skillTree = SkillTreeDatas.GetSkillTree(skillTreeIndex);
+            if (skillTree != null)
+            {
+                skillIcon.sprite = skillTree.icon;
+            }
+            SetLevelIcon(skillTree);
+        }
+    }
+    
     public override void OnBeginDrag(PointerEventData eventData)
     {
         if (!useDrag) return;
@@ -61,6 +77,7 @@ public class SkillTreeSlot : UIAsset_Toggle
         {
             IsDragging = true;
             ToChangeSlot = this;
+            skillIcon.color = Color.grey;
         }
     }
 
@@ -78,18 +95,23 @@ public class SkillTreeSlot : UIAsset_Toggle
             if (ToChangeSlot._skillTree != null)
             {
                 SystemManager.SystemAlert("이미 장착중인 슬롯입니다",null);
+                skillIcon.color = Color.white;
                 return;
             }
 
             if (!_skillTree.CheckEquipable(ToChangeSlot))
             {
                 SystemManager.SystemAlert("등급이 맞지 않습니다",null);
+                skillIcon.color = Color.white;
+                
                 return;
             }
 
             if (!_skillTree.CheckSlotIndex(ToChangeSlot))
             {
                 SystemManager.SystemAlert("원래 위치에 넣어주세요",null);
+                skillIcon.color = Color.white;
+                
                 return;
             }
             ToChangeSlot.OnSlotChanged(_skillTree);
@@ -98,6 +120,7 @@ public class SkillTreeSlot : UIAsset_Toggle
         else
         {
             Debug.Log("No Slot");
+            skillIcon.color = Color.white;
         }
     }
 
@@ -109,7 +132,7 @@ public class SkillTreeSlot : UIAsset_Toggle
 
     bool IsSkillTreeOpened()
     {
-        return SkillTreeDatas.activatedIndex.Contains(((int)GameManager.instance.Player.playerType + 1) * 100 + index + 1);
+        return SkillTreeDatas.activatedIndex.Contains(skillTreeIndex);
     }
     public void OnSlotChanged(SkillTree skillTree)
     {

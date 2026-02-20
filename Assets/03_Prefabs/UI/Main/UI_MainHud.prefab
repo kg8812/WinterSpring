@@ -405,7 +405,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0
@@ -495,7 +495,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 6
   activatedWhenInit: 0
@@ -1141,7 +1141,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 1
+  isSubItem: 1
   isAlreadyCreated: 1
   showType: 6
   activatedWhenInit: 0
@@ -1420,7 +1420,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -46.200012}
+  m_AnchoredPosition: {x: 0, y: -960}
   m_SizeDelta: {x: 218.46, y: 100}
   m_Pivot: {x: 1, y: 1}
 --- !u!1 &1890765775040180321
@@ -1531,7 +1531,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0
@@ -1890,7 +1890,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0
@@ -2250,7 +2250,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0
@@ -3683,7 +3683,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0
@@ -3828,7 +3828,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0
@@ -4020,7 +4020,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0
@@ -4155,7 +4155,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0
@@ -4280,7 +4280,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0
@@ -5450,7 +5450,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0
@@ -5655,7 +5655,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0
@@ -6565,7 +6565,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0
@@ -6829,7 +6829,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0
@@ -7203,7 +7203,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0
@@ -8017,7 +8017,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 0
   showType: 0
   activatedWhenInit: 0

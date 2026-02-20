@@ -75,7 +75,7 @@ namespace chamwhy
         {
             if (changeImg == null) return;
             
-            changeImg.enabled = isOn;
+            itemImg.color = isOn ? Color.white :Color.grey;
         }
 
         public void ToggleItemImg(bool isOn)

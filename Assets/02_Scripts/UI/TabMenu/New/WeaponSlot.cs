@@ -41,4 +41,5 @@ public class WeaponSlot : ItemSlot
     {
         return _weaponSlotData != null && DataAccess.Codex.IsOpen(CodexData.CodexType.Item, _weaponSlotData.WeaponId);
     }
+    
 }

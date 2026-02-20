@@ -37,6 +37,7 @@ namespace chamwhy
             
             lowerSlots.ForEach(x =>
             {
+                x.InitCheck();
                 x.OnValueChanged.AddListener(selected =>
                 {
                     if (selected)
@@ -47,6 +48,7 @@ namespace chamwhy
             });
             higherSlots.ForEach(x =>
             {
+                x.InitCheck();
                 x.OnValueChanged.AddListener(selected =>
                 {
                     if (selected)
@@ -57,6 +59,7 @@ namespace chamwhy
             });
             inven.ForEach(x =>
             {
+                x.InitCheck();
                 x.OnValueChanged.AddListener(selected =>
                 {
                     if (selected)
@@ -155,13 +158,10 @@ namespace chamwhy
             }
             
             var skillTrees = SkillTreeDatas.GetAvailableSkillTrees();
-            Player player = GameManager.instance.Player;
             
             for (int i = 0; i < inven.Count; i++)
             {
-                int skillTreeIndex = ((int)player.playerType + 1) * 100 + i + 1;
-                    
-                inven[i].OnSlotChanged(skillTrees.Find(x => x.Index == skillTreeIndex) ? skillTrees[i] : null);
+                inven[i].OnSlotChanged(skillTrees.Find(x => x.Index == inven[i].skillTreeIndex) ? skillTrees[i] : null);
             }
         }
 

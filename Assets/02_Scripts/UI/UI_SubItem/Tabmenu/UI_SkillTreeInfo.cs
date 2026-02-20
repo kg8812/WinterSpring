@@ -45,36 +45,43 @@ public class UI_SkillTreeInfo : MonoBehaviour
                 equipDisplay.SetActive(true);
                 numbers[slot.index].SetActive(true);
                 highIcon.gameObject.SetActive(true);
+                
                 break;
             case SkillTreeSlot.SlotType.Low:
                 equipDisplay.SetActive(true);
                 numbers[slot.index + 3].SetActive(true);
                 lowIcon.gameObject.SetActive(true);
+                
                 break;
             case SkillTreeSlot.SlotType.Inven:
                 equipDisplay.SetActive(false);
                 unEquipIcon.gameObject.SetActive(true);
+                
                 break;
         }
 
         skillIcon.sprite = skillTree.icon;
         nameText.text = skillTree.Name;
-        highDesc.text = skillTree.HighDescription;
-        lowDesc.text = skillTree.LowDescription;
-
+        
         switch (skillTree.SlotType)
         {
             case SkillTree.SlotTypeEnum.High:
                 highEquipable.SetActive(true);
                 lowEquipable.SetActive(false);
+                highDesc.text = skillTree.HighDescription;
+                lowDesc.text = string.Empty;
                 break;
             case SkillTree.SlotTypeEnum.Low:
                 highEquipable.SetActive(false);
                 lowEquipable.SetActive(true);
+                highDesc.text = string.Empty;
+                lowDesc.text = skillTree.LowDescription;
                 break;
             case SkillTree.SlotTypeEnum.Medium:
                 highEquipable.SetActive(true);
                 lowEquipable.SetActive(true);
+                highDesc.text = skillTree.HighDescription;
+                lowDesc.text = skillTree.LowDescription;
                 break;
         }
 

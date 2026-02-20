@@ -24,7 +24,7 @@ namespace Save.Schema
 
         public void BeforeSave()
         {
-            activatedSkillTrees = Utils.DeepCopyHashSet(activatedSkillTrees);
+            activatedSkillTrees = Utils.DeepCopyHashSet(SkillTreeDatas.activatedIndex);
         }
 
         public void OnLoaded()
