@@ -8,13 +8,17 @@ using Sirenix.Utilities;
 using UnityEditor;
 using UnityEditor.Rendering;
 using UnityEngine;
+using Debug = UnityEngine.Debug;
 
 namespace Save.Schema
 {
-    public class DataSchema
+    public abstract class DataSchema
     {
         private Dictionary<string, ISaveData> _datas;
         public Dictionary<string, ISaveData> Datas => _datas ??= new();
+
+        protected abstract ES3File SaveFile { get; }
+        protected abstract string FileName { get; }
 
         public void Save(string key)
         {
@@ -23,7 +27,8 @@ namespace Save.Schema
                 if (value != null)
                 {
                     value.BeforeSave();
-                    ES3.Save(key, value);
+                    SaveFile.Save(key,value);
+                    SaveFile.Sync();
                 }
             }
         }
@@ -33,8 +38,9 @@ namespace Save.Schema
             {
                 if (Datas[x.Key] == null) return;
                 Datas[x.Key].BeforeSave();
-                ES3.Save(x.Key, x.Value);
+                SaveFile.Save(x.Key, x.Value);
             });
+            SaveFile.Sync();
         }
 
         public void LoadAll()
@@ -42,12 +48,13 @@ namespace Save.Schema
             var keys = Datas.Keys.ToList();
             foreach (var x in keys)
             {
-                if (ES3.KeyExists(x))
+                if (SaveFile.KeyExists(x))
                 {
                     try
                     {
-                        Datas[x] = ES3.Load<ISaveData>(x);
-                        Datas[x].OnLoaded();
+                        var existing = Datas[x];
+                        SaveFile.LoadInto(x, existing);
+                        existing.OnLoaded();
                     }
                     catch (Exception e)
                     {
@@ -78,17 +85,6 @@ namespace Save.Schema
                 Datas[x.Key].Initialize();
             });
         }
-        public void DeleteAllData()
-        {
-            var keys = Datas.Keys.ToList();
-            foreach (var x in keys)
-            {
-                if (ES3.KeyExists(x))
-                {
-                    ES3.DeleteKey(x);
-                }
-            }
-        }
 
         public void AddData(string key,ISaveData data)
         {
@@ -97,13 +93,50 @@ namespace Save.Schema
 
         public void DeleteData(string key)
         {
-            if (ES3.KeyExists(key))
+            if (SaveFile.KeyExists(key))
             {
-                ES3.DeleteKey(key);
+                SaveFile.DeleteKey(key);
             }
         }
     }
 
+    public class SlotDataSchema : DataSchema
+    {
+        readonly Dictionary<string, ES3File> _slotSaveFiles = new();
+        protected override ES3File SaveFile
+        {
+            get
+            {
+                var slotId = GameManager.Save.currentSlotData.slotId;
+                if (!_slotSaveFiles.ContainsKey(slotId))
+                {
+                    _slotSaveFiles.Add(slotId, new ES3File(SaveManager.SlotFileName(slotId)));
+                }
+                
+                _slotSaveFiles[slotId] ??= new ES3File(SaveManager.SlotFileName(slotId));
+                
+                return  _slotSaveFiles[slotId];
+            }
+        }
+
+        protected override string FileName
+        {
+            get
+            {
+                var slotId = GameManager.Save.currentSlotData.slotId;
+                return SaveManager.SlotFileName(slotId);
+            }
+        }
+    }
+
+    public class PersistentDataSchema : DataSchema
+    {
+        private ES3File _saveFile;
+
+        protected override ES3File SaveFile => _saveFile ??= new ES3File(SaveManager.PersistentFileName);
+
+        protected override string FileName => SaveManager.PersistentFileName;
+    }
     public interface ISaveData
     {
         public void BeforeSave(); // 세이브 전 호출코드, 세이브하기전에 이 클래스에 현재 게임 내 데이터 값을 가져와야함. ex) 현재 재화값을 데이터로 가져옴

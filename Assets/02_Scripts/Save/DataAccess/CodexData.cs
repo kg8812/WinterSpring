@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using Managers;
 using UnityEngine;
 
 namespace Save.Schema
@@ -8,17 +10,27 @@ namespace Save.Schema
     {
         public enum CodexType
         {
-            Item,Monster, Memory, BackGround , CutScene,Tip
+            Item,
+            Monster,
+            Memory,
+            BackGround,
+            CutScene,
+            Tip
         }
 
-        public CollectionOpenSaveData CollectionOpenSaveData => GameManager.Save.GetData(PersistentDataKeys.DataTypes.CollectionOpened) as CollectionOpenSaveData;
-        public CutSceneSaveData CutSceneSaveData => GameManager.Save.GetData(PersistentDataKeys.DataTypes.CutSceneOpened) as CutSceneSaveData;
-        public TipSaveData TipSaveData => GameManager.Save.GetData(PersistentDataKeys.DataTypes.TipOpened) as TipSaveData;
+        public CollectionOpenSaveData CollectionOpenSaveData =>
+            GameManager.Save.GetData(PersistentDataKeys.DataTypes.CollectionOpened) as CollectionOpenSaveData;
+
+        public CutSceneSaveData CutSceneSaveData =>
+            GameManager.Save.GetData(PersistentDataKeys.DataTypes.CutSceneOpened) as CutSceneSaveData;
+
+        public TipSaveData TipSaveData =>
+            GameManager.Save.GetData(PersistentDataKeys.DataTypes.TipOpened) as TipSaveData;
 
         public ItemOpenedSaveData ItemOpenedSaveData =>
             GameManager.Save.GetData(SlotDataKeys.DataTypes.ItemOpened, GameManager.Save.currentSlotData.slotId) as
                 ItemOpenedSaveData;
-        
+
         public bool IsOpen(CodexType cType, int id)
         {
             HashSet<int> temp = DataInt(cType);
@@ -28,7 +40,7 @@ namespace Save.Schema
         public void UnLock(CodexType cType, int id)
         {
             DataInt(cType)?.Add(id);
-            
+
             GameManager.instance.WhenUnlock.Invoke();
             switch (cType)
             {
@@ -62,38 +74,26 @@ namespace Save.Schema
 
         public void SaveCollectionData()
         {
-            if (CollectionOpenSaveData != null)
-            {
-                GameManager.Save.SaveData(PersistentDataKeys.GetKey(PersistentDataKeys.DataTypes.CollectionOpened),
-                    CollectionOpenSaveData);
-            }
+            GameManager.Save.SaveData(SaveManager.SaveType.Persistent,
+                PersistentDataKeys.GetKey(PersistentDataKeys.DataTypes.CollectionOpened));
         }
 
         public void SaveCutSceneData()
         {
-            if (CutSceneSaveData != null)
-            {
-                GameManager.Save.SaveData(PersistentDataKeys.GetKey(PersistentDataKeys.DataTypes.CutSceneOpened),
-                    CutSceneSaveData);
-            }
+            GameManager.Save.SaveData(SaveManager.SaveType.Persistent,
+                PersistentDataKeys.GetKey(PersistentDataKeys.DataTypes.CutSceneOpened));
         }
 
         public void SaveTipData()
         {
-            if (TipSaveData != null)
-            {
-                GameManager.Save.SaveData(PersistentDataKeys.GetKey(PersistentDataKeys.DataTypes.TipOpened), TipSaveData);
-            }
+            GameManager.Save.SaveData(SaveManager.SaveType.Persistent,
+                PersistentDataKeys.GetKey(PersistentDataKeys.DataTypes.TipOpened));
         }
 
         public void SaveItemData()
         {
-            if (ItemOpenedSaveData != null)
-            {
-                GameManager.Save.SaveData(
-                    SlotDataKeys.GetKey(SlotDataKeys.DataTypes.ItemOpened, GameManager.Save.currentSlotData.slotId),
-                    ItemOpenedSaveData);
-            }
+            GameManager.Save.SaveData(SaveManager.SaveType.Slot,
+                SlotDataKeys.GetKey(SlotDataKeys.DataTypes.ItemOpened, GameManager.Save.currentSlotData.slotId));
         }
     }
 }

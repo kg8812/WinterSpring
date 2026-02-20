@@ -1,4 +1,6 @@
 
+using Managers;
+
 namespace Save.Schema
 {
     public class LobbyData
@@ -19,7 +21,7 @@ namespace Save.Schema
 
         public void Save()
         {
-            GameManager.Save.SaveData(SlotDataKeys.GetKey(SlotDataKeys.DataTypes.Lobby,GameManager.Save.currentSlotData.slotId), Data);
+            GameManager.Save.SaveData(SaveManager.SaveType.Slot,SlotDataKeys.GetKey(SlotDataKeys.DataTypes.Lobby,GameManager.Save.currentSlotData.slotId));
         }
     }
 }

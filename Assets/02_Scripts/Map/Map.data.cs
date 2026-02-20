@@ -62,7 +62,7 @@ namespace chamwhy
             RenderTexture.active = null; // 활성화 해제
 
             // PNG로 변환
-            byte[] pngData = tex.EncodeToPNG();
+            byte[] pngData = tex.GetRawTextureData();
             Destroy(tex); // Texture2D 메모리 해제
 
             // 저장 경로 설정

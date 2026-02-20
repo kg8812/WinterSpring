@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEngine;
@@ -77,9 +78,13 @@ namespace chamwhy
         {
             foreach (var (id, mapImg) in _drawer.MapImgs)
             {
+                if (!mapImg.isDirty) continue;
+
                 (string, string) fileNames = GetFileName(id);
                 SaveRenderTexture(fileNames.Item1, mapImg.Fog.RevealTex);
                 SaveRenderTexture(fileNames.Item2, mapImg.Fog.ColorTex);
+                
+                mapImg.isDirty = false;
             }
         }
 

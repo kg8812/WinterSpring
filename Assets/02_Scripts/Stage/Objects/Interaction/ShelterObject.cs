@@ -70,7 +70,6 @@ public class ShelterObject : MonoBehaviour , IOnInteract
         GameManager.SectorMag.SetLastShelter();
         FadeManager.instance.Fading(() =>
         {
-            TargetGroupCamera.instance.AdjustTargetRadius(CameraManager.instance.fakePlayerTarget.transform,GameManager.instance.Player.camRadius / 2);
             GameManager.UI.CreateUI("UI_Shelter", UIType.Scene);
         },enterDefaultState:false,endAction: Activate);
 

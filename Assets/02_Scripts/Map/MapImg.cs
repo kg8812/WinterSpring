@@ -13,10 +13,13 @@ namespace chamwhy
         public FogOfWar Fog => _fog ??= GetComponent<FogOfWar>();
         public Image Img { get; set; }
 
+        public bool isDirty;
+        
         private void Awake()
         {
             _fog ??= GetComponent<FogOfWar>();
             _rectTransform ??= GetComponent<RectTransform>();
+            isDirty = false;
         }
 
         public void PositionUpdate()
@@ -30,6 +33,7 @@ namespace chamwhy
             // UI의 왼쪽 하단 Offset을 계산 (Pivot 기준 보정)
             Vector2 offset = new Vector2(-pivot.x * size.x * scale.x, -pivot.y * size.y * scale.y);
             LeftDownPos = _rectTransform.anchoredPosition + offset;
+            isDirty = true;
         }
     }
 }

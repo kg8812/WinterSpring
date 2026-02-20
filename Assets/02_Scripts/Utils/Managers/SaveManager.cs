@@ -16,12 +16,11 @@ namespace Managers
         
         public static string GetSlotDataKey(string id) => $"Slot{id}";
 
-        private readonly Dictionary<SaveType, DataSchema> _saveData = new ()
-        {
-            { SaveType.Persistent, new() },
-            { SaveType.Slot, new() },
-        };
-
+        private readonly Dictionary<SaveType, DataSchema> _saveData = new();
+        
+        public static string PersistentFileName => "persistent.es3";
+        public static string SlotFileName(string slotId) => $"slot_{slotId}.es3";
+            
         SlotData _currentSlotData;
         public SlotData currentSlotData
         {
@@ -47,6 +46,9 @@ namespace Managers
 
         public void SetPersistentData()
         {
+            _saveData.TryAdd(SaveType.Persistent, new PersistentDataSchema());
+            _saveData[SaveType.Persistent] ??= new PersistentDataSchema();
+            
             _saveData[SaveType.Persistent]
                 .AddData(PersistentDataKeys.GetKey(PersistentDataKeys.DataTypes.Setting), new SettingData());
             _saveData[SaveType.Persistent]
@@ -63,6 +65,9 @@ namespace Managers
 
         public void SetSlotData(string slotId)
         {
+            _saveData.TryAdd(SaveType.Slot, new SlotDataSchema());
+            _saveData[SaveType.Slot] ??= new SlotDataSchema();
+            
             _saveData[SaveType.Slot].AddData(SlotDataKeys.GetKey(SlotDataKeys.DataTypes.SlotInfo, slotId),
                 new SlotInfoSaveData());
             _saveData[SaveType.Slot].AddData(SlotDataKeys.GetKey(SlotDataKeys.DataTypes.Growth, slotId),
@@ -84,6 +89,7 @@ namespace Managers
             // TempSaveData 내부에 플레이어 관련 데이터와 플레이어 생성 로직이 작성되어있음
             _saveData[SaveType.Slot].AddData(SlotDataKeys.GetKey(SlotDataKeys.DataTypes.Temp, slotId),
                 new TempSaveData());
+
         }
         
         public ISaveData GetData(PersistentDataKeys.DataTypes type)
@@ -103,12 +109,10 @@ namespace Managers
             }
         }
 
-        public void SaveData(string key, ISaveData data)
+        public void SaveData(SaveType saveType,string key)
         {
-            if (data == null) return;
-            
-            data.BeforeSave();
-            ES3.Save(key,data);
+            if (_saveData.TryGetValue(saveType, out var value))
+                value.Save(key);
         }
         public void LoadPersistentData ()
         {
@@ -134,35 +138,25 @@ namespace Managers
             // 해당 데이터 이용해서 모두 초기화띠
         }
 
+        public void DeleteData(SaveType saveType, string key)
+        {
+            if (_saveData.TryGetValue(saveType, out var value))
+            {
+                value.DeleteData(key);
+            }
+        }
 
         public static void ClearDataFiles()
         {
             var slotData = DataAccess.GameData.Data.SlotDatas;
 
-
-            foreach (SlotDataKeys.DataTypes dataType in Enum.GetValues(typeof(SlotDataKeys.DataTypes)))
+            ES3.DeleteFile(SlotFileName("0"));
+            for (int i = 0; i < DataAccess.GameData.Data.SlotDatas.Count; i++)
             {
-                if (ES3.KeyExists(SlotDataKeys.GetKey(dataType, "0")))
-                {
-                    ES3.DeleteKey(SlotDataKeys.GetKey(dataType, "0"));
-                }
-
-                for (int i = 0; i < DataAccess.GameData.Data.SlotDatas.Count; i++)
-                {
-                    if (ES3.KeyExists(SlotDataKeys.GetKey(dataType, slotData[i].SlotId)))
-                    {
-                        ES3.DeleteKey(SlotDataKeys.GetKey(dataType, slotData[i].SlotId));
-                    }
-                }
+                ES3.DeleteFile(SlotFileName(slotData[i].SlotId));
             }
 
-            foreach (PersistentDataKeys.DataTypes dataType in Enum.GetValues(typeof(PersistentDataKeys.DataTypes)))
-            {
-                if (ES3.KeyExists(PersistentDataKeys.GetKey(dataType)))
-                {
-                    ES3.DeleteKey(PersistentDataKeys.GetKey(dataType));
-                }
-            }
+            ES3.DeleteFile(PersistentFileName);
         }
     }
 }
