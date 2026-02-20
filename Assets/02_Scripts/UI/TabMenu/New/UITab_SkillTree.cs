@@ -161,7 +161,9 @@ namespace chamwhy
             
             for (int i = 0; i < inven.Count; i++)
             {
-                inven[i].OnSlotChanged(skillTrees.Find(x => x.Index == inven[i].skillTreeIndex) ? skillTrees[i] : null);
+                int skillTreeIndex = inven[i].skillTreeIndex;
+                var tree = skillTrees.Find(x => x.Index == skillTreeIndex);
+                inven[i].OnSlotChanged(tree);
             }
         }
 
