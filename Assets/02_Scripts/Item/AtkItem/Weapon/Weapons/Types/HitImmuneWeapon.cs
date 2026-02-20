@@ -1,4 +1,5 @@
 using System;
+using UnityEngine;
 
 namespace Apis
 {
@@ -10,14 +11,16 @@ namespace Apis
             base.Init();
             IAttack?.OnAfterAtk.AddListener(() =>
             {
-                guid = Player.AddHitImmunity();
+                Debug.Log(guid);
+                Player.RemoveHitImmunity(guid);
             });
         }
 
         public override void BeforeAttack()
         {
             base.BeforeAttack();
-            Player.RemoveHitImmunity(guid);
+            guid = Player.AddHitImmunity();
+            Debug.Log(guid);
         }
     }
 }

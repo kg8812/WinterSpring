@@ -135,7 +135,12 @@ public class PlayerAnimator: MonoBehaviour
 
     public float GetCurrentClipLength(int layer)
     {
-        return _animator.GetCurrentAnimatorClipInfo(layer)[0].clip.length;
+        if (_animator.GetCurrentAnimatorClipInfo(layer).Length > 0)
+        {
+            return _animator.GetCurrentAnimatorClipInfo(layer)[0].clip.length;
+        }
+        
+        return 0f;
     }
 
     public void SetRootmotionOffset(float x, float y)
