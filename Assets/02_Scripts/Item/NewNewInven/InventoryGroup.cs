@@ -18,11 +18,9 @@ namespace NewNewInvenSpace
         }
         public Dictionary<InvenType, InventoryList> Invens;
 
-        public InventoryGroup(int eqMaxCnt, int eqCnt, int stMaxCnt, int stCnt)
+        public virtual void Init(int eqMaxCnt, int eqCnt, int stMaxCnt, int stCnt)
         {
-            Invens = new();
-            Invens.Add(InvenType.Equipment, new InventoryList(eqMaxCnt, eqCnt));
-            Invens.Add(InvenType.Storage, new InventoryList(stMaxCnt, stCnt));
+            SetInventories(eqMaxCnt, eqCnt, stMaxCnt, stCnt);
             
             Invens[InvenType.Equipment].BeforeItemExcepted = (int ind, Item item) =>
             {
@@ -33,7 +31,14 @@ namespace NewNewInvenSpace
             };
             Invens[InvenType.Storage].BeforeItemExcepted = (int ind, Item item) => Abandon(ind, InvenType.Storage);
         }
-        
+
+        protected virtual void SetInventories(int eqMaxCnt, int eqCnt, int stMaxCnt, int stCnt)
+        {
+            Invens = new();
+            
+            Invens.Add(InvenType.Equipment, new InventoryList(eqMaxCnt, eqCnt));
+            Invens.Add(InvenType.Storage, new InventoryList(stMaxCnt, stCnt));
+        }
         public virtual bool Add(Item item, InvenType type)
         {
             if(!Invens.TryGetValue(type, out var inven)) return false;

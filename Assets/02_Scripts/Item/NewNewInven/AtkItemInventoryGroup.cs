@@ -7,9 +7,9 @@ namespace NewNewInvenSpace
 {
     public class AtkItemInventoryGroup: InventoryGroup
     {
-        public AtkItemInventoryGroup(int eqMaxCnt, int eqCnt, int stMaxCnt, int stCnt) : base(eqMaxCnt, eqCnt, stMaxCnt, stCnt)
+        public override void Init(int eqMaxCnt, int eqCnt, int stMaxCnt, int stCnt)
         {
-            Invens.Add(InvenType.Hidden, new InventoryList(eqMaxCnt, eqMaxCnt));
+            base.Init(eqMaxCnt, eqCnt, stMaxCnt, stCnt);
             
             Invens[InvenType.Equipment].ItemAddedTo += EquipmentEquipped;
             Invens[InvenType.Equipment].ItemRemovedFrom += EquipmentUnEquipped;
@@ -17,6 +17,15 @@ namespace NewNewInvenSpace
             
             Invens[InvenType.Hidden].ItemAddedTo += HiddenEquipped;
             Invens[InvenType.Hidden].ItemRemovedFrom += HiddenUnEquipped;
+        }
+
+        protected override void SetInventories(int eqMaxCnt, int eqCnt, int stMaxCnt, int stCnt)
+        {
+            Invens = new();
+            
+            Invens.Add(InvenType.Equipment, new InventoryList(eqMaxCnt, eqCnt));
+            Invens.Add(InvenType.Storage, new AtkItemInventoryList(stMaxCnt, stCnt));
+            Invens.Add(InvenType.Hidden, new InventoryList(eqMaxCnt, eqMaxCnt));
         }
 
         public InventoryList AtkItemInven => PresetType == PresetType.InvenPreset
@@ -79,21 +88,7 @@ namespace NewNewInvenSpace
                 _presetType = value;
             }
         }
-
-        public override bool Add(Item item, InvenType type)
-        {
-            if(!Invens.TryGetValue(type, out var inven)) return false;
-            int ind;
-
-            if (item is IAttackItem atkItem)
-            {
-                ind = atkItem.InvenSlotIndex - 1;
-            }
-            else return false;
-            
-            return inven.AddItem(ind, item);
-        }
-
+        
         /// <summary>
         /// 플레이어 스킬인 경우에는 작동 x 그냥 equip inven만 바뀌고 실직적 착용과 item equipped호출 x
         /// </summary>
@@ -166,17 +161,6 @@ namespace NewNewInvenSpace
                 attackItem.UnEquip();
                 attackItem.SetIcon(null);
             }
-        }
-
-
-        public override bool Add(int index, Item item, InvenType type)
-        {
-            if (type == InvenType.Equipment && item is IAttackItem atkItem && !CheckEquipCondition(atkItem))
-            {
-                return false;
-            }
-
-            return base.Add(index, item, type);
         }
 
         protected override bool ChangeCheck(int index1, InvenType type1, int index2, InvenType type2)

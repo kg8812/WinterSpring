@@ -21533,7 +21533,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6030035799377868667
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21862,6 +21862,7 @@ MonoBehaviour:
   healValue: {fileID: 5618466812826473848}
   lvlValue: {fileID: 5926682435079181721}
   expValue: {fileID: 5329358799510128319}
+  expBar: {fileID: 7976635857120228766}
   characterIcon: {fileID: 4575380790389983185}
   activeIcon: {fileID: 3337709515864134463}
   passiveIcon: {fileID: 4389711915224211976}

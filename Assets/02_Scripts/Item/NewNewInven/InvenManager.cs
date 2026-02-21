@@ -68,7 +68,8 @@ namespace chamwhy
             {
                 if (_acc == null)
                 {
-                    _acc = new AccInventoryGroup(accEquipMaxCnt, accEquipCnt, accInvenCnt, accInvenCnt);
+                    _acc = new AccInventoryGroup();
+                    _acc.Init(accEquipMaxCnt, accEquipCnt, accInvenCnt, accInvenCnt);
                 }
 
                 return _acc;
@@ -81,7 +82,8 @@ namespace chamwhy
             {
                 if (_attackItem == null)
                 {
-                    _attackItem = new AtkItemInventoryGroup(wpEquipMaxCnt, wpEquipCnt, wpInvenCnt, wpInvenCnt);
+                    _attackItem = new AtkItemInventoryGroup();
+                    _attackItem.Init(wpEquipMaxCnt, wpEquipCnt, wpInvenCnt, wpInvenCnt);
                 }
 
                 return _attackItem;

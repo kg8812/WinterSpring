@@ -216,6 +216,7 @@ namespace chamwhy
             {
                 iv.UpdateItem();
             }
+            description.Set(null);
         }
 
         public override void OnClose()

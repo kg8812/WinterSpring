@@ -40,7 +40,7 @@ namespace NewNewInvenSpace
         public Item this[int index]
         {
             get => Slots[index];
-            private set
+            protected set
             {
                 Slots[index] = value;
                 // Debug.Log($"Inventory changed {index} {value?.Name}");
@@ -48,7 +48,7 @@ namespace NewNewInvenSpace
             }
         }
         public int MaxCnt { get; }
-        private int _cnt;
+        protected int _cnt;
         public int Count
         {
             get => _cnt;
@@ -116,7 +116,7 @@ namespace NewNewInvenSpace
             return true;
         }
 
-        public bool AddItem(Item item)
+        public virtual bool AddItem(Item item)
         {
             if (item == null) return false;
             for (int i = 0; i < Count; i++)
@@ -131,7 +131,7 @@ namespace NewNewInvenSpace
 
             return false;
         }
-        public bool AddItem(int index, Item item)
+        public virtual bool AddItem(int index, Item item)
         {
             if (index >= Count) return false;
             if (item == null) return false;

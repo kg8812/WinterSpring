@@ -12,7 +12,6 @@ public class UI_ItemInfo : MonoBehaviour
 
     public TextMeshProUGUI nameText;
     public Image icon;
-    public TextMeshProUGUI effect;
     public TextMeshProUGUI description;
 
     public virtual void SetInfo(Item item)

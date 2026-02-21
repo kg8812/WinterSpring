@@ -26,16 +26,13 @@ namespace NewNewInvenSpace
                 return _bonusStat;
             }
         }
-        
-        
-        public AccInventoryGroup(int eqMaxCnt, int eqCnt, int stMaxCnt, int stCnt) : base(eqMaxCnt, eqCnt, stMaxCnt, stCnt)
+
+        public override void Init(int eqMaxCnt, int eqCnt, int stMaxCnt, int stCnt)
         {
+            base.Init(eqMaxCnt, eqCnt, stMaxCnt, stCnt);
             Invens[InvenType.Equipment].ItemAddedTo += Equipped;
             Invens[InvenType.Equipment].ItemRemovedFrom += UnEquipped;
-            
         }
-        
-        
 
         public override Item Abandon(int index, InvenType type)
         {

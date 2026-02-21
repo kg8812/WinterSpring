@@ -238,6 +238,7 @@ public class UITab_ItemViewer : UI_InventoryContent
             ItemDisplayParent.SetIndex(targetIndex);
             ChangeFocusParent(ItemDisplayParent);
         }
+        description.Set(null);
     }
 
     public override void OnClose()
