@@ -414,6 +414,10 @@ namespace Apis
             DataAccess.Codex.UnLock(CodexData.CodexType.Item,ItemId);
         }
 
+        public virtual void OnAttackItemChange()
+        {
+            
+        }
         public virtual AttackCategory Category => AttackCategory.Sword;
     }
 }

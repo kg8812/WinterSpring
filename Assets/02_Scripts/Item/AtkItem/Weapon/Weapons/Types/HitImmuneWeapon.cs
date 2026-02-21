@@ -20,5 +20,17 @@ namespace Apis
             base.BeforeAttack();
             guid = Player.AddHitImmunity();
         }
+
+        protected override void OnUnEquip()
+        {
+            base.OnUnEquip();
+            Player.RemoveHitImmunity(guid);
+        }
+
+        public override void OnAttackItemChange()
+        {
+            base.OnAttackItemChange();
+            Player.RemoveHitImmunity(guid);
+        }
     }
 }

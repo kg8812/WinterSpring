@@ -21,6 +21,7 @@ public class CharacterStatusMenu : SerializedMonoBehaviour
     public TextMeshProUGUI healValue;
     public TextMeshProUGUI lvlValue;
     public TextMeshProUGUI expValue;
+    public Image expBar;
 
     public Dictionary<PlayerType, Sprite> icons = new();
     public Dictionary<PlayerType, GameObject> portraits = new();
@@ -62,8 +63,10 @@ public class CharacterStatusMenu : SerializedMonoBehaviour
         defValue.text = player.Def.ToString();
         healValue.text = player.CalculateRepair().ToString();
         lvlValue.text = GameManager.instance.Level.ToString();
+        float expPer = (float)GameManager.instance.Exp / LevelDatabase.GetLevelData(GameManager.instance.Level).exp;
         expValue.text =
             $"다음 레벨까지 필요한 경험치 {GameManager.instance.Exp}/{LevelDatabase.GetLevelData(GameManager.instance.Level).exp}";
+        expBar.fillAmount = Mathf.Clamp01(expPer);
         if (player.ActiveSkill == null)
         {
             activeIcon.gameObject.SetActive(false);

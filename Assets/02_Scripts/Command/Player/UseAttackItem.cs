@@ -20,6 +20,7 @@ namespace Command
             if (item != null && item.AtkSlotIndex != index)
             {
                 go.OnAttackItemChange();
+                item.OnAttackItemChange();
             }
 
             AttackItemManager.Attack(index);

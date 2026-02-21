@@ -21,6 +21,7 @@ public interface IAttackItem
     public void UnEquip();
     void WhenIconIsSet(UI_AtkItemIcon icon);
     public void EndAttack();
+    public void OnAttackItemChange();
     
     public UI_AtkItemIcon Icon { get; set; }
     public int AtkSlotIndex { get; set; }

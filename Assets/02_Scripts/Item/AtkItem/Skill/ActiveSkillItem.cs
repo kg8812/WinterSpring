@@ -71,6 +71,10 @@ namespace chamwhy
             ActiveSkill?.DeActive();
         }
 
+        public void OnAttackItemChange()
+        {
+        }
+
         protected override void OnEquip(IMonoBehaviour user)
         {
             base.OnEquip(user);

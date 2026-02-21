@@ -269,8 +269,8 @@ MonoBehaviour:
     \u3163 Winti\r\n\r\n\u270D\uFE0F \uD300\uC6D0 : Splatted \u3163 \uCFC4\uD050\uBA00
     \u3163 \uC774\uAC15\uCC2C \\n\u3163 \uC564\uD2F0\uC2A4\r\n\r\n----------------------\r\n\r\n\u270D\uFE0F
     \uB808\uBCA8\uB514\uC790\uC778\uD300 \r\n\r\n\u270D\uFE0F \uD300\uC7A5 : \uC774\uB8E8\uB9AC\uC57C\r\n\r\n\u270D\uFE0F
-    \uD300\uC6D0 : C2dar \u3163 \uAFC0\uC8FD\uCC3D \u3163 \uCEEC\uB7EC\uD050\uBE0C
-    \u3163 \r\n\r\n----------------------\r\n\r\n\U0001F955 \uAC1C\uBC1C\uD300 \r\n\r\n\U0001F955
+    \uD300\uC6D0 : C2dar \u3163 \uAFC0\uC8FD\uCC3D \u3163 \uCEEC\uB7EC\uD050\uBE0C 
+    \r\n\r\n----------------------\r\n\r\n\U0001F955 \uAC1C\uBC1C\uD300 \r\n\r\n\U0001F955
     \uD300\uC7A5 : \uC5D0\uD53C\uC2A4\r\n\r\n\U0001F955 \uD300\uC6D0: \uCC28\uBAFC
     \u3163 \uC791\uC740\uC124\uD0D5\r\n\r\n---------------------\r\n\r\n\U0001F3A8
     \uC544\uD2B8\uD300\r\n\r\n\U0001F3A8 \uD300\uC7A5 : \uC2E0\uC0AC\uBD80\uC5C9\uC774\r\n\r\n\U0001F419 
@@ -302,8 +302,8 @@ MonoBehaviour:
     \uB0B4\uBD80\uD14C\uC2A4\uD305 \uD300\r\n\r\n\U0001F680  \uD300\uC6D0 : Halcion
     \u3163 \uB780\uC854\u3163 \uC798\uC0DD\uAE34\uACE0\uBE14\uB9B0\u3163 \uC774\uAC15\uCC2C\u3163400\u3163Splatted\\n\u3163\uB098\uD14C\u3163\uB098\uB978\u3163LESSAR\u3163\uB9AC\uCE58\uC0C1\u3163\uC564\uD2F0\uC2A4\u3163\uC62C\uBE8C\uBBF8\u3163"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a836018432f4521499e63690236440b0, type: 2}
-  m_sharedMaterial: {fileID: 3174862761672021670, guid: a836018432f4521499e63690236440b0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c6016c114e52bdc43a5ea870ebb43c8c, type: 2}
+  m_sharedMaterial: {fileID: -7720739850624594167, guid: c6016c114e52bdc43a5ea870ebb43c8c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1051,7 +1051,7 @@ MonoBehaviour:
     - Name: FocusOff
       Entry: 6
       Data: 
-  isChild: 1
+  isSubItem: 1
   isAlreadyCreated: 1
   showType: 6
   activatedWhenInit: 1
@@ -1065,6 +1065,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 0
   InitState: 1
   rectTransform: {fileID: 0}
@@ -2402,7 +2403,7 @@ MonoBehaviour:
     - Name: FocusOff
       Entry: 6
       Data: 
-  isChild: 1
+  isSubItem: 1
   isAlreadyCreated: 1
   showType: 6
   activatedWhenInit: 1
@@ -2416,6 +2417,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 0
   InitState: 2
   rectTransform: {fileID: 0}
@@ -3062,7 +3064,7 @@ MonoBehaviour:
     - Name: FocusOff
       Entry: 6
       Data: 
-  isChild: 1
+  isSubItem: 1
   isAlreadyCreated: 1
   showType: 6
   activatedWhenInit: 1
@@ -3076,6 +3078,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 0
   InitState: 1
   rectTransform: {fileID: 0}
@@ -3468,7 +3471,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  isChild: 0
+  isSubItem: 0
   isAlreadyCreated: 1
   showType: 0
   activatedWhenInit: 1
@@ -3482,6 +3485,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   focusParent: {fileID: 4881443177687589251}
   Credit: {fileID: 6358780503461555178}
 --- !u!225 &6698468844251159355
@@ -3622,7 +3626,7 @@ MonoBehaviour:
     - Name: FocusOff
       Entry: 6
       Data: 
-  isChild: 1
+  isSubItem: 1
   isAlreadyCreated: 1
   showType: 6
   activatedWhenInit: 1
@@ -3636,6 +3640,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 0
   InitState: 1
   rectTransform: {fileID: 0}
