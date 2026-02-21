@@ -16,10 +16,8 @@ public class AudioSourceUtil : MonoBehaviour
     AudioSource _audioSource;
     public AudioSource AudioSource => _audioSource ??= GetComponent<AudioSource>();
 
-    UnityEvent _onPlay;
     UnityEvent _onLoop;
     UnityEvent _onEnd;
-    public UnityEvent OnPlay => _onPlay ??= new();
     public UnityEvent OnLoop => _onLoop ??= new();
     public UnityEvent OnEnd => _onEnd ??= new();
 
@@ -27,15 +25,43 @@ public class AudioSourceUtil : MonoBehaviour
 
     private bool stopPlaying;
 
-    private bool isLoop;
+    private bool _isLoop;
+    
+    public void PlaySingle(AudioClip clip, bool isLoop = false)
+    {
+        if (playCoroutine != null)
+        {
+            StopCoroutine(playCoroutine);
+            playCoroutine = null;
+        }
+
+        stopPlaying = false;
+        _isLoop = isLoop;
+        playCoroutine = StartCoroutine(PlaySingleCoroutine(clip));
+    }
+
+    IEnumerator PlaySingleCoroutine(AudioClip clip)
+    {
+        AudioSource.loop = _isLoop;
+
+        yield return Play(clip);
+
+        if (!_isLoop)
+            OnEnd.Invoke();
+    }
+    
     public void Play(PlayingType playingType,CustomQueue<AudioClip> clips,bool isLoop)
     {
         if (playCoroutine != null)
         {
             StopCoroutine(playCoroutine);
+            playCoroutine = null;
         }
 
-        this.isLoop = isLoop;
+        AudioSource.Stop();
+        AudioSource.loop = false;
+
+        this._isLoop = isLoop;
         stopPlaying = false;
         switch (playingType)
         {
@@ -54,9 +80,16 @@ public class AudioSourceUtil : MonoBehaviour
     IEnumerator Play(AudioClip clip)
     {
         AudioSource.Stop();
-        AudioSource.clip = clip;
+        if (AudioSource.clip != clip)
+        {
+            AudioSource.clip = clip;
+        }
+
         AudioSource.Play();
-        yield return new WaitForSecondsRealtime(clip.length);
+        while (AudioSource.isPlaying)
+        {
+            yield return null;
+        }
     }
 
     IEnumerator PlayRandom(CustomQueue<AudioClip> clips)
@@ -74,7 +107,7 @@ public class AudioSourceUtil : MonoBehaviour
     {
         AudioSource.loop = false;
         
-        if (isLoop)
+        if (_isLoop)
         {
             while (!stopPlaying)
             {
@@ -97,7 +130,7 @@ public class AudioSourceUtil : MonoBehaviour
     {
         AudioSource.loop = false;
         
-        if (isLoop)
+        if (_isLoop)
         {
             while (!stopPlaying)
             {
@@ -119,15 +152,27 @@ public class AudioSourceUtil : MonoBehaviour
         {
             yield return StartCoroutine(Play(clips[i]));
         }
+        
+        // loop clip
+        var loopClip = clips[^1];
 
+        AudioSource.clip = loopClip;
         AudioSource.loop = true;
-        AudioSource.clip = clips[^1];
-        Play();
+        AudioSource.Play();
+
+        while (!stopPlaying)
+        {
+            yield return null;
+        }
+
+        AudioSource.loop = false;
+        AudioSource.Stop();
+
+        OnEnd.Invoke();
     }
-    public void Play()
+    void Play()
     {
         AudioSource.Play();
-        OnPlay.Invoke();
     }
     public void Stop(bool isImmediate = false)
     {
@@ -137,7 +182,7 @@ public class AudioSourceUtil : MonoBehaviour
             AudioSource.Stop();
         }
     }
-    public void Destroy()
+    public void Release()
     {
         if (playCoroutine != null)
         {

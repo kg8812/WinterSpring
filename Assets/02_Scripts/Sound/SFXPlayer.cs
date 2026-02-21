@@ -50,7 +50,7 @@ public class SFXPlayer : MonoBehaviour,IPoolObject
     {
         if (isDestroy)
         {
-            _audioUtil?.Destroy();
+            _audioUtil?.Release();
         }
         else
         {

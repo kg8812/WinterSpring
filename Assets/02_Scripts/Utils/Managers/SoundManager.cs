@@ -416,8 +416,7 @@ namespace Default
             if (clips.Count == 1)
             {
                 ArenaBGMSource.AudioSource.loop = true;
-                ArenaBGMSource.AudioSource.clip = clips.Dequeue();
-                ArenaBGMSource.Play();
+                ArenaBGMSource.PlaySingle(clips.Dequeue());
             }
             else
             {
@@ -469,8 +468,7 @@ namespace Default
             if (clips.Count == 1)
             {
                 ArenaBGMSource.AudioSource.loop = true;
-                ArenaBGMSource.AudioSource.clip = clips.Dequeue();
-                ArenaBGMSource.Play();
+                ArenaBGMSource.PlaySingle(clips.Dequeue());
             }
             else
             {
@@ -511,14 +509,14 @@ namespace Default
             }
 
             var clip = loadedClips[clipAddress];
-            source.clip = clip;
             AudioSourceUtil util = Utils.GetOrAddComponent<AudioSourceUtil>(source.gameObject);
             util.OnEnd.AddListener(ReturnSource);
-            util.Play();
+            util.PlaySingle(clip);
 
             void ReturnSource()
             {
-                util.Destroy();
+                util.Release();
+                queue.Remove(util.AudioSource);
                 util.OnEnd.RemoveListener(ReturnSource);
             }
 
@@ -552,7 +550,7 @@ namespace Default
             
             void ReturnSource()
             {
-                util.Destroy();
+                util.Release();
                 util.OnEnd.RemoveListener(ReturnSource);
             }
             return util;
