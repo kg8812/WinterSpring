@@ -15,6 +15,8 @@ namespace Apis
 {
     public class UI_Shelter : UI_TabMenu
     {
+        protected override bool useTabButton => false;
+        
         public override void TryActivated(bool force = false)
         {
             base.TryActivated(force);

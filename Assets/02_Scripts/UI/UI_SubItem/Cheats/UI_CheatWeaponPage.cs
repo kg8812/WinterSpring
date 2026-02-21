@@ -11,7 +11,7 @@ public class UI_CheatWeaponPage : UI_CheatItemPage
 {
     protected override List<Item> GetWholeItemList()
     {
-        return GameManager.Item.WeaponList.OrderBy(x => x.Index).Select(x => x as Item).ToList();
+        return GameManager.Item.WeaponList.Where(x => x.InvenSlotIndex > 0).OrderBy(x => x.Index).Select(x => x as Item).ToList();
     }
 
     protected override void AddItem(Item item)

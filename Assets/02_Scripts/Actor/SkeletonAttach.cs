@@ -61,6 +61,7 @@ public class SkeletonAttach : MonoBehaviour
             vfx.transform.localScale = Vector3.one;
             vfx.transform.localRotation = quaternion.identity;
             GameManager.Factory.Return(vfx.gameObject, vfx.main.duration);
+            vfx.transform.SetParent(Actor.transform);
         }
     }
     

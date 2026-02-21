@@ -21,6 +21,8 @@ namespace chamwhy
         [SerializeField] List<int> menuTextIndexes;
         [SerializeField] private Image iconImage;
         [SerializeField] private TextMeshProUGUI menuText;
+
+        protected virtual bool useTabButton => true;
         
         public override void Init()
         {
@@ -67,7 +69,7 @@ namespace chamwhy
 
         public override void KeyControl()
         {
-            if (InputManager.GetKeyDown(KeySettingManager.GetGameKeyCode(Define.GameKey.Tab)))
+            if (useTabButton && InputManager.GetKeyDown(KeySettingManager.GetGameKeyCode(Define.GameKey.Tab)))
             {
                 CloseOwn();
                 return;
@@ -78,7 +80,7 @@ namespace chamwhy
 
         public override void GamePadControl()
         {
-            if (InputManager.GetButtonDown(KeySettingManager.GetGameButton(Define.GameKey.Tab)))
+            if (useTabButton && InputManager.GetButtonDown(KeySettingManager.GetGameButton(Define.GameKey.Tab)))
             {
                 CloseOwn();
                 return;
