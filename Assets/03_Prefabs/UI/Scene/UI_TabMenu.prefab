@@ -1901,6 +1901,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}
@@ -4358,6 +4359,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   initialFocusIndex: 0
 --- !u!1 &1314409375631957305
 GameObject:
@@ -4936,6 +4938,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}
@@ -6151,6 +6154,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 0
   InitState: 1
   rectTransform: {fileID: 0}
@@ -7047,6 +7051,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}
@@ -7834,6 +7839,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 1
   wpCategory: {fileID: 5403432608201458372}
   accCategory: {fileID: 9056568499862721152}
   categorySelect: {fileID: 2699525979036719640}
@@ -8622,6 +8628,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}
@@ -8822,6 +8829,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   Equipment: {fileID: 7223062327669753892}
   Inven: {fileID: 3913396035346664085}
   equipSlots:
@@ -11132,6 +11140,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}
@@ -12526,6 +12535,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   Equipment: {fileID: 7363819854530759831}
   Inven: {fileID: 8020777434928347701}
   equipSlots:
@@ -13004,6 +13014,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}
@@ -13664,6 +13675,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   DragImg: {fileID: 4620059666767042749}
 --- !u!225 &8404642328194668371
 CanvasGroup:
@@ -15260,6 +15272,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}
@@ -17392,6 +17405,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   ItemDisplayParent: {fileID: 5973128066022220605}
   itemSlots:
   - {fileID: 4404539432137946020}
@@ -18614,6 +18628,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}
@@ -21194,6 +21209,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   _onObjects:
   - {fileID: 173086856534562475}
   - {fileID: 309485499078334995}
@@ -21353,6 +21369,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   minZoom: 30
   maxZoom: 600
   parentCanvas: {fileID: 8094855276660451928}
@@ -21597,6 +21614,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   wpCategory: {fileID: 8095359104594573083}
   accCategory: {fileID: 801679789821898830}
   equipCategorySelect: {fileID: 3461197096176240562}
@@ -23520,6 +23538,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}
@@ -25638,6 +25657,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   ItemDisplayParent: {fileID: 5463651718599976373}
   itemSlots:
   - {fileID: 1738304492323950694}
@@ -28073,6 +28093,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   dataset:
     keyData: 0000000001000000
     valueData:
@@ -28956,6 +28977,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   dontShowMainCam: 0
   isOverlay: 0
   dragImg: {fileID: 4844861373407009733}
@@ -30466,6 +30488,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   initialFocusIndex: 0
 --- !u!1 &8897261011883959452
 GameObject:

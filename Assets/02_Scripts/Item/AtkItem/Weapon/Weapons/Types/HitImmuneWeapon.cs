@@ -11,7 +11,6 @@ namespace Apis
             base.Init();
             IAttack?.OnAfterAtk.AddListener(() =>
             {
-                Debug.Log(guid);
                 Player.RemoveHitImmunity(guid);
             });
         }
@@ -20,7 +19,6 @@ namespace Apis
         {
             base.BeforeAttack();
             guid = Player.AddHitImmunity();
-            Debug.Log(guid);
         }
     }
 }

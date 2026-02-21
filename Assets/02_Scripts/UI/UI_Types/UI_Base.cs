@@ -33,6 +33,8 @@ namespace Default
         public bool isFadeIn;
         public bool isFadeOut;
 
+        [Tooltip("자식에 스크롤을 사용하는 ui가 있으면 체크하세요. 켜질 때 스크롤을 초기화시킵니다.")][SerializeField] bool useScrolls;
+        
         private bool _isParent;
         private bool _hasCanvas;
 
@@ -86,6 +88,7 @@ namespace Default
             
             subItems.ForEach(sub => sub.Activated());
             OnActivated.Invoke();
+            
         }
         
         
@@ -131,6 +134,19 @@ namespace Default
             _canvGroup = GetComponent<CanvasGroup>();
             _hasCanvas = _canv != null;
             _isParent = _canvGroup != null;
+
+            if (useScrolls)
+            {
+                OnActivated.AddListener(() =>
+                {
+                    ScrollRect[] scrolls = GetComponentsInChildren<ScrollRect>(true);
+                    foreach (var scroll in scrolls)
+                    {
+                        scroll.verticalNormalizedPosition = 1;
+                        scroll.horizontalNormalizedPosition = 1;
+                    }
+                });
+            }
         }
 
         protected void Bind<T>(Type type) where T : UnityEngine.Object

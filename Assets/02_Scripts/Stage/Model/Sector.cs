@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using Apis;
 using chamwhy;
 using chamwhy.CommonMonster2;
@@ -13,8 +12,6 @@ using UnityEngine.Events;
 using System.IO;
 using Default;
 using UnityEditor;
-using UnityEditor.SceneManagement;
-using UnityEngine.SceneManagement;
 #endif
 
 public class Sector : SerializedMonoBehaviour

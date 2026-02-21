@@ -55,7 +55,7 @@ MonoBehaviour:
   penetrationDmg: 0
   penetrationGroggy: 0
   penetrationRadius: 0
-  firstVelocity: {x: 6, y: 3}
+  firstVelocity: {x: 6, y: 6}
   isRotateToVelocity: 1
   projDirection: -90
   isYFlipByDirection: 1

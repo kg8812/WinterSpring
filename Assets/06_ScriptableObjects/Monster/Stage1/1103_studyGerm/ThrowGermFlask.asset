@@ -15,7 +15,7 @@ MonoBehaviour:
   AttackObjectDatas:
   - isConsiderDirection: 1
     transformName: 
-    offset: {x: 0, y: 0.51, z: 0}
+    offset: {x: 0, y: 0.5, z: 0}
     obj: {fileID: -1153345881860352478, guid: ab5603b031a21aa4c8fc6f52fc4f0776, type: 3}
   creationDelay: 0
   initVecType: 0
