@@ -75,6 +75,7 @@ namespace chamwhy
         {
             base.OnOpen();
 
+            SkillTreeSlot.DragImg = dragItem;
 
             Player player = GameManager.instance.Player;
 

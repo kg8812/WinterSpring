@@ -113,6 +113,7 @@ public partial class Player : IActiveSkillUser , IPassiveSkillUser
         else
         {
             icon.WhenItemIsSet();
+            icon.SetIcon(ActiveSkill.SkillImage);
         }
     }
 }

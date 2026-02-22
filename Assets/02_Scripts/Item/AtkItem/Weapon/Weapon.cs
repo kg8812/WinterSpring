@@ -182,6 +182,7 @@ namespace Apis
 
                 icon.ChangeType(new UI_AtkItemIcon.NormalCdUpdate(icon));
                 icon.Skill = Skill;
+                icon.SetIcon(Skill.SkillImage);
             }
         }
         public int CalculateGroggy(float factor)

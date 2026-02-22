@@ -41,6 +41,7 @@ namespace chamwhy
         {
             iconImage.sprite = icons[index];
             menuText.text = LanguageManager.Str(menuTextIndexes[index]);
+            dragImg.DragOff();
         }
         public void MoveHeader(int index)
         {
@@ -58,12 +59,14 @@ namespace chamwhy
 
             tabHeaderMenuNtoN.Reset();
             OnUiToggle?.Invoke(true);
+            dragImg.TryActivated();
             base.TryActivated(force);
         }
 
         public override void TryDeactivated(bool force = false)
         {
             OnUiToggle?.Invoke(false);
+            dragImg.TryDeactivated();
             base.TryDeactivated(force);
         }
 

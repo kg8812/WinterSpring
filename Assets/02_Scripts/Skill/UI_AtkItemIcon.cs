@@ -12,7 +12,7 @@ namespace Apis
         enum Images
         {
             Front,
-            SkillIcon,
+            Icon,
             DurationImage,
             Frame,
         }
@@ -54,7 +54,7 @@ namespace Apis
             skillCd.SetActive(false);
             skillCdText.text = "";
             showCDImage = true;
-            skillIcon = Get<Image>((int)Images.SkillIcon);
+            skillIcon = Get<Image>((int)Images.Icon);
             deactive = Get<GameObject>((int)GameObjects.Deactive);
             deactive.SetActive(true);
             SetItem(item);
@@ -257,6 +257,7 @@ namespace Apis
             }
             this.item = item;
             WhenItemIsSet();
+            SetIcon(item.Image);
         }
         public void WhenItemIsNull()
         {
@@ -267,6 +268,7 @@ namespace Apis
             deactive.SetActive(true);
             skillCdText.text = "";
             Skill = null;
+            SetIcon(null);
             activatedFrame.gameObject.SetActive(false);
         }
 
@@ -274,6 +276,12 @@ namespace Apis
         {
             deactive.SetActive(false);
             activatedFrame.gameObject.SetActive(false);
+        }
+
+        public void SetIcon(Sprite sprite)
+        {
+            skillIcon.enabled = sprite != null;
+            skillIcon.sprite = sprite;
         }
         public void Update()
         {

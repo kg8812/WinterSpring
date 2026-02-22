@@ -25,6 +25,7 @@ namespace chamwhy
 
         private ActiveSkillItemDataType _data;
         
+        
         public override void Init()
         {
             base.Init();

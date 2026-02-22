@@ -328,14 +328,13 @@ namespace chamwhy
         public bool IsDragging { get; private set; }
         public static UI_DragItem DragUI { get; set; }
         public ItemSlot ToChangeSlot { get; private set; }
-        private Guid _dragGuid;
         
         private bool TryDrag(Item item)
         {
             if (IsDragging || PreventMoving) return false;
             DragUI.DragImg.sprite = item.Image;
             IsDragging = true;
-            DragUI.TryActivated();
+            DragUI.DragOn();
             return true;
         }
 
@@ -346,7 +345,6 @@ namespace chamwhy
             {
                 slot.SelectOn();
                 // FrozenToggle(true);
-                _dragGuid = GameManager.instance.PreventControlOn();
                 ToChangeSlot = slot;
                 slot.ToggleItemImg(false);
             }
@@ -356,8 +354,7 @@ namespace chamwhy
         {
             if (!IsDragging) return;
             IsDragging = false;
-            DragUI.TryDeactivated();
-            GameManager.instance.PreventControlOff(_dragGuid);
+            DragUI.DragOff();
             if (ToChangeSlot != null || PreventMoving)
             {
                 if (!ReferenceEquals(ToChangeSlot, slot))

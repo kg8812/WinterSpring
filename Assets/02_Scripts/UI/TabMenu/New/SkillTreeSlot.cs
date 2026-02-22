@@ -48,7 +48,7 @@ public class SkillTreeSlot : UIAsset_Toggle
         if (IsDragging || item == null) return false;
         DragImg.DragImg.sprite = item.icon;
         IsDragging = true;
-        DragImg.TryActivated();
+        DragImg.DragOn();
         return true;
     }
 
@@ -78,6 +78,7 @@ public class SkillTreeSlot : UIAsset_Toggle
             IsDragging = true;
             ToChangeSlot = this;
             skillIcon.color = Color.grey;
+            SelectOn();
         }
     }
 
@@ -87,7 +88,7 @@ public class SkillTreeSlot : UIAsset_Toggle
 
         base.OnEndDrag(eventData);
         IsDragging = false;
-        DragImg.TryDeactivated();
+        DragImg.DragOff();
         if (ToChangeSlot != null)
         {
             if (_skillTree == null) return;
@@ -115,6 +116,7 @@ public class SkillTreeSlot : UIAsset_Toggle
                 return;
             }
             ToChangeSlot.OnSlotChanged(_skillTree);
+            ToChangeSlot.SelectOn();
             OnSlotChanged(null);
         }
         else

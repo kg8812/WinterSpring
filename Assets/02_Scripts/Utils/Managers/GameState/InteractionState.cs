@@ -1,4 +1,6 @@
-﻿namespace GameStateSpace
+﻿using UnityEngine;
+
+namespace GameStateSpace
 {
     public class InteractionState: GameState
     {

@@ -22,7 +22,7 @@ namespace UI
                 SetPosition();
         }
 
-        private void SetPosition()
+        protected void SetPosition()
         {
             if(!ReferenceEquals(_contentTrans, null))
                 _contentTrans.anchoredPosition = Input.mousePosition + offsetVec;
