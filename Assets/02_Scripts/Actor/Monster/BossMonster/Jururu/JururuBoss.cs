@@ -2,6 +2,7 @@ using System;
 using Apis.BehaviourTreeTool;
 using DG.Tweening;
 using System.Collections.Generic;
+using Managers;
 using TMPro;
 using UnityEngine;
 using Sirenix.OdinInspector;
@@ -686,6 +687,8 @@ namespace Apis
             base.Die();
 
             SetState(BossState.Down);
+            
+            SystemManager.SystemAlert("데모는 여기까지입니다. 즐겨주셔서 감사합니다.",null);
         }
     }
 }

@@ -1499,8 +1499,8 @@ MonoBehaviour:
   item: {fileID: 0}
   nameText: {fileID: 8461909396476680429}
   icon: {fileID: 4806478522520834506}
+  flavourText: {fileID: 8134245837827344815}
   effect: {fileID: 2066272914771112046}
-  description: {fileID: 8134245837827344815}
 --- !u!1 &729838714485490657
 GameObject:
   m_ObjectHideFlags: 0
@@ -2605,7 +2605,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12.1
+  m_fontSize: 17
   m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2713,7 +2713,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uCCB4\uB825 + 100"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c6016c114e52bdc43a5ea870ebb43c8c, type: 2}
   m_sharedMaterial: {fileID: -7720739850624594167, guid: c6016c114e52bdc43a5ea870ebb43c8c, type: 2}
@@ -2740,7 +2740,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 19.5
+  m_fontSize: 25
   m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3375,8 +3375,8 @@ MonoBehaviour:
   item: {fileID: 0}
   nameText: {fileID: 7164284864672121747}
   icon: {fileID: 5737985911805849053}
+  flavourText: {fileID: 1932156287511975807}
   effect: {fileID: 7473378777947249218}
-  description: {fileID: 1932156287511975807}
 --- !u!1 &1795655089719032582
 GameObject:
   m_ObjectHideFlags: 0
@@ -4863,7 +4863,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 19.5
+  m_fontSize: 27.8
   m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -7532,7 +7532,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uCCB4\uB825 + 100"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c6016c114e52bdc43a5ea870ebb43c8c, type: 2}
   m_sharedMaterial: {fileID: -7720739850624594167, guid: c6016c114e52bdc43a5ea870ebb43c8c, type: 2}
@@ -7559,7 +7559,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.8
+  m_fontSize: 25
   m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -11973,6 +11973,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   wpInfo: {fileID: 3019154616000344412}
   accInfo: {fileID: 6049168405589253117}
 --- !u!1 &6261728835158473163
@@ -14921,7 +14922,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24.35
+  m_fontSize: 28
   m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 1

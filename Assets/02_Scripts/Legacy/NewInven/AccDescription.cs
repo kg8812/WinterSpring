@@ -41,7 +41,7 @@ namespace Apis
             else
             {
                 infos.SetActive(true);
-                buffDescriptionText.text = StrUtil.GetFlavorText(acc.ItemId);
+                buffDescriptionText.text = StrUtil.GetFlavorText(acc.ItemId,1);
             }
         }
     }

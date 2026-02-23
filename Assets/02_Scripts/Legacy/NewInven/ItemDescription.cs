@@ -34,7 +34,7 @@ namespace Apis
                 itemImage.enabled = true;
                 itemImage.sprite = item.Image;
                 nameText.text = StrUtil.GetEquipmentName(item.ItemId);
-                description.text = StrUtil.GetFlavorText(item.ItemId);
+                description.text = StrUtil.GetFlavorText(item.ItemId,1);
             }
         }
         

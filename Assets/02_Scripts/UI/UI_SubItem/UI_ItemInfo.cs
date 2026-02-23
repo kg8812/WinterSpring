@@ -1,8 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using chamwhy;
+using Default;
 using Sirenix.OdinInspector;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class UI_ItemInfo : MonoBehaviour
@@ -12,13 +15,16 @@ public class UI_ItemInfo : MonoBehaviour
 
     public TextMeshProUGUI nameText;
     public Image icon;
-    public TextMeshProUGUI description;
+    [FormerlySerializedAs("description")] public TextMeshProUGUI flavourText;
+    public TextMeshProUGUI effect;
 
     public virtual void SetInfo(Item item)
     {
         this.item = item;
         nameText.text = item.Name;
         icon.sprite = item.Image;
-        description.text = item.Description;
+        flavourText.text = item.FlavourText;
+        effect.text = item.Description;
+        
     }
 }

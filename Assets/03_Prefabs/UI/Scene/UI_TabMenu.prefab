@@ -3563,8 +3563,8 @@ MonoBehaviour:
   item: {fileID: 0}
   nameText: {fileID: 4966315402353573837}
   icon: {fileID: 328875828478719814}
-  effect: {fileID: 520934137277515950}
-  description: {fileID: 551065524279496361}
+  flavourText: {fileID: 551065524279496361}
+  effect: {fileID: 0}
 --- !u!1 &1072740548480260477
 GameObject:
   m_ObjectHideFlags: 0
@@ -8019,7 +8019,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6482418445158131598
 RectTransform:
   m_ObjectHideFlags: 0

@@ -254,7 +254,7 @@ namespace Apis
 
             WeaponData.DataLoad.TryGetWeaponData(Index, out _data);
             _name = StrUtil.GetEquipmentName(dataId);
-            flavourText = StrUtil.GetFlavorText(dataId);
+            flavourText = StrUtil.GetFlavorText(dataId,1);
             description = StrUtil.GetEquipmentDesc(dataId);
             _name ??= gameObject.name;
             flavourText ??= "";

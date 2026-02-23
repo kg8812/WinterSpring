@@ -52,6 +52,13 @@ MonoBehaviour:
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
-    SerializationNodes: []
+    SerializationNodes:
+    - Name: OnEquipped
+      Entry: 6
+      Data: 
+    - Name: OnUnEquipped
+      Entry: 6
+      Data: 
   dataId: 1060
-  goldRate: 15
+  hpRate: 50
+  healRate: 100

@@ -7,14 +7,25 @@ namespace Apis
 {
     public class ElkSeal : Accessory
     {
-        [LabelText("원념 획득 증가량 (%)")] public float goldRate;
+        [LabelText("체력 (%)")] public float hpRate;
+        [LabelText("회복 증가량 (%)")] public float healRate;
 
         private BonusStat stat;
 
         BonusStat StatEvent()
         {
             stat ??= new();
-            stat.SetValue(ActorStatType.GoldRate,goldRate);
+            Player player = GameManager.instance.Player;
+            
+            if (player == null)
+            {
+                stat.SetValue(ActorStatType.HealRate,0);
+                return stat;
+            }
+
+            float hpRatio = player.CurHp / player.MaxHp;
+
+            stat.SetValue(ActorStatType.HealRate,hpRatio <= hpRate ? healRate : 0);
             return stat;
         }
 

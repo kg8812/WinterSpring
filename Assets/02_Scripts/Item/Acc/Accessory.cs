@@ -51,7 +51,7 @@ namespace Apis
             AccessoryData.DataLoad.TryGetData(Index, out data);
 
             _name = StrUtil.GetEquipmentName(ItemId);
-            flavourText = StrUtil.GetFlavorText(ItemId);
+            flavourText = StrUtil.GetFlavorText(ItemId,1);
             description = StrUtil.GetEquipmentDesc(ItemId);
             
             if (Image == null)

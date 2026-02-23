@@ -1,4 +1,5 @@
-﻿using chamwhy.Managers;
+﻿using System;
+using chamwhy.Managers;
 using Default;
 using Save.Schema;
 
@@ -33,8 +34,8 @@ namespace chamwhy
         public static string GetEquipmentName(int equipId) =>
             LanguageManager.Str(Calc.ConcatInts(EquipNameCategory, equipId));
         
-        public static string GetFlavorText(int mainId) =>
-            LanguageManager.Str(Calc.ConcatInts(FlavorTextCategory, mainId));
+        public static string GetFlavorText(int mainId,int subId) =>
+            LanguageManager.Str(Calc.ConcatInts(FlavorTextCategory, (int)Math.Pow(10, Calc.GetDigits(mainId)) * subId + mainId));
         
         
         public static string GetTagName(int tagId) => 
