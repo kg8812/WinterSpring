@@ -25,7 +25,11 @@ public class UI_EquipSkillInfo : UI_Base
 
     public void PlayVideo()
     {
-        videoPlayer.Play();
+        if (videoPlayer.enabled)
+        {
+            videoPlayer.Play();
+        }
+
         playButton.gameObject.SetActive(false);
     }
 

@@ -4115,7 +4115,8 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects: []
+    ReferencedUnityObjects:
+    - {fileID: 1941302617}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -4134,7 +4135,19 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
       Data: 0
+    - Name: $v
+      Entry: 2
+      Data: cee5dabd075c4a4a8afdd9321d446f7e
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -10919,6 +10932,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5607960868949637953, guid: fd2305b3d11f53d419b138c02d165fb1, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 5607960868949637953, guid: fd2305b3d11f53d419b138c02d165fb1, type: 3}
+    - target: {fileID: 5607960868949637953, guid: fd2305b3d11f53d419b138c02d165fb1, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607960868949637953, guid: fd2305b3d11f53d419b138c02d165fb1, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[0]
+      value: '"path":"guid","value":{"$id":0,"$type":"System.Guid, mscorlib",cee5dabd-075c-4a4a-8afd-d9321d446f7e}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607960868949637953, guid: fd2305b3d11f53d419b138c02d165fb1, type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5727022317432368810, guid: fd2305b3d11f53d419b138c02d165fb1, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -11009,6 +11038,17 @@ MonoBehaviour:
   uiKey: 0
   image: {fileID: 0}
   spriteRenderer: {fileID: 1941302615}
+--- !u!114 &1941302617 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5607960868949637953, guid: fd2305b3d11f53d419b138c02d165fb1, type: 3}
+  m_PrefabInstance: {fileID: 1941302612}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939fad5c1a8126d429b6fc4b87441778, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1963381297
 GameObject:
   m_ObjectHideFlags: 0

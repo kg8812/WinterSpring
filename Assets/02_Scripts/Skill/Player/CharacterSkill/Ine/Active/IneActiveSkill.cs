@@ -12,7 +12,7 @@ using UnityEngine.Serialization;
 namespace Apis
 {
     [CreateAssetMenu(fileName = "IneActive", menuName = "Scriptable/Skill/IneActive")]
-    public class IneActiveSkill : PlayerActiveSkill
+    public class IneActiveSkill : PlayerActiveSkill , IPresetOwner
     {
         protected override bool UseGroggyRatio => false;
 
@@ -625,5 +625,7 @@ namespace Apis
             //         break;
             // }
         }
+
+        public int PresetId => 10;
     }
 }

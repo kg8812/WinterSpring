@@ -21,7 +21,7 @@ public class UI_SkillList : FocusParent
     {
         int subCount = 0;
 
-        Reset();
+        Reset(true);
         skillSlot.CurSkill = skill;
 
         RegisterElement(skillSlot);
@@ -33,14 +33,13 @@ public class UI_SkillList : FocusParent
             int presetId = presetOwner.PresetId;
 
             List<Item> items = InvenManager.instance.PresetManager.GetOverrideItems(presetId, 0);
-            int count = items.Count;
+            
             for (int i = 0; i < subSlots.Count; i++)
             {
                 subSlots[i].OnValueChanged.RemoveAllListeners();
-                if (i >= count)
-                {
-                    subSlots[i].CurSkill = null;
-                }
+                
+                subSlots[i].CurSkill = null;
+                
                 if (items[i] is ActiveSkillItem activeSkillItem)
                 {
                     subSlots[i].CurSkill = activeSkillItem.ActiveSkill;
@@ -76,7 +75,5 @@ public class UI_SkillList : FocusParent
         {
             subSlots[i].enabled = false;
         }
-
-        tableData.y = focusList.Count;
     }
 }

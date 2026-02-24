@@ -936,6 +936,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}
@@ -2902,6 +2903,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   videoPlayer: {fileID: 9171414325436420408}
   title: {fileID: 6092188903496826409}
   description: {fileID: 2540144410527786485}
@@ -3482,6 +3484,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}
@@ -3836,6 +3839,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}
@@ -4417,7 +4421,7 @@ MonoBehaviour:
   canNoneFocus: 0
   canLoop: 1
   useNumberKey: 0
-  navigation: 2
+  navigation: 1
   tableData:
     x: 1
     y: 5
@@ -4571,10 +4575,10 @@ MonoBehaviour:
   canNoneFocus: 0
   canLoop: 1
   useNumberKey: 0
-  navigation: 2
+  navigation: 1
   tableData:
     x: 1
-    y: 5
+    y: 4
     isLeftLoop: 0
     isRightLoop: 0
     isUpLoop: 0
@@ -4729,6 +4733,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}
@@ -5241,6 +5246,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}
@@ -5671,6 +5677,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   videoPlayer: {fileID: 6914087224963231423}
   title: {fileID: 1596468114967683961}
   description: {fileID: 7155328869988191231}
@@ -5927,6 +5934,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}
@@ -6733,6 +6741,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 0
   InitState: 1
   rectTransform: {fileID: 0}
@@ -7335,6 +7344,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}
@@ -8034,6 +8044,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}
@@ -8570,6 +8581,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 1
   isFadeOut: 1
+  useScrolls: 0
   activeList: {fileID: 1599733826962476821}
   passiveList: {fileID: 8682309409616556667}
   playerIcon: {fileID: 652049282899193498}
@@ -9166,6 +9178,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}
@@ -9493,6 +9506,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 0
   InitState: 1
   rectTransform: {fileID: 0}
@@ -9948,6 +9962,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}
@@ -10232,6 +10247,7 @@ MonoBehaviour:
       m_Calls: []
   isFadeIn: 0
   isFadeOut: 0
+  useScrolls: 0
   isFocusSelect: 1
   InitState: 1
   rectTransform: {fileID: 0}

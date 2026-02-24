@@ -223,9 +223,9 @@ namespace chamwhy.UI.Focus
         {
             _lastLabel = 0;
             _isFocused = false;
-            if (focusList == null)
-                focusList = new();
-            else if (isHard)
+            focusList ??= new();
+            
+            if (isHard)
                 focusList.Clear();
 
             if (_labels == null)
