@@ -19,6 +19,7 @@ public class UITab_Equipment : UI_FocusContent
     {
         base.Init();
         navigation ??= GetComponent<UI_NavigationController>();
+        
         wpCategory.OnValueChanged.AddListener(x =>
         {
             if (x)

@@ -14,6 +14,7 @@ public class WeaponSlot : ItemSlot
     public override void OnSlotChanged(int ind, Item item)
     {
         base.OnSlotChanged(ind, item);
+        
         if (ind != index) return;
         if (GameManager.Item.Weapon.WpDict.TryGetValue(_weaponSlotData.WeaponId, out var weapon))
         {

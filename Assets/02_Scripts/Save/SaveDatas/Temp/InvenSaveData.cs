@@ -91,7 +91,7 @@ namespace Save.Schema
                     continue;
                 }
                 item.SaveData = data;
-                InvenManager.instance.AttackItem.Add(item.SaveData.slotIndex,item, InvenType.Equipment);
+                InvenManager.instance.Acc.Add(item.SaveData.slotIndex,item, InvenType.Equipment);
             }
            
             while (AccInven.Count > 0)
@@ -104,7 +104,7 @@ namespace Save.Schema
                     continue;
                 }
                 item.SaveData = data;
-                InvenManager.instance.AttackItem.Add(item.SaveData.slotIndex,item, InvenType.Storage);
+                InvenManager.instance.Acc.Add(item.SaveData.slotIndex,item, InvenType.Storage);
             }
         }
         

@@ -61,6 +61,10 @@ namespace chamwhy
             }
             else
             {
+                if (equippedImg != null)
+                {
+                    equippedImg.enabled = false;
+                }
                 itemImg.enabled = false;
             }
         }

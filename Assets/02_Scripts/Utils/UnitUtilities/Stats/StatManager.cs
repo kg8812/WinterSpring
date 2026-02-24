@@ -83,6 +83,8 @@ namespace Apis
             }
         }
         
+        private HashSet<ActorStatType> _calculatingStats = new();
+        
         public void AddStat(ActorStatType statType, float amount, ValueType type)
         {
             switch (type)
@@ -97,7 +99,13 @@ namespace Apis
         }
         public float GetFinalStat(ActorStatType statType)
         {
-            return StatStrategies[statType].GetFinalStat(statType);
+            if (!_calculatingStats.Add(statType))
+                return 0; // 또는 BaseStat만 반환
+
+            float result = StatStrategies[statType].GetFinalStat(statType);
+            _calculatingStats.Remove(statType);
+
+            return result;
         }
     }
 

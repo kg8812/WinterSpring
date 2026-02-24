@@ -44,8 +44,9 @@ namespace chamwhy
 
         public void SetSlotList()
         {
-            foreach (Transform child in contentPanel.transform)
+            while (contentPanel.transform.childCount > 0)
             {
+                var child = contentPanel.transform.GetChild(0);
                 GameManager.UI.ReturnUI(child.gameObject);
             }
 

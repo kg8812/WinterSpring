@@ -10965,7 +10965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5982059094119381163, guid: fd2305b3d11f53d419b138c02d165fb1, type: 3}
       propertyPath: accId
-      value: 1060
+      value: 1005
       objectReference: {fileID: 0}
     - target: {fileID: 5982059094119381163, guid: fd2305b3d11f53d419b138c02d165fb1, type: 3}
       propertyPath: accName

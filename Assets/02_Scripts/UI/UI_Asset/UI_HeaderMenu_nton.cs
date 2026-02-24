@@ -33,7 +33,7 @@ namespace chamwhy.UI
         protected virtual void FocusChange(int id)
         {
             WillFocusChanged.Invoke(curInd);
-
+            
             if (contentControllers[curInd].gameObject.activeSelf && curInd != id)
             {
                 contentControllers[curInd].gameObject.SetActive(false);
@@ -62,7 +62,7 @@ namespace chamwhy.UI
         public void Reset()
         {
             FocusChange(0);
-            headerController.MoveTo(0);
+            headerController.MoveTo(0,true);
         }
     }
 }

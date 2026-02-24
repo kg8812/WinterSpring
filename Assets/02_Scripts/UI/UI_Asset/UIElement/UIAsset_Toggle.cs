@@ -11,6 +11,8 @@ namespace chamwhy.UI
         // 자기 자신을 클릭해서 off 할 수 있는 지 여부.
         // focus parent의 can none focus가 false라면 꺼지면 안됨.
         public bool canOffOwn;
+        
+        //TODO : 이벤트 두개로 분리할 것. 인스펙터창에서 제대로 설정하는게 불가능함. 
         [Tooltip("선택 혹은 해제될 때 호출 (true or false)")]
         public UnityEvent<bool> OnValueChanged;
 

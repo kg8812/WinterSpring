@@ -110,7 +110,8 @@ public class UI_NavigationController : MonoBehaviour, IController , IUI_Navigati
     public void Activate()
     {
         if (!_isInitialized) Initialize();
-        
+
+        _isChangingFocus = false;
         IUI_Navigatable initial = initialFocus?.GetComponent<IUI_Navigatable>();
         
         if (initial != null)
@@ -221,13 +222,24 @@ public class UI_NavigationController : MonoBehaviour, IController , IUI_Navigati
 
         return false;
     }
+    private bool _isChangingFocus;
+
     private void ChangeFocus(IUI_Navigatable next)
     {
-        if (next == null || _currentNavigatable == next) return;
-            
-        _currentNavigatable?.OnNavigatedFrom();
-        _currentNavigatable = next;
-        _currentNavigatable.OnNavigatedTo();
+        if (_isChangingFocus) return;
+        if (next == null) return;
+
+        _isChangingFocus = true;
+
+        if (_currentNavigatable != next)
+        {
+            _currentNavigatable?.OnNavigatedFrom();
+            _currentNavigatable = next;
+        }
+
+        _currentNavigatable?.OnNavigatedTo();
+
+        _isChangingFocus = false;
     }
     
     private void AddRule(IUI_Navigatable origin, NavigationDirection direction, IUI_Navigatable destination)
