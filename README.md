@@ -103,7 +103,7 @@ Scriptable 기반 스킬 데이터
 ### 보스몬스터 AI 행동트리
 
 복잡한 몬스터 행동을 구현하기 위해 행동트리 기반 AI 툴을 제작했습니다.
-기본 툴 제작 기반은 [링크]([https://www.youtube.com/watch?v=nKpM98I7PeM&t=2635s](https://youtu.be/nKpM98I7PeM?si=9ru1ZMclbduhZLrx))를 참고했으며
+기본 툴 제작 기반은 [[링크](https://youtu.be/nKpM98I7PeM)]를 참고했으며
 기반 제작 이후 어레인지는 직접 했습니다.
 
 구현 기능
