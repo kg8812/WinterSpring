@@ -60,22 +60,20 @@ Unity, C#, Spine
 
 - 방랑자, 데코레이터 패턴을 이용한 스킬트리 설계
 
-[skill](여기에 스킬 gif)
+<br/>
 
+Scriptable 기반 스킬 데이터
 
-### 버프 시스템
+<img width="995" height="789" alt="image" src="https://github.com/user-attachments/assets/4eebb1e9-05b8-45ef-aca1-e20760b979d6" />
 
-플레이어와 몬스터에게 적용되는 다양한 상태 효과를 관리하는 시스템입니다.
+<br/>
 
-지원 기능
+인게임 스킬트리
 
-- 중첩 버프
-- 지속시간 관리
-- 효과 적용 및 해제
-- 테이블과의 연동
+<img width="1502" height="873" alt="image" src="https://github.com/user-attachments/assets/eedc0c2b-8a05-4a6b-a5a4-d058aa8aa69f" />
+<img width="1489" height="858" alt="image" src="https://github.com/user-attachments/assets/63f1c5db-7e39-40a1-ae47-b084a69843d7" />
 
-[buff](여기에 gif)
-
+<br/>
 
 ### 무기 및 악세서리 시스템
 
@@ -89,7 +87,17 @@ Unity, C#, Spine
 - 무기 및 악세서리 인벤토리
 - 무기 스파인 장착 시스템
 
-[atkItems](여기에 gif)
+무기 컴포넌트 구조 
+
+<img width="436" height="757" alt="image" src="https://github.com/user-attachments/assets/61311ced-51b1-4f16-8ae1-2ac9a3107a5e" />
+
+<br/>
+
+무기 실제 적용
+
+![Animation](https://github.com/user-attachments/assets/926decc2-14ed-4d25-9e8c-25039f4b8f38)
+
+<br/>
 
 
 ### 보스몬스터 AI 행동트리
@@ -104,8 +112,11 @@ Unity, C#, Spine
 - 노드 종류에 따른 각종 기능들 (점프, 플레이어 추적, 대쉬 등)
 - 보스 패턴 관리
 
-![ai](여기에 gif)
+<br/>
 
+<img width="1901" height="996" alt="image" src="https://github.com/user-attachments/assets/45f8277c-15aa-4a2d-a456-feda8c1fa79f" />
+
+<br/>
 
 ### 섹터 기반 맵 동적 로딩 시스템
 
@@ -117,8 +128,7 @@ Unity, C#, Spine
 - 로딩 큐 시스템
 - 섹터 로딩 관리용 매니저
 
-![sector](여기에 gif)
-
+<br/><br/>
 
 ### 섹터 제작 툴
 
@@ -130,8 +140,17 @@ Unity, C#, Spine
 - 몬스터 및 오브젝트 배치
 - scriptable로 섹터 데이터 자동 저장
 
-![tool](여기에 이미지)
+인스펙터
 
+<img width="444" height="797" alt="image" src="https://github.com/user-attachments/assets/61b477a2-5c68-4b08-8498-457136a649cc" />
+
+<br/>
+
+버튼 입력시 자동으로 데이터 생성
+
+<img width="863" height="815" alt="image" src="https://github.com/user-attachments/assets/9cb42665-f321-43a7-a53f-f51b7ba1e323" />
+
+<br/>
 
 ---
 
@@ -146,4 +165,5 @@ Unity, C#, Spine
 
 또한 프로젝트에서 공용으로 사용할 수 있는 기능들을 분리하여
 **Unity 프레임워크 프로젝트(Prototype)**로 리팩토링했습니다.
+
 
