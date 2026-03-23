@@ -24,8 +24,13 @@ Unity, C#, Spine
 ## 플레이 영상
 
 
-[링크](링크)
+[게임 플레이](https://www.youtube.com/watch?v=Hv7472TJFvo)
 
+<br/>
+
+[보스전](https://www.youtube.com/watch?v=MNkDfnDJlTs)
+
+<br/><br/>
 
 ---
 
