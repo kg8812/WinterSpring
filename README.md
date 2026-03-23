@@ -128,6 +128,12 @@ Scriptable 기반 스킬 데이터
 - 로딩 큐 시스템
 - 섹터 로딩 관리용 매니저
 
+<br/>
+
+플레이어에 위치에 따라 Load와 UnLoad 되는 모습
+
+![Animation](https://github.com/user-attachments/assets/e4c0b8eb-54d3-45f1-8866-44e71e911f07)
+
 <br/><br/>
 
 ### 섹터 제작 툴
