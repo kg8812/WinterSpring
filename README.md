@@ -132,7 +132,7 @@ Scriptable 기반 스킬 데이터
 
 플레이어에 위치에 따라 Load와 UnLoad 되는 모습
 
-![Animation](https://github.com/user-attachments/assets/e4c0b8eb-54d3-45f1-8866-44e71e911f07)
+![Animation](https://github.com/user-attachments/assets/36c31c25-6cab-4407-93f8-ea3e49288ad0)
 
 <br/><br/>
 
