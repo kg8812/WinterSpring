@@ -170,6 +170,6 @@ Scriptable 기반 스킬 데이터
 - 타 부서들과의 팀 프로젝트 협업 경험
 
 또한 프로젝트에서 공용으로 사용할 수 있는 기능들을 분리하여
-**Unity 프레임워크 프로젝트(Prototype)**로 리팩토링했습니다.
+**Unity 프로토타입 프로젝트(Prototype)**로 리팩토링했습니다.
 
-
+[프로토타입 링크](https://github.com/kg8812/Prototype)
