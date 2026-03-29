@@ -45,5 +45,5 @@ public class ProjectileWeapon : Weapon
     public override List<float> GroundCancelTimes =>
         groundCancel ??= groundProjectileInfos.Select(x => x.cancelTime).ToList();
     public override List<float> AirCancelTimes =>
-        airCancel ??= groundProjectileInfos.Select(x => x.cancelTime).ToList();
+        airCancel ??= airProjectileInfos.Select(x => x.cancelTime).ToList();
 }

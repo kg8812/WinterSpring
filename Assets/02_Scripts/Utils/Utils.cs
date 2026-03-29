@@ -13,7 +13,6 @@ using EventData;
 using Managers;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.Timeline;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
@@ -707,7 +706,7 @@ namespace Default
                 .SetEase(Ease.Linear)
                 .SetUpdate(UpdateType.Fixed);
 
-            // === 최종 이동 Setter (KillWhenBoxCast 철학 유지) ===
+            
             xTween.OnUpdate(() =>
             {
                 float easedX = DOVirtual.EasedValue(0, 1, xT, xEase);

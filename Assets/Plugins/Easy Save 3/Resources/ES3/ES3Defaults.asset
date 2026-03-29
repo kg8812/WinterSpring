@@ -41,6 +41,7 @@ MonoBehaviour:
     - Febucci.TextAnimator.Runtime
     - Febucci.TextAnimator.TMP.Runtime
     - KinoBloom.Runtime
+    - MCPForUnity.Runtime
     - SingularityGroup.HotReload.Runtime
     - SingularityGroup.HotReload.Runtime.Public
     - Sirenix.OdinInspector.Modules.Unity.Addressables

@@ -5424,7 +5424,8 @@ MonoBehaviour:
   - m_GUID: 9900f9457a2f3924893cba94d316b513
     m_Address: Prefabs/Items/Weapon/FantasticDawn
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Prefabs/Items/Weapon
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9227e0e40ac681640a9bbaf008b85553
     m_Address: GrudgeClaws
