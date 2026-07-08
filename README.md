@@ -79,7 +79,9 @@ Scriptable 기반 스킬 데이터
 
 <img width="995" height="789" alt="image" src="https://github.com/user-attachments/assets/4eebb1e9-05b8-45ef-aca1-e20760b979d6" />
 
+<br/>
 다른 팀원들이 쉽게 값을 수정할 수 있게 각 스킬 데이터를 Scriptable로 만들고 OdinSerailizer를 사용해 인스펙터를 깔끔하게 정리하여 구현하였습니다.
+<br/>
 <br/>
 
 인게임 스킬트리
@@ -87,8 +89,11 @@ Scriptable 기반 스킬 데이터
 <img width="1502" height="873" alt="image" src="https://github.com/user-attachments/assets/eedc0c2b-8a05-4a6b-a5a4-d058aa8aa69f" />
 <img width="1489" height="858" alt="image" src="https://github.com/user-attachments/assets/63f1c5db-7e39-40a1-ae47-b084a69843d7" />
 
+<br/>
 인게임에서 동적으로 스킬트리를 통해 스킬에 추가적인 효과를 추가,제거할 수 있게 구현하였습니다.
-추가적인 효과를 가진 SkillTree 클래스를 인터페이스를 이용한 방랑자 패턴과 이벤트 형식으로 ActiveSkill에 붙일 수 있도록 구현하였으며, SkillDatas 클래스를 통해 관리됩니다.
+추가적인 효과를 가진 SkillTree 클래스를 인터페이스를 이용한 방랑자 패턴과 이벤트 형식으로 ActiveSkill에 붙일 수 있도록 구현하였으며, 
+SkillDatas 클래스를 통해 관리됩니다.
+<br/>
 <br/>
 
 ### 무기 및 악세서리 시스템
@@ -120,7 +125,7 @@ Scriptable 기반 스킬 데이터
 무기를 장착하면 스파인 무기 슬롯에 해당 무기 스프라이트로 변경되도록 구조를 짰습니다.
 
 <br/>
-
+<br/>
 
 ### 보스몬스터 AI 행동트리
 
