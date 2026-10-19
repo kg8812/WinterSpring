@@ -843,6 +843,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   sceneName: Intro
+  globalManifest: {fileID: 11400000, guid: e315b81865b3f154594638541ceea5f5, type: 2}
+  sceneManifests: {fileID: 11400000, guid: 8722d6aeee8d0824d9be44433fe24470, type: 2}
 --- !u!4 &1675483420
 Transform:
   m_ObjectHideFlags: 0

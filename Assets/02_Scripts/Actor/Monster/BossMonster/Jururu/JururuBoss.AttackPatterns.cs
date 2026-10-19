@@ -342,10 +342,6 @@ namespace Apis
                 atkInfo = ResourceUtil.Load<ProjectileInfo>("MonsterAtkInfo");
             }
 
-            ~AttackPattern5()
-            {
-                ResourceUtil.Release(atkInfo);
-            }
             private Coroutine _coroutine;
             public void OnPatternEnter()
             {

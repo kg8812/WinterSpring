@@ -4,7 +4,6 @@ using chamwhy.Managers;
 using Default;
 using JetBrains.Annotations;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
 
 namespace Apis
 {
@@ -125,13 +124,6 @@ namespace Apis
             Icon = ResourceUtil.Load<Sprite>(_data.buffIconPath);
             
             Array.Resize(ref data.buffPower,5);
-        }
-        ~Buff()
-        {
-            if (Icon != null)
-            {
-                Addressables.Release(Icon);
-            }
         }
 
         public BuffDispellStrategy.IDispell dispell;

@@ -8,6 +8,13 @@
         "com.unity.timeline": "1.2.10"
       }
     },
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.5.10",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "7c0f199fe0d3fc528024488ccd671e6c7b27745b"
+    },
     "com.esotericsoftware.spine.urp-shaders": {
       "version": "file:com.esotericsoftware.spine.urp-shaders-4.2-2019.1",
       "depth": 0,

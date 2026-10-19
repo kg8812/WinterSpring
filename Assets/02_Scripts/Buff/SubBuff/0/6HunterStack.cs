@@ -35,10 +35,6 @@ namespace Apis
             stack = actor.SubBuffCount(Type);
             Sprite sprite = ResourceUtil.Load<Sprite>("Sign_hunterSign_" + stack);
             
-            if (effect.sprite != null)
-            {
-                ResourceUtil.Release(effect.sprite);
-            }
             
             effect.sprite = sprite;
             BuffDatabase.DataLoad.TryGetSubBuffIndex(Type, out int index);

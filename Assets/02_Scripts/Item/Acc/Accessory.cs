@@ -7,7 +7,6 @@ using chamwhy;
 using chamwhy.Managers;
 using Sirenix.OdinInspector;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
 
 namespace Apis
 {
@@ -74,13 +73,6 @@ namespace Apis
             GameManager.Item.Acc.Return(this);
         }
 
-        private void OnDestroy()
-        {
-            if (Image != null)
-            {
-                Addressables.Release(Image);
-            }
-        }
 
         protected IEnumerator CDCoroutine(float cd)
         {

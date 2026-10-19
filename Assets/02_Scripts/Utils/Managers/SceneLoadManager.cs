@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
+using Default;
 using UI;
 using Managers;
 using Save.Schema;
@@ -103,6 +104,8 @@ namespace chamwhy.Managers
                         }
                     }
 
+                    // 이전 씬 전용 애셋과 그 애셋으로 만든 풀 오브젝트를 정리한다.
+                    ResourceUtil.ReleaseSceneAssets();
                     LoadingSceneManager.LoadStage(sceneName);
                 }, () =>
                 {
@@ -132,6 +135,7 @@ namespace chamwhy.Managers
                         }
                     }
 
+                    ResourceUtil.ReleaseSceneAssets();
                     SceneManager.LoadScene(sceneName);
                     
                 }, isFadeIn:IsFading(CurSceneData), isFadeOut:IsFading(nextData));

@@ -6,7 +6,6 @@ using chamwhy.Managers;
 using Managers;
 using TMPro;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
 using UnityEngine.UI;
 
 namespace UI
@@ -79,11 +78,6 @@ namespace UI
             public void Detach()
             {
                 typeList.Detach(this);
-                if (sp != null)
-                {
-                    Addressables.Release(sp);
-                }
-
                 sp = null;
             }
         }
@@ -176,11 +170,7 @@ namespace UI
 
             public void Detach()
             {
-                if (sp != null)
-                {
-                    Addressables.Release(sp);
-                    sp = null;
-                }
+                sp = null;
             }
         }
         enum Images

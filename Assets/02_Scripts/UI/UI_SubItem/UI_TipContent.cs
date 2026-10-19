@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using chamwhy;
+using Cysharp.Threading.Tasks;
 using chamwhy.DataType;
 using chamwhy.Managers;
 using Default;
@@ -61,12 +62,25 @@ namespace _02_Scripts.UI.UI_SubItem
                     str = "Videos/" + tipData.helpVideo;
                 }
 
-                ResourceUtil.LoadAsync<VideoClip>(str, videoClip =>
-                {
-                    _vPlayer.clip = videoClip;
-                    PlayVideo();
-                }, () => Debug.LogError($"{str} video 읽기 실패"));
+                LoadVideoAsync(tipData, str).Forget();
             }
+        }
+
+        private async UniTaskVoid LoadVideoAsync(TipDataType tipData, string path)
+        {
+            var videoClip = await ResourceUtil.LoadAsync<VideoClip>(path, this.GetCancellationTokenOnDestroy());
+
+            // 로드 중에 다른 팁으로 바뀌었다면 늦게 도착한 결과는 버린다.
+            if (_tipData != tipData) return;
+
+            if (videoClip == null)
+            {
+                Debug.LogError($"{path} video 읽기 실패");
+                return;
+            }
+
+            _vPlayer.clip = videoClip;
+            PlayVideo();
         }
         
         public void UpdateText(LanguageType lType)

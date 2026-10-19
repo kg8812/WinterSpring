@@ -35,7 +35,7 @@ namespace _02_Scripts.Tester
         public void GetResource()
         {
             Debug.LogError("get");
-            ResourceUtil.Load<SpriteAtlas>(test);
+            ResourceUtil.Load<SpriteAtlas>(test.RuntimeKey.ToString());
         }
         
         public void GetResource2()
